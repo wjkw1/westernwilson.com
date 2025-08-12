@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   mode: "static",
   router: {
-    base: "/profile-website/",
+    base: "/westernwilson.com/",
   },
   content: {
     build: {
