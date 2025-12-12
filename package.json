@@ -7,19 +7,25 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "test": "vitest run"
   },
   "devDependencies": {
     "@heroicons/vue": "^2.2.0",
+    "@nuxt/test-utils": "^3.21.0",
     "@tailwindcss/typography": "^0.5.19",
-    "@types/node": "^24.10.1",
+    "@types/node": "^25.0.0",
+    "@vue/test-utils": "^2.4.6",
     "feed": "^5.1.0",
     "gh-pages": "^6.3.0",
-    "nuxt": "^4.2.1",
-    "tailwindcss": "^4.1.17"
+    "happy-dom": "^20.0.11",
+    "nuxt": "^4.2.2",
+    "playwright-core": "^1.57.0",
+    "tailwindcss": "^4.1.17",
+    "vitest": "^4.0.15"
   },
   "dependencies": {
-    "@nuxt/eslint": "^1.11.0",
+    "@nuxt/eslint": "^1.12.1",
     "@nuxt/fonts": "^0.12.1",
     "@nuxt/image": "^2.0.0",
     "@tailwindcss/vite": "^4.1.17",

@@ -43,3 +43,15 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 Update all dependencies to their latest versions within the constraints specified in package.json:
 `yarn upgrade --latest`
+
+## Added Testing with Vitest and Vue Testing Library
+
+`yarn add --dev @nuxt/test-utils vitest @vue/test-utils happy-dom playwright-core`
+
+See more here: https://nuxt.com/docs/4.x/getting-started/testing
+
+### Running Tests
+
+`yarn test`
+
+Run Vitest in watch mode: runs the test suite and automatically re-runs the affected tests when you change source or test files.
