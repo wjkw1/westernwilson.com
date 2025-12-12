@@ -1,15 +1,17 @@
-permissions:
-  contents: write
-name: Release
+name: CI
 
 on:
-  push:
+  pull_request:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
-  build-and-deploy:
+  build-and-test:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -18,11 +20,10 @@ jobs:
         with:
           node-version: 22
       - name: Install dependencies
-        run: yarn install
-      - name: Build
+        run: yarn install --frozen-lockfile
+      # Run your tests (adjust script name as needed)
+      - name: Test
+        run: yarn test
+      # Ensure Nuxt can build statically
+      - name: Build (Nuxt generate)
         run: yarn generate
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: .output/public
