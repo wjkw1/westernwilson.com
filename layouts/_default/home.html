@@ -1,0 +1,56 @@
+{{ define "main" }}
+<div class="space-y-14">
+
+  {{/* ── Hero ── */}}
+  <section class="flex items-start gap-5">
+    {{ with .Site.Params.avatarURL }}
+    <img src="{{ relURL . }}" alt="{{ $.Site.Params.avatarAlt }}"
+         class="w-20 h-20 rounded-full object-cover shrink-0 mt-1">
+    {{ end }}
+    <div>
+      <h1 class="font-display text-2xl font-semibold mt-0 mb-2">
+        {{ .Site.Params.author }}
+      </h1>
+      <p class="text-muted mb-2 leading-relaxed">Kia ora, I'm Western. A curious, values-driven devops/platform engineer from New Zealand, chasing threads through code, books, and new places.</p>
+      <p class="text-muted mb-2 leading-relaxed">This site is me sharing things as I go. What I'm building, reading, or otherwise figuring out.</p>
+      <p class="text-muted mb-4 leading-relaxed">If something here resonates, I'd love to hear about it!</p>
+      <p class="mt-2 mb-3 font-medium">
+        <a href="now/" class="text-accent!">See what I'm doing now →</a>
+      </p>
+    </div>
+  </section>
+
+  {{/* ── Page content (optional intro body) ── */}}
+  {{ with .Content }}
+  <section class="prose">{{ . }}</section>
+  {{ end }}
+
+  {{/* ── Recent reflections ── */}}
+  {{ $reflections := where .Site.RegularPages "Section" "reflections" }}
+  {{ if $reflections }}
+  <section>
+    <h2 class="font-display text-sm font-semibold uppercase tracking-widest text-muted mb-4">
+      reflections
+    </h2>
+    <ul class="list-none m-0 p-0">
+      {{ range first 6 $reflections }}
+      <li style="border-bottom: 1px solid var(--c-border)" class="py-3 flex items-baseline justify-between gap-4 last:border-b-0">
+        <a href="{{ .RelPermalink }}" class="text-heading! font-medium no-underline! hover:text-accent!">
+          {{ .Title }}
+        </a>
+        <time datetime="{{ .Date.Format "2006-01-02" }}" class="text-muted text-sm whitespace-nowrap shrink-0">
+          {{ .Date.Format "Jan 2006" }}
+        </time>
+      </li>
+      {{ end }}
+    </ul>
+    {{ if gt (len $reflections) 5 }}
+    <p class="mt-4 mb-0">
+      <a href="/reflections/" class="text-sm text-accent!">All reflections →</a>
+    </p>
+    {{ end }}
+  </section>
+  {{ end }}
+
+</div>
+{{ end }}

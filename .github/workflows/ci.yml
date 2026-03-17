@@ -9,22 +9,33 @@ permissions:
   contents: read
 
 jobs:
-  build-and-test:
+  build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
-      - name: Setup Node
-        uses: actions/setup-node@v6
+        uses: actions/checkout@v4
         with:
-          node-version: 24
-          cache: yarn
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-      # Run your tests (adjust script name as needed)
-      - name: Test
-        run: yarn test
-      # Ensure Nuxt can build statically
-      - name: Build (Nuxt generate)
-        run: yarn generate
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: latest
+          extended: true
+
+      - name: Build
+        run: hugo --minify

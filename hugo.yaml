@@ -1,0 +1,57 @@
+baseURL: "https://westernwilson.com/"
+languageCode: en
+title: Western Wilson
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 10
+
+params:
+  author: Western Wilson
+  description: "Western Wilson — software engineer, reader, writer."
+  keywords: "blog, software, engineering, technology"
+  avatarURL: images/western.png
+  avatarAlt: Western Wilson
+  favicon: images/favicon.ico
+
+  colorScheme: auto
+  hideColorSchemeToggle: false
+  customSCSS:
+    - scss/custom.scss
+
+  social:
+    - name: GitHub
+      weight: 1
+      url: "https://github.com/wjkw1"
+      icon: fa-brands fa-github
+      rel: me noopener
+    - name: LinkedIn
+      weight: 2
+      url: "https://www.linkedin.com/in/western-wilson"
+      icon: fa-brands fa-linkedin
+      rel: me noopener
+    - name: Instagram
+      weight: 3
+      url: "https://www.instagram.com/western.wilson"
+      icon: fa-brands fa-instagram
+      rel: me noopener
+    - name: Goodreads
+      weight: 4
+      url: "https://www.goodreads.com/wjkw1"
+      icon: fa-brands fa-goodreads
+      rel: me noopener
+    - name: Email
+      weight: 5
+      url: "mailto:kiaora@westernwilson.com"
+      icon: fa-solid fa-envelope
+      rel: me
+
+menu:
+  main:
+    - name: Now
+      weight: 1
+      url: /now/
+    - name: Reflections
+      weight: 2
+      url: /reflections/

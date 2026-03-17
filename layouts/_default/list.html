@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div>
+  <h1 class="font-display text-2xl font-semibold mt-0 mb-10">{{ .Title }}</h1>
+
+  <ul class="list-none m-0 p-0">
+    {{ range .Pages }}
+    <li style="border-bottom: 1px solid var(--c-border)" class="py-3 flex items-baseline justify-between gap-4 last:border-b-0">
+      <a href="{{ .RelPermalink }}" class="text-heading! font-medium no-underline! hover:text-accent!">
+        {{ .Title }}
+      </a>
+      <time datetime="{{ .Date.Format "2006-01-02" }}" class="text-muted text-sm whitespace-nowrap shrink-0">
+        {{ .Date.Format "Jan 2006" }}
+      </time>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
