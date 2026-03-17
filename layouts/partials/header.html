@@ -1,0 +1,50 @@
+<header style="border-bottom: 1px solid var(--c-border)">
+  <div class="max-w-2xl mx-auto px-6 py-4 flex items-center justify-between">
+    <a href="{{ .Site.BaseURL }}" class="font-display font-semibold text-base text-heading! no-underline! hover:text-accent! flex items-center gap-2">
+      {{ with .Site.Params.favicon }}<img src="{{ . | absURL }}" alt="{{ $.Site.Params.avatarAlt }}" class="w-5 h-5">{{ end }}
+      {{ .Site.Title }}
+    </a>
+    <div class="flex items-center gap-6">
+      {{ with .Site.Menus.main }}
+      <nav aria-label="Main navigation">
+        <ul class="flex gap-6 list-none m-0 p-0">
+          {{ range . }}
+          <li>
+            <a href="{{ .URL }}" class="text-sm text-muted! no-underline! hover:text-accent!">{{ .Name }}</a>
+          </li>
+          {{ end }}
+        </ul>
+      </nav>
+      {{ end }}
+      <button id="theme-toggle" aria-label="Toggle color scheme" class="text-muted hover:text-accent! cursor-pointer bg-transparent border-0 p-0 leading-none">
+        <i id="theme-icon" class="fa-solid fa-moon text-sm"></i>
+      </button>
+    </div>
+
+    <script>
+      (function() {
+        var btn = document.getElementById('theme-toggle');
+        var icon = document.getElementById('theme-icon');
+
+        function getEffective() {
+          var saved = localStorage.getItem('theme');
+          if (saved) return saved;
+          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+
+        function applyTheme(theme) {
+          document.documentElement.setAttribute('data-theme', theme);
+          localStorage.setItem('theme', theme);
+          icon.className = theme === 'dark' ? 'fa-solid fa-sun text-sm' : 'fa-solid fa-moon text-sm';
+        }
+
+        // Set initial icon state
+        applyTheme(getEffective());
+
+        btn.addEventListener('click', function() {
+          applyTheme(getEffective() === 'dark' ? 'light' : 'dark');
+        });
+      })();
+    </script>
+  </div>
+</header>

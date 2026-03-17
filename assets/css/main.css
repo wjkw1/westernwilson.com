@@ -1,2 +1,107 @@
 @import "tailwindcss";
-@plugin '@tailwindcss/typography';
+@plugin "@tailwindcss/typography";
+
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Lexend:wght@400;500;600;700&display=swap');
+
+/* ── Design tokens ─────────────────────────────────────────────────────────── */
+
+@theme {
+  --font-sans:    'Instrument Sans', system-ui, sans-serif;
+  --font-display: 'Lexend', system-ui, sans-serif;
+}
+
+:root {
+  --c-bg:      #F6F1E9;
+  --c-bg-alt:  #EBE5D9;
+  --c-text:    #2C1A0F;
+  --c-muted:   #7A6355;
+  --c-heading: #1E1008;
+  --c-accent:  #7A2535;
+  --c-border:  #D8CEBC;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-bg:      #1E1108;
+    --c-bg-alt:  #2E1C15;
+    --c-text:    #F0EAE2;
+    --c-muted:   #B89880;
+    --c-heading: #F7F2EA;
+    --c-accent:  #D4828E;
+    --c-border:  #3A2018;
+  }
+}
+
+html[data-theme="dark"] {
+  --c-bg:      #1E1108;
+  --c-bg-alt:  #2E1C15;
+  --c-text:    #F0EAE2;
+  --c-muted:   #B89880;
+  --c-heading: #F7F2EA;
+  --c-accent:  #D4828E;
+  --c-border:  #3A2018;
+}
+
+html[data-theme="light"] {
+  --c-bg:      #F6F1E9;
+  --c-bg-alt:  #EBE5D9;
+  --c-text:    #2C1A0F;
+  --c-muted:   #7A6355;
+  --c-heading: #1E1008;
+  --c-accent:  #7A2535;
+  --c-border:  #D8CEBC;
+}
+
+/* ── Base ──────────────────────────────────────────────────────────────────── */
+
+@layer base {
+  html {
+    background-color: var(--c-bg);
+    color: var(--c-text);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a {
+    color: var(--c-accent);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    color: var(--c-heading);
+  }
+}
+
+/* ── Utilities ─────────────────────────────────────────────────────────────── */
+
+@layer utilities {
+  .text-accent   { color: var(--c-accent); }
+  .text-muted    { color: var(--c-muted); }
+  .text-heading  { color: var(--c-heading); }
+  .bg-base       { background-color: var(--c-bg); }
+  .bg-alt        { background-color: var(--c-bg-alt); }
+  .border-base   { border-color: var(--c-border); }
+}
+
+/* ── Prose overrides (blog post content) ───────────────────────────────────── */
+
+.prose {
+  --tw-prose-body:       var(--c-text);
+  --tw-prose-headings:   var(--c-heading);
+  --tw-prose-links:      var(--c-accent);
+  --tw-prose-bold:       var(--c-heading);
+  --tw-prose-code:       var(--c-text);
+  --tw-prose-pre-bg:     var(--c-bg-alt);
+  --tw-prose-quotes:     var(--c-muted);
+  --tw-prose-hr:         var(--c-border);
+  --tw-prose-th-borders: var(--c-border);
+  --tw-prose-td-borders: var(--c-border);
+  --tw-prose-captions:   var(--c-muted);
+  color: var(--c-text);
+  max-width: none;
+}
