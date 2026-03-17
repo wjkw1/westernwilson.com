@@ -1,6 +1,6 @@
 # Hugo build output
-public/
-resources/
+public/**
+resources/**
 
 # Node
 node_modules/
