@@ -1,6 +1,6 @@
 <header style="border-bottom: 1px solid var(--c-border)">
   <div class="max-w-2xl mx-auto px-6 py-4 flex items-center justify-between">
-    <a href="{{ .Site.BaseURL }}" class="font-display font-semibold text-base text-heading! no-underline! hover:text-accent! flex items-center gap-2">
+    <a href="{{ .Site.BaseURL }}" class="font-display font-semibold text-base text-heading! no-underline hover:underline! hover:text-accent! flex items-center gap-2">
       {{ with .Site.Params.favicon }}<img src="{{ . | absURL }}" alt="{{ $.Site.Params.avatarAlt }}" class="w-5 h-5">{{ end }}
       {{ .Site.Title }}
     </a>
@@ -10,7 +10,7 @@
         <ul class="flex gap-6 list-none m-0 p-0">
           {{ range . }}
           <li>
-            <a href="{{ .URL }}" class="text-sm text-muted! no-underline! hover:text-accent!">{{ .Name }}</a>
+            <a href="{{ .URL }}" class="text-sm text-muted! no-underline hover:underline! hover:text-accent!">{{ .Name }}</a>
           </li>
           {{ end }}
         </ul>

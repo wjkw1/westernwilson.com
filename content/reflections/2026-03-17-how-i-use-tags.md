@@ -1,6 +1,7 @@
 ---
 title: "How I catagorise Tags"
 date: 2026-03-17
+lastmod: 2026-03-18
 author: "Western Wilson"
 tags: ["meta"]
 draft: false
@@ -32,6 +33,10 @@ _Use when:_ the post is about systems, pipelines, or keeping things running.
 Tools that shape how I work - editors, CLIs, SSH, local setup.
 _Use when:_ the post is hands-on with a specific tool or workflow.
 
+**`books`**
+Notes, takeaways, and reflections on books I've read.
+_Use when:_ the post is a book review, summary, or reaction to something I've read.
+
 **`writing`**
 Reflections on the writing process, publishing, and finding my voice.
-_Use when:_ the post is about writing itself, not just a post that happens to be well-written.
+_Use when:_ the post is about writing itself, not just a post that happens to be well-written.*

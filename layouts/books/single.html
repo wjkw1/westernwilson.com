@@ -1,0 +1,71 @@
+{{ define "main" }}
+<article>
+  <header class="mb-10 pb-6" style="border-bottom: 1px solid var(--c-border)">
+
+    <div class="flex gap-6 mb-5">
+      {{ with .Params.bookCover }}
+      <img src="{{ . }}" alt="{{ $.Title }} cover"
+           class="w-24 h-auto object-cover rounded shadow-sm shrink-0">
+      {{ end }}
+
+      <div class="flex flex-col justify-center gap-2">
+        <h1 class="font-display text-2xl font-semibold mt-0 mb-0">{{ .Title }}</h1>
+
+        {{ with .Params.bookAuthor }}
+        <p class="text-muted text-sm mt-0 mb-0">by {{ . }}</p>
+        {{ end }}
+
+        {{ with .Params.rating }}
+        {{ $rating := . }}
+        {{ $floor := int (math.Floor $rating) }}
+        {{ $hasFraction := gt (sub $rating (math.Floor $rating)) 0.0 }}
+        <div class="flex items-center gap-0.5 text-accent">
+          {{ range $i := seq 1 5 }}
+            {{ if le $i $floor }}
+              <i class="fa-solid fa-star text-sm"></i>
+            {{ else if and $hasFraction (eq $i (add $floor 1)) }}
+              <i class="fa-solid fa-star-half-stroke text-sm"></i>
+            {{ else }}
+              <i class="fa-regular fa-star text-sm"></i>
+            {{ end }}
+          {{ end }}
+          <span class="text-muted text-sm ml-1.5">{{ $rating }}/5</span>
+        </div>
+        {{ end }}
+
+        {{ with .Params.goodreadsUrl }}
+        <a href="{{ . }}" target="_blank" rel="noopener"
+           class="text-sm no-underline text-muted! hover:text-accent! hover:underline! flex items-center gap-1.5">
+          <i class="fa-brands fa-goodreads"></i> View on Goodreads
+        </a>
+        {{ end }}
+      </div>
+    </div>
+
+    {{ with .Params.bookDescription }}
+    <p class="text-muted text-sm italic mt-0 mb-4">{{ . }}</p>
+    {{ end }}
+
+    <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+      {{ with .Params.dateRead }}
+      <span class="text-muted italic text-sm">Read {{ . | time.Format "Jan 2006" }}</span>
+      {{ end }}
+      {{ with $.Params.tags }}
+      <div class="flex flex-wrap gap-2">
+        {{ range . }}
+        <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/"
+           class="text-xs px-2 py-1 rounded no-underline! text-muted! hover:text-accent! bg-alt">
+          {{ . }}
+        </a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+
+  </header>
+
+  <div class="prose">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

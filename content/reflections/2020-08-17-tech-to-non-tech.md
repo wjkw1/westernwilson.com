@@ -1,6 +1,7 @@
 ---
 title: Talking Tech, to Non-Tech
 date: 2020-08-17
+lastmod: 2026-03-18
 author: "Western Wilson"
 tags: ["communication", "career"]
 draft: false
@@ -10,7 +11,7 @@ _Early in my career, I attended a workshop where the goal was to bridge the gap 
 
 ## Simplifying Technical Jargon
 
-To communicate tech concepts to non-technical individuals, analogies are invaluable. 
+To communicate tech concepts to non-technical individuals, analogies are invaluable.
 
 ### The Barrier of Technical Jargon
 
@@ -31,9 +32,8 @@ Applications can be web-based (run in browsers), desktop (run on a computer), or
 In simplified terms, an application's **Stack** includes a **Client** (the end-user with a Laptop or Mobile device), a **Server** (handles requests, processes data, and communicates with the Database), and a **Database** (stores information). Think of this stack like a person withdrawing money from a bank:
 
 1. Front-end -> Person/Client
-2. Server    -> Bank Teller
-3. Database  -> Money Stash
-
+2. Server -> Bank Teller
+3. Database -> Money Stash
 
 ## Understanding APIs
 
