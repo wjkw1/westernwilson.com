@@ -3,9 +3,17 @@
   <header class="mb-10 pb-6" style="border-bottom: 1px solid var(--c-border)">
     <h1 class="font-display text-2xl font-semibold mt-0 mb-3">{{ .Title }}</h1>
     {{ if not .Date.IsZero }}
-    <time datetime="{{ .Date.Format "2006-01-02" }}" class="text-muted text-sm">
-      {{ .Date.Format "January 2, 2006" }}
-    </time>
+    <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+      <time datetime="{{ .Date.Format "2006-01-02" }}" class="text-muted italic text-sm">
+        {{ .Date.Format "January 2, 2006" }}
+      </time>
+      {{ if .Lastmod.After .Date }}
+      <span class="text-muted">•</span>
+      <span class="text-muted italic text-sm flex items-baseline gap-x-3">
+        <span>Updated <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "January 2, 2006" }}</time></span>
+      </span>
+      {{ end }}
+    </div>
     {{ end }}
     {{ with .Params.tags }}
     <div class="flex flex-wrap gap-2 mt-3 mb-2">

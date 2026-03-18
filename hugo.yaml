@@ -55,3 +55,6 @@ menu:
     - name: Reflections
       weight: 2
       url: /reflections/
+    - name: Books
+      weight: 3
+      url: /books/
