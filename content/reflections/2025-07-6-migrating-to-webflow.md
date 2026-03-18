@@ -7,7 +7,7 @@ tags: ["devtools", "meta"]
 draft: false
 ---
 
-*Update 2026: Turns out Webflow and I didn't get along for long. I draft everything in AnyType, and copy-pasting from there into Webflow was a mess. I'd spend more time cleaning up the output than actually writing. The custom domain redirect situation was also irking me. So, true to form, I redesigned and migrated again, this time to Hugo. Make of that what you will.*
+*Update 2026: Turns out Webflow and I didn't get along for long. My workflow is drafting everything in AnyType, but copy-pasting from there into Webflow was a mess. I'd spend more time cleaning up the output than actually writing. The custom domain redirect situation was also irking me. So, true to form, I redesigned and migrated again, this time to [Hugo](https://gohugo.io). Make of that what you will.*
 
 My website has gone through many iterations and frameworks:
 
