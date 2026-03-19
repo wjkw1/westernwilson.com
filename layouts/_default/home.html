@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="space-y-14">
 
-  {{/* ── Hero ── */}}
+  <!-- Hero -->
   <section class="flex items-start gap-5">
     {{ with .Site.Params.avatarURL }}
     <img src="{{ relURL . }}" alt="{{ $.Site.Params.avatarAlt }}"
@@ -20,12 +20,11 @@
     </div>
   </section>
 
-  {{/* ── Page content (optional intro body) ── */}}
+   <!-- Page content (optional intro body) -->
   {{ with .Content }}
   <section class="prose">{{ . }}</section>
   {{ end }}
-
-  {{/* ── Recent reflections ── */}}
+  <!-- Recent reflections -->
   {{ $reflections := where .Site.RegularPages "Section" "reflections" }}
   {{ if $reflections }}
   <section>
@@ -34,7 +33,7 @@
     </h2>
     <ul class="list-none m-0 p-0">
       {{ range first 6 $reflections }}
-      <li style="border-bottom: 1px solid var(--c-border)" class="py-3 flex items-baseline justify-between gap-4 last:border-b-0">
+      <li class="py-3 flex items-baseline justify-between gap-4 border-b-1 border-base last:border-b-0">
         <a href="{{ .RelPermalink }}" class="text-heading! font-medium no-underline! hover:text-accent!">
           {{ .Title }}
         </a>
@@ -52,16 +51,17 @@
   </section>
   {{ end }}
 
-  {{/* ── Recent books ── */}}
+  <!-- Recent books -->
   {{ $books := where .Site.RegularPages "Section" "books" }}
   {{ if $books }}
   <section>
     <h2 class="font-display text-lg font-semibold uppercase tracking-widest text-muted mb-4">
       books
     </h2>
+    
     <ul class="list-none m-0 p-0">
       {{ range first 5 $books }}
-      <li style="border-bottom: 1px solid var(--c-border)" class="py-4 last:border-b-0">
+      <li class="py-4 border-b-1 border-base last:border-b-0">
         <div class="flex items-start justify-between gap-4">
           <div>
             <a href="{{ .RelPermalink }}" class="text-heading! font-medium no-underline! hover:text-accent!">
