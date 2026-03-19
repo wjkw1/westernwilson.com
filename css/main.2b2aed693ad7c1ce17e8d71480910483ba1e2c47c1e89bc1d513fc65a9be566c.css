@@ -810,6 +810,10 @@
     border-style: var(--tw-border-style);
     border-width: 0px;
   }
+  .border-b-1 {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
   .bg-transparent {
     background-color: transparent;
   }
