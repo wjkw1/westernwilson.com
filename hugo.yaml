@@ -9,8 +9,8 @@ pagination:
 
 params:
   author: Western Wilson
-  description: "Western Wilson — software engineer, reader, writer."
-  keywords: "blog, software, engineering, technology"
+  description: "Western Wilson — curious problem solver, reader, and explorer."
+  keywords: "blog, reflections, software, engineering, technology"
   avatarURL: images/western.png
   avatarAlt: Western Wilson
   favicon: images/favicon.ico

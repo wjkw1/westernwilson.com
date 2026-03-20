@@ -1,6 +1,16 @@
 {{ define "main" }}
 <div>
-  <h1 class="font-display text-2xl font-semibold mt-0 mb-10">{{ .Title }}</h1>
+  <h1 class="font-display text-2xl font-semibold mt-0 mb-3">{{ .Title }}</h1>
+  <!-- Recent reflections -->
+  {{ $reflections := where .Site.RegularPages "Section" "reflections" }}
+  {{ if $reflections }}
+  <p class="text-muted text-sm mb-8 leading-relaxed">
+      The word <span class="font-semibold italic">reflections</span> carries a quieter, more inward energy for me. It implies that you're 
+      writing for the process of thinking, not for an audience or an outcome. I love that there is 
+      no implicit pressure to grow a following, monetise, or be consistent on a schedule.
+  </p>
+  {{ end }}
+
 
   <ul class="list-none m-0 p-0">
     {{ range .Pages }}
