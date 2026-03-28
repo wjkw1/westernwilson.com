@@ -4,7 +4,7 @@ date: 2026-03-21
 author: "Western Wilson"
 draft: false
 bookAuthor: "Shane Parrish"
-bookDescription: "<short description>"
+bookDescription: "A toolkit of timeless thinking frameworks (from first principles to inversion) for making better decisions in any situation."
 goodreadsUrl: "https://www.goodreads.com/book/show/44245196-the-great-mental-models"
 dateRead: 2025-10-04
 rating: 4
