@@ -1,9 +1,5 @@
 # profile-website
 
-## Tag strategy for my reflections
-
-
-
 ## Setup
 
 Make sure to install the dependencies:
@@ -25,3 +21,5 @@ Build the application for production:
 ```bash
 hugo
 ```
+
+## 

@@ -1,0 +1,10 @@
+config:
+  default: true
+  MD013: false # Line length — too strict for content-heavy markdown
+  MD033: false # Inline HTML — Hugo shortcodes and badges use this
+  MD041: false # First line heading — frontmatter files don't start with #
+
+ignores:
+  - node_modules
+  - public
+  - .hugo_build.lock

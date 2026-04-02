@@ -36,8 +36,8 @@ When using AI tools like ChatGPT, prioritize privacy and ~~avoid sharing~~ don't
 
 Here is two useful links for ChatGPT:
 
-- https://tosdr.org/en/service/7108
-- https://openai.com/policies
+- <https://tosdr.org/en/service/7108>
+- <https://openai.com/policies>
 
 ### Double-check your outputs
 

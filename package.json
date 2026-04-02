@@ -4,7 +4,10 @@
   "description": "Make sure to install the dependencies:",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "markdownlint-cli2 'content/**/*.md'",
+    "lint:fix": "markdownlint-cli2 --fix 'content/**/*.md'",
+    "format": "prettier --write 'assets/css/**/*.css' '**/*.yaml' '**/*.yml'",
+    "format:check": "prettier --check 'assets/css/**/*.css' '**/*.yaml' '**/*.yml'"
   },
   "repository": {
     "type": "git",
@@ -23,6 +26,8 @@
     "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
-    "@tailwindcss/cli": "^4.2.2"
+    "@tailwindcss/cli": "^4.2.2",
+    "markdownlint-cli2": "^0.22.0",
+    "prettier": "^3.8.1"
   }
 }

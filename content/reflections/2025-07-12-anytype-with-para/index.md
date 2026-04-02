@@ -34,7 +34,7 @@ My requirements:
 
 AnyType hits every requirement above and took them further; open-source, offline first, free forever, online peer to peer sync between cross-platform devices, block editing with Markdown text shortcuts, AnyType Gallery to share and use community templates, great security first, imports and exports, graph view, API and basic collaboration features.
 The app is positioning itself as a web3 everything app built on freedom and trust. They're building something special here and since it's inception has consistently improved month on month. It's much more polished than it used to be, it's a joy to work with nowadays.
-I'll explain some of the features below, but honestly the best way to get a feel for it is to download and try it yourself: https://download.anytype.io/
+I'll explain some of the features below, but honestly the best way to get a feel for it is to download and try it yourself: <https://download.anytype.io/>
 The main concepts in AnyType to understand are:
 
 1. [‍Objects](https://doc.anytype.io/anytype-docs/getting-started/object-editor) - all things are objects in AnyType ‍

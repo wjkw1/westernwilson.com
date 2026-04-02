@@ -56,7 +56,7 @@ I looked into WordPress quickly, which a couple older colleagues of mine used fo
 
 I was on LinkedIn one day and saw a post from Nikolai teaching people how to use Webflow. Nikolai actually introduced me to webflow way back in 2017 and it'd been swirling in my brain ever since, it seemed like a great tool. It's fantastic for Web Designer to build websites without worrying about the nitty gritty of maintaining a website with code. It still requires fundamental understandings of website development and html & css, but it's mostly no-code.
 After the whole Nuxt Vue major update I thought I cbf with this, lets try Webflow out.
-I don't want to pay for Webflow yet, thats why my site is only available on https://westernwilson.webflow.io, in the future I intend to upgrade it so I can use my personal website url under https://westernwilson.com
+I don't want to pay for Webflow yet, thats why my site is only available on <https://westernwilson.webflow.io>, in the future I intend to upgrade it so I can use my personal website url under <https://westernwilson.com>
 
 ## What is the development process like?
 
