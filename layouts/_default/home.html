@@ -28,7 +28,7 @@
   {{ $reflections := where .Site.RegularPages "Section" "reflections" }}
   {{ if $reflections }}
   <section>
-    <h2 class="font-display text-lg font-semibold uppercase tracking-widest text-muted mb-4">
+    <h2 class="font-display text-lg font-semibold uppercase tracking-widest mb-4">
       reflections
     </h2>
     <p class="text-muted text-sm mb-4 leading-relaxed">
@@ -36,18 +36,9 @@
       writing for the process of thinking, not for an audience or an outcome. I love that there is 
       no implicit pressure to grow a following, monetise, or be consistent on a schedule.
     </p>
-    <ul class="list-none m-0 p-0">
-      {{ range first 6 $reflections }}
-      <li class="py-3 flex items-baseline justify-between gap-4 border-b-1 border-base last:border-b-0">
-        <a href="{{ .RelPermalink }}" class="text-heading! font-medium no-underline! hover:text-accent!">
-          {{ .Title }}
-        </a>
-        <time datetime="{{ .Date.Format "2006-01-02" }}" class="text-muted text-sm whitespace-nowrap shrink-0">
-          {{ .Date.Format "Jan 2006" }}
-        </time>
-      </li>
-      {{ end }}
-    </ul>
+    {{ range first 6 $reflections }}
+      {{ partial "post-list-item.html" . }}
+    {{ end }}
     {{ if gt (len $reflections) 5 }}
     <p class="mt-4 mb-0">
       <a href="/reflections/" class="text-sm text-accent!">All reflections →</a>
@@ -60,7 +51,7 @@
   {{ $books := where .Site.RegularPages "Section" "books" }}
   {{ if $books }}
   <section>
-    <h2 class="font-display text-lg font-semibold uppercase tracking-widest text-muted mb-4">
+    <h2 class="font-display text-lg font-semibold uppercase tracking-widest mb-4">
       books
     </h2>
     <p class="text-muted text-sm mb-4 leading-relaxed">
