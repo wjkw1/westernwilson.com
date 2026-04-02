@@ -967,6 +967,14 @@
       border-bottom-width: 0px;
     }
   }
+  .hover\:text-sm {
+    &:hover {
+      @media (hover: hover) {
+        font-size: var(--text-sm);
+        line-height: var(--tw-leading, var(--text-sm--line-height));
+      }
+    }
+  }
   .hover\:underline\! {
     &:hover {
       @media (hover: hover) {
