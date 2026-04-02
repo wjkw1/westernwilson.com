@@ -1,4 +1,4 @@
-<header style="border-bottom: 1px solid var(--c-border)">
+<header class="sticky top-0 z-10 bg-base border-b border-base transition-transform duration-300 ease-in-out">
   <div class="max-w-2xl mx-auto px-6 py-4 flex items-center justify-between">
     <a href="{{ .Site.BaseURL }}" class="font-display font-semibold text-base text-heading! no-underline hover:underline! hover:text-accent! flex items-center gap-2">
       {{ with .Site.Params.favicon }}<img src="{{ . | absURL }}" alt="{{ $.Site.Params.avatarAlt }}" class="w-5 h-5">{{ end }}
@@ -48,3 +48,21 @@
     </script>
   </div>
 </header>
+
+<script>
+  (function () {
+    var header = document.querySelector('header');
+    var lastY = 0;
+
+    window.addEventListener('scroll', function () {
+      var y = window.scrollY;
+      if (y > lastY && y > 80) header.classList.add('-translate-y-full');
+      else header.classList.remove('-translate-y-full');
+      lastY = y;
+    });
+
+    document.addEventListener('mousemove', function (e) {
+      if (e.clientY < 60) header.classList.remove('-translate-y-full');
+    });
+  })();
+</script>
