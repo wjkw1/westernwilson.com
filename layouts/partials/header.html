@@ -1,68 +1,141 @@
-<header class="sticky top-0 z-10 bg-base border-b border-base transition-transform duration-300 ease-in-out">
+<header
+  class="sticky top-0 z-10 bg-base border-b border-base transition-transform duration-300 ease-in-out"
+>
   <div class="max-w-2xl mx-auto px-6 py-4 flex items-center justify-between">
-    <a href="{{ .Site.BaseURL }}" class="font-display font-semibold text-base text-heading! no-underline hover:underline! hover:text-accent! flex items-center gap-2">
-      {{ with .Site.Params.favicon }}<img src="{{ . | absURL }}" alt="{{ $.Site.Params.avatarAlt }}" class="w-5 h-5">{{ end }}
-      {{ .Site.Title }}
+    <a
+      href="{{ .Site.BaseURL }}"
+      class="font-display font-semibold text-base text-heading! no-underline hover:underline! hover:text-accent! flex items-center gap-2"
+    >
+      {{ with .Site.Params.favicon }}<img
+        src="{{ . | absURL }}"
+        alt="{{ $.Site.Params.avatarAlt }}"
+        class="w-5 h-5"
+      />{{ end }} {{ .Site.Title }}
     </a>
-    <div class="flex items-center gap-6">
+
+    <div class="flex items-center gap-4">
       {{ with .Site.Menus.main }}
-      <nav aria-label="Main navigation">
+      <!-- Burger button (mobile only) -->
+      <button
+        id="menu-toggle"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        class="sm:hidden text-muted hover:text-accent! cursor-pointer bg-transparent border-0 p-0 leading-none"
+      >
+        <i id="burger-icon" class="fa-solid fa-bars text-sm"></i>
+      </button>
+
+      <!-- Desktop nav -->
+      <nav aria-label="Main navigation" class="hidden sm:block">
         <ul class="flex gap-6 list-none m-0 p-0">
           {{ range . }}
           <li>
-            <a href="{{ .URL }}" class="text-sm text-muted! no-underline hover:underline! hover:text-accent!">{{ .Name }}</a>
+            <a
+              href="{{ .URL }}"
+              class="text-sm no-underline hover:underline!"
+              >{{ .Name }}</a
+            >
           </li>
           {{ end }}
         </ul>
       </nav>
       {{ end }}
+
+      <!-- Theme toggle (always visible) -->
       <button id="theme-toggle" aria-label="Toggle color scheme" class="text-muted hover:text-accent! cursor-pointer bg-transparent border-0 p-0 leading-none">
         <i id="theme-icon" class="fa-solid fa-moon text-sm"></i>
       </button>
     </div>
-
-    <script>
-      (function() {
-        var btn = document.getElementById('theme-toggle');
-        var icon = document.getElementById('theme-icon');
-
-        function getEffective() {
-          var saved = localStorage.getItem('theme');
-          if (saved) return saved;
-          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        }
-
-        function applyTheme(theme) {
-          document.documentElement.setAttribute('data-theme', theme);
-          localStorage.setItem('theme', theme);
-          icon.className = theme === 'dark' ? 'fa-solid fa-sun text-sm' : 'fa-solid fa-moon text-sm';
-        }
-
-        // Set initial icon state
-        applyTheme(getEffective());
-
-        btn.addEventListener('click', function() {
-          applyTheme(getEffective() === 'dark' ? 'light' : 'dark');
-        });
-      })();
-    </script>
   </div>
+
+  <!-- Mobile menu -->
+  {{ with .Site.Menus.main }}
+  <div id="mobile-menu" class="hidden sm:hidden border-t border-base">
+    <nav aria-label="Mobile navigation">
+      <ul class="list-none m-0 p-0 px-6 py-3 flex flex-col gap-0 items-end">
+        {{ range . }}
+        <li>
+          <a
+            href="{{ .URL }}"
+            class="block py-2 text-sm text-muted! no-underline hover:underline! hover:text-accent!"
+            >{{ .Name }}</a
+          >
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+  {{ end }}
+
+  <script>
+    (function () {
+      var btn = document.getElementById("theme-toggle");
+      var icon = document.getElementById("theme-icon");
+
+      function getEffective() {
+        var saved = localStorage.getItem("theme");
+        if (saved) return saved;
+        return window.matchMedia("(prefers-color-scheme: dark)").matches
+          ? "dark"
+          : "light";
+      }
+
+      function applyTheme(theme) {
+        document.documentElement.setAttribute("data-theme", theme);
+        localStorage.setItem("theme", theme);
+        icon.className =
+          theme === "dark"
+            ? "fa-solid fa-sun text-sm"
+            : "fa-solid fa-moon text-sm";
+      }
+
+      applyTheme(getEffective());
+
+      btn.addEventListener("click", function () {
+        applyTheme(getEffective() === "dark" ? "light" : "dark");
+      });
+
+      var menuToggle = document.getElementById("menu-toggle");
+      var mobileMenu = document.getElementById("mobile-menu");
+      var burgerIcon = document.getElementById("burger-icon");
+
+      if (menuToggle) {
+        function closeMenu() {
+          mobileMenu.classList.add("hidden");
+          menuToggle.setAttribute("aria-expanded", "false");
+          burgerIcon.className = "fa-solid fa-bars text-sm";
+        }
+
+        menuToggle.addEventListener("click", function (e) {
+          e.stopPropagation();
+          var open = mobileMenu.classList.toggle("hidden");
+          menuToggle.setAttribute("aria-expanded", String(!open));
+          burgerIcon.className = open ? "fa-solid fa-bars text-sm" : "fa-solid fa-xmark text-sm";
+        });
+
+        document.addEventListener("click", function (e) {
+          if (!mobileMenu.contains(e.target)) closeMenu();
+        });
+      }
+    })();
+  </script>
 </header>
 
 <script>
   (function () {
-    var header = document.querySelector('header');
+    var header = document.querySelector("header");
     var lastY = 0;
 
-    window.addEventListener('scroll', function () {
+    window.addEventListener("scroll", function () {
       var y = window.scrollY;
-      if (y > lastY && y > 80) header.classList.add('-translate-y-full');
-      else header.classList.remove('-translate-y-full');
+      if (y > lastY && y > 80) header.classList.add("-translate-y-full");
+      else header.classList.remove("-translate-y-full");
       lastY = y;
     });
 
-    document.addEventListener('mousemove', function (e) {
-      if (e.clientY < 60) header.classList.remove('-translate-y-full');
+    document.addEventListener("mousemove", function (e) {
+      if (e.clientY < 60) header.classList.remove("-translate-y-full");
     });
   })();
 </script>
