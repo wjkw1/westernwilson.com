@@ -1,6 +1,6 @@
 ---
 title: "Now"
-date: 2026-03-17
+date: 2026-04-09
 author: "Western Wilson"
 tags: ["now"]
 ---
@@ -19,7 +19,7 @@ The app is deliberately simple so I can focusing on everything around it: CI/CD,
 
 I've done a lot of this stuff before. So to make it more interesting for me, I'm finding ways to embedd Agentic AI (via [Claude Code](https://code.claude.com/docs/en/vs-code)) into my workflow.
 
-**Update 2nd April:** it is insane. I'm offloading so many boring tasks to Claude, test harnesses, finding links in readme for software I've listed, reformatting documentation, checking the wording is appropriate, the list goes on. I want to use this when I join back into the work force.
+**Update 2nd April:** it's insane. I'm offloading so many boring tasks to Claude: test harnesses, finding and replacing links in readme for software I've listed, reformatting documentation, discussing the validity of my design choices, finding new tradeoffs to consider, the list goes on... I want to use this 100% when I join the work force again.
 
 ### 3) New website to write my reflections (this one!!)
 
