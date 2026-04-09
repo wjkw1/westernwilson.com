@@ -1,5 +1,5 @@
 <li style="border-bottom: 1px solid var(--c-border)" class="py-3 flex items-stretch justify-between gap-4 last:border-b-0">
-  <div class="flex flex-col justify-between h-full">
+  <div class="flex flex-col justify-between">
     <a href="{{ .RelPermalink }}" class="text-heading! font-medium no-underline hover:underline! hover:text-accent!">
       {{ .Title }}
     </a>
@@ -14,7 +14,7 @@
     {{ end }}
   </div>
   {{ if ne .Kind "term" }}
-  <div class="flex flex-col justify-between h-full">
+  <div class="flex flex-col justify-between">
   <time datetime="{{ .Date.Format "2006-01-02" }}" class="text-muted text-sm whitespace-nowrap shrink-0 mt-0.5">
     {{ .Date.Format "Jan 2006" }}
   </time>
