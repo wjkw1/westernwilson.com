@@ -1,12 +1,12 @@
-<li style="border-bottom: 1px solid var(--c-border)" class="py-3 flex items-start justify-between gap-4 last:border-b-0">
-  <div>
+<li style="border-bottom: 1px solid var(--c-border)" class="py-3 flex items-stretch justify-between gap-4 last:border-b-0">
+  <div class="flex flex-col justify-between h-full">
     <a href="{{ .RelPermalink }}" class="text-heading! font-medium no-underline hover:underline! hover:text-accent!">
       {{ .Title }}
     </a>
     {{ with .GetTerms "tags" }}
-    <div class="flex flex-wrap gap-2 mt-3">
+    <div class="flex flex-wrap gap-2 mt-2">
       {{ range . }}
-      <a href="{{ .RelPermalink }}" class="text-xs no-underline! lowercase text-muted hover:text-sm">
+      <a href="{{ .RelPermalink }}" class="text-xs no-underline! lowercase text-muted hover:underline!">
         #{{ .Title }}
       </a>
       {{ end }}
@@ -14,8 +14,11 @@
     {{ end }}
   </div>
   {{ if ne .Kind "term" }}
+  <div class="flex flex-col justify-between h-full">
   <time datetime="{{ .Date.Format "2006-01-02" }}" class="text-muted text-sm whitespace-nowrap shrink-0 mt-0.5">
     {{ .Date.Format "Jan 2006" }}
   </time>
+  <span class="text-muted text-xs italic">{{ .ReadingTime }} min read</span>
+  </div>
   {{ end }}
 </li>
