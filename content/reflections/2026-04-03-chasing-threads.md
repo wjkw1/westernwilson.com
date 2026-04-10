@@ -1,7 +1,7 @@
 ---
 title: "When I say 'chasing threads'"
 date: 2026-04-04
-lastmod: 2025-04-10
+lastmod: 2026-04-10
 author: "Western Wilson"
 slug: "chasing-threads"
 tags: ["definitions"]
