@@ -1134,6 +1134,7 @@ html[data-theme="light"] {
   --tw-prose-captions: var(--c-muted);
   color: var(--c-text);
   max-width: none;
+  margin-bottom: 4rem;
 }
 .prose :where(code):not(:where(pre *)) {
   background-color: var(--c-bg-alt);
