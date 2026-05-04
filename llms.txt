@@ -1,0 +1,13 @@
+# Western Wilson
+
+> Personal site of Western Wilson — software engineer, reader, and explorer. Reflections on technology, engineering, books, and life. Western is Māori, from Aotearoa New Zealand. A generalist and platform engineer by trade, but considers himself mostly a tinkerer chasing threads. Content is personal and opinionated, not a corporate publication.
+
+## Pages
+
+- [Now](/now/): What Western is currently focused on
+- [Reflections](/reflections/): Written pieces on software, engineering, and broader observations
+- [Books](/books/): Reading log and notes
+
+## Feeds
+
+- [RSS](/index.xml): Full site feed
