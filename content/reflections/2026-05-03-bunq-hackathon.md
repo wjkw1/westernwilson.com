@@ -41,8 +41,8 @@ In this hackathon, unfortunately, I started off by inverting their advice. I was
 
 ## The pivot
 
-You can wrangle an app together in 24 hours. What matters more is whether you've thought clearly about the problem, can articulate the pain point, and can demonstrate something useful with honest tradeoffs. Mock the APIs instead of integrating with it (unless you have experience working with that particular AI). Stub the database or run one locally. Show the core idea working. Later, if there's time left, then connect the real infra.
-That's what scrapping AI's FastAPI cathedral version got me back to. Something small, something I understood, something we could actually show someone. The lesson for me wasn't about FastAPI or AWS. It was showing the gap between ambition and execution. It was about prioritisation, focusing on the problem and on building something that demonstrates a useful solution.
+You can wrangle an app together in 24 hours. What matters more is whether you've thought clearly about the problem, can articulate the pain point, and can demonstrate something useful with honest tradeoffs. Mock the APIs instead of integrating with it (unless you have working knowledge for that API). Stub the database or run one locally. Show the core idea working. Later, if there's time left, then connect the real infra.
+That's what scrapping AI's FastAPI cathedral got me back to. Something small, something I understood, something we could actually show someone. The lesson for me wasn't about FastAPI or AWS. It was showing the gap between ambition and execution. It was about prioritisation, focusing on the problem and on building something that demonstrates a useful solution.
 
 The winning teams that night? Mostly localhost applications.
 
