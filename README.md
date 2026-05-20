@@ -1,9 +1,5 @@
 # profile-website
 
-## Tag strategy for my reflections
-
-
-
 ## Setup
 
 Make sure to install the dependencies:
@@ -25,3 +21,13 @@ Build the application for production:
 ```bash
 hugo
 ```
+
+## Updating packages
+
+```bash
+npm update
+```
+
+## Tag strategy for reflections
+
+[How I use tags](/content/reflections/2025-08-13-music-day-2.md)
