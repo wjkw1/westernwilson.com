@@ -13,7 +13,7 @@ bookCover: "cover.jpg"
 
 > We respect these boundaries through how we care for others and by letting them have their own emotional experiences
 
-Too often I feel the emotional burden, or perceived microexpression that means a person is angry or sad. Then you immediate feel an urge to rush in and fix it.
+Too often we feel the emotional burden, or perceived microexpression that means a person is angry or sad. Then you immediate feel an urge to rush in and fix it.
 
 That isn't respect. They didnt ask for help. They're processing something you can't see. You must let them have that experience and not feel guilty about not forcing your hand to help.
 
@@ -42,13 +42,13 @@ The categories Fath G. Harper uses for the various boundaries we have:
 > 3. High conflict personality
 > 4. Perpetuation of coercive control
 
-I didn't originally understand what the words in this sentence meant: "perpetuation of coercive control". If I break down what each part of the sentence it made more sense. It feels like a persistent, slow burn where a person is using force to control someone. Hectic.
+Originally it was difficult to understand what the words in this sentence meant: "perpetuation of coercive control". Breaking down what each part of the sentence means makes more sense. It feels like a persistent, slow burn where a person is using force to control someone. Hectic.
 
 The book explains an ideal cultural norm where "yes means yes" and not having the opposite where we are forced to look "no means no". She describes the the flip of what we currently have. This is good.
 
-All large political movements started with a boundary being crossed and someone standing up for their right to protect said boundary. So, in essence, boundaries are eventually political by nature. They're definitely shaped by politics and what is acceptable by both our culture and our laws.
+The books says tha all large political movements started with a boundary being crossed and someone standing up for their right to protect said boundary. So, in essence, boundaries are eventually political by nature. They're definitely shaped by politics and what is acceptable by both our culture and our laws.
 
-Schools aren't equipped to set kids up for healthy communication and boundaries. They're set up for compliance. Adhering to the status quo. I remember a time as a young kid where answering questions was fun, and more people put up their hands. Eventually less and less hands were keen to go up. It felt like you were given shit for answering questions wrong, and the social rejection / embarrassment trained you to ask less questions. Since then, I consistently try to ask one useful question in meetings/events that I'm a part of. Something that's taken time to unlearn. Heck, I still get nervous at the thought of putting my hand up to ask a question.
+Schools aren't always equipped to set kids up for healthy communication and boundaries, though they try. Sometimes it feels like they're set up for compliance and adhering to the status quo. I remember a time as a young kid where answering questions was fun, and more people put up their hands. Eventually less and less hands were keen to go up. It felt like you were shamed for answering questions wrong, and so the social rejection / embarrassment trained you to ask less questions. Since then, I consistently try to ask one useful question in meetings/events that I'm a part of. Something that's taken time to unlearn. Heck, I still get nervous at the thought of putting my hand up to ask a question.
 
 Three attachment styles in a nutshell:
 
@@ -56,7 +56,7 @@ Three attachment styles in a nutshell:
 - Avoidance attachment - hard time trusting or depending on others, uncomfortable with the level of closeness people expect of them
 - Anxious attachment - hard time with worry, fear of abandonment
 
-I feel like depending on the context of whatever situation you're in, and people you're with, you slide in and out of each attachment style. Say for example, with your best friend you feel secure around. But a mean teacher you feel avoidance toward, because they're mean.
+It feels like that depending on the context of whatever situation you're in, and people you're with, you slide in and out of each attachment style. Say for example, with your best friend you feel secure around. But a mean teacher you feel avoidance toward.
 
 The book reinforces the impact childhood has on attachment styles in adulthood. And until we learn skills to react differently to the world around us, we won't really be able to move past our attachment styles.
 
@@ -71,4 +71,4 @@ I knew these words, but I didn't realise the succinct meaning behind them:
 > Best way to respond to High Confilct Individuals, is to first ask if you even need to respond? What are the consequences of not responding, what about if you respond?
 
 The final bits of the book for me remind me that effective communication is possible. It shows a fair few examples and says everyone has a responsibility to help make the world a better place. Decent read. I think if I was more strict on the questions and spending time on them I might have got more out of this book.
-The questions are probably worth picking up and going through at various stages of your life.
+The questions are worth picking up and going through at various stages of your life.
