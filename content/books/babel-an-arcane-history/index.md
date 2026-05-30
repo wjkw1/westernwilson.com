@@ -11,9 +11,9 @@ rating: 5
 bookCover: "cover.jpg"
 ---
 
-## Notes
+## Notes on Babel
 
-This book starts with a sad plot and ends with a sad plot. The book has many ups and downs and I felt really invested in the students journey.
+This book begins and ends with sadness. It has many ups and downs which helped me feel really invested in the students journey.
 
 The author moves through the story really quick. It's great to read because it feels like there is no dawdling on useless parts of text or superflous detail. It all moves the plot or develops a character. Such a good author.
 
@@ -21,28 +21,25 @@ It reminds me of Derek Sivers and his ethos about reducing and refining the text
 
 I drew parallels with the plot of this book and the age of AI we are currently living through. Yes it's written in a time near the industrial revolution but the silverworking automations are more like magic (which in some ways is what AI can feel like).
 
-We saw privileged/secret knowledge learnt by a select few scholars (in real life it would be tech workers), and the benefits of these outputs given to that small class. With the age of AI, we are being sold a pipe dream where that secret knowledge (being a coder or scientist) is longer limited to a select few, but that anyone can learn and do it.
+The book explores privileged/secret knowledge learnt by a select few scholars (in real life, this would be tech workers), and the benefits of these outputs given to that small class. With the age of AI, we are being sold a pipe dream where complex technical knowledge is no longer limited to a select few who studied it, and now anyone can pull up a chatbot to create something.
 
-There is whole portions of job losses as a result of silver working by the scholars and researchers at Oxford. Swathes of people losing work because of the efficiency gains that silver gives machines. Sound similar to whats happening now in the AI revolution.
+There are substantial job losses as a result of silver working by the scholars and researchers at Oxford. Loads of people losing work because of the efficiency gains that silver gives machines. It sounds similar to what's happening now in the AI revolution.
 
-The book forces us to acknowledge how our optimisations affect people without that knowledge, it's something that the scholars (or tech workers) tend to ignore. Confronting the loss of jobs and sometimes even loss of lives due to new technology (self driving cars, unsafe automated machinery, and maybe working conditions or environmental impact). It's a bleak look at a different era where some of these same problems seem to be recurring.
+The book forces us to acknowledge how our optimisations affect people without that knowledge, it's something that the scholars (or tech workers) tend to ignore. Confronting the loss of jobs and sometimes even loss of lives due to new technology (self driving cars, unsafe automated machinery, and working conditions or environmental impact). It's a bleak look at a different era where some of these same problems seem to be reoccurring.
 
-There are huge colonialist undertones throughout the book and the secret (or perhaps no longer secret) inner workings of the translation society in bringing the world under their leadership not through war, but through knowledge and intentional mistranslation of treaties. Tbh they might have been unintentional mistranslations, but at the time it was the best translation they could give with their scoped in points of view.
+There are huge colonialist undertones throughout the book and in the secret (or perhaps no longer secret) inner workings of the translation society in bringing the world under their leadership. They achieve this not through war, but through knowledge and intentional mistranslation of treaties. Tbh they might have been unintentional mistranslations, but at the time it was the best translation they could give with their scoped in points of view.
 
-Learning the languages of the people they're silently conquering. This idea is relevant to the treaty of Waitangi and central to some of the arguments presented in NZ politics. They argue that Māori understood and signed the Māori document, assuming that same intent was on the English version. There has been arguments that this was intentional mistranslation in favor of the crown. I don't know enough to comment more on this, but it's what I've heard.
+This idea is relevant to the Treaty of Waitangi and central to some of the arguments presented in NZ politics. They argue that Māori understood and signed the Māori document, assuming that same intent was on the English version. There are arguments that this was intentional mistranslation in favor of the crown.
 
-The book showed examples of taking kids without family from their own homes who showed intelligence, and indoctrinating them with an English upbringing, to take advantage of their language knowledge. We know how much our environment can shape our opinions. Imagine growing up as a child taken from their homeland and raised inside the empire of the English? How much that upbringing might shape your perspective of the world. Western ideas and Western thoughts. On that, AI, as built today, thinks in this same Western thought. That is because the data is more heavily weighted towards what is on the internet, and so minority languages that don't exist as heavily in the public domain are weighted out. Not an easy problem to solve, and probably not one many people will want to solve because of the "pay off". It'll take a strong and well-driven community to drive it, or a banding together of indigenous folks in similar predicaments. The latter is more realistic imo.
+Many characters in the story come from broken homes, grew up as slaves, or lost their families to sickness. The kids that showed intelligence were plucked by the translation society, and indoctrinated into an English upbringing to take advantage of their natural language heritage. We know how much our environment can shape our opinions. Imagine growing up as a child taken from your homeland and raised inside the empire of the English? Imagine how much that upbringing might shape your perspective of the world. Western ideas and Western thoughts.
 
-At the end of this book I can't help but feel sad. It's like the dependence on silver working, was in an of itself the downfall of the empire. I wonder if there is any lessons here to our dependence on AI in our day to day.
+On that, AI as built today, thinks in this same Western thought. The data is more heavily weighted towards what is on the internet, and so minority languages that arent as common in the public domain are weighted out. Not an easy problem to solve, and probably not one many people will want to solve because of the percieved "pay off". It'll take a strong and well-driven community to drive it, or a banding together of indigenous folks in similar predicaments. The latter is more realistic imo.
 
-I've read some articles recently talking about how the economies of scale large enterprise businesses can achieve, vastly outweigh anything that small community and charitable organisations can achieve. Which means the ability to use this technology is limited. Which puts smaller communities at a disadvantage in the technological world we live in. It's not equitable. It's not fair. But it is the capitalistic society we live in.
+At the end of this book, I can't help but feel sad. Their dependence on silver working was the downfall of the empire. There are lessons here warning us about over-dependence on AI.
 
-Professor Lovell in the book uses the counter argument that the scholars hard work is justification enough for them and them alone to profit from it. He believes this information is out there for anyone to learn, they could've taken advantage of the system and learnt and succeeded like him. But what that argument misses is that the environment in which the professor grew up in is vastly different. His privileged upbringing afforded him many things. The tutors, the private lessons, access to resources. Even something as simple as time to study. Working class don't have the luxury of time or the luxury of resources generally to achieve the results these scholars did in the book. Even inheriting a mindset of focused hard work is a privilege. Hard work is learned by most classes, but hard work learning the right things to build generational wealth is not learned by all people. It takes outliers to pick up those skills, learn them, and share them back to their decendents. But we're mostly playing catchup compared to some of the larger, generational-wealth families out there.
+Professor Lovell in the book uses the argument that the scholars' hard work is justification enough for them to profit from it. He believes this information is out there for anyone to learn, they could've taken advantage of the system and learnt and succeeded like him. But what that argument misses is that the environment in which the professor grew up in is vastly different. The tutors, the private lessons, access to resources. Even something as simple as time to study.
 
 It's sad we don't hear about whether the empire recovered from the tragedy of the tower collapse. But I assume this is intentional as it allows us the freedom to think about what might have happened.
-
-Etymology - define. The study of the meanings of words across history.
-Oh before I forget. There was a whole segment of the story where the actions by the optimisers and automaters impacted a subgroup of the population. We realise that it only impacts the poor and middle class of the city, and the rich simply sidestep most of the problems thanks to having money to support them. When they take over the tower to starve out Oxford, the people impacted most by these actions are the civilian's who have nowhere else to go.
 
 ## Quotes
 
@@ -92,4 +89,5 @@ Todo: add characters.
 Chapter 33
 
 > How did one make peace with one's own death? According to the accounts of Crito, the Phaedo, and the Apology, Socrates went to his death without distress, with such preternatural calm that he refused multiple entreaties to escape.
-> As I copied this, I'm on a plane flight leaving Athens having seen the prison of Socrates and the university or building where he taught.
+
+I copied this quote while on a plane leaving Athens. This was after walking past the prison of Socrates and the university building where he taught.

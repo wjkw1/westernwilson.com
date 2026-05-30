@@ -1,7 +1,6 @@
 {{ define "main" }}
 <article>
   <header class="mb-10 pb-6 border-b border-base">
-
     <div class="flex gap-6 mb-5">
       {{ with .Params.bookCover }}
       <img src="{{ . }}" alt="{{ $.Title }} cover"
@@ -63,7 +62,10 @@
     </div>
 
   </header>
-
+  <div class="flex items-center gap-2 text-muted text-sm italic bg-alt rounded py-2 px-2 mb-6">
+    <i class="fa-solid fa-pencil text-xs shrink-0"></i>
+    <span>These are rough reading notes, not a polished review.</span>
+  </div>
   <div class="prose">
     {{ .Content }}
   </div>

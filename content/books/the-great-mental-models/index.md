@@ -11,7 +11,7 @@ rating: 4
 bookCover: "cover.jpg"
 ---
 
-This book starts off explaining why mental models are required and gives many examples of situations show its importance. A lot of books do this, it's like they try to entice you into reading the book. But I'd already decided to read it, so its hard to get through.
+This book starts off explaining why mental models are required and gives many examples of situations show its importance. A lot of books do this, it's like they try to entice you into reading the book. But I'd already decided to read it, so its hard to get through the start of the book.
 
 This book leans on Charlie Munger's philosophy. Early on he shares a Munger quote:
 
