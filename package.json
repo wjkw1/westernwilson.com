@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/wjkw1/westernwilson.com#readme",
   "dependencies": {
-    "@tailwindcss/typography": "^0.5.19",
+    "@tailwindcss/typography": "^0.5.20",
     "tailwindcss": "^4.3.0"
   },
   "devDependencies": {
