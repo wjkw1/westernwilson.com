@@ -1,38 +1,48 @@
 ---
 title: "Now"
-date: 2026-04-09
+date: 2026-06-10
 author: "Western Wilson"
 tags: ["now"]
 ---
 
-## What I’m doing now?
+I'm in the Balkans and you can feel the summer heat already, daily temps over 30℃. Thankfully I love the sun, the mornings are cool enough, and the nights are still pleasant to roam around.
 
-### 1) Travel, job applications, and devops project
+## What I'm doing
 
-I'm travelling Europe and actively looking for my next role. Still doing all the things I love: coding, learning, reading, exercising, cooking, exploring. But I'm turning up the dial on job applications now.
+I'm continuing to do all the things I enjoy: coding, learning, reading, exercising, cooking, and exploring. I use [pomodoro timers](https://www.flow.app) to gamify my days between job searching, coding, and learning.
 
-To support this process I'm building an end-to-end [demo project](https://github.com/wjkw1/devops-profile-coffee-card-app-demo) to showcase my DevOps skills. It's a simple coffee concession card app (inspired by [Raglan Roast's](https://raglanroast.co.nz/) loyalty book!) pushed through a full pipeline from code to production.
+## Career move
 
-The app is deliberately simple so I can focusing on everything around it: CI/CD, infrastructure as code, container orchestration, GitOps, environment promotion. I'll split across two repos to mirror how teams actually structure things. The goal is to go from local dev to production on AWS (maybe GCP too), using modern practices, with every tradeoff & decision documented.
+I'm actively looking for my next DevOps, Platform, or Infra Engineer role with the goal to land one in the Netherlands!
 
-### 2) Agentic AI
+## DevOps project on AWS
 
-I've done a lot of this stuff before. So to make it more interesting for me, I'm finding ways to embedd Agentic AI (via [Claude Code](https://code.claude.com/docs/en/vs-code)) into my workflow.
+Two repos I've been working on that are worth checking out if DevOps stuff interests you:
 
-**Update 2nd April:** it's insane. I'm offloading so many boring tasks to Claude: test harnesses, finding and replacing links in readme for software I've listed, reformatting documentation, discussing the validity of my design choices, finding new tradeoffs to consider, the list goes on... I want to use this 100% when I join the work force again.
+- <https://github.com/wjkw1/aws-foundations>
+- <https://github.com/wjkw1/devops-profile-coffee-card-app-demo>
 
-### 3) New website to write my reflections (this one!!)
+## Travelling Europe & Balkans
 
-I didn't like the tech stack of my previous profile website(webflow with CMS). It redirected people from my custom domain to a free tier webflow site, which was a simple solution, but not very elegant. So my new site was migrated to [Hugo](https://gohugo.io/). I started out with a free Theme, which was so easy and took 5 minutes, but I wanted something custom so it took a little longer.
+I've visited a bunch of countries across Europe and the Balkans recently. This probably deserves its own reflection post, but I don't want to sink a load of time into this update, so here's the dump version, I'll extract and expand on it more later.
 
-## Tech stack
+A highlight has been hearing the difference between Germanic, Slavic, and Romance languages up close. Back home in NZ I mostly heard English and a little Māori, so all these new sounds have been a great for my brain.
 
-**Main stuff:**
+The food everywhere has been amazing too, nothing crazy, but plenty to satisfy the palate.
+
+- **Greece**: Island hopping was fantastic, friendly people, and such a rich history. We toured the major islands and timed Mykonos perfectly, just before party season kicked off. We had room to walk and explore without the crowds. Saw a lot of churches.
+- **Denmark**: Beautiful but expensive. Everyone wears gorgeous, sustainable, layered clothing. This makes sense given how much colder it is than NZ. Metro made it so easy to get around. Bikes everywhere.
+- **Amsterdam**: Visited to explore Amsterdam and also for a bunq hackathon ([reflection here](/reflections/bunq-hackathon-7)). I loved the vibe, though getting around without a bike was slow. So a bike is the first thing I'm getting once I live there.
+- **Italy**: Five days in Rome. It felt like you could walk in any direction and stumble onto a grand church or building. The food here was the best I've had anywhere, once we found one particular shop's tiramisu we ate three in a single day. Also saw Michelangelo's Creation of Adam on the Sistine Chapel ceiling, the scale of it is hard to describe. I guess it was well over 4 years of his life!
+- **Croatia**: Some of the best scenery I've seen outside of New Zealand. We hired a car and drove from Zagreb to Split, stopping at the Plitvice Lakes National Park in between for some incredible waterfalls. Driving on the opposite side of the road took adjusting (NZ left-side and Croatia right-side), but having a car unlocked so many random stops for our journey.
+- **Serbia**: A taxi driver suggest Burek to me and I ate it most days. I learnt about Belgrade's hectic history, even up until recently. I'm in awe of what people there have survived, over four passport changes in the last 25 years and across many different occupations. We were told it's because of Belgrade is positioned on the Danube and Sava rivers, prime real estate with a fortress that holds the high ground.
+
+## Tech tooling
 
 - Macbook Pro 16
 - Kindle ereader (11th Gen paperwhite)
 - [AnyType](https://anytype.io) for personal notes
-- [Claude](https://claude.ai) mostly, but also [Perplexity](https://www.perplexity.ai) for research and it's hands-free voice chat feature
+- [Claude](https://claude.ai)
 
 **Main tech stack:**
 
