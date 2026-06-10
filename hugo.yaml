@@ -1,5 +1,5 @@
 baseURL: "https://westernwilson.com/"
-languageCode: en
+locale: en
 title: Western Wilson
 
 enableRobotsTXT: true
