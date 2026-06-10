@@ -702,6 +702,9 @@
   .h-5 {
     height: calc(var(--spacing) * 5);
   }
+  .h-32 {
+    height: calc(var(--spacing) * 32);
+  }
   .h-auto {
     height: auto;
   }
@@ -713,6 +716,9 @@
   }
   .w-24 {
     width: calc(var(--spacing) * 24);
+  }
+  .w-32 {
+    width: calc(var(--spacing) * 32);
   }
   .w-full {
     width: 100%;
@@ -826,9 +832,16 @@
   .rounded {
     border-radius: 0.25rem;
   }
+  .rounded-full {
+    border-radius: calc(infinity * 1px);
+  }
   .border-0 {
     border-style: var(--tw-border-style);
     border-width: 0px;
+  }
+  .border-2 {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
   }
   .border-t {
     border-top-style: var(--tw-border-style);
@@ -1012,6 +1025,26 @@
       display: none;
     }
   }
+  .sm\:flex-row {
+    @media (width >= 40rem) {
+      flex-direction: row;
+    }
+  }
+  .sm\:items-start {
+    @media (width >= 40rem) {
+      align-items: flex-start;
+    }
+  }
+  .md\:h-36 {
+    @media (width >= 48rem) {
+      height: calc(var(--spacing) * 36);
+    }
+  }
+  .md\:w-36 {
+    @media (width >= 48rem) {
+      width: calc(var(--spacing) * 36);
+    }
+  }
 }
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Lexend:wght@400;500;600;700&display=swap');
 :root {
@@ -1057,6 +1090,7 @@ html[data-theme="light"] {
     background-color: var(--c-bg);
     color: var(--c-text);
     font-family: var(--font-sans);
+    font-size: 21px;
     -webkit-font-smoothing: antialiased;
   }
   a {
@@ -1089,6 +1123,9 @@ html[data-theme="light"] {
   }
   .border-base {
     border-color: var(--c-border);
+  }
+  .border-muted {
+    border-color: var(--c-muted);
   }
   .img-light {
     display: block;
