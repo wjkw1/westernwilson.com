@@ -59,6 +59,7 @@ html[data-theme="light"] {
     background-color: var(--c-bg);
     color: var(--c-text);
     font-family: var(--font-sans);
+    font-size: 21px;
     -webkit-font-smoothing: antialiased;
   }
 
@@ -86,6 +87,7 @@ html[data-theme="light"] {
   .bg-base       { background-color: var(--c-bg); }
   .bg-alt        { background-color: var(--c-bg-alt); }
   .border-base   { border-color: var(--c-border); }
+  .border-muted  { border-color: var(--c-muted); }
 
   /* Themed images */
   .img-light { display: block; }
