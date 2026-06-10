@@ -22,6 +22,12 @@ Two repos I've been working on that are worth checking out if DevOps stuff inter
 - <https://github.com/wjkw1/aws-foundations>
 - <https://github.com/wjkw1/devops-profile-coffee-card-app-demo>
 
+## Mātou project
+
+A key goal of mine is to contribute on this project and help drive technology changes that are indeginously aligned. Focusing on a new area of technology (Web3) that I've not proper explored yet, but am excited to!
+
+You can find out more here: <https://www.matou.nz/>
+
 ## Travelling Europe & Balkans
 
 I've visited a bunch of countries across Europe and the Balkans recently. This probably deserves its own reflection post, but I don't want to sink a load of time into this update, so here's the dump version, I'll extract and expand on it more later.
