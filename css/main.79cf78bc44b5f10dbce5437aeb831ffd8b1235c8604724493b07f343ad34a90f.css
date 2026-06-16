@@ -1068,7 +1068,7 @@ html[data-theme="light"] {
     background-color: var(--c-bg);
     color: var(--c-text);
     font-family: var(--font-sans);
-    font-size: 21px;
+    font-size: 18px;
     -webkit-font-smoothing: antialiased;
   }
   a {
