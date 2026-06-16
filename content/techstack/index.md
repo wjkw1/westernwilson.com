@@ -28,5 +28,4 @@ A snapshot of the tools, languages, and tech I'm currently using or exploring. F
 **Also worked with:**
 
 - **Frontend:** [Vue.js](https://vuejs.org) ([Nuxt](https://nuxt.com)), [React](https://react.dev) ([Next.js](https://nextjs.org)), [Tailwind CSS](https://tailwindcss.com), [Hugo](https://gohugo.io)
-- **Exploring:** MLOps as a future direction — completed [Google's MLCC](https://developers.google.com/machine-learning/crash-course)
-- **Machine Learning:** [Pandas](https://pandas.pydata.org), [NumPy](https://numpy.org), [TensorFlow](https://www.tensorflow.org) (from MLCC exercises)
+- **ML basics**: [Google's MLCC](https://developers.google.com/machine-learning/crash-course) with hands-on experience using [Pandas](https://pandas.pydata.org), [NumPy](https://numpy.org), [TensorFlow](https://www.tensorflow.org)
