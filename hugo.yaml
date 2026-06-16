@@ -58,3 +58,6 @@ menu:
     - name: Books
       weight: 3
       url: /books/
+    - name: Techstack
+      weight: 4
+      url: /techstack/
