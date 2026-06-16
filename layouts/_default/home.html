@@ -17,7 +17,13 @@
           >Aotearoa</a
         >. A
         <a href="https://generalist.world/" class="font-medium">generalist</a>,
-        a <a href="/devops-vs-platform-vs-infrastructure-engineer" class="font-medium">devops & platform engineer</a> by trade, but mostly a tinkerer
+        a
+        <a
+          href="/devops-vs-platform-vs-infrastructure-engineer"
+          class="font-medium"
+          >devops & platform engineer</a
+        >
+        by trade, but mostly a tinkerer
         <a href="/reflections/chasing-threads" class="font-medium"
           >chasing threads</a
         >.
@@ -60,10 +66,8 @@
     </h2>
     <p class="text-muted text-sm mb-4 leading-relaxed">
       The word <span class="font-semibold italic">reflections</span> carries a
-      quieter, more inward energy for me. It implies that you're writing for the
-      process of thinking, not for an audience or an outcome. I love that there
-      is no implicit pressure to grow a following, monetise, or be consistent on
-      a schedule.
+      quieter, more inward energy. It implies that you're writing for the
+      process of thinking, not for an audience or an outcome.
     </p>
     {{ range first 6 $reflections }} {{ partial "post-list-item.html" . }} {{
     end }} {{ if gt (len $reflections) 5 }}
@@ -82,15 +86,13 @@
     >
       books
     </h2>
-    <p class="text-muted text-sm mb-4 leading-relaxed">
-      The <span class="font-semibold italic">books</span> section is where stuff
-      I read spills over. I highlight too many quotes, scribble notes, and think
-      about ideas while turning the page; this is where I collect those
-      fragments.
+    <p class="text-muted text-sm mb-8 leading-relaxed">
+      The <span class="font-semibold italic">books</span> section is where I
+      capture running notes & quotes as I read.
     </p>
     <ul class="list-none m-0 p-0">
       {{ range first 5 $books }}
-      <li class="py-4 border-b-1 border-base last:border-b-0">
+      <li class="py-4 border-b border-base last:border-b-0">
         <div class="flex items-start justify-between gap-4">
           <div>
             <a

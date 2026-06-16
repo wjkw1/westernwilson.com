@@ -2,12 +2,12 @@
 <div>
   <h1 class="font-display text-lg uppercase font-semibold mt-0 mb-2">{{ .Title }}</h1>
   <p class="text-muted font-medium mt-0 mb-8">
-    See what these tags mean and how I use them
+    See the definitions of my <a href="/tags/">tags</a> and how I use them
     <a href="/reflections/how-i-use-tags/">on this post</a>.
   </p>
 
-  <ul class="list-none m-0 p-0 mb-3">
-    {{ range .Pages }}
+  <ul class="list-none m-0 p-0 mb-3 lowercase">
+    {{ range .Pages.ByTitle }}
     {{ partial "post-list-item.html" . }}
     {{ end }}
   </ul>
