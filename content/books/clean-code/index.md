@@ -15,7 +15,9 @@ bookCover: "cover.jpg"
 
 This book is packed with examples and opinions by people with decades of experience. Martin has clearly written a lot of code and seen a lot of projects go sideways, then picked up the pieces and improved them.
 
-My central takeaway is that the cost of bad code is huge, and it compounds over time. A team that moves fast with messy code will eventually stall. Anyone who has picked up someone else's code and spent an hour just trying to figure out what it does will know exactly what he means.
+My main takeaway is that the cost of bad code is huge, and it compounds over time. A team that moves fast with messy code will eventually stall. Anyone who has picked up someone else's code and spent an hour just trying to figure out what it does will know exactly what he means.
+
+Somewhere in the first chapter he makes a link between the abstraction away from byte code to assembly to object oriented languages, then expands further to consider a new AI system that will do our jobs for us (similar to what we are living through). It gave me a strong sense that no matter what level of abstraction we rise to (AI non-deterministic prompting being the latest), we still need strong, clear communication of our ideas.
 
 There was a comment about Coders being essentially Authors, I don't know why, but was a paradigm shift in my brain. We are writers using language syntax that tells machines what to do, but also has to show other Authors/engineers what it does. So be professional and communicate clearly. You've read bad articles or books, and you've read good ones, make sure your code aligns closely with the good ones.
 
@@ -46,6 +48,8 @@ The book shows a systematic way go from idea to messy code, then from messy code
 > It is a recommended practice in Scrum that re-factoring be part of the concept of “Done.” Neither architecture nor clean code insist on perfection, only on honesty and doing the best we can. To err is human; to forgive, divine. In Scrum, we make everything visible. We air our dirty laundry. We are honest about the state of our code because code is never perfect.
 
 ### Chapter 1 Clean Code
+
+Yo... AI? It's not there yet, not sure if it will ever be.
 
 > They are hoping that one day we will discover a way to create machines that can do what we want rather than what we say. These machines will have to be able to understand us so well that they can translate vaguely specified needs into perfectly executing programs that precisely meet those needs.
 
@@ -90,48 +94,47 @@ I worked somewhere stuck in this same situation, it's so refreshing to know that
 
 > A function with two arguments is harder to understand than a monadic function. For example, writeField( name) is easier to understand than writeField( output-Stream, name). Though the meaning of both is clear, the first glides past the eye, easily depositing its meaning. The second requires a short pause until we learn to ignore the first parameter. And that, of course, eventually results in problems because we should never ignore any part of code. The parts we ignore are where the bugs will hide.
 
-Have No Side Effects Side effects are lies. Your function promises to do one thing, but it also does other hidden things. Sometimes it will make unexpected changes to the variables of its own class.
+> Have No Side Effects Side effects are lies. Your function promises to do one thing, but it also does other hidden things. Sometimes it will make unexpected changes to the variables of its own class.
 
-In general output arguments should be avoided. If your function must change the state of something, have it change the state of its owning object.
+> In general output arguments should be avoided. If your function must change the state of something, have it change the state of its owning object.
 
-On the other hand, if you use exceptions instead of returned error codes, then the error processing code can be separated from the happy path code and can be simplified:
+> On the other hand, if you use exceptions instead of returned error codes, then the error processing code can be separated from the happy path code and can be simplified:
 
 ### Chapter 4 Comments
 
-So when you find yourself in a position where you need to write a comment, think it through and see whether there isn’t some way to turn the tables and express yourself in code.
+> So when you find yourself in a position where you need to write a comment, think it through and see whether there isn’t some way to turn the tables and express yourself in code.
 
-Others who see that commented-out code won’t have the courage to delete it. They’ll think it is there for a reason and is too important to delete.
+> Others who see that commented-out code won’t have the courage to delete it. They’ll think it is there for a reason and is too important to delete.
 
 > Every time you write a comment, you should grimace and feel the failure of your ability of expression.
 
 ### Chapter 5 Formatting
 
-We use horizontal white space to associate things that are strongly related and disassociate things that are more weakly related.
+> We use horizontal white space to associate things that are strongly related and disassociate things that are more weakly related.
 
 ### Chapter 6 Objects and Data Structures
 
-In any complex system there are going to be times when we want to add new data types rather than new functions. For these cases objects and OO are most appropriate. On the other hand, there will also be times when we’ll want to add new functions as opposed to data types. In that case procedural code and data structures will be more appropriate.
+> In any complex system there are going to be times when we want to add new data types rather than new functions. For these cases objects and OO are most appropriate. On the other hand, there will also be times when we’ll want to add new functions as opposed to data types. In that case procedural code and data structures will be more appropriate.
 
-More precisely, the Law of Demeter says that a method f of a class C should only call the methods of these: • C • An object created by f • An object passed as an argument to f • An object held in an instance variable of C The method should not invoke methods on objects that are returned by any of the allowed functions.
+> More precisely, the Law of Demeter says that a method f of a class C should only call the methods of these: • C • An object created by f • An object passed as an argument to f • An object held in an instance variable of C The method should not invoke methods on objects that are returned by any of the allowed functions.
 
-Note: look into procedural vs oop methodoloies and programming.
-They have functions that do significant things, and they also have either public variables or public accessors and mutators that, for all intents and purposes, make the private variables public, tempting other external functions to use those variables the way a procedural program would use a data structure.
+I wrote a note here to look more into procedural vs oop methodoloies and programming.
+
+> They have functions that do significant things, and they also have either public variables or public accessors and mutators that, for all intents and purposes, make the private variables public, tempting other external functions to use those variables the way a procedural program would use a data structure.
 
 The quasi-encapsulation of beans seems to make some OO purists feel better but usually provides no other benefit.
 
 ### Chapter 7 Use Exceptions Rather Than Return Codes
 
-Use Exceptions Rather Than Return Codes
+> Use Exceptions Rather Than Return Codes
 
-Create informative error messages and pass them along with your exceptions. Mention the operation that failed and the type of failure. If you are logging in your application, pass along enough information to be able to log the error in your catch
+> Create informative error messages and pass them along with your exceptions. Mention the operation that failed and the type of failure. If you are logging in your application, pass along enough information to be able to log the error in your catch.
 
-I think that any discussion about error handling should include mention of the things we do that invite errors. The first on the list is returning null . I can’t begin to count the number of applications I’ve seen in which nearly every other line was a check for null . Here is some example code:
-
-It’s easy to say that the problem with the code above is that it is missing a null check, but in actuality, the problem is that it has too many . If you are tempted to return null from a method, consider throwing an exception or returning a SPECIAL CASE object instead.
+> It’s easy to say that the problem with the code above is that it is missing a null check, but in actuality, the problem is that it has too many. If you are tempted to return null from a method, consider throwing an exception or returning a SPECIAL CASE object instead.
 
 ### Chapter 8 Boundaries
 
-If you use a boundary interface like Map, keep it inside the class, or close family of classes, where it is used. Avoid returning it from, or accepting it as an argument to, public APIs.
+> If you use a boundary interface like Map, keep it inside the class, or close family of classes, where it is used. Avoid returning it from, or accepting it as an argument to, public APIs.
 
 In learning tests we call the third-party API, as we expect to use it in our application. We’re essentially doing controlled experiments that check our understanding of that API. The tests focus on what we want out of the API.
 
