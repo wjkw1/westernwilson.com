@@ -1,7 +1,6 @@
 ---
 title: "The Richest Man in Babylon"
 date: 2023-01-01
-author: "Western Wilson"
 draft: false
 bookAuthor: "George S. Clason"
 bookDescription: "Timeless financial wisdom told through parables set in ancient Babylon."

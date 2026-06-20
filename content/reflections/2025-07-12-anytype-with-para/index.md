@@ -2,7 +2,6 @@
 title: "AnyType setup with PARA"
 date: 2025-07-12
 lastmod: 2026-03-17
-author: "Western Wilson"
 tags: ["guide", "devtools"]
 draft: false
 ---

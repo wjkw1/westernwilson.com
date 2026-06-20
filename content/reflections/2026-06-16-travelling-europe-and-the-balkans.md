@@ -1,7 +1,6 @@
 ---
 title: "Travelling Europe and the Balkans"
 date: 2026-06-16
-author: "Western Wilson"
 slug: "travelling-europe-and-the-balkans"
 tags: ["travel"]
 ---

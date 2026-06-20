@@ -3,7 +3,6 @@ title: "How I use Tags"
 date: 2026-03-17
 lastmod: 2026-04-09
 slug: "how-i-use-tags"
-author: "Western Wilson"
 tags: ["meta", "definitions"]
 draft: false
 ---

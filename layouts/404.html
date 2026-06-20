@@ -6,6 +6,11 @@
   <a id="404-link" href="{{ .Site.BaseURL }}" class="text-accent text-sm">← Back home</a>
 </div>
 
+{{ $sections := slice }}
+{{ range .Site.Sections }}
+  {{ $sections = $sections | append (dict "prefix" .RelPermalink "label" (.Title | lower)) }}
+{{ end }}
+
 <script>
   (function () {
     const path = window.location.pathname;
@@ -13,17 +18,12 @@
     const hint = document.getElementById("404-hint");
     const link = document.getElementById("404-link");
 
-    const sections = [
-      {
-        prefix: "/reflections/",
-        label: "reflection",
-      }
-    ];
+    const sections = {{ $sections | jsonify | safeJS }};
 
     const match = sections.find((s) => path.startsWith(s.prefix));
 
     if (match) {
-      message.textContent = `That ${match.label} doesn't exist.`;
+      message.textContent = `This ${match.label} page doesn't exist.`;
       hint.textContent = "It may have been moved or the link is incorrect.";
       hint.classList.remove("hidden");
     }

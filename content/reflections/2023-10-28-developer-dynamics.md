@@ -1,7 +1,6 @@
 ---
 title: Developer dynamics
 date: 2023-10-28
-author: "Western Wilson"
 tags:
   [
     "communication", "career",

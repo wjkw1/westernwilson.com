@@ -1,7 +1,6 @@
 ---
 title: "C4 Models for software system diagrams"
 date: 2026-03-20
-author: "Western Wilson"
 tags: ["devops"]
 draft: false
 ---

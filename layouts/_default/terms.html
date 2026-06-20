@@ -3,10 +3,12 @@
   <h1 class="font-display text-lg uppercase font-semibold mt-0">
     {{ .Title }}
   </h1>
+  {{ with .Site.Params.tagsExplainerPath }}
   <p class="text-muted font-medium mt-0 mb-6">
     See what these tags mean and how I use them
-    <a href="/reflections/how-i-use-tags/">on this post</a>.
+    <a href="{{ . | relURL }}">on this post</a>.
   </p>
+  {{ end }}
 
   <ul class="list-none m-0 p-0 space-y-2 lowercase">
     {{ range .Data.Terms.Alphabetical }}

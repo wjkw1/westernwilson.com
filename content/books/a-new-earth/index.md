@@ -1,7 +1,6 @@
 ---
 title: "A New Earth: Awakening to Your Life's Purpose"
 date: 2025-07-12
-author: "Western Wilson"
 draft: false
 bookAuthor: "Eckhart Tolle"
 bookDescription: "A guide to spiritual awakening, showing how to quiet the ego and live more fully in the present moment."

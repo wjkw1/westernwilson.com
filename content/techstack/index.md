@@ -1,7 +1,6 @@
 ---
 title: "Tools & Tech"
 date: 2026-06-16
-author: "Western Wilson"
 slug: "techstack"
 tags: ["devtools"]
 ---

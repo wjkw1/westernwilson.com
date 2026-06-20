@@ -1,12 +1,14 @@
 {{ define "main" }}
 <div>
   <h1 class="font-display text-lg uppercase font-semibold mt-0 mb-2">{{ .Title }}</h1>
+  {{ with .Site.Params.tagsExplainerPath }}
   <p class="text-muted font-medium mt-0 mb-8">
-    See the definitions of my <a href="/tags/">tags</a> and how I use them
-    <a href="/reflections/how-i-use-tags/">on this post</a>.
+    See the definitions of my <a href="{{ "/tags/" | relURL }}">tags</a> and how I use them
+    <a href="{{ . | relURL }}">on this post</a>.
   </p>
+  {{ end }}
 
-  <ul class="list-none m-0 p-0 mb-3 lowercase">
+  <ul class="list-none m-0 p-0 mb-3">
     {{ range .Pages.ByTitle }}
     {{ partial "post-list-item.html" . }}
     {{ end }}

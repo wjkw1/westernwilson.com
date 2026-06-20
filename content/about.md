@@ -1,9 +1,7 @@
 ---
 title: "About"
 date: 2024-01-01
-author: "Western Wilson"
 draft: true
-
 ---
 
 Hey, I'm Western — a software engineer based in New Zealand.

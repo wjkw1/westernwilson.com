@@ -1,7 +1,6 @@
 ---
 title: "Clean Code"
 date: 2026-06-16
-author: "Western Wilson"
 draft: false
 bookAuthor: "Robert C. Martin"
 bookDescription: "A handbook of agile software craftsmanship. Uncle Bob argues that writing clean code is a skill and a discipline — one that separates programmers who write code that works from those who write code that lasts. Covers naming, functions, comments, formatting, error handling, and testing through practical examples and refactoring exercises."

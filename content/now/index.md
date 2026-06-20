@@ -1,7 +1,6 @@
 ---
 title: "Now"
 date: 2026-06-16
-author: "Western Wilson"
 slug: "now"
 ---
 

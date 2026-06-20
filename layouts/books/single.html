@@ -15,21 +15,7 @@
         {{ end }}
 
         {{ with .Params.rating }}
-        {{ $rating := . }}
-        {{ $floor := int (math.Floor $rating) }}
-        {{ $hasFraction := gt (sub $rating (math.Floor $rating)) 0.0 }}
-        <div class="flex items-center gap-0.5 text-accent">
-          {{ range $i := seq 1 5 }}
-            {{ if le $i $floor }}
-              <i class="fa-solid fa-star text-sm"></i>
-            {{ else if and $hasFraction (eq $i (add $floor 1)) }}
-              <i class="fa-solid fa-star-half-stroke text-sm"></i>
-            {{ else }}
-              <i class="fa-regular fa-star text-sm"></i>
-            {{ end }}
-          {{ end }}
-          <span class="text-muted text-sm ml-1.5">{{ $rating }}/5</span>
-        </div>
+        {{ partial "star-rating.html" (dict "rating" . "size" "text-sm" "showLabel" true) }}
         {{ end }}
 
         {{ with .Params.goodreadsUrl }}
@@ -62,10 +48,12 @@
     </div>
 
   </header>
+  {{ with .Site.Params.bookDisclaimer }}
   <div class="flex items-center gap-2 text-muted text-sm italic bg-alt rounded py-2 px-2 mb-6">
     <i class="fa-solid fa-pencil text-xs shrink-0"></i>
-    <span>These are rough reading notes, not a polished review.</span>
+    <span>{{ . }}</span>
   </div>
+  {{ end }}
   <div class="prose">
     {{ .Content }}
   </div>

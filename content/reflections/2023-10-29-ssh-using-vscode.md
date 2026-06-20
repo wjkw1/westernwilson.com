@@ -1,7 +1,6 @@
 ---
 title: "Supercharge Your SSH with VS Code"
 date: 2023-10-29
-author: "Western Wilson"
 tags: ["devtools", "guide"]
 draft: false
 ---
