@@ -1,7 +1,6 @@
 ---
 title: "The 4-Hour Work Week"
 date: 2025-06-22
-author: "Western Wilson"
 draft: false
 bookAuthor: "Timothy Ferriss"
 bookDescription: "A playbook for escaping the 9-5 grind, automating your income, and living life on your own terms."

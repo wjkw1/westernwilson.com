@@ -17,8 +17,9 @@ params:
 
   colorScheme: auto
   hideColorSchemeToggle: false
-  customSCSS:
-    - scss/custom.scss
+
+  bookDisclaimer: "These are rough reading notes, not a polished review."
+  tagsExplainerPath: /reflections/how-i-use-tags/
 
   social:
     - name: GitHub
@@ -30,11 +31,6 @@ params:
       weight: 2
       url: "https://www.linkedin.com/in/western-wilson"
       icon: fa-brands fa-linkedin
-      rel: me noopener
-    - name: Instagram
-      weight: 3
-      url: "https://www.instagram.com/western.wilson"
-      icon: fa-brands fa-instagram
       rel: me noopener
     - name: Goodreads
       weight: 4

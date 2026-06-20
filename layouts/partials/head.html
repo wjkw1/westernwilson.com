@@ -1,7 +1,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ if not .IsHome }}{{ .Title }} · {{ end }}{{ .Site.Title }}</title>
+{{ with .Description | default .Params.description }}
+<meta name="description" content="{{ . | markdownify | plainify }}">
+{{ else }}
 {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+{{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
 {{ with .Site.Params.favicon }}<link rel="icon" href="{{ . | absURL }}">{{ end }}
 

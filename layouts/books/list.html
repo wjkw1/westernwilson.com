@@ -3,11 +3,9 @@
   <h1 class="font-display text-lg uppercase font-semibold mt-0 mb-3">
     {{ .Title }}
   </h1>
-  <p class="text-muted text-sm mb-8 leading-relaxed">
-      The <span class="font-semibold italic">books</span> section holds running
-      notes & quotes from some of the books that I've read. It's also where I
-      reflect on the ideas that interest me.
-    </p>
+  {{ with .Params.description }}
+  <p class="text-muted text-sm mb-8 leading-relaxed">{{ . | markdownify }}</p>
+  {{ end }}
   <ul class="list-none m-0 p-0">
     {{ range .Pages }}
     <li class="py-5 border-b border-base last:border-b-0">
@@ -31,18 +29,8 @@
           <span class="text-muted italic text-sm whitespace-nowrap"
             >Read {{ . | time.Format "Jan 2006" }}</span
           >
-          {{ end }} {{ with .Params.rating }} {{ $rating := . }} {{ $floor :=
-          int (math.Floor $rating) }} {{ $hasFraction := gt (sub $rating
-          (math.Floor $rating)) 0.0 }}
-          <div class="flex items-center gap-0.5 text-accent">
-            {{ range $i := seq 1 5 }} {{ if le $i $floor }}
-            <i class="fa-solid fa-star text-xs"></i>
-            {{ else if and $hasFraction (eq $i (add $floor 1)) }}
-            <i class="fa-solid fa-star-half-stroke text-xs"></i>
-            {{ else }}
-            <i class="fa-regular fa-star text-xs"></i>
-            {{ end }} {{ end }}
-          </div>
+          {{ end }} {{ with .Params.rating }}
+          {{ partial "star-rating.html" (dict "rating" .) }}
           {{ end }}
         </div>
       </div>

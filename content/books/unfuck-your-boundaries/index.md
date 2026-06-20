@@ -1,7 +1,6 @@
 ---
 title: "Unfuck Your Boundaries"
 date: 2026-03-28
-author: "Western Wilson"
 draft: false
 bookAuthor: "Faith G. Harper"
 bookDescription: "A practical, no-nonsense guide to understanding, setting, and maintaining healthy boundaries across all areas of life."

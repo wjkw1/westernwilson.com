@@ -2,7 +2,6 @@
 title: "Migration to Webflow & Hugo"
 date: 2025-07-06
 lastmod: 2026-03-17
-author: "Western Wilson"
 tags: ["devtools", "meta"]
 draft: false
 ---

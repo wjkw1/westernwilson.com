@@ -1,7 +1,6 @@
 ---
 title: "Linting and formatting code"
 date: 2026-04-02
-author: "Western Wilson"
 slug: "linting-and-formatting"
 tags: ["devops", "devtools"]
 ---

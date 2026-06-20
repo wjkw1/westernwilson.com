@@ -2,7 +2,6 @@
 title: "Unleashing the Writer Within: How ChatGPT Transformed My Writing"
 date: 2023-11-06
 lastmod: 2026-04-03
-author: "Western Wilson"
 tags: ["ai","writing"]
 draft: false
 ---

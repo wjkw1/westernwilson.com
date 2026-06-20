@@ -1,7 +1,6 @@
 ---
 title: "I feel silly about how I used to use AI"
 date: 2024-10-24
-author: "Western Wilson"
 tags: ["ai", "writing"]
 draft: false
 ---

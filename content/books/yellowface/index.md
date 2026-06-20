@@ -1,7 +1,6 @@
 ---
 title: "Yellowface"
 date: 2026-03-18
-author: "Western Wilson"
 draft: false
 bookAuthor: "R.F. Kuang"
 bookDescription: "A white author steals her deceased colleague's manuscript and publishes it under a fabricated ethnic identity, spiraling into deception and moral corruption."

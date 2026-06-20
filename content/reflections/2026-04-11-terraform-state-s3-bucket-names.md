@@ -1,7 +1,6 @@
 ---
 title: "Terraform state s3 bucket naming convention"
 date: 2026-04-11
-author: "Western Wilson"
 slug: "terraform-state-s3-bucket-naming-convention"
 tags: ["definitions", "devops", "coffee-app"]
 ---

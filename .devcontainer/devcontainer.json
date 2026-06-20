@@ -1,0 +1,68 @@
+{
+  // devcontainer.json supports comments (JSONC) — VS Code / Dev Containers read them fine.
+  "name": "agent-codey",
+
+  // Microsoft's maintained Ubuntu base. Ships a non-root `vscode` user,
+  // which we run as below (required if you ever use --dangerously-skip-permissions).
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+
+  "features": {
+    // zsh + oh-my-zsh, set as the default shell. Also wires up the vscode user.
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": true,
+      "configureZshAsDefaultShell": true,
+      "username": "vscode"
+    },
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.12"
+    },
+
+    "ghcr.io/devcontainers/features/node:2": {
+      "version": "lts"
+    },
+
+    "ghcr.io/devcontainers/features/aws-cli:1": {},
+    "ghcr.io/devcontainers/features/azure-cli:1": {},
+    "ghcr.io/devcontainers/features/terraform:1": {},
+    "ghcr.io/devcontainers/features/hugo:1": {},
+
+    // kubectl (+ helm). minikube off — flip to "latest" if you want a local cluster.
+    "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {
+      "minikube": "none"
+    },
+
+    // Claude Code as the feature, so it auto-updates inside the container.
+    "ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {}
+  },
+
+  // Non-root user. Keep this set.
+  "remoteUser": "vscode",
+
+  // Persist Claude Code auth, settings, and session history across rebuilds so you
+  // don't re-login every time. ${devcontainerId} keeps it isolated per project.
+  "mounts": [
+    "source=claude-code-config-${devcontainerId},target=/home/vscode/.claude,type=volume"
+  ],
+
+  "runArgs": ["--cap-add=NET_ADMIN", "--cap-add=NET_RAW"],
+  "postCreateCommand": "sudo chown -R vscode:vscode /home/vscode/.claude && zsh .devcontainer/post-create.sh",
+  "postStartCommand": "sudo zsh .devcontainer/init-firewall.sh",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "bradlc.vscode-tailwindcss",
+        "hashicorp.terraform",
+        "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "esbenp.prettier-vscode",
+        "charliermarsh.ruff",
+        "github.vscode-github-actions",
+        "amazonwebservices.aws-toolkit-vscode",
+        "golang.go"
+      ]
+    }
+  }
+}

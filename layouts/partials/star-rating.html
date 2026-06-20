@@ -1,0 +1,25 @@
+{{- /*
+  Renders a 5-star rating display.
+  Params (passed via dict):
+    rating     (float, required) - e.g. 4.5
+    size       (string, optional) - Tailwind text-size class, default "text-xs"
+    showLabel  (bool, optional) - append "X/5" text label, default false
+*/ -}}
+{{ $rating := .rating }}
+{{ $size := .size | default "text-xs" }}
+{{ $floor := int (math.Floor $rating) }}
+{{ $hasFraction := gt (sub $rating (math.Floor $rating)) 0.0 }}
+<div class="flex items-center gap-0.5 text-accent">
+  {{ range $i := seq 1 5 }}
+    {{ if le $i $floor }}
+    <i class="fa-solid fa-star {{ $size }}"></i>
+    {{ else if and $hasFraction (eq $i (add $floor 1)) }}
+    <i class="fa-solid fa-star-half-stroke {{ $size }}"></i>
+    {{ else }}
+    <i class="fa-regular fa-star {{ $size }}"></i>
+    {{ end }}
+  {{ end }}
+  {{ if .showLabel }}
+  <span class="text-muted {{ $size }} ml-1.5">{{ $rating }}/5</span>
+  {{ end }}
+</div>

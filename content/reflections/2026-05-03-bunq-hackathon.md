@@ -2,7 +2,6 @@
 title: "Deciding what to keep"
 date: 2026-05-03
 lastmod: 2026-05-19
-author: "Western Wilson"
 slug: "bunq-hackathon-7"
 tags: ["ai", "devops", "hackathon"]
 ---

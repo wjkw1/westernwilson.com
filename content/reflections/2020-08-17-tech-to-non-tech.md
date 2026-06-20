@@ -2,7 +2,6 @@
 title: Talking Tech, to Non-Tech
 date: 2020-08-17
 lastmod: 2026-03-18
-author: "Western Wilson"
 tags: ["communication", "career"]
 draft: false
 ---

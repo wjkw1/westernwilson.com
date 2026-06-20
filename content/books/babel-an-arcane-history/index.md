@@ -1,7 +1,6 @@
 ---
 title: "Babel: An Arcane History"
 date: 2026-05-04
-author: "Western Wilson"
 draft: false
 bookAuthor: "R.F. Kuang"
 bookDescription: "A historical fantasy set in 1828 Oxford, following Robin Swift—an orphaned Chinese boy recruited to study at Babel, the Royal Institute of Translation. Silver-working magic fuels the British Empire, and Robin must choose between serving the institution or joining the resistance against colonial violence."

@@ -1,7 +1,6 @@
 ---
 title: "DevOps vs Platform vs Infrastructure Engineer"
 date: 2026-06-09
-author: "Western Wilson"
 slug: "devops-vs-platform-vs-infrastructure-engineer"
 tags: ["devops", "career"]
 ---

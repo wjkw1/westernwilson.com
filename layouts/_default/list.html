@@ -1,15 +1,9 @@
 {{ define "main" }}
 <div>
   <h1 class="font-display text-lg uppercase font-semibold mt-0 mb-3">{{ .Title }}</h1>
-  <!-- Recent reflections -->
-  {{ $reflections := where .Site.RegularPages "Section" "reflections" }}
-  {{ if $reflections }}
-  <p class="text-muted text-sm mb-8 leading-relaxed">
-      The word <span class="font-semibold italic">reflections</span> carries a quieter, more inward energy. It implies that you're 
-      writing for the process of thinking, not for an audience or an outcome.
-  </p>
+  {{ with .Params.description }}
+  <p class="text-muted text-sm mb-8 leading-relaxed">{{ . | markdownify }}</p>
   {{ end }}
-
 
   <ul class="list-none m-0 p-0">
     {{ range .Pages }}

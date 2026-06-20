@@ -1,7 +1,6 @@
 ---
 title: "The Great Mental Models"
 date: 2026-03-21
-author: "Western Wilson"
 draft: false
 bookAuthor: "Shane Parrish"
 bookDescription: "A toolkit of timeless thinking frameworks (from first principles to inversion) for making better decisions in any situation."
