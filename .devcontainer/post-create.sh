@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-echo "Enabling corepack and preparing pnpm..."
-corepack enable
-corepack prepare pnpm@latest --activate
+echo "Setting up Claude Code auth, settings, and session history persistence..."
+sudo chown -R vscode:vscode /home/vscode/.claude
 
 echo "Setting up git aliases..."
 git config --global user.name "wjkw1"
@@ -34,3 +33,14 @@ alias t=terraform
 source <(kubectl completion zsh)
 compdef k=kubectl
 EOF
+
+echo "Freezing init-firewall.sh outside the workspace mount..."
+sudo install -o root -g root -m 0755 \
+    "${PWD}/.devcontainer/init-firewall.sh" /usr/local/sbin/init-firewall.sh
+
+echo "Restricting passwordless sudo to the frozen firewall script only..."
+sudo tee /etc/sudoers.d/vscode > /dev/null <<'EOF'
+vscode ALL=(root) NOPASSWD: /usr/local/sbin/init-firewall.sh
+EOF
+sudo chmod 0440 /etc/sudoers.d/vscode
+sudo visudo -c

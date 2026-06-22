@@ -1,6 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
 echo "Setting up firewall rules to restrict outbound traffic to only allowed domains..."
 # 1. Extract Docker DNS info BEFORE any flushing
-DOCKER_DNS_RULES=$(sudo iptables-save -t nat | grep "127\.0\.0\.11" || true)
+DOCKER_DNS_RULES=$(iptables-save -t nat | grep "127\.0\.0\.11" || true)
 
 # Flush existing rules and delete existing ipsets
 iptables -F
@@ -59,7 +62,7 @@ while read -r cidr; do
         exit 1
     fi
     echo "Adding GitHub range $cidr"
-    ipset add allowed-domains "$cidr"
+    ipset add allowed-domains "$cidr" -exist
 done < <(echo "$gh_ranges" | jq -r '(.web + .api + .git)[]' | aggregate -q)
 
 # Resolve and add other allowed domains
@@ -84,9 +87,10 @@ for domain in \
         if [[ ! "$ip" =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]]; then
             echo "ERROR: Invalid IP from DNS for $domain: $ip"
             exit 1
+            
         fi
         echo "Adding $ip for $domain"
-        ipset add allowed-domains "$ip"
+        ipset add allowed-domains "$ip" -exist
     done < <(echo "$ips")
 done
 
@@ -101,23 +105,23 @@ HOST_NETWORK=$(echo "$HOST_IP" | sed "s/\.[0-9]*$/.0\/24/")
 echo "Host network detected as: $HOST_NETWORK"
 
 # Set up remaining iptables rules
-sudo iptables -A INPUT -s "$HOST_NETWORK" -j ACCEPT
-sudo iptables -A OUTPUT -d "$HOST_NETWORK" -j ACCEPT
+iptables -A INPUT -s "$HOST_NETWORK" -j ACCEPT
+iptables -A OUTPUT -d "$HOST_NETWORK" -j ACCEPT
 
 # Set default policies to DROP first
-sudo iptables -P INPUT DROP
-sudo iptables -P FORWARD DROP
-sudo iptables -P OUTPUT DROP
+iptables -P INPUT DROP
+iptables -P FORWARD DROP
+iptables -P OUTPUT DROP
 
 # First allow established connections for already approved traffic
-sudo iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
-sudo iptables -A OUTPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+iptables -A OUTPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
 
 # Then allow only specific outbound traffic to allowed domains
-sudo iptables -A OUTPUT -m set --match-set allowed-domains dst -j ACCEPT
+iptables -A OUTPUT -m set --match-set allowed-domains dst -j ACCEPT
 
 # Explicitly REJECT all other outbound traffic for immediate feedback
-sudo iptables -A OUTPUT -j REJECT --reject-with icmp-admin-prohibited
+iptables -A OUTPUT -j REJECT --reject-with icmp-admin-prohibited
 
 echo "Firewall configuration complete"
 echo "Verifying firewall rules..."
