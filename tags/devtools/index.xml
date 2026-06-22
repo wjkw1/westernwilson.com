@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devtools on Western Wilson</title><link>https://westernwilson.com/tags/devtools/</link><description>Recent content in Devtools on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/devtools/index.xml" rel="self" type="application/rss+xml"/><item><title>Containerising my coding agent</title><link>https://westernwilson.com/reflections/containerising-my-coding-agent/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/containerising-my-coding-agent/</guid><description>&lt;p&gt;I containerised Claude Code this week because I wanted to let it run with fewer guardrails and not hand it unlimited access the rest of my machine. There&amp;rsquo;s a &lt;a href="https://news.ycombinator.com/item?id=46268222"&gt;Hacker News thread&lt;/a&gt; from 6 months ago about someone running Claude in yolo mode who asked it to clean something up and watched it &lt;code&gt;rm -rf&lt;/code&gt; their home directory 😅. So let&amp;rsquo;s aim to at least avoid that.&lt;/p&gt;
-&lt;p&gt;One way to protect against it is by containerising my dev environment to lock down Claude. Thankfully, I found &lt;a href="https://containers.dev"&gt;Dev Containers&lt;/a&gt;, which turned into its own rabbit hole but means I don&amp;rsquo;t have to maintain my own docker image.&lt;/p&gt;</description></item><item><title>Tools &amp; Tech</title><link>https://westernwilson.com/techstack/</link><pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/techstack/</guid><description>&lt;p&gt;A snapshot of the tools, languages, and tech I&amp;rsquo;m currently using or exploring. For what I&amp;rsquo;m up to right now, see my &lt;a href="https://westernwilson.com/now/"&gt;/now&lt;/a&gt; page.&lt;/p&gt;
-&lt;h2 id="hardware--software-of-choice"&gt;Hardware &amp;amp; software of choice&lt;/h2&gt;
+&lt;p&gt;Thankfully, I found &lt;a href="https://containers.dev"&gt;Dev Containers&lt;/a&gt;, which turned into its own rabbit hole but lets us lock down Claude without having to maintain our own docker image.&lt;/p&gt;</description></item><item><title>Tools &amp; Tech</title><link>https://westernwilson.com/techstack/</link><pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/techstack/</guid><description>&lt;p&gt;A snapshot of the tools, languages, and tech I&amp;rsquo;m currently using or exploring. For what I&amp;rsquo;m up to right now, see my &lt;a href="https://westernwilson.com/now/"&gt;/now&lt;/a&gt; page.&lt;/p&gt;
+&lt;h2 id="hardware--software-of-choice" class="group relative scroll-mt-20"&gt;
+ Hardware &amp;amp; software of choice
+ &lt;a
+ href="#hardware--software-of-choice"
+ class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+ aria-label="Link to this heading"
+ &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Macbook Pro 16&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://anytype.io"&gt;AnyType&lt;/a&gt; for personal notes&lt;/li&gt;
@@ -9,7 +16,14 @@
 &lt;li&gt;&lt;a href="https://arc.net"&gt;Arc&lt;/a&gt; browser&lt;/li&gt;
 &lt;li&gt;Kindle ereader (11th Gen Paperwhite)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="technical-stack"&gt;Technical Stack&lt;/h2&gt;
+&lt;h2 id="technical-stack" class="group relative scroll-mt-20"&gt;
+ Technical Stack
+ &lt;a
+ href="#technical-stack"
+ class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+ aria-label="Link to this heading"
+ &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Cloud &amp;amp; Infrastructure:&lt;/strong&gt; &lt;a href="https://aws.amazon.com"&gt;AWS&lt;/a&gt; (&lt;a href="https://aws.amazon.com/eks/"&gt;EKS&lt;/a&gt;, &lt;a href="https://aws.amazon.com/iam/"&gt;IAM&lt;/a&gt;, &lt;a href="https://aws.amazon.com/rds/"&gt;RDS&lt;/a&gt;), &lt;a href="https://developer.hashicorp.com/terraform"&gt;Terraform&lt;/a&gt;, &lt;a href="https://www.docker.com"&gt;Docker&lt;/a&gt;, &lt;a href="https://kubernetes.io"&gt;Kubernetes&lt;/a&gt;, &lt;a href="https://helm.sh"&gt;Helm&lt;/a&gt;, &lt;a href="https://www.postgresql.org"&gt;PostgreSQL&lt;/a&gt;, &lt;a href="https://www.openstack.org"&gt;OpenStack&lt;/a&gt;, &lt;a href="https://cloud.google.com"&gt;GCP&lt;/a&gt; (wanting to learn)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;CI/CD&lt;/strong&gt;: &lt;a href="https://github.com/features/actions"&gt;GitHub Actions&lt;/a&gt;, &lt;a href="https://www.jetbrains.com/teamcity/"&gt;TeamCity&lt;/a&gt;, &lt;a href="https://octopus.com"&gt;Octopus Deploy&lt;/a&gt;&lt;/li&gt;
@@ -18,13 +32,34 @@
 &lt;li&gt;&lt;strong&gt;Practices&lt;/strong&gt;: REST API Design • Infrastructure as Code • Observability • Security Controls • Agile/Scrum&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Also worked with:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Linting and formatting code</title><link>https://westernwilson.com/reflections/linting-and-formatting/</link><pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/linting-and-formatting/</guid><description>&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; Code style and formatting should &lt;strong&gt;not&lt;/strong&gt; steal your brainpower. Set up linting/formatting at three touchpoints (your editor, your pre-commit hook, and your CI pipeline) and formatting becomes automatic from the moment you write code to the moment it merges. At the end, this reflection walks through exactly how to do that for a Python &lt;a href="https://fastapi.tiangolo.com"&gt;FastAPI&lt;/a&gt; project.&lt;/p&gt;
-&lt;h2 id="linting-and-formatting-code"&gt;Linting and formatting code&lt;/h2&gt;
+&lt;h2 id="linting-and-formatting-code" class="group relative scroll-mt-20"&gt;
+ Linting and formatting code
+ &lt;a
+ href="#linting-and-formatting-code"
+ class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+ aria-label="Link to this heading"
+ &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;Recently, while working on a &lt;a href="https://github.com/wjkw1/devops-profile-coffee-card-app-demo"&gt;personal DevOps project&lt;/a&gt;, I spent some time looking into linting tools. They amazingly save your brainpower for the actual problem, instead of code styling. Whether it&amp;rsquo;s two spaces or four per indent, single quotes or double, I don&amp;rsquo;t mind. Other people have thought deeply about these trade-offs, landed on reasonable answers, and codified them. I&amp;rsquo;m happy to piggyback on that.&lt;/p&gt;</description></item><item><title>AnyType setup with PARA</title><link>https://westernwilson.com/reflections/2025-07-12-anytype-with-para/</link><pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2025-07-12-anytype-with-para/</guid><description>&lt;p&gt;Find out how I use Tiago Forte&amp;rsquo;s PARA methodology to organise my notes inside AnyType.
 If it&amp;rsquo;s your first time hearing about PARA and AnyType, then lucky you!&lt;/p&gt;
-&lt;h2 id="setting-the-scene"&gt;Setting the scene&lt;/h2&gt;
+&lt;h2 id="setting-the-scene" class="group relative scroll-mt-20"&gt;
+ Setting the scene
+ &lt;a
+ href="#setting-the-scene"
+ class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+ aria-label="Link to this heading"
+ &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;First a bit of background, I&amp;rsquo;m a copious note-taker. I&amp;rsquo;ve been this way ever since I was a wee boy. Writing notes helped me focus on the speaker better, even when my notes tended to be more of a gibberish scribble and mostly illegible for future Western.
 With physical note taking however I would consistently forget my notebooks and have to write on spare paper. Then I&amp;rsquo;d lose the spare paper and the state of my notes was a mixed bag.
 So, I shifted to digital notes to try solve this problem. What have I tried? &lt;a href="https://drive.google.com"&gt;Google Docs and Drive&lt;/a&gt;, &lt;a href="https://www.microsoft.com/en-us/microsoft-365/onenote"&gt;OneNote&lt;/a&gt;, &lt;a href="https://www.bookstackapp.com"&gt;BookStack&lt;/a&gt;, &lt;a href="https://js.wiki"&gt;Wiki.js&lt;/a&gt;, &lt;a href="https://www.atlassian.com/software/confluence"&gt;Confluence&lt;/a&gt;, &lt;a href="https://www.notion.so"&gt;Notion&lt;/a&gt;, &lt;a href="https://evernote.com"&gt;Evernote&lt;/a&gt;, &lt;a href="https://obsidian.md"&gt;Obsidian&lt;/a&gt;, &lt;a href="https://keep.google.com"&gt;Google Keep&lt;/a&gt;, and others.&lt;/p&gt;</description></item><item><title>Migration to Webflow &amp; Hugo</title><link>https://westernwilson.com/reflections/2025-07-6-migrating-to-webflow/</link><pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2025-07-6-migrating-to-webflow/</guid><description>&lt;p&gt;&lt;em&gt;Update 2026: Turns out Webflow and I didn&amp;rsquo;t get along for long. My workflow is drafting everything in AnyType, but copy-pasting from there into Webflow was a mess. I&amp;rsquo;d spend more time cleaning up the output than actually writing. The custom domain redirect situation was also irking me. So, true to form, I redesigned and migrated again, this time to &lt;a href="https://gohugo.io"&gt;Hugo&lt;/a&gt;. Make of that what you will.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;My website has gone through many iterations and frameworks:&lt;/p&gt;</description></item><item><title>Supercharge Your SSH with VS Code</title><link>https://westernwilson.com/reflections/2023-10-29-ssh-using-vscode/</link><pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2023-10-29-ssh-using-vscode/</guid><description>&lt;p&gt;&lt;em&gt;Have you ever wished you could use the full feature set of Visual Studio Code (VS Code) while connecting to remote servers via SSH? If you&amp;rsquo;re a developer or sysadmin, you&amp;rsquo;ll appreciate the productivity boost this can bring. In this blog post, we&amp;rsquo;ll walk you through the process of setting up VS Code as your primary SSH tool for both work and home use. Let&amp;rsquo;s dive in!&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;h2 id="overview" class="group relative scroll-mt-20"&gt;
+ Overview
+ &lt;a
+ href="#overview"
+ class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+ aria-label="Link to this heading"
+ &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;VS Code is renowned for its versatility and has extensions for all types of development activities. This guide will show you how to harness its power as an SSH client, giving you a seamless development experience on remote servers.&lt;/p&gt;</description></item></channel></rss>
