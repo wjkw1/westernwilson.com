@@ -7,9 +7,9 @@ tags: ["ai", "devtools", "devops"]
 
 I containerised Claude Code this week because I wanted to let it run with fewer guardrails and not hand it unlimited access the rest of my machine. There's a [Hacker News thread](https://news.ycombinator.com/item?id=46268222) from 6 months ago about someone running Claude in yolo mode who asked it to clean something up and watched it `rm -rf` their home directory 😅. So let's aim to at least avoid that.
 
-One way to protect against it is by containerising my dev environment to lock down Claude. Thankfully, I found [Dev Containers](https://containers.dev), which turned into its own rabbit hole but means I don't have to maintain my own docker image.
+Thankfully, I found [Dev Containers](https://containers.dev), which turned into its own rabbit hole but lets us lock down Claude without having to maintain our own docker image.
 
-This reflection post talks through the containerised setup and some issues I faced while setting it up. All of it is in this website's github repo's [.devcontainer/](https://github.com/wjkw1/westernwilson.com/tree/main/.devcontainer) directory if you want to skip ahead.
+This reflection post talks through the containerised setup and some issues I faced while setting it up. If you just want the solution, then the implementation is in the [.devcontainer/](https://github.com/wjkw1/westernwilson.com/tree/main/.devcontainer) directory of this website's source code.
 
 ## Feature or docker image?
 
