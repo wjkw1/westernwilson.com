@@ -17,8 +17,8 @@ git config --global alias.unstage "reset HEAD --"
 git config --global alias.last "log -1 HEAD"
 git config --global alias.lg "log --oneline --graph --decorate"
 
-git config --global commit.gpgsign true
-git config --global tag.gpgsign true
+git config --global commit.gpgsign false
+git config --global tag.gpgsign false
 
 
 

@@ -1,0 +1,8 @@
+<h{{ .Level }} id="{{ .Anchor }}" class="group relative scroll-mt-20">
+  {{ .Text | safeHTML }}
+  <a
+    href="#{{ .Anchor }}"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h{{ .Level }}>
