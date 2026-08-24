@@ -1,46 +1,37 @@
 ---
 title: "Now"
-date: 2026-06-16
+date: 2026-08-24
 slug: "now"
 ---
 
 > Add your own [/now](https://nownownow.com/about`) page to your personal website too! Inspired by [Derek Sivers](https://sive.rs/about)
 
-I'm in the Balkans and you can feel the summer heat already, daily temps over 30℃. Thankfully I love the sun, the mornings are cool enough, and the nights are still pleasant to roam around.
-
 ## What I'm doing
 
-I'm continuing to do all the things I enjoy: coding, learning, reading, exercising, cooking, and exploring. I use [pomodoro timers](https://www.flow.app) to gamify my days between job searching, coding, and learning.
+Moving through life with more intention: coding, learning, reading, exercising, cooking, and exploring.
+
+I use [pomodoro timers](https://www.flow.app) to gamify focus time across my days.
 
 ## Career move
 
-I'm actively looking for my next DevOps, Platform, or Infra Engineer role with the goal to land one in the Netherlands!
+Finally in Amsterdam after a month in Belgrade Serbia!! We landed a Cloud Engineer role and are exploring a new normal.
 
-## Travelling Europe and the Balkans
+## Routine
 
-I've been travelling through Europe and the Balkans, and wrote up some highlights in a [reflection post](/reflections/travelling-europe-and-the-balkans).
+> You do not rise to the level of your goals. You fall to the level of your systems - James Clear
 
-## Mātou project
+A routine is something I've been iterating on for years. Some stuff stuck, other stuff didn't. This latest iteration is the culmination of all my efforts and I'm really happy with it.
 
-I am focused on contributing to this project to help drive technology adoption for communities wanting sovereigty over their tech stack. Focusing on a new area of technology (Web3) that I've not proper explored yet, but am excited to!
+For me, it's about creating a routine that supports what you want to get out of life!
 
-You can find out more here: <https://www.matou.nz/>
+There is freedom in having a thought out structure to life.
 
-## DevOps project on AWS
+Each person's ideal routine should be built on their specific situation, so I won't share mine here. But DM or email me if you're interested and I'll share it with you.
 
-Two repos I've been working on that are worth checking out if DevOps stuff interests you:
+## Game Dev
 
-- <https://github.com/wjkw1/aws-foundations>
-- <https://github.com/wjkw1/devops-profile-coffee-card-app-demo>
-
-## Picking up Azure
-
-Since a lot of DevOps roles in the Netherlands lean on Azure as the primary cloud provider, I've started getting hands-on with it to complement my AWS experience.
-
-## AI Fluency
-
-Keeping up with AI news is a different game compared to building with AI tools. I'm focused on building up my AI fluency to learn how to work effectively with Claude Code as part of my day-to-day workflow.
+I have an idea for a videogame that I'm working on, it requires learning more about game development, watch this space!
 
 ## Tools & tech
 
-I've moved the rundown of my tech tooling and stack to its own page: [Tech Stack](/techstack/).
+See the tech I'm using here: [Tech Stack](/techstack/).
