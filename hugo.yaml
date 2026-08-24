@@ -57,3 +57,14 @@ menu:
     - name: Techstack
       weight: 4
       url: /techstack/
+
+security:
+  exec:
+    allow:
+      - '^(dart-)?sass$'
+      - '^go$'
+      - '^git$'
+      - '^node$'
+      - '^npx$'
+      - '^postcss$'
+      - '^tailwindcss$'
