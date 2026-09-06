@@ -1,37 +1,28 @@
 ---
 title: "Now"
-date: 2026-08-24
+date: 2026-09-06
 slug: "now"
+subtitle: "Inspired by [Derek Sivers](https://sive.rs/about) — add your own [/now](https://nownownow.com/about) page to your personal website too!"
 ---
 
-> Add your own [/now](https://nownownow.com/about`) page to your personal website too! Inspired by [Derek Sivers](https://sive.rs/about)
+## Amsterdam
 
-## What I'm doing
+Finally in Amsterdam after an extended stay in Belgrade, Serbia!! I've accepted a Cloud Engineer role at [Sensys Gatso Group](https://www.sensysgatso.com/) and I'm building a new normal around it.
 
-Moving through life with more intention: coding, learning, reading, exercising, cooking, and exploring.
-
-I use [pomodoro timers](https://www.flow.app) to gamify focus time across my days.
-
-## Career move
-
-Finally in Amsterdam after a month in Belgrade Serbia!! We landed a Cloud Engineer role and are exploring a new normal.
+Moving through life with more intention. At the moment that means focusing on Health (sleep hygiene and training), learning fast in the new role, and reading well: the Jane Austen classics and the Bible.
 
 ## Routine
 
-> You do not rise to the level of your goals. You fall to the level of your systems - James Clear
-
-A routine is something I've been iterating on for years. Some stuff stuck, other stuff didn't. This latest iteration is the culmination of all my efforts and I'm really happy with it.
-
-For me, it's about creating a routine that supports what you want to get out of life!
-
 There is freedom in having a thought out structure to life.
 
-Each person's ideal routine should be built on their specific situation, so I won't share mine here. But DM or email me if you're interested and I'll share it with you.
+A routine is something I've been iterating on for years. This latest iteration is the culmination of all my efforts and I'm really happy with it.
 
-## Game Dev
+Up with the sun, creatine and amino water, no phone for the first hour. Journal and walk before the office 2-3 days a week with consistent hours, gym on the days I'm home. Game dev after work, no screens from 9pm, then reading before bed. Fasting until lunch, eating only between 12pm and 6pm.
 
-I have an idea for a videogame that I'm working on, it requires learning more about game development, watch this space!
+I use pomodoro timers to gamify focus time across my days.
 
-## Tools & tech
+## Building
+
+I'm making a 2D exploration golf game in the [Godot](https://godotengine.org) engine!! It's built around a swing mechanic I haven't seen anywhere else in my research. Watch this space.
 
 See the tech I'm using here: [Tech Stack](/techstack/).
