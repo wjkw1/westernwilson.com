@@ -708,6 +708,9 @@
   .hidden {
     display: none;
   }
+  .inline {
+    display: inline;
+  }
   .h-5 {
     height: calc(var(--spacing) * 5);
   }
