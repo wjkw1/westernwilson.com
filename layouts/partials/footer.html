@@ -9,6 +9,13 @@
         </a>
       </li>
       {{ end }}
+      {{ with site.Home.OutputFormats.Get "rss" }}
+      <li>
+        <a href="{{ .RelPermalink }}" type="{{ .MediaType.Type }}" aria-label="RSS feed" class="text-lg text-muted! no-underline! hover:text-accent!">
+          <i class="fa-solid fa-rss"></i>
+        </a>
+      </li>
+      {{ end }}
     </ul>
     {{ end }}
     <p class="text-sm text-muted m-0">© {{ now.Year }} {{ .Site.Params.author }}</p>
