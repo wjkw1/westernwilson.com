@@ -15,10 +15,15 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
 
 <script>
+  // Apply the saved color scheme before first paint to avoid a flash.
+  // "light" / "dark" pin the scheme; no saved value means follow the system.
   (function() {
-    var saved = localStorage.getItem('theme');
-    if (saved === 'dark' || saved === 'light') {
-      document.documentElement.setAttribute('data-theme', saved);
-    }
+    try {
+      localStorage.removeItem('theme'); // legacy key that pinned every visitor
+      var pref = localStorage.getItem('color-scheme');
+      if (pref === 'dark' || pref === 'light') {
+        document.documentElement.setAttribute('data-theme', pref);
+      }
+    } catch (e) {}
   })();
 </script>
