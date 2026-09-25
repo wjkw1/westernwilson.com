@@ -43,8 +43,8 @@
       {{ end }}
 
       <!-- Theme toggle (always visible) -->
-      <button id="theme-toggle" aria-label="Toggle color scheme" class="text-muted hover:text-accent! cursor-pointer bg-transparent border-0 p-0 leading-none">
-        <i id="theme-icon" class="fa-solid fa-moon text-sm"></i>
+      <button id="theme-toggle" aria-label="Color scheme: System" title="Color scheme: System" class="text-muted hover:text-accent! cursor-pointer bg-transparent border-0 p-0 leading-none">
+        <i id="theme-icon" class="fa-solid fa-circle-half-stroke text-sm" aria-hidden="true"></i>
       </button>
     </div>
   </div>
@@ -73,27 +73,45 @@
       var btn = document.getElementById("theme-toggle");
       var icon = document.getElementById("theme-icon");
 
-      function getEffective() {
-        var saved = localStorage.getItem("theme");
-        if (saved) return saved;
-        return window.matchMedia("(prefers-color-scheme: dark)").matches
-          ? "dark"
-          : "light";
+      // Color scheme preference: "system" (default), "light" or "dark".
+      // Clicking cycles System -> Light -> Dark -> System.
+      var SCHEMES = {
+        system: { label: "System", icon: "fa-circle-half-stroke", next: "light" },
+        light: { label: "Light", icon: "fa-sun", next: "dark" },
+        dark: { label: "Dark", icon: "fa-moon", next: "system" },
+      };
+
+      function getPreference() {
+        try {
+          var pref = localStorage.getItem("color-scheme");
+          if (pref === "light" || pref === "dark") return pref;
+        } catch (e) {}
+        return "system";
       }
 
-      function applyTheme(theme) {
-        document.documentElement.setAttribute("data-theme", theme);
-        localStorage.setItem("theme", theme);
-        icon.className =
-          theme === "dark"
-            ? "fa-solid fa-sun text-sm"
-            : "fa-solid fa-moon text-sm";
+      function applyPreference(pref) {
+        var root = document.documentElement;
+        if (pref === "system") root.removeAttribute("data-theme");
+        else root.setAttribute("data-theme", pref);
+
+        var scheme = SCHEMES[pref];
+        var label =
+          "Color scheme: " + scheme.label +
+          " (switch to " + SCHEMES[scheme.next].label + ")";
+        icon.className = "fa-solid " + scheme.icon + " text-sm";
+        btn.setAttribute("aria-label", label);
+        btn.setAttribute("title", label);
       }
 
-      applyTheme(getEffective());
+      applyPreference(getPreference());
 
       btn.addEventListener("click", function () {
-        applyTheme(getEffective() === "dark" ? "light" : "dark");
+        var next = SCHEMES[getPreference()].next;
+        try {
+          if (next === "system") localStorage.removeItem("color-scheme");
+          else localStorage.setItem("color-scheme", next);
+        } catch (e) {}
+        applyPreference(next);
       });
 
       var menuToggle = document.getElementById("menu-toggle");
