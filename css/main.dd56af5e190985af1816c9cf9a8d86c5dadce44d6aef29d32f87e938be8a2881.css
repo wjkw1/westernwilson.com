@@ -1081,6 +1081,7 @@
   --c-heading: #1E1008;
   --c-accent: #7A2535;
   --c-border: #D8CEBC;
+  color-scheme: light dark;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -1094,6 +1095,7 @@
   }
 }
 html[data-theme="dark"] {
+  color-scheme: dark;
   --c-bg: #1E1108;
   --c-bg-alt: #2E1C15;
   --c-text: #F0EAE2;
@@ -1103,6 +1105,7 @@ html[data-theme="dark"] {
   --c-border: #3A2018;
 }
 html[data-theme="light"] {
+  color-scheme: light;
   --c-bg: #F6F1E9;
   --c-bg-alt: #EBE5D9;
   --c-text: #2C1A0F;
