@@ -1,1 +1,207 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Career on Western Wilson</title><link>https://westernwilson.com/tags/career/</link><description>Recent content in Career on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/career/index.xml" rel="self" type="application/rss+xml"/><item><title>DevOps vs Platform vs Infrastructure Engineer</title><link>https://westernwilson.com/reflections/devops-vs-platform-vs-infrastructure-engineer/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/devops-vs-platform-vs-infrastructure-engineer/</guid><description>&lt;p&gt;I&amp;rsquo;ve been a DevOps &amp;amp; Infra Engineer for over 5 years. To me, it&amp;rsquo;s about helping developers move from code to production in the fastest, safest, most secure, and most reliable way possible. The job market seems a bit less certain about this definition however&amp;hellip;&lt;/p&gt;&#10;&lt;p&gt;Scrolling through job listings this past month, I noticed roles titled &lt;em&gt;DevOps Engineer&lt;/em&gt; or &lt;em&gt;Platform Engineer&lt;/em&gt; or &lt;em&gt;Infrastructure Engineer&lt;/em&gt; that were listed with almost identical responsibilities.&lt;/p&gt;</description></item><item><title>Developer dynamics</title><link>https://westernwilson.com/reflections/2023-10-28-developer-dynamics/</link><pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2023-10-28-developer-dynamics/</guid><description>&lt;p&gt;&lt;em&gt;Full disclosure, I first heard of these architypes from a workshop run in 2020 by &lt;a href="https://tuanz.org.nz/flint/flint-wellington/"&gt;FLINT Wellington&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#10;&lt;h1 id="types-of-developers-in-the-workplace" class="group relative scroll-mt-20"&gt;&#10; Types of Developers in the Workplace&#10; &lt;a&#10; href="#types-of-developers-in-the-workplace"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h1&gt;&#10;&lt;p&gt;In a dynamic and collaborative workplace, you&amp;rsquo;ll encounter various types of developers, each driven by different motivations and approaches to their work. Understanding these developer archetypes can help foster a more effective and harmonious team environment.&lt;/p&gt;</description></item><item><title>Talking Tech, to Non-Tech</title><link>https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/</link><pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/</guid><description>&lt;p&gt;&lt;em&gt;Early in my career, I attended a workshop where the goal was to bridge the gap between technical and non-technical people when discussing technical concepts. The session emphasized the use of analogies to explain concepts and catering to different learning styles, such as visual aids.&lt;/em&gt;&lt;/p&gt;&#10;&lt;h2 id="simplifying-technical-jargon" class="group relative scroll-mt-20"&gt;&#10; Simplifying Technical Jargon&#10; &lt;a&#10; href="#simplifying-technical-jargon"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;To communicate tech concepts to non-technical individuals, analogies are invaluable.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/tags/career/</link><description>Recent content in Career on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/career/index.xml" rel="self" type="application/rss+xml"/><item><title>DevOps vs Platform vs Infrastructure Engineer</title><link>https://westernwilson.com/reflections/devops-vs-platform-vs-infrastructure-engineer/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/devops-vs-platform-vs-infrastructure-engineer/</guid><description>&lt;p&gt;I&amp;rsquo;ve been a DevOps &amp;amp; Infra Engineer for over 5 years. To me, it&amp;rsquo;s about helping developers move from code to production in the fastest, safest, most secure, and most reliable way possible. The job market seems a bit less certain about this definition however&amp;hellip;&lt;/p&gt;&#10;&lt;p&gt;Scrolling through job listings this past month, I noticed roles titled &lt;em&gt;DevOps Engineer&lt;/em&gt; or &lt;em&gt;Platform Engineer&lt;/em&gt; or &lt;em&gt;Infrastructure Engineer&lt;/em&gt; that were listed with almost identical responsibilities.&lt;/p&gt;</description><content:encoded><![CDATA[<p>I&rsquo;ve been a DevOps &amp; Infra Engineer for over 5 years. To me, it&rsquo;s about helping developers move from code to production in the fastest, safest, most secure, and most reliable way possible. The job market seems a bit less certain about this definition however&hellip;</p>
+<p>Scrolling through job listings this past month, I noticed roles titled <em>DevOps Engineer</em> or <em>Platform Engineer</em> or <em>Infrastructure Engineer</em> that were listed with almost identical responsibilities.</p>
+<p>I know innately that these roles have some differences, but the titles are often used interchangeably by hiring teams.</p>
+<h2 id="where-devops-came-from" class="group relative scroll-mt-20">
+  Where DevOps came from
+  <a
+    href="#where-devops-came-from"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>DevOps is a word created from the combination of the words <strong>Developer</strong> and <strong>Operations</strong>. To understand why that portmanteau word became a job title, you need to understand the problem it was trying to solve.</p>
+<p>Traditionally, software teams were split in two. Developers wrote code in one room, and an <strong>Operations</strong> team —sometimes called Ops— deployed and ran that code in production. Each group had different incentives e.g. devs wanted to ship fast whilst ops wanted stability. That tension caused friction, slow releases, and potentially a blame culture when things broke.</p>
+<p>The DevOps movement, popularised in part by <em>The Phoenix Project</em> (Kim, Behr, Spafford, 2013) and <em>The DevOps Handbook</em>, proposed a cultural fix to tear down that wall. If developers owned their code all the way to production, they&rsquo;d build with operability in mind. They&rsquo;d care about deployment pipelines, alerting, and recovery because those things would become their problem too.</p>
+<p>DevOps is meant to be a shared practice of principles across teams, and not a single person&rsquo;s role. But organisations found it easier to spin up a DevOps teams or hire someone with the DevOps title who embodied that DevOps mindset to show some adoption of &ldquo;DevOps&rdquo; when it was first cool.</p>
+<h2 id="what-a-devops-engineer-actually-does" class="group relative scroll-mt-20">
+  What a DevOps Engineer actually does
+  <a
+    href="#what-a-devops-engineer-actually-does"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>In practice, the <strong>DevOps Engineer</strong> tends to be embedded within a product team, sometimes as the only person with that focus. Their job is improving the speed and safety of getting code from a developer&rsquo;s machine into production.</p>
+<p>That means CI/CD pipelines (think GitHub Actions, TeamCity, CircleCI, or similar), automated testing, deployment automation, monitoring and alerting, and security gates. If a developer is waiting too long for a build, or a deployment is a manual, error-prone process, the DevOps Engineer is the one called on.</p>
+<p>My own experience working in this role felt exactly like that: a solo DevOps expert embedded in a development team, focused on making the production path faster and more reliable. In smaller companies you will probably get the opportunity to pick up other development tasks outside of the usual job description. This helps you experience the pain that engineers go through to build better solutions.</p>
+<h2 id="platform-engineering" class="group relative scroll-mt-20">
+  Platform Engineering
+  <a
+    href="#platform-engineering"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Platform Engineering has similar tools and similar outcomes, but from what I&rsquo;ve seen, the scope and audience are different.</p>
+<p>Where a DevOps Engineer typically serves one team, a <strong>Platform Engineer</strong> serves many. This role, I think, is oriented around building an Internal Developer Platform (IDP). An IDP is a curated set of tools, templates, and standards that every engineering team in an organisation can use. The CNCF communities often describe this as building <strong>golden paths</strong>: opinionated, well-maintained routes that make the right thing the easy thing for developers to do.</p>
+<p>Think of it as the difference between solving a problem for your team versus building the infrastructure so any team can solve that problem themselves. Platform teams treat internal developers as their customers. They build self-service tooling —things like standardised deployment workflows, observability stacks, or secrets management patterns— so that product teams don&rsquo;t have to reinvent those wheels independently.</p>
+<p>This tends to appear at larger organisations, where inconsistency across teams becomes a bigger cost. At a company with ten engineers, one strong DevOps person can handle everything informally. At a company with five hundred, the absence of shared standards can create chaos.</p>
+<p>The tradeoff here is somehow creating efficient standards to keep things stable, but also giving optionality to engineers so they have autonomy over the tooling they choose.</p>
+<p>A good tool to know about is Spotify&rsquo;s open source Backstage tool: <a href="https://backstage.io/">https://backstage.io/</a></p>
+<h2 id="infrastructure-engineering" class="group relative scroll-mt-20">
+  Infrastructure Engineering
+  <a
+    href="#infrastructure-engineering"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Infrastructure Engineering overlaps with both DevOps and Platform, but sits slightly further from application code in my experience.</p>
+<p>An <strong>Infrastructure Engineer</strong> is typically focused on the foundations: cloud architecture, networking, access management, and the security controls that sit beneath the application layer. They&rsquo;re thinking about VPCs, subnets, firewall rules, load balancers, DNS, and how services communicate across boundaries. Often this involves deep expertise with IaC tools like Terraform and close familiarity with the cloud provider&rsquo;s lower-level primitives.</p>
+<p>A DevOps Engineer might spend their day modifying a GitHub Actions workflow or adjusting a Dockerfile. An Infrastructure Engineer might spend theirs designing the network topology that those pipelines eventually deploy into.</p>
+<p>That said, in my experience, in any organisation you have problems to solve and there is never a clean separation. So you&rsquo;re owning all of it, and carrying all three titles simultaneously whenever something is required.</p>
+<h2 id="why-the-roles-overlap" class="group relative scroll-mt-20">
+  Why the roles overlap
+  <a
+    href="#why-the-roles-overlap"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>There are more than the three role titles I&rsquo;ve talked about too, e.g. Systems Engineer, Site Reliability Engineer, Integration Engineer, and many others that cover <em>similar</em> responsibilities with decent overlap.</p>
+<p>Part of it is because fashionable titles shift over time; DevOps was the go-to term but now it feels like Platform Engineering is. This is probably because it better captures the product-focused, team-of-teams thinking that scales for devops/platform teams.</p>
+<p>Each organisation decides on responsibilities differently depending on team size, product maturity, culture in the industry, and even the background of whoever&rsquo;s hiring. So the title they&rsquo;re given is essentially a best guess based on responsibilities required at the start of the role, which often morphs into different roles as projects progress.</p>
+<p>A startup with five engineers often doesn&rsquo;t have the headcount for specialisation. The person managing Terraform, building the deployment pipeline, and configuring the VPC is doing DevOps, platform, and infrastructure work all at once.</p>
+<p>At larger companies, the separation becomes more meaningful. A Platform team with a product mindset and a roadmap looks very different from a DevOps Engineer embedded in a squad, even if both are deep into Kubernetes on any given Tuesday.</p>
+<h2 id="read-the-job-description" class="group relative scroll-mt-20">
+  Read the job description
+  <a
+    href="#read-the-job-description"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>After reading many applications, the practical lesson is to read past the title and into the responsibilities. A &ldquo;Platform Engineer&rdquo; role at a thirty-person startup will look nothing like the same title at an enterprise company. A &ldquo;DevOps Engineer&rdquo; role at a bank might be closer to what a Platform team does at a tech company.</p>
+<p>The questions worth asking in an interview: Are you embedded in a product team or sitting in a centralised infrastructure group? Are you building tooling <em>for</em> developers, or helping productionise a single product app? What does ownership look like when something breaks at 3am?</p>
+<p>I like that DevOps Engineering is broad; I like having the option to do whatever is required to get the job done.</p>
+]]></content:encoded></item><item><title>Developer dynamics</title><link>https://westernwilson.com/reflections/2023-10-28-developer-dynamics/</link><pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2023-10-28-developer-dynamics/</guid><description>&lt;p&gt;&lt;em&gt;Full disclosure, I first heard of these architypes from a workshop run in 2020 by &lt;a href="https://tuanz.org.nz/flint/flint-wellington/"&gt;FLINT Wellington&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#10;&lt;h1 id="types-of-developers-in-the-workplace" class="group relative scroll-mt-20"&gt;&#10; Types of Developers in the Workplace&#10; &lt;a&#10; href="#types-of-developers-in-the-workplace"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h1&gt;&#10;&lt;p&gt;In a dynamic and collaborative workplace, you&amp;rsquo;ll encounter various types of developers, each driven by different motivations and approaches to their work. Understanding these developer archetypes can help foster a more effective and harmonious team environment.&lt;/p&gt;</description><content:encoded><![CDATA[<p><em>Full disclosure, I first heard of these architypes from a workshop run in 2020 by <a href="https://tuanz.org.nz/flint/flint-wellington/">FLINT Wellington</a></em></p>
+<h1 id="types-of-developers-in-the-workplace" class="group relative scroll-mt-20">
+  Types of Developers in the Workplace
+  <a
+    href="#types-of-developers-in-the-workplace"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h1>
+<p>In a dynamic and collaborative workplace, you&rsquo;ll encounter various types of developers, each driven by different motivations and approaches to their work. Understanding these developer archetypes can help foster a more effective and harmonious team environment.</p>
+<h2 id="1-the-detective" class="group relative scroll-mt-20">
+  1. The Detective
+  <a
+    href="#1-the-detective"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Drive: Detectives love to investigate. They thrive in messy situations, dissecting problems, and fixing them. Their analytical minds excel at uncovering the root causes of issues and implementing solutions. They&rsquo;re the team&rsquo;s problem-finders, and a lot of the time, problem-solvers.</p>
+<h2 id="2-the-cowboy--go-getter" class="group relative scroll-mt-20">
+  2. The Cowboy / Go-getter
+  <a
+    href="#2-the-cowboy--go-getter"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Drive: Cowboys or Go-getters are known for their speed. They push code out the door quickly, often impressively so. However, they might leave a bit of a &ldquo;dirty sink&rdquo; behind, sacrificing some cleanliness for speed. They&rsquo;re the team&rsquo;s high-velocity coders.</p>
+<h2 id="3-the-artist-or-creative" class="group relative scroll-mt-20">
+  3. The Artist or Creative
+  <a
+    href="#3-the-artist-or-creative"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Drive: Artists or Creatives focus on the aesthetics of code. They&rsquo;re meticulous about making sure their code is not just functional but also visually appealing and highly readable. While they may code more slowly, their work introduces less technical debt. They&rsquo;re the team&rsquo;s code beautifiers.</p>
+<h2 id="4-the-mad-scientist" class="group relative scroll-mt-20">
+  4. The Mad Scientist
+  <a
+    href="#4-the-mad-scientist"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Drive: Mad Scientists are tech enthusiasts. They eagerly embrace the latest technologies and enjoy experimenting with new libraries and features. Their adventurous spirit leads to innovation and pushing the boundaries of what&rsquo;s possible. They&rsquo;re the team&rsquo;s tech trailblazers.</p>
+<p>In a balanced development team, these diverse types of developers can complement each other, fostering creativity, efficiency, and problem-solving. Recognizing and valuing these different approaches can lead to a more well-rounded and successful team.</p>
+]]></content:encoded></item><item><title>Talking Tech, to Non-Tech</title><link>https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/</link><pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/</guid><description>&lt;p&gt;&lt;em&gt;Early in my career, I attended a workshop where the goal was to bridge the gap between technical and non-technical people when discussing technical concepts. The session emphasized the use of analogies to explain concepts and catering to different learning styles, such as visual aids.&lt;/em&gt;&lt;/p&gt;&#10;&lt;h2 id="simplifying-technical-jargon" class="group relative scroll-mt-20"&gt;&#10; Simplifying Technical Jargon&#10; &lt;a&#10; href="#simplifying-technical-jargon"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;To communicate tech concepts to non-technical individuals, analogies are invaluable.&lt;/p&gt;</description><content:encoded><![CDATA[<p><em>Early in my career, I attended a workshop where the goal was to bridge the gap between technical and non-technical people when discussing technical concepts. The session emphasized the use of analogies to explain concepts and catering to different learning styles, such as visual aids.</em></p>
+<h2 id="simplifying-technical-jargon" class="group relative scroll-mt-20">
+  Simplifying Technical Jargon
+  <a
+    href="#simplifying-technical-jargon"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>To communicate tech concepts to non-technical individuals, analogies are invaluable.</p>
+<h3 id="the-barrier-of-technical-jargon" class="group relative scroll-mt-20">
+  The Barrier of Technical Jargon
+  <a
+    href="#the-barrier-of-technical-jargon"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>In the tech world, complex terminology and buzzwords are commonplace. While they serve a purpose among peers, they can hinder communication with non-technical individuals.</p>
+<h3 id="harnessing-the-power-of-analogies" class="group relative scroll-mt-20">
+  Harnessing the Power of Analogies
+  <a
+    href="#harnessing-the-power-of-analogies"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>Analogies act as bridges, simplifying intricate tech concepts for the non-technical. They make the unfamiliar more accessible, fostering better understanding and collaboration.</p>
+<p>Striking the Balance</p>
+<p>Balancing the use of technical jargon and analogies is key. Precision is vital in technical discussions, but in broader contexts, simplification enhances communication, collaboration, and innovation.</p>
+<h2 id="types-of-applications" class="group relative scroll-mt-20">
+  Types of Applications
+  <a
+    href="#types-of-applications"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Applications can be web-based (run in browsers), desktop (run on a computer), or mobile (run on phones). Examples like Netflix, Spotify, and Instagram show the diversity of platforms.</p>
+<p>In simplified terms, an application&rsquo;s <strong>Stack</strong> includes a <strong>Client</strong> (the end-user with a Laptop or Mobile device), a <strong>Server</strong> (handles requests, processes data, and communicates with the Database), and a <strong>Database</strong> (stores information). Think of this stack like a person withdrawing money from a bank:</p>
+<ol>
+<li>Front-end -&gt; Person/Client</li>
+<li>Server -&gt; Bank Teller</li>
+<li>Database -&gt; Money Stash</li>
+</ol>
+<h2 id="understanding-apis" class="group relative scroll-mt-20">
+  Understanding APIs
+  <a
+    href="#understanding-apis"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>APIs (Application Programming Interfaces) are communication tools for technology. Think of ordering fast food: the client orders, the server takes the order, and the chefs in the kitchen fulfill it. An API is like the menu, specific to the restaurant you&rsquo;re at.</p>
+<p>If you go to <a href="https://www.burgerking.co.nz/">Burger King</a> and order a <a href="https://mcdonalds.co.nz/menu/big-mac">Big Mac</a>, the server will not understand that request as it is not on their Menu.</p>
+<h2 id="team-dynamics" class="group relative scroll-mt-20">
+  Team Dynamics
+  <a
+    href="#team-dynamics"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Different types of team members, including detectives, cowboys, artists, and mad scientists, each have distinct work styles and motivations. Recognizing these differences can improve team collaboration.</p>
+<p><a href="/blog/developer-dynamics">Click here</a> to read the full article on these archetypes here.</p>
+<h2 id="the-coding-process" class="group relative scroll-mt-20">
+  The Coding Process
+  <a
+    href="#the-coding-process"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Developers need uninterrupted time to code effectively. Minimize interruptions by scheduling meetings in blocks, improving productivity.</p>
+<h2 id="future-technology" class="group relative scroll-mt-20">
+  Future Technology
+  <a
+    href="#future-technology"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Full-stack development offers efficiency by using one language across all stack components. Libraries like React can translate web apps into desktop and mobile versions. Distributed technology, like blockchain, shares data across a network, reducing the risk of single points of failure and enhancing security.</p>
+]]></content:encoded></item></channel></rss>

@@ -1,1 +1,294 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ai on Western Wilson</title><link>https://westernwilson.com/tags/ai/</link><description>Recent content in Ai on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>Containerising my coding agent</title><link>https://westernwilson.com/reflections/containerising-my-coding-agent/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/containerising-my-coding-agent/</guid><description>&lt;p&gt;I containerised Claude Code this week because I wanted to let it run with fewer guardrails and not hand it unlimited access the rest of my machine. There&amp;rsquo;s a &lt;a href="https://news.ycombinator.com/item?id=46268222"&gt;Hacker News thread&lt;/a&gt; from 6 months ago about someone running Claude in yolo mode who asked it to clean something up and watched it &lt;code&gt;rm -rf&lt;/code&gt; their home directory 😅. So let&amp;rsquo;s aim to at least avoid that.&lt;/p&gt;&#10;&lt;p&gt;Thankfully, I found &lt;a href="https://containers.dev"&gt;Dev Containers&lt;/a&gt;, which turned into its own rabbit hole but lets us lock down Claude without having to maintain our own docker image.&lt;/p&gt;</description></item><item><title>Deciding what to keep</title><link>https://westernwilson.com/reflections/bunq-hackathon-7/</link><pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/bunq-hackathon-7/</guid><description>&lt;p&gt;It was around 4am when I scrapped the project. AI had co-built me a FastAPI cathedral, full of libraries I didn&amp;rsquo;t recognise and an architecture more ambitious than a 24 hour hackathon could achieve.&#10;The code worked, sort of. Extending it would be challenging, and integrating it with AWS would take time we didn&amp;rsquo;t have. So I deleted everything and started again with something simple that we could build and demo quickly.&lt;/p&gt;</description></item><item><title>I feel silly about how I used to use AI</title><link>https://westernwilson.com/reflections/2024-10-24-i-feel-silly-about-how-i-used-to-treat-ai/</link><pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2024-10-24-i-feel-silly-about-how-i-used-to-treat-ai/</guid><description>&lt;p&gt;The way I write has evolved, primarily due to a shift in my relationship with AI and the writing process itself:&lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;&lt;strong&gt;Before&lt;/strong&gt; I used AI to generate content&lt;/li&gt;&#10;&lt;li&gt;&lt;strong&gt;Now&lt;/strong&gt; I use AI more as a refinement tool and writing companion&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;When referring to AI in this post, I specifically mean large language models (LLMs) like ChatGPT and Perplexity.&lt;/p&gt;&#10;&lt;h2 id="before" class="group relative scroll-mt-20"&gt;&#10; Before&#10; &lt;a&#10; href="#before"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;How I worked with AI in the past is silly. Using AI to generate content makes the writing sound generic and peppered with buzzwords that people never use. I mean, check the title and content of my previous blog posts: &amp;lsquo;Unleashing the Writer Within: How ChatGPT Transformed My Writing&amp;rsquo;, and &amp;lsquo;Supercharge Your SSH with VS Code&amp;rsquo; 🫣&lt;/p&gt;</description></item><item><title>Unleashing the Writer Within: How ChatGPT Transformed My Writing</title><link>https://westernwilson.com/reflections/2023-11-6-im-not-a-writer/</link><pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2023-11-6-im-not-a-writer/</guid><description>&lt;p&gt;I don&amp;rsquo;t consider myself a writer. Two reasons: I don&amp;rsquo;t write enough, and my writing doesn&amp;rsquo;t meet the quality standards of my internal critic. Writing, for me, has at times, been a struggle. Crafting the structure of what I want to write comes naturally to me, but fleshing out the content feels fluffy and sometimes overwhelming.&lt;/p&gt;&#10;&lt;h2 id="the-writing-struggle" class="group relative scroll-mt-20"&gt;&#10; The Writing Struggle&#10; &lt;a&#10; href="#the-writing-struggle"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;Many of us share the same struggle – the fear that our words fall short, the dread of writer&amp;rsquo;s block, or the inability to transform ideas into coherent text. But I&amp;rsquo;ve recently been using a powerful tool to overcome these hurdles: ChatGPT.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/tags/ai/</link><description>Recent content in Ai on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>Containerising my coding agent</title><link>https://westernwilson.com/reflections/containerising-my-coding-agent/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/containerising-my-coding-agent/</guid><description>&lt;p&gt;I containerised Claude Code this week because I wanted to let it run with fewer guardrails and not hand it unlimited access the rest of my machine. There&amp;rsquo;s a &lt;a href="https://news.ycombinator.com/item?id=46268222"&gt;Hacker News thread&lt;/a&gt; from 6 months ago about someone running Claude in yolo mode who asked it to clean something up and watched it &lt;code&gt;rm -rf&lt;/code&gt; their home directory 😅. So let&amp;rsquo;s aim to at least avoid that.&lt;/p&gt;&#10;&lt;p&gt;Thankfully, I found &lt;a href="https://containers.dev"&gt;Dev Containers&lt;/a&gt;, which turned into its own rabbit hole but lets us lock down Claude without having to maintain our own docker image.&lt;/p&gt;</description><content:encoded><![CDATA[<p>I containerised Claude Code this week because I wanted to let it run with fewer guardrails and not hand it unlimited access the rest of my machine. There&rsquo;s a <a href="https://news.ycombinator.com/item?id=46268222">Hacker News thread</a> from 6 months ago about someone running Claude in yolo mode who asked it to clean something up and watched it <code>rm -rf</code> their home directory 😅. So let&rsquo;s aim to at least avoid that.</p>
+<p>Thankfully, I found <a href="https://containers.dev">Dev Containers</a>, which turned into its own rabbit hole but lets us lock down Claude without having to maintain our own docker image.</p>
+<p>This reflection post talks through the containerised setup and some issues I faced while setting it up. If you just want the solution, then the implementation is in the <a href="https://github.com/wjkw1/westernwilson.com/tree/main/.devcontainer">.devcontainer/</a> directory of this website&rsquo;s source code.</p>
+<h2 id="feature-or-docker-image" class="group relative scroll-mt-20">
+  Feature or docker image?
+  <a
+    href="#feature-or-docker-image"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>I assumed that Anthropic would ship an official Claude base image you build on top of. They don&rsquo;t, they only post a recommended starting point. Claude Code installs into any <a href="https://code.claude.com/docs/en/devcontainer">Dev Container</a> through the <code>ghcr.io/anthropics/devcontainer-features/claude-code:1.0</code> feature, which you reference in <code>devcontainer.json</code> like <a href="https://containers.dev/features">any other devcontainers feature</a>. It works wherever the Dev Containers spec is supported e.g. VS Code, Codespaces, JetBrains, and (with some rough edges) Cursor. In VS Code it can be configured to pull in the Claude Code extension, keeping Claude decoupled from the base image entirely.</p>
+<p>That leaves three layers to assemble: a base image, the tooling you use, and Claude Code on top. The real decision is whether you bake those middle two layers into a custom docker image you push to a registry, or assemble them per-repo through <code>devcontainer.json</code> features. A custom image is the better call for a team, where you want a validated, secure, and reusable environment everyone builds on. For a solo setup spun up per-repo, features are easier. The cost is a slow first build and less control over exactly what lands in the image, which is what <code>post-create.sh</code> helps automate somewhat.</p>
+<p>My <code>devcontainer.json</code> ended up looking like this, trimmed to the main parts:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-jsonc" data-lang="jsonc"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;image&#34;</span>: <span style="color:#e6db74">&#34;mcr.microsoft.com/devcontainers/base:ubuntu&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;features&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&#34;ghcr.io/anthropics/devcontainer-features/claude-code:1.0&#34;</span>: {}
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;remoteUser&#34;</span>: <span style="color:#e6db74">&#34;vscode&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;mounts&#34;</span>: [
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;source=claude-code-config-${devcontainerId},target=/home/vscode/.claude,type=volume&#34;</span>
+</span></span><span style="display:flex;"><span>  ],
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;runArgs&#34;</span>: [<span style="color:#e6db74">&#34;--cap-add=NET_ADMIN&#34;</span>, <span style="color:#e6db74">&#34;--cap-add=NET_RAW&#34;</span>],
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;postCreateCommand&#34;</span>: <span style="color:#e6db74">&#34;sudo zsh .devcontainer/post-create.sh&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;postStartCommand&#34;</span>: <span style="color:#e6db74">&#34;sudo /usr/local/sbin/init-firewall.sh&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&#34;waitFor&#34;</span>: <span style="color:#e6db74">&#34;postStartCommand&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The non-root <code>vscode</code> user is important if you ever run with <code>--dangerously-skip-permissions</code>, Claude Code requires it. The named volume on <code>~/.claude</code> means login persists across rebuilds instead of re-authenticating every time. The <code>NET_ADMIN</code>/<code>NET_RAW</code> capabilities exist so that we can create the containerised firewall. <code>waitFor: postStartCommand</code> blocks the terminal until that firewall script finishes, so there&rsquo;s no window where Claude is already running before egress is locked down.</p>
+<p><code>post-create.sh</code> is the everyday stuff a feature-based setup doesn&rsquo;t hand you for free: setting git aliases, adding a couple of zsh aliases for <code>kubectl</code> and <code>terraform</code>, locking down <code>sudo</code>/<code>su</code>.</p>
+<p><code>init-firewall.sh</code> sets default-DROP policies on iptables, then builds an <code>ipset</code> allowlist of everything the container is allowed to reach outbound. Part of that allowlist is GitHub&rsquo;s own published IP ranges, fetched live at container start:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>gh_ranges<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>curl -s https://api.github.com/meta<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> read -r cidr; <span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>    ipset add allowed-domains <span style="color:#e6db74">&#34;</span>$cidr<span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">done</span> &lt; &lt;<span style="color:#f92672">(</span>echo <span style="color:#e6db74">&#34;</span>$gh_ranges<span style="color:#e6db74">&#34;</span> | jq -r <span style="color:#e6db74">&#39;(.web + .api + .git)[]&#39;</span> | aggregate -q<span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>Everything else —npm, <code>api.anthropic.com</code>, the VS Code marketplace— gets resolved and added individually. The firewall script finishes by checking its own work: it tries <code>curl https://example.com</code> and expects that to fail, then tries <code>curl https://api.github.com/zen</code> and expects that to succeed.</p>
+<h2 id="firewall-and-sudo" class="group relative scroll-mt-20">
+  Firewall and sudo
+  <a
+    href="#firewall-and-sudo"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>I spent a decent chunk of time configuring who&rsquo;s allowed to touch <code>iptables</code>. The <code>common-utils</code> feature grants the <code>vscode</code> user blanket passwordless <code>sudo</code> by default, and my first cut of <code>post-create.sh</code> narrowed that down to the <code>iptables</code>/<code>iptables-save</code>/<code>ipset</code> binaries themselves, with no argument restriction. Which meant Claude or anything else running as <code>vscode</code>, including under <code>--dangerously-skip-permissions</code>, could just run <code>sudo iptables -F &amp;&amp; sudo iptables -P OUTPUT ACCEPT</code> and the firewall would be gone! Anthropic&rsquo;s own reference devcontainer avoids this by granting <code>sudo</code> on one fixed script path instead of the raw binaries, baked into their image at build time so the script itself can&rsquo;t be edited either. I didn&rsquo;t want a custom Dockerfile yet, but dev containers can do the same thing with just <code>postCreateCommand</code>: copy <code>init-firewall.sh</code> to a root-owned <code>/usr/local/sbin/init-firewall.sh</code> outside the bind-mounted workspace while the feature&rsquo;s broad sudo grant is still active, then narrow <code>sudo</code> down to NOPASSWD on that one frozen executable file only. The tradeoff is that editing the live <code>init-firewall.sh</code> to allow a new domain now needs a full <strong>Rebuild Container</strong>, not just a restart, since the frozen copy is what actually runs.</p>
+<p>Claude has it&rsquo;s own way to limit it&rsquo;s own execution too using <code>.claude/settings.json</code>. We&rsquo;ve configured this on top to deny any <code>Bash(sudo *)</code> and <code>Bash(su *)</code> commands, so in normal mode Claude won&rsquo;t even attempt the command. But <code>--dangerously-skip-permissions</code> does exactly what its name says: it bypasses every permission rule, deny rules included. So that file is a speed bump for the default mode, not something to lean on once the safety&rsquo;s off. The frozen-script sudoers restriction is the one that locks it down regardless, because it&rsquo;s enforced by the OS, not by Claude Code.</p>
+<h2 id="gap-in-the-firewall" class="group relative scroll-mt-20">
+  Gap in the firewall
+  <a
+    href="#gap-in-the-firewall"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>One thing I noticed was that <code>api.github.com/meta</code>&rsquo;s ip ranges aren&rsquo;t scoped to the API. They cover GitHub&rsquo;s whole edge network, which includes GitHub Pages in some cases. For example, this website, <a href="https://westernwilson.com">westernwilson.com</a>, runs on GitHub Pages. So with the firewall up and supposedly restricting the agent to an approved set of domains, I could still reach my own site. And by the same logic, any other <code>*.github.io</code> page, or anything hosted there by someone with worse intentions. A page on <code>*.github.io</code> could potentially hold a payload hosted somewhere else entirely, and the firewall would wave it through without ever knowing the difference.</p>
+<p>I see three ways to close that off:</p>
+<ul>
+<li>Proxy the traffic and filter on hostname instead of IP. Cleanest in theory, but Encrypted Client Hello can still hide the hostname from anything sitting.</li>
+<li>Drop <code>*.github.io</code> from the allowlist entirely. Unfortunately this also takes <code>raw.githubusercontent.com</code> out too since they share the same ip ranges, but if that&rsquo;s not something the container needs, it&rsquo;s a fine trade.</li>
+<li>Accept the risk and move on.</li>
+</ul>
+<p>I haven&rsquo;t picked one yet, for now I&rsquo;m sitting with the risk while I think about which tradeoff is actually worth it.</p>
+<h2 id="logging-in-to-claude" class="group relative scroll-mt-20">
+  Logging in to Claude
+  <a
+    href="#logging-in-to-claude"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Logging in had its own gotcha. In VS Code there is a big orange &ldquo;use your subscription&rdquo; button that opens a browser and waits for a callback to <code>localhost</code>, which never makes it back into the container and just hangs. The fix is to skip the button, open a terminal inside the container and run <code>claude</code>, which kicks off the same browser flow but resolves the callback correctly.</p>
+<p>We then use <code>~/.claude</code>, which is now owned by the <code>vscode</code> thanks to the <code>chown</code> at the top of <code>post-create.sh</code>, so once logged in, we gain stickier login sessions.</p>
+<p>In doing the whole login dance from a bare terminal meant that my first real session with Claude Code inside the dev container was just text based interaction with no IDE extension wrapper around it at all. It&rsquo;s an interesting way to work and removes a lot of the UI distraction, but not something I&rsquo;ll rely on fulltime.</p>
+<h2 id="port-forwarding" class="group relative scroll-mt-20">
+  Port forwarding
+  <a
+    href="#port-forwarding"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>The other thing that briefly worried me is VS Code forwarded around thirty-two ports the moment the container came up. My first thought was that something in the container was reaching out on its own. It&rsquo;s not, after some searching I found that it&rsquo;s VS Code&rsquo;s automatic port-forwarding scanning the container for anything listening on a port, for example a dev server that you&rsquo;ll want to open in a browser. It&rsquo;s a separate, fairly trigger-happy feature, and apparently a known source of noise; <a href="https://github.com/microsoft/vscode-remote-release/issues/10926">This GitHub issue</a> describes the exact same &ldquo;over 20 ports auto-forwarded&rdquo; behaviour after a setting silently flips from <code>process</code> to <code>hybrid</code> detection mode.</p>
+<p>If you want to see the actual config rather than the excerpts above, it&rsquo;s all in this repo under <a href="https://github.com/wjkw1/westernwilson.com/tree/main/.devcontainer">.devcontainer/</a>. Treat it as a personal setup to extend, not a hardened image to copy verbatim.</p>
+<p>Further reading: Anthropic&rsquo;s <a href="https://code.claude.com/docs/en/devcontainer">Dev Containers docs</a> and the <a href="https://code.visualstudio.com/docs/devcontainers/tutorial">VS Code Dev Containers tutorial</a>.</p>
+]]></content:encoded></item><item><title>Deciding what to keep</title><link>https://westernwilson.com/reflections/bunq-hackathon-7/</link><pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/bunq-hackathon-7/</guid><description>&lt;p&gt;It was around 4am when I scrapped the project. AI had co-built me a FastAPI cathedral, full of libraries I didn&amp;rsquo;t recognise and an architecture more ambitious than a 24 hour hackathon could achieve.&#10;The code worked, sort of. Extending it would be challenging, and integrating it with AWS would take time we didn&amp;rsquo;t have. So I deleted everything and started again with something simple that we could build and demo quickly.&lt;/p&gt;</description><content:encoded><![CDATA[<p>It was around 4am when I scrapped the project. AI had co-built me a FastAPI cathedral, full of libraries I didn&rsquo;t recognise and an architecture more ambitious than a 24 hour hackathon could achieve.
+The code worked, sort of. Extending it would be challenging, and integrating it with AWS would take time we didn&rsquo;t have. So I deleted everything and started again with something simple that we could build and demo quickly.</p>
+<p>This moment has been circling in my mind across this last week.</p>
+<h2 id="how-i-got-there" class="group relative scroll-mt-20">
+  How I got there
+  <a
+    href="#how-i-got-there"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>I went to Amsterdam for three nights to see the city and to take part in Bunq&rsquo;s 24-hour hackathon. I arrived alone and Bunq connected me with a team. On the day two people didn&rsquo;t show so we ended up finding two others in similar situations and formed a new team.</p>
+<p>The hackathon brief was to build something that solved a problem, used the Bunq API, and had some kind of multi-modal AI. I didn&rsquo;t know what we&rsquo;d build, and honestly that was exciting to me!</p>
+<h2 id="who-i-worked-with" class="group relative scroll-mt-20">
+  Who I worked with
+  <a
+    href="#who-i-worked-with"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Our team was called &ldquo;4 corners&rdquo; with people from four countries. We had a DevOps Engineer, Business Analyst, Product Owner, and even a CFO. Honestly, it was a privilege to be around such accomplished people whose lives had taken different trajectories leading them to this moment.</p>
+<h2 id="the-build" class="group relative scroll-mt-20">
+  The build
+  <a
+    href="#the-build"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>On the day we had a brilliant talk by someone from AWS about spec driven development. I took that talk to heart and tried building our app using that same ethos. This led me to a vibe-coded backend app in Python, the language I knew, but attempting to use production-grade infrastructure. For a 24-hour prototype, this was overkill. The AI, eager to please, happily built me something far beyond what the hackathon called for.</p>
+<p>It reminds me of something an old colleague once told me:</p>
+<blockquote>
+<p>building something is easy, productionising it is the hard bit</p>
+</blockquote>
+<p>In this hackathon, unfortunately, I started off by inverting their advice. I was productionising something before I&rsquo;d built anything.</p>
+<h2 id="the-pivot" class="group relative scroll-mt-20">
+  The pivot
+  <a
+    href="#the-pivot"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>You can wrangle an app together in 24 hours. What matters more is whether you&rsquo;ve thought clearly about the problem, can articulate the pain point, and can demonstrate something useful with honest tradeoffs.</p>
+<ul>
+<li>Mock APIs not crucial to the core solution instead of integrating with them.</li>
+<li>Stub the database or run one locally to show the core idea working.</li>
+<li>Later, if there&rsquo;s time then connect the real infra.</li>
+</ul>
+<p>The lesson for me was closing the gap between ambition and execution. A gentle reminder to focus more on the problem being solved, and on building an MVP that demonstrates a useful solution.</p>
+<p>That&rsquo;s what scrapping the bloated AI app got me back to. Something small, something easily understood, something we could actually show someone.</p>
+<p>The winning teams that night? Mostly localhost applications.</p>
+<h2 id="amsterdam" class="group relative scroll-mt-20">
+  Amsterdam
+  <a
+    href="#amsterdam"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>After the Hackathon winners were announced, I left Bunq HQ into a city I&rsquo;d been told was lovely. My cousin recommended Amsterdam as the place to be, and I could see why. Flat landscape, bike-friendly, sunny skies that week (rare, apparently), with free ferries criss-crossing the harbour, and people moving through it all with quiet competence. It felt like a larger Wellington with better trains.</p>
+<p>I came partly to see whether I could live in Amsterdam. I left knowing I could.</p>
+]]></content:encoded></item><item><title>I feel silly about how I used to use AI</title><link>https://westernwilson.com/reflections/2024-10-24-i-feel-silly-about-how-i-used-to-treat-ai/</link><pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2024-10-24-i-feel-silly-about-how-i-used-to-treat-ai/</guid><description>&lt;p&gt;The way I write has evolved, primarily due to a shift in my relationship with AI and the writing process itself:&lt;/p&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;&lt;strong&gt;Before&lt;/strong&gt; I used AI to generate content&lt;/li&gt;&#10;&lt;li&gt;&lt;strong&gt;Now&lt;/strong&gt; I use AI more as a refinement tool and writing companion&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;p&gt;When referring to AI in this post, I specifically mean large language models (LLMs) like ChatGPT and Perplexity.&lt;/p&gt;&#10;&lt;h2 id="before" class="group relative scroll-mt-20"&gt;&#10; Before&#10; &lt;a&#10; href="#before"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;How I worked with AI in the past is silly. Using AI to generate content makes the writing sound generic and peppered with buzzwords that people never use. I mean, check the title and content of my previous blog posts: &amp;lsquo;Unleashing the Writer Within: How ChatGPT Transformed My Writing&amp;rsquo;, and &amp;lsquo;Supercharge Your SSH with VS Code&amp;rsquo; 🫣&lt;/p&gt;</description><content:encoded><![CDATA[<p>The way I write has evolved, primarily due to a shift in my relationship with AI and the writing process itself:</p>
+<ul>
+<li><strong>Before</strong> I used AI to generate content</li>
+<li><strong>Now</strong> I use AI more as a refinement tool and writing companion</li>
+</ul>
+<p>When referring to AI in this post, I specifically mean large language models (LLMs) like ChatGPT and Perplexity.</p>
+<h2 id="before" class="group relative scroll-mt-20">
+  Before
+  <a
+    href="#before"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>How I worked with AI in the past is silly. Using AI to generate content makes the writing sound generic and peppered with buzzwords that people never use. I mean, check the title and content of my previous blog posts: &lsquo;Unleashing the Writer Within: How ChatGPT Transformed My Writing&rsquo;, and &lsquo;Supercharge Your SSH with VS Code&rsquo; 🫣</p>
+<p>AI generated content has telltale signs when you see words like: unleashed, supercharge, delve, crucial, <a href="https://arstechnica.com/ai/2024/07/the-telltale-words-that-could-identify-generative-ai-text/">more examples here</a>. The silver lining is that AI taught me more words, the problem is these new words didn&rsquo;t feel authentic to me.</p>
+<p>Using AI to generate content was also a coping mechanism to my creative blocks. An unfortunate consequence was that it removed my &ldquo;want to think&rdquo;, I could feel myself leaning more and more on the information provided by AI. This felt similar to defaulting to a calculator instead of doing mental math. It&rsquo;s been over a year since I published those blogs, and I&rsquo;ve been using AI —perplexity— a lot differently since I started&hellip;</p>
+<h2 id="now" class="group relative scroll-mt-20">
+  Now
+  <a
+    href="#now"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Firstly, a bit of background, I work in tech for Xero and I&rsquo;ve met so many awesome people there. Luckily for me, I&rsquo;ve got a mentor who is a fantastic Engineer and an amazing Writer, seriously, it&rsquo;s their superpower; and I&rsquo;ve been heavily influenced by them. Their guidance has helped me to structure my thoughts more clearly and to approach writing with more confidence.</p>
+<p>They shared an amazing blog that talks about the different roles in the writing process:</p>
+<ul>
+<li>Madman - full of ideas, jumbled thoughts and is where writing should start</li>
+<li>Architect - arranges the jumble into potential arguments, at the paragraph level</li>
+<li>Carpenter - sculpts the sentences into a logical structure to make better sense</li>
+<li>Judge - critical energy as the inspector and will check the facts of what is written</li>
+</ul>
+<p>Applying these roles to my own writing revealed a crucial insight: that my writer&rsquo;s paralysis was me prematurely judging the madman before he could cook. I&rsquo;d critisise the words, sentences, paragraph, headings, scope, purpose, before my madman even had a chance to shine. No wonder I got scared of writing, and wrote at a snail pace.</p>
+<p>The madman within needs some air time; sometimes you just need a good ol&rsquo; brain dump. Giving myself that permission totally freed me from the fear of writing. Nowadays, as soon as I feel myself being critical, I catch myself and think: &ldquo;Is it time to judge yet?&rdquo;</p>
+<h2 id="final-points" class="group relative scroll-mt-20">
+  Final points
+  <a
+    href="#final-points"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>To wrap up, some final thoughts about using AI as a writing companion:</p>
+<ol>
+<li>The point of writing is the act itself; letting AI take over robs you of expressing your own voice and innate creativity.</li>
+<li>I think AI LLMs are great companions for writing, but remember:
+<ul>
+<li>Ideally, keep personal information out of it.</li>
+<li>If you do put some personal information in, at least use temporary chats and disable model training</li>
+<li>Also check with your company before putting sensitive information or private IP like code into it for work</li>
+</ul>
+</li>
+<li>On the flip side, I want to share Derek Sivers <a href="https://sive.rs/ai">article here</a> that talks about his commitment to not use AI to generate text. ‍
+<blockquote>
+<p>I have never ever used AI to generate text in place of my “voice”. No emails. No sentences in my articles or books or even comments. Nothing pretending to be me.</p>
+</blockquote>
+</li>
+</ol>
+]]></content:encoded></item><item><title>Unleashing the Writer Within: How ChatGPT Transformed My Writing</title><link>https://westernwilson.com/reflections/2023-11-6-im-not-a-writer/</link><pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2023-11-6-im-not-a-writer/</guid><description>&lt;p&gt;I don&amp;rsquo;t consider myself a writer. Two reasons: I don&amp;rsquo;t write enough, and my writing doesn&amp;rsquo;t meet the quality standards of my internal critic. Writing, for me, has at times, been a struggle. Crafting the structure of what I want to write comes naturally to me, but fleshing out the content feels fluffy and sometimes overwhelming.&lt;/p&gt;&#10;&lt;h2 id="the-writing-struggle" class="group relative scroll-mt-20"&gt;&#10; The Writing Struggle&#10; &lt;a&#10; href="#the-writing-struggle"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;Many of us share the same struggle – the fear that our words fall short, the dread of writer&amp;rsquo;s block, or the inability to transform ideas into coherent text. But I&amp;rsquo;ve recently been using a powerful tool to overcome these hurdles: ChatGPT.&lt;/p&gt;</description><content:encoded><![CDATA[<p>I don&rsquo;t consider myself a writer. Two reasons: I don&rsquo;t write enough, and my writing doesn&rsquo;t meet the quality standards of my internal critic. Writing, for me, has at times, been a struggle. Crafting the structure of what I want to write comes naturally to me, but fleshing out the content feels fluffy and sometimes overwhelming.</p>
+<h2 id="the-writing-struggle" class="group relative scroll-mt-20">
+  The Writing Struggle
+  <a
+    href="#the-writing-struggle"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Many of us share the same struggle – the fear that our words fall short, the dread of writer&rsquo;s block, or the inability to transform ideas into coherent text. But I&rsquo;ve recently been using a powerful tool to overcome these hurdles: ChatGPT.</p>
+<h2 id="chatgpt-your-writing-partner" class="group relative scroll-mt-20">
+  ChatGPT: Your Writing Partner
+  <a
+    href="#chatgpt-your-writing-partner"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Here&rsquo;s how AI, be it ChatGPT, Bard, Bing Chat, or another variant, has revolutionized my writing process:</p>
+<h3 id="1-fleshing-out-each-section" class="group relative scroll-mt-20">
+  1. Fleshing Out Each Section
+  <a
+    href="#1-fleshing-out-each-section"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>I begin with strong ideas but struggle to elaborate on paper. While structure comes easily, content remains challenging. ChatGPT breathes life into my drafts, making them comprehensive and informative.</p>
+<h3 id="2-simplifying-overloaded-sentences" class="group relative scroll-mt-20">
+  2. Simplifying Overloaded Sentences
+  <a
+    href="#2-simplifying-overloaded-sentences"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>My writing can get tangled in long, complex sentences. ChatGPT excels at simplifying these, making my writing concise and reader-friendly. It trims the fluff and gets to the core of the message.</p>
+<h3 id="3-ideation-booster" class="group relative scroll-mt-20">
+  3. Ideation Booster
+  <a
+    href="#3-ideation-booster"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>When I&rsquo;m stuck in a creative rut, ChatGPT offers a treasure trove of inspiration. It sparks new ideas, suggests alternative angles, and helps me overcome mental barriers.</p>
+<h2 id="some-additional-considerations" class="group relative scroll-mt-20">
+  Some additional considerations
+  <a
+    href="#some-additional-considerations"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<h3 id="privacy-concerns" class="group relative scroll-mt-20">
+  Privacy concerns
+  <a
+    href="#privacy-concerns"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>When using AI tools like ChatGPT, prioritize privacy and <del>avoid sharing</del> don&rsquo;t share sensitive information. Review the terms of service and privacy policies on OpenAI&rsquo;s website for a better understanding of data handling:</p>
+<p>Here is two useful links for ChatGPT:</p>
+<ul>
+<li><a href="https://tosdr.org/en/service/7108">https://tosdr.org/en/service/7108</a></li>
+<li><a href="https://openai.com/policies">https://openai.com/policies</a></li>
+</ul>
+<h3 id="double-check-your-outputs" class="group relative scroll-mt-20">
+  Double-check your outputs
+  <a
+    href="#double-check-your-outputs"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>While AI can be a helpful companion in your writing journey, it&rsquo;s essential to double-check the outputs and make sure they align with your intended message. The human touch remains critical in the final editing process. This blog is a great example of that, originally the conclusion said I was a &ldquo;professional writer&rdquo; before I touched it up.</p>
+<h2 id="in-conclusion-embrace-your-inner-writer" class="group relative scroll-mt-20">
+  In Conclusion: Embrace Your Inner Writer
+  <a
+    href="#in-conclusion-embrace-your-inner-writer"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>My writing journey has been marked by struggles; however, AI tools like ChatGPT have been a game-changer, assisting me in fleshing out sections, simplifying complex sentences, and boosting my creativity when I hit a rut. It&rsquo;s a powerful tool for any writer.</p>
+<p>But as with any tool, it&rsquo;s crucial to be mindful of privacy concerns when using AI, and always review and edit the output to ensure it aligns with your intended message. The human touch remains essential in the final editing process. Just like this blog, where the initial conclusion labeled me as a &ldquo;professional writer&rdquo; before my own edits. So, embrace the assistance AI offers, but remember that your unique voice and perspective play a vital role in crafting the perfect piece.</p>
+]]></content:encoded></item></channel></rss>

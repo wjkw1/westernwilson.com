@@ -1,1 +1,131 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Communication on Western Wilson</title><link>https://westernwilson.com/tags/communication/</link><description>Recent content in Communication on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 18 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/communication/index.xml" rel="self" type="application/rss+xml"/><item><title>Developer dynamics</title><link>https://westernwilson.com/reflections/2023-10-28-developer-dynamics/</link><pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2023-10-28-developer-dynamics/</guid><description>&lt;p&gt;&lt;em&gt;Full disclosure, I first heard of these architypes from a workshop run in 2020 by &lt;a href="https://tuanz.org.nz/flint/flint-wellington/"&gt;FLINT Wellington&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#10;&lt;h1 id="types-of-developers-in-the-workplace" class="group relative scroll-mt-20"&gt;&#10; Types of Developers in the Workplace&#10; &lt;a&#10; href="#types-of-developers-in-the-workplace"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h1&gt;&#10;&lt;p&gt;In a dynamic and collaborative workplace, you&amp;rsquo;ll encounter various types of developers, each driven by different motivations and approaches to their work. Understanding these developer archetypes can help foster a more effective and harmonious team environment.&lt;/p&gt;</description></item><item><title>Talking Tech, to Non-Tech</title><link>https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/</link><pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/</guid><description>&lt;p&gt;&lt;em&gt;Early in my career, I attended a workshop where the goal was to bridge the gap between technical and non-technical people when discussing technical concepts. The session emphasized the use of analogies to explain concepts and catering to different learning styles, such as visual aids.&lt;/em&gt;&lt;/p&gt;&#10;&lt;h2 id="simplifying-technical-jargon" class="group relative scroll-mt-20"&gt;&#10; Simplifying Technical Jargon&#10; &lt;a&#10; href="#simplifying-technical-jargon"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;To communicate tech concepts to non-technical individuals, analogies are invaluable.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/tags/communication/</link><description>Recent content in Communication on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 18 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/communication/index.xml" rel="self" type="application/rss+xml"/><item><title>Developer dynamics</title><link>https://westernwilson.com/reflections/2023-10-28-developer-dynamics/</link><pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2023-10-28-developer-dynamics/</guid><description>&lt;p&gt;&lt;em&gt;Full disclosure, I first heard of these architypes from a workshop run in 2020 by &lt;a href="https://tuanz.org.nz/flint/flint-wellington/"&gt;FLINT Wellington&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#10;&lt;h1 id="types-of-developers-in-the-workplace" class="group relative scroll-mt-20"&gt;&#10; Types of Developers in the Workplace&#10; &lt;a&#10; href="#types-of-developers-in-the-workplace"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h1&gt;&#10;&lt;p&gt;In a dynamic and collaborative workplace, you&amp;rsquo;ll encounter various types of developers, each driven by different motivations and approaches to their work. Understanding these developer archetypes can help foster a more effective and harmonious team environment.&lt;/p&gt;</description><content:encoded><![CDATA[<p><em>Full disclosure, I first heard of these architypes from a workshop run in 2020 by <a href="https://tuanz.org.nz/flint/flint-wellington/">FLINT Wellington</a></em></p>
+<h1 id="types-of-developers-in-the-workplace" class="group relative scroll-mt-20">
+  Types of Developers in the Workplace
+  <a
+    href="#types-of-developers-in-the-workplace"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h1>
+<p>In a dynamic and collaborative workplace, you&rsquo;ll encounter various types of developers, each driven by different motivations and approaches to their work. Understanding these developer archetypes can help foster a more effective and harmonious team environment.</p>
+<h2 id="1-the-detective" class="group relative scroll-mt-20">
+  1. The Detective
+  <a
+    href="#1-the-detective"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Drive: Detectives love to investigate. They thrive in messy situations, dissecting problems, and fixing them. Their analytical minds excel at uncovering the root causes of issues and implementing solutions. They&rsquo;re the team&rsquo;s problem-finders, and a lot of the time, problem-solvers.</p>
+<h2 id="2-the-cowboy--go-getter" class="group relative scroll-mt-20">
+  2. The Cowboy / Go-getter
+  <a
+    href="#2-the-cowboy--go-getter"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Drive: Cowboys or Go-getters are known for their speed. They push code out the door quickly, often impressively so. However, they might leave a bit of a &ldquo;dirty sink&rdquo; behind, sacrificing some cleanliness for speed. They&rsquo;re the team&rsquo;s high-velocity coders.</p>
+<h2 id="3-the-artist-or-creative" class="group relative scroll-mt-20">
+  3. The Artist or Creative
+  <a
+    href="#3-the-artist-or-creative"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Drive: Artists or Creatives focus on the aesthetics of code. They&rsquo;re meticulous about making sure their code is not just functional but also visually appealing and highly readable. While they may code more slowly, their work introduces less technical debt. They&rsquo;re the team&rsquo;s code beautifiers.</p>
+<h2 id="4-the-mad-scientist" class="group relative scroll-mt-20">
+  4. The Mad Scientist
+  <a
+    href="#4-the-mad-scientist"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Drive: Mad Scientists are tech enthusiasts. They eagerly embrace the latest technologies and enjoy experimenting with new libraries and features. Their adventurous spirit leads to innovation and pushing the boundaries of what&rsquo;s possible. They&rsquo;re the team&rsquo;s tech trailblazers.</p>
+<p>In a balanced development team, these diverse types of developers can complement each other, fostering creativity, efficiency, and problem-solving. Recognizing and valuing these different approaches can lead to a more well-rounded and successful team.</p>
+]]></content:encoded></item><item><title>Talking Tech, to Non-Tech</title><link>https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/</link><pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/</guid><description>&lt;p&gt;&lt;em&gt;Early in my career, I attended a workshop where the goal was to bridge the gap between technical and non-technical people when discussing technical concepts. The session emphasized the use of analogies to explain concepts and catering to different learning styles, such as visual aids.&lt;/em&gt;&lt;/p&gt;&#10;&lt;h2 id="simplifying-technical-jargon" class="group relative scroll-mt-20"&gt;&#10; Simplifying Technical Jargon&#10; &lt;a&#10; href="#simplifying-technical-jargon"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;To communicate tech concepts to non-technical individuals, analogies are invaluable.&lt;/p&gt;</description><content:encoded><![CDATA[<p><em>Early in my career, I attended a workshop where the goal was to bridge the gap between technical and non-technical people when discussing technical concepts. The session emphasized the use of analogies to explain concepts and catering to different learning styles, such as visual aids.</em></p>
+<h2 id="simplifying-technical-jargon" class="group relative scroll-mt-20">
+  Simplifying Technical Jargon
+  <a
+    href="#simplifying-technical-jargon"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>To communicate tech concepts to non-technical individuals, analogies are invaluable.</p>
+<h3 id="the-barrier-of-technical-jargon" class="group relative scroll-mt-20">
+  The Barrier of Technical Jargon
+  <a
+    href="#the-barrier-of-technical-jargon"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>In the tech world, complex terminology and buzzwords are commonplace. While they serve a purpose among peers, they can hinder communication with non-technical individuals.</p>
+<h3 id="harnessing-the-power-of-analogies" class="group relative scroll-mt-20">
+  Harnessing the Power of Analogies
+  <a
+    href="#harnessing-the-power-of-analogies"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>Analogies act as bridges, simplifying intricate tech concepts for the non-technical. They make the unfamiliar more accessible, fostering better understanding and collaboration.</p>
+<p>Striking the Balance</p>
+<p>Balancing the use of technical jargon and analogies is key. Precision is vital in technical discussions, but in broader contexts, simplification enhances communication, collaboration, and innovation.</p>
+<h2 id="types-of-applications" class="group relative scroll-mt-20">
+  Types of Applications
+  <a
+    href="#types-of-applications"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Applications can be web-based (run in browsers), desktop (run on a computer), or mobile (run on phones). Examples like Netflix, Spotify, and Instagram show the diversity of platforms.</p>
+<p>In simplified terms, an application&rsquo;s <strong>Stack</strong> includes a <strong>Client</strong> (the end-user with a Laptop or Mobile device), a <strong>Server</strong> (handles requests, processes data, and communicates with the Database), and a <strong>Database</strong> (stores information). Think of this stack like a person withdrawing money from a bank:</p>
+<ol>
+<li>Front-end -&gt; Person/Client</li>
+<li>Server -&gt; Bank Teller</li>
+<li>Database -&gt; Money Stash</li>
+</ol>
+<h2 id="understanding-apis" class="group relative scroll-mt-20">
+  Understanding APIs
+  <a
+    href="#understanding-apis"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>APIs (Application Programming Interfaces) are communication tools for technology. Think of ordering fast food: the client orders, the server takes the order, and the chefs in the kitchen fulfill it. An API is like the menu, specific to the restaurant you&rsquo;re at.</p>
+<p>If you go to <a href="https://www.burgerking.co.nz/">Burger King</a> and order a <a href="https://mcdonalds.co.nz/menu/big-mac">Big Mac</a>, the server will not understand that request as it is not on their Menu.</p>
+<h2 id="team-dynamics" class="group relative scroll-mt-20">
+  Team Dynamics
+  <a
+    href="#team-dynamics"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Different types of team members, including detectives, cowboys, artists, and mad scientists, each have distinct work styles and motivations. Recognizing these differences can improve team collaboration.</p>
+<p><a href="/blog/developer-dynamics">Click here</a> to read the full article on these archetypes here.</p>
+<h2 id="the-coding-process" class="group relative scroll-mt-20">
+  The Coding Process
+  <a
+    href="#the-coding-process"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Developers need uninterrupted time to code effectively. Minimize interruptions by scheduling meetings in blocks, improving productivity.</p>
+<h2 id="future-technology" class="group relative scroll-mt-20">
+  Future Technology
+  <a
+    href="#future-technology"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Full-stack development offers efficiency by using one language across all stack components. Libraries like React can translate web apps into desktop and mobile versions. Distributed technology, like blockchain, shares data across a network, reducing the risk of single points of failure and enhancing security.</p>
+]]></content:encoded></item></channel></rss>

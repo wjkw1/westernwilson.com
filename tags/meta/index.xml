@@ -1,1 +1,134 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Meta on Western Wilson</title><link>https://westernwilson.com/tags/meta/</link><description>Recent content in Meta on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 09 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/meta/index.xml" rel="self" type="application/rss+xml"/><item><title>Reflection vs. Blog</title><link>https://westernwilson.com/reflections/2026-03-20-blogs/</link><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2026-03-20-blogs/</guid><description>&lt;p&gt;A &lt;a href="https://www.dictionary.com/browse/blog"&gt;blog&lt;/a&gt; is a truncation of &amp;ldquo;weblog&amp;rdquo; and refers to&lt;/p&gt;&#10;&lt;blockquote&gt;&#10;&lt;p&gt;&amp;ldquo;a website containing a writer&amp;rsquo;s or group of writers&amp;rsquo; own experiences, observations, opinions, etc., and often having images and links to other websites.&amp;rdquo;&lt;/p&gt;&#10;&lt;/blockquote&gt;&#10;&lt;p&gt;A &lt;a href="https://www.dictionary.com/browse/reflection"&gt;reflection&lt;/a&gt; has many meanings, but the two I latch onto are:&lt;/p&gt;&#10;&lt;blockquote&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;a fixing of the thoughts on something; careful consideration.&lt;/li&gt;&#10;&lt;li&gt;a thought occurring in consideration or meditation.&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/blockquote&gt;&#10;&lt;p&gt;The word &lt;em&gt;reflections&lt;/em&gt; carries a quieter, more inward energy for me. It implies that you&amp;rsquo;re writing for the process of thinking, not &lt;em&gt;for&lt;/em&gt; an audience or an outcome. I love that there is no implicit pressure to grow a following, monetise, or be consistent on a schedule.&lt;/p&gt;</description></item><item><title>How I use Tags</title><link>https://westernwilson.com/reflections/how-i-use-tags/</link><pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/how-i-use-tags/</guid><description>&lt;p&gt;This page is a personal reference so I remember the tags I use on this site, what they mean, and when to apply them. Max 1–3 tags per post.&lt;/p&gt;&#10;&lt;p&gt;&lt;strong&gt;&lt;code&gt;meta&lt;/code&gt;&lt;/strong&gt; &amp;ndash; Posts about this site itself &amp;ndash; announcements, changes, meta type entries.&#10;&lt;em&gt;Use when:&lt;/em&gt; the post is about the website or process specifically, not a topic within it.&lt;/p&gt;&#10;&lt;p&gt;&lt;strong&gt;&lt;code&gt;ai&lt;/code&gt;&lt;/strong&gt; &amp;ndash; Artificial intelligence, large language models, and how I&amp;rsquo;m using them in work or writing.&#10;&lt;em&gt;Use when:&lt;/em&gt; the post is primarily about AI tools, AI tech, or AI behaviour&lt;/p&gt;</description></item><item><title>Migration to Webflow &amp; Hugo</title><link>https://westernwilson.com/reflections/2025-07-6-migrating-to-webflow/</link><pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2025-07-6-migrating-to-webflow/</guid><description>&lt;p&gt;&lt;em&gt;Update 2026: Turns out Webflow and I didn&amp;rsquo;t get along for long. My workflow is drafting everything in AnyType, but copy-pasting from there into Webflow was a mess. I&amp;rsquo;d spend more time cleaning up the output than actually writing. The custom domain redirect situation was also irking me. So, true to form, I redesigned and migrated again, this time to &lt;a href="https://gohugo.io"&gt;Hugo&lt;/a&gt;. Make of that what you will.&lt;/em&gt;&lt;/p&gt;&#10;&lt;p&gt;My website has gone through many iterations and frameworks:&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/tags/meta/</link><description>Recent content in Meta on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 09 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/meta/index.xml" rel="self" type="application/rss+xml"/><item><title>Reflection vs. Blog</title><link>https://westernwilson.com/reflections/2026-03-20-blogs/</link><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2026-03-20-blogs/</guid><description>&lt;p&gt;A &lt;a href="https://www.dictionary.com/browse/blog"&gt;blog&lt;/a&gt; is a truncation of &amp;ldquo;weblog&amp;rdquo; and refers to&lt;/p&gt;&#10;&lt;blockquote&gt;&#10;&lt;p&gt;&amp;ldquo;a website containing a writer&amp;rsquo;s or group of writers&amp;rsquo; own experiences, observations, opinions, etc., and often having images and links to other websites.&amp;rdquo;&lt;/p&gt;&#10;&lt;/blockquote&gt;&#10;&lt;p&gt;A &lt;a href="https://www.dictionary.com/browse/reflection"&gt;reflection&lt;/a&gt; has many meanings, but the two I latch onto are:&lt;/p&gt;&#10;&lt;blockquote&gt;&#10;&lt;ul&gt;&#10;&lt;li&gt;a fixing of the thoughts on something; careful consideration.&lt;/li&gt;&#10;&lt;li&gt;a thought occurring in consideration or meditation.&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;/blockquote&gt;&#10;&lt;p&gt;The word &lt;em&gt;reflections&lt;/em&gt; carries a quieter, more inward energy for me. It implies that you&amp;rsquo;re writing for the process of thinking, not &lt;em&gt;for&lt;/em&gt; an audience or an outcome. I love that there is no implicit pressure to grow a following, monetise, or be consistent on a schedule.&lt;/p&gt;</description><content:encoded><![CDATA[<p>A <a href="https://www.dictionary.com/browse/blog">blog</a> is a truncation of &ldquo;weblog&rdquo; and refers to</p>
+<blockquote>
+<p>&ldquo;a website containing a writer&rsquo;s or group of writers&rsquo; own experiences, observations, opinions, etc., and often having images and links to other websites.&rdquo;</p>
+</blockquote>
+<p>A <a href="https://www.dictionary.com/browse/reflection">reflection</a> has many meanings, but the two I latch onto are:</p>
+<blockquote>
+<ul>
+<li>a fixing of the thoughts on something; careful consideration.</li>
+<li>a thought occurring in consideration or meditation.</li>
+</ul>
+</blockquote>
+<p>The word <em>reflections</em> carries a quieter, more inward energy for me. It implies that you&rsquo;re writing for the process of thinking, not <em>for</em> an audience or an outcome. I love that there is no implicit pressure to grow a following, monetise, or be consistent on a schedule.</p>
+<p>My perception of <em>blogs</em> is that they come loaded with baggage nowadays. It asks for SEO optimisation, calls to action, newsletter signups, and the hustle of content creation. That&rsquo;s a very different thing from sitting down and genuinely processing your thoughts on paper.</p>
+<p>This is why I choose to use <em>reflections</em>, to give me freedom of thought while writing thoughts on a page.</p>
+]]></content:encoded></item><item><title>How I use Tags</title><link>https://westernwilson.com/reflections/how-i-use-tags/</link><pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/how-i-use-tags/</guid><description>&lt;p&gt;This page is a personal reference so I remember the tags I use on this site, what they mean, and when to apply them. Max 1–3 tags per post.&lt;/p&gt;&#10;&lt;p&gt;&lt;strong&gt;&lt;code&gt;meta&lt;/code&gt;&lt;/strong&gt; &amp;ndash; Posts about this site itself &amp;ndash; announcements, changes, meta type entries.&#10;&lt;em&gt;Use when:&lt;/em&gt; the post is about the website or process specifically, not a topic within it.&lt;/p&gt;&#10;&lt;p&gt;&lt;strong&gt;&lt;code&gt;ai&lt;/code&gt;&lt;/strong&gt; &amp;ndash; Artificial intelligence, large language models, and how I&amp;rsquo;m using them in work or writing.&#10;&lt;em&gt;Use when:&lt;/em&gt; the post is primarily about AI tools, AI tech, or AI behaviour&lt;/p&gt;</description><content:encoded><![CDATA[<p>This page is a personal reference so I remember the tags I use on this site, what they mean, and when to apply them. Max 1–3 tags per post.</p>
+<p><strong><code>meta</code></strong> &ndash; Posts about this site itself &ndash; announcements, changes, meta type entries.
+<em>Use when:</em> the post is about the website or process specifically, not a topic within it.</p>
+<p><strong><code>ai</code></strong> &ndash; Artificial intelligence, large language models, and how I&rsquo;m using them in work or writing.
+<em>Use when:</em> the post is primarily about AI tools, AI tech, or AI behaviour</p>
+<p><strong><code>career</code></strong> &ndash; Work, professional growth, team dynamics, and lessons from the industry.
+<em>Use when:</em> the post reflects on the people side of software &ndash; roles, culture, collaboration.</p>
+<p><strong><code>communication</code></strong> &ndash; Explaining ideas about communicating, for example to non-technical audiences, across teams, or in documentation.
+<em>Use when:</em> the post is about how we convey information to other people.</p>
+<p><strong><code>definitions</code></strong> &ndash; Posts that define how I use a specific term, phrase, or concept &ndash; personal vocab entries.
+<em>Use when:</em> the post is structured around explaining what something means to me.</p>
+<p><strong><code>devops</code></strong> &ndash; Platform engineering, infrastructure, CI/CD, and the operational side of software.
+<em>Use when:</em> the post is about systems, pipelines, or keeping things running.</p>
+<p><strong><code>devtools</code></strong> &ndash; Tools that shape how I work - editors, CLIs, SSH, local setup.
+<em>Use when:</em> the post is hands-on with a specific tool or workflow.</p>
+<p><strong><code>writing</code></strong> &ndash; Reflections on the writing process, publishing, and finding my voice.
+<em>Use when:</em> the post is about writing itself, not just a post that happens to be well-written.</p>
+]]></content:encoded></item><item><title>Migration to Webflow &amp; Hugo</title><link>https://westernwilson.com/reflections/2025-07-6-migrating-to-webflow/</link><pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2025-07-6-migrating-to-webflow/</guid><description>&lt;p&gt;&lt;em&gt;Update 2026: Turns out Webflow and I didn&amp;rsquo;t get along for long. My workflow is drafting everything in AnyType, but copy-pasting from there into Webflow was a mess. I&amp;rsquo;d spend more time cleaning up the output than actually writing. The custom domain redirect situation was also irking me. So, true to form, I redesigned and migrated again, this time to &lt;a href="https://gohugo.io"&gt;Hugo&lt;/a&gt;. Make of that what you will.&lt;/em&gt;&lt;/p&gt;&#10;&lt;p&gt;My website has gone through many iterations and frameworks:&lt;/p&gt;</description><content:encoded><![CDATA[<p><em>Update 2026: Turns out Webflow and I didn&rsquo;t get along for long. My workflow is drafting everything in AnyType, but copy-pasting from there into Webflow was a mess. I&rsquo;d spend more time cleaning up the output than actually writing. The custom domain redirect situation was also irking me. So, true to form, I redesigned and migrated again, this time to <a href="https://gohugo.io">Hugo</a>. Make of that what you will.</em></p>
+<p>My website has gone through many iterations and frameworks:</p>
+<ol>
+<li>Static site using html, css &amp; JavaScript</li>
+<li>Gatsby.js React framework</li>
+<li>Quick attempt at using Next.js React</li>
+<li>Nuxt.js Vue.js framework</li>
+<li>Now Webflow</li>
+</ol>
+<p>My goal was to get something that worked easily, let me update a blog quickly, and didn&rsquo;t require too much maintenance. Finally, I&rsquo;ve achieved that vague and ambitious goal with Webflow.</p>
+<h2 id="bit-of-historical-context" class="group relative scroll-mt-20">
+  Bit of historical context
+  <a
+    href="#bit-of-historical-context"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<h3 id="basic-static-site" class="group relative scroll-mt-20">
+  Basic static site
+  <a
+    href="#basic-static-site"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>While at University, near 2015 I was first learning software development as a main focus. I felt like I needed an online personal profile, but I didn&rsquo;t really know how to do it. So across 4 years I managed to cobble something together, though it wasn&rsquo;t pretty and I haven&rsquo;t got any screenshots to show it off.
+My first profile website used basic html and css. Honestly, not enjoyable&hellip; the css process took so much time and tweaking that eventually it caused longer and longer procrastination breaks (gaming). I finally understood the devs struggling with css memes.
+Skip ahead to my first graduate job, I learnt there are other ways to develop and I trusted that there had to be an easier way than crying over css (joking). So, with the internet at my disposal, I searched for a modern framework to build and deploy my site.</p>
+<h3 id="gatsbyjs" class="group relative scroll-mt-20">
+  GatsbyJS
+  <a
+    href="#gatsbyjs"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>The many rabbit-holes I ventured figuring out what the &ldquo;best&rdquo; framework was, watching YouTube, doing tutorials of each framework and creating starter programs. Eventually I realised I was thinking about doing, but not actually getting anywhere, so I just leapt into one of them.
+Introducing GatsbyJS, which at the time was a new React framework that helped build static sites quickly from templates, it even had blog plugins to make the whole process easier, so this was exactly what I was looking for&hellip; or so I thought.
+My basic knowledge of html, css, and javascript helped, but I had to learn React, JSX syntax, Webpack, and how to deploy my site. They had docs, but it wasn&rsquo;t super polished so there was a lot of time spent figuring it out on my own. On a grad salary I was looking for the cheapest (free) options for hosting; there were two options: GitHub Pages and Netlify.
+First, I tried GitHub Pages and succeeded in deploying it, but the workflow was tacky, it required me to run a command from my local machine to deploy it, which didn&rsquo;t feel right.
+I learnt about Git Flow and wanted it to deploy when I pushed up my code up to master (I know that&rsquo;s not entirely correct, and am now aware that PRs and merges offer a nicer dev workflow flow, but at the time pushing to master was the way).
+So I moved to Netlify, which watched your repository for changes on a specific branch, and deployed whatever was there for you. This worked great for me, and allowed me to iterate with development on Gatsby quickly. However&hellip; as it was early on, the framework and plugins were changing often. Updating the npm packages caused the website to break so much that I gave up making changes to the website altogether. I resigned to allowing my website to exist in it&rsquo;s current state. Until I got inspired by a front-end engineer at another company I worked at.
+For added context, my career was taking me down the DevOps Engineer pathway, but I still enjoyed playing around with front-end development. So I&rsquo;d chat to other engineers about what they were doing and what they enjoyed using. This inspired my next framework choice that I thought would surely be easier.</p>
+<h3 id="nuxtjs" class="group relative scroll-mt-20">
+  NuxtJS
+  <a
+    href="#nuxtjs"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>Inspired by my teammate, and with an expert to back me should I fall into any of the traps. I started building a Nuxt website. I gave up on designing a website and though, &ldquo;lets just get something working&rdquo;.
+Following through the docs I cobbled together a very basic website that used their content module to generate pages from markdown. This allowed me to at least write blogs using markdown text and the pages would generate on deployment.
+The deployment was done through GitHub Pages and I eventually got it deploying using GitHub Actions, which I was using more at work. This was great and Nuxt v2 was working well.
+Then the Nuxt v3 update happened, and all my shit broke. So I spend another weekend tweaking and figuring out why the content renderers wouldn&rsquo;t load my blog pages from Markdown. Turns out the interface changed for how we loaded content, so the old method didn&rsquo;t work.
+With that fixed, I happily added a blog about using ChatGPT or Perplexity to support my writing style. Woohoo!</p>
+<h3 id="time-skip-to-now" class="group relative scroll-mt-20">
+  Time skip to now
+  <a
+    href="#time-skip-to-now"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>I&rsquo;m taking a break from work, travelling asia (see /blog/now-june-2025), I decided to attempt to write blogs to capture my learnings while creating music.
+Looking ahead to writing 10 or more blogs, I realised how much of a hassle my Nuxt stack would be for updating and posting blogs. Changes required markdown updates pushed to a git branch and merged into main, I could immediately see this adding friction that would stop me from doing the actual blog writing. Also because of how I was loading blog images, it made the whole /public/img/ directory structure ugly, and in the future I would have a huge dump of images that were difficult to update.
+Honestly, I might not even write so many blogs that this becomes a problem, but this future problem was enough to distract me from making music. I didn&rsquo;t want to create a big mess that I had to clean up later so I looked for another solution.
+I looked into WordPress quickly, which a couple older colleagues of mine used for their personal blogs and another colleague who built the company websites using WordPress. It would&rsquo;ve worked, and been cheap, but I didn&rsquo;t want to touch it. It felt old, and I knew there were better tools out there.</p>
+<h2 id="so-why-webflow" class="group relative scroll-mt-20">
+  So, why Webflow?
+  <a
+    href="#so-why-webflow"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>I was on LinkedIn one day and saw a post from Nikolai teaching people how to use Webflow. Nikolai actually introduced me to webflow way back in 2017 and it&rsquo;d been swirling in my brain ever since, it seemed like a great tool. It&rsquo;s fantastic for Web Designer to build websites without worrying about the nitty gritty of maintaining a website with code. It still requires fundamental understandings of website development and html &amp; css, but it&rsquo;s mostly no-code.
+After the whole Nuxt Vue major update I thought I cbf with this, lets try Webflow out.
+I don&rsquo;t want to pay for Webflow yet, thats why my site is only available on <a href="https://westernwilson.webflow.io">https://westernwilson.webflow.io</a>, in the future I intend to upgrade it so I can use my personal website url under <a href="https://westernwilson.com">https://westernwilson.com</a></p>
+<h2 id="what-is-the-development-process-like" class="group relative scroll-mt-20">
+  What is the development process like?
+  <a
+    href="#what-is-the-development-process-like"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>I kind of cheated a bit, I used their AI tool to design and kick-start my new and improved personal profile website, then I tweaked the required bits and here we have it, a new website! The tweaking of Webflow was much easier for me than the frameworks. Everything you need to understand is in their docs, and to publish is very easy. No updating of packages under the hood, and it all just works.
+To be honest, the Webflow structure I currently have could probably be improved, but I&rsquo;ll leave it as is for now since it works.
+The major learning was configuring the Content Management System (CMS) that comes in-built with Webflow to store my blogs. Couple searches on the web and Perplexity helped me figure this out over a day or so.
+So now, I have a blog website that gets updated from a CMS. I&rsquo;m stoked! Adding links or audio files is a lot easier than before too.
+You still need some understanding of how web development html tags are structured and how they pair with css styling, but for me this solution is perfect.</p>
+<h2 id="final-words" class="group relative scroll-mt-20">
+  Final words
+  <a
+    href="#final-words"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>I&rsquo;m happy with Webflow, because now I can focus on playing around making music and writing blogs instead of constantly upgrading and tweaking my website.</p>
+]]></content:encoded></item></channel></rss>

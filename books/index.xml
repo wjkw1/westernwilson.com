@@ -1,1 +1,879 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Books on Western Wilson</title><link>https://westernwilson.com/books/</link><description>Recent content in Books on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 06 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/books/index.xml" rel="self" type="application/rss+xml"/><item><title>The DevOps Handbook</title><link>https://westernwilson.com/books/the-devops-handbook/</link><pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/the-devops-handbook/</guid><description>&lt;h2 id="notes-on-the-devops-handbook" class="group relative scroll-mt-20"&gt;&#10; Notes on The DevOps Handbook&#10; &lt;a&#10; href="#notes-on-the-devops-handbook"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;I&amp;rsquo;ve read this book twice now, once early on in my career and again now whilst having a breadth of more DevOps experience at companies with different levels of DevOps maturity.&#10;I found myself skimming sections that weren&amp;rsquo;t as useful to me now, but re-reading in detail sections I found new insights from. You&amp;rsquo;ll be able to tell which based on my most recent quote pulls at the end.&#10;The whole book hangs off the Three Ways, which is kind of funny because Taoism talks about &amp;ldquo;The Way&amp;rdquo;, so this recent reading reminded me of Taoism and the book I recently read there.&lt;/p&gt;</description></item><item><title>Clean Code</title><link>https://westernwilson.com/books/clean-code/</link><pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/clean-code/</guid><description>&lt;h2 id="notes-on-clean-code" class="group relative scroll-mt-20"&gt;&#10; Notes on Clean Code&#10; &lt;a&#10; href="#notes-on-clean-code"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;This book is packed with examples and opinions by people with decades of experience. Martin has clearly written a lot of code and seen a lot of projects go sideways, then picked up the pieces and improved them.&lt;/p&gt;&#10;&lt;p&gt;My main takeaway is that the cost of bad code is huge, and it compounds over time. A team that moves fast with messy code will eventually stall. Anyone who has picked up someone else&amp;rsquo;s code and spent an hour just trying to figure out what it does will know exactly what he means.&lt;/p&gt;</description></item><item><title>Babel: An Arcane History</title><link>https://westernwilson.com/books/babel-an-arcane-history/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/babel-an-arcane-history/</guid><description>&lt;h2 id="notes-on-babel" class="group relative scroll-mt-20"&gt;&#10; Notes on Babel&#10; &lt;a&#10; href="#notes-on-babel"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;This book begins and ends with sadness. It has many ups and downs which helped me feel really invested in the students journey.&lt;/p&gt;&#10;&lt;p&gt;The author moves through the story really quick. It&amp;rsquo;s great to read because it feels like there is no dawdling on useless parts of text or superflous detail. It all moves the plot or develops a character. Such a good author.&lt;/p&gt;</description></item><item><title>Unfuck Your Boundaries</title><link>https://westernwilson.com/books/unfuck-your-boundaries/</link><pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/unfuck-your-boundaries/</guid><description>&lt;blockquote&gt;&#10;&lt;p&gt;We respect these boundaries through how we care for others and by letting them have their own emotional experiences&lt;/p&gt;&#10;&lt;/blockquote&gt;&#10;&lt;p&gt;Too often we feel the emotional burden, or perceived microexpression that means a person is angry or sad. Then you immediate feel an urge to rush in and fix it.&lt;/p&gt;&#10;&lt;p&gt;That isn&amp;rsquo;t respect. They didnt ask for help. They&amp;rsquo;re processing something you can&amp;rsquo;t see. You must let them have that experience and not feel guilty about not forcing your hand to help.&lt;/p&gt;</description></item><item><title>The Great Mental Models</title><link>https://westernwilson.com/books/the-great-mental-models/</link><pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/the-great-mental-models/</guid><description>&lt;p&gt;This book starts off explaining why mental models are required and gives many examples of situations show its importance. A lot of books do this, it&amp;rsquo;s like they try to entice you into reading the book. But I&amp;rsquo;d already decided to read it, so its hard to get through the start of the book.&lt;/p&gt;&#10;&lt;p&gt;This book leans on Charlie Munger&amp;rsquo;s philosophy. Early on he shares a Munger quote:&lt;/p&gt;&#10;&lt;blockquote&gt;&#10;&lt;p&gt;I believe in the discipline of mastering the best of what other people have figured out&#10;When mental models are not applied then you probably have failed understanding of a given situation.&lt;/p&gt;</description></item><item><title>Yellowface</title><link>https://westernwilson.com/books/yellowface/</link><pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/yellowface/</guid><description>&lt;p&gt;&lt;strong&gt;Contains spoilers.&lt;/strong&gt;&lt;/p&gt;&#10;&lt;p&gt;This book was amazing read for me. I barely read anything fictional thats not got some element of fantasy or super powers. But I couldn&amp;rsquo;t stop myself from turning pages. Thoroughly enjoyed it and I&amp;rsquo;ll be reading her other works.&lt;/p&gt;&#10;&lt;p&gt;This book was gripping, the pacing of each sentence was masterful. It feels like it was written in its most condensed form without losing any meaning from the text. It jumped from plot to plot, and I like that it didn&amp;rsquo;t waffle on about unessesary bits.&lt;/p&gt;</description></item><item><title>A New Earth: Awakening to Your Life's Purpose</title><link>https://westernwilson.com/books/a-new-earth/</link><pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/a-new-earth/</guid><description>&lt;p&gt;It&amp;rsquo;s worth questioning where the inner voice comes from. Once you unlock the watcher of the voice, it feels like your inner world expands, and as a consequence your experience in the physical world too.&lt;/p&gt;&#10;&lt;h2 id="quotes" class="group relative scroll-mt-20"&gt;&#10; Quotes&#10; &lt;a&#10; href="#quotes"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;blockquote&gt;&#10;&lt;p&gt;Most people are only peripherally aware of the world that surrounds them, especially if their surroundings are familiar. The voice in the head absorbs the greater part of their attention.&lt;/p&gt;</description></item><item><title>The 4-Hour Work Week</title><link>https://westernwilson.com/books/4-hour-work-week/</link><pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/4-hour-work-week/</guid><description>&lt;h2 id="the-4-hour-work-week" class="group relative scroll-mt-20"&gt;&#10; The 4-Hour Work Week&#10; &lt;a&#10; href="#the-4-hour-work-week"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;This book has given me the biggest paradigm shift of any book I&amp;rsquo;ve ever read. From critical thinking, to bending rules, to working smarter not harder. It&amp;rsquo;s an enjoyable read, just a bit shocking to see how other people decide operate.&lt;/p&gt;&#10;&lt;p&gt;Timothy Ferris shares a bunch of stories where he questions the world and how it operates, and find ways to side-step those rules. He manages to stay within the legal rules, but is an outside-of-the-box thinker. He shares how he&amp;rsquo;s had this critical mind ever since being a kid and how it&amp;rsquo;s helped him.&lt;/p&gt;</description></item><item><title>The Richest Man in Babylon</title><link>https://westernwilson.com/books/the-richest-man-in-babylon/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/the-richest-man-in-babylon/</guid><description>&lt;p&gt;This book has helps point me in the right direction with my finances time and time again. A friend gave it to me in 2023 to read, and to this day &lt;strong&gt;it&amp;rsquo;s my favourite book&lt;/strong&gt;.&lt;/p&gt;&#10;&lt;p&gt;I saw a social media clip of Robert Greene recommending it, and countless other people saying it&amp;rsquo;s a good one. So I gave it a go and have read it yearly since.&lt;/p&gt;&#10;&lt;p&gt;It&amp;rsquo;s a book of parables in the Babylonian time teaching you lessons using stories from that era. I think the stories were inspired by actual real life clay tablets. I&amp;rsquo;ve read many other finance books after this one, and they all seem to borrow concepts taught here.&#10;It makes me wonder if this book was truly written from the clay tablets, or if there was some other historical influence this is based off of.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/books/</link><description>Recent content in Books on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 06 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/books/index.xml" rel="self" type="application/rss+xml"/><item><title>The DevOps Handbook</title><link>https://westernwilson.com/books/the-devops-handbook/</link><pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/the-devops-handbook/</guid><description>&lt;h2 id="notes-on-the-devops-handbook" class="group relative scroll-mt-20"&gt;&#10; Notes on The DevOps Handbook&#10; &lt;a&#10; href="#notes-on-the-devops-handbook"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;I&amp;rsquo;ve read this book twice now, once early on in my career and again now whilst having a breadth of more DevOps experience at companies with different levels of DevOps maturity.&#10;I found myself skimming sections that weren&amp;rsquo;t as useful to me now, but re-reading in detail sections I found new insights from. You&amp;rsquo;ll be able to tell which based on my most recent quote pulls at the end.&#10;The whole book hangs off the Three Ways, which is kind of funny because Taoism talks about &amp;ldquo;The Way&amp;rdquo;, so this recent reading reminded me of Taoism and the book I recently read there.&lt;/p&gt;</description><content:encoded><![CDATA[<h2 id="notes-on-the-devops-handbook" class="group relative scroll-mt-20">
+  Notes on The DevOps Handbook
+  <a
+    href="#notes-on-the-devops-handbook"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>I&rsquo;ve read this book twice now, once early on in my career and again now whilst having a breadth of more DevOps experience at companies with different levels of DevOps maturity.
+I found myself skimming sections that weren&rsquo;t as useful to me now, but re-reading in detail sections I found new insights from. You&rsquo;ll be able to tell which based on my most recent quote pulls at the end.
+The whole book hangs off the Three Ways, which is kind of funny because Taoism talks about &ldquo;The Way&rdquo;, so this recent reading reminded me of Taoism and the book I recently read there.</p>
+<ul>
+<li>The First Way is flow: get work moving left to right, from the business to the customer, as fast as possible.</li>
+<li>The Second Way is feedback: get signal moving right to left, fast and constantly, so problems get fixed near where they were made.</li>
+<li>The Third Way is a culture of experimentation and learning, where you deliberately take risks and treat failure as information rather than something to hide.</li>
+</ul>
+<p>The best companies I&rsquo;ve worked at give a culture safety to experimentation, AND provide tooling to support safe experiments. Which in essence gives cultural safety again! If deploys are scary, that&rsquo;s a signal about your architecture and your test coverage, not about the inherent difficulty of shipping.</p>
+<p>Continuous integration, trunk-based development, telemetry everywhere(!!!), feature flags, and labelling low-risk releases.</p>
+<p>Small batches of changes are important to make failures small, cheap, easy to attribute, and easy to rollback. Big batches make failures ambiguous and tough to revert.</p>
+<p>The importance of blameless postmortem was rehighlighted here, Atlassian has a great doc on it. The argument is that blame drives information under the rug, if naming a cause means naming a person who gets punished, you stop learning what actually happened, remove cultural safety of experimentation, and reduce the effectiveness of the whole investigation.</p>
+<p>Workshops and their importance to get everyone involved so we can discover the quick wins; this is workshops including both tech experts, decision makers, and domain experts.</p>
+<p>Value Stream mapping is next exercise, showing how new features (or new value) is added to the app. Probably customer request or business hypothesis, flowing through planning, dev, and deploy.
+There is skill involved in identifying the teams involved with a given Value stream. I think that a value stream is a domain within a company and the value that a given team (or cluster of teams) offers the customer.</p>
+<p>One key thing that tends to happen is surfacing of the many heroics across the business.
+Normally we think of heroics as great, but in DevOps of someone has to be a hero than the process has failed us and we should fix that process. Minimising heroics from the team, like late nights or weekend works, is important for the longevity of the dev team overall.</p>
+<p>Deployment methodologies for safe deployments, one method is blue/green databases with a switch the flicks over post-successful deployment. The better solution is to actually decouple the database changes from the application, this is what I&rsquo;ve seen done more often than not. No deletion of columns, and make sure the changes are additive only. Complex db changes require different approaches.</p>
+<p>Use the strangler patter to safely evolve the architecture of a system over time. The strangler pattern is worth knowing about, I experienced this during my time at Xero.</p>
+<h2 id="quotes" class="group relative scroll-mt-20">
+  Quotes
+  <a
+    href="#quotes"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<h3 id="introductions" class="group relative scroll-mt-20">
+  Introductions
+  <a
+    href="#introductions"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<blockquote>
+<p>High performers deployed code thirty times more frequently, and the time required to go from “code committed” to “successfully running in production” was two hundred times faster—high performers had lead times measured in minutes or hours, while low performers had lead times measured in weeks, months, or even quarters.</p>
+</blockquote>
+<blockquote>
+<p>Another more extreme example is Amazon. In 2011, Amazon was performing approximately seven thousand deploys per day. By 2015, they were performing 130,000 deploys per day.</p>
+</blockquote>
+<blockquote>
+<p>We describe value streams, how DevOps is the result of applying Lean principles to the technology value stream, and the Three Ways: Flow, Feedback, and Continual Learning and Experimentation.</p>
+</blockquote>
+<h3 id="part-i--the-three-ways" class="group relative scroll-mt-20">
+  Part I — The Three Ways
+  <a
+    href="#part-i--the-three-ways"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<blockquote>
+<p>Improving daily work is even more important than doing daily work.</p>
+</blockquote>
+<blockquote>
+<p>In addition to lead times and process times, the third key metric in the technology value stream is percent complete and accurate (%C/A). This metric reflects the quality of the output of each step in our value stream. Karen Martin and Mike Osterling state that “the %C/A can be obtained by asking downstream customers what percentage of the time they receive work that is ‘usable as is,’ meaning that they can do their work without having to correct the information that was provided, add missing information that should have been supplied, or clarify information that should have and could have been clearer.”</p>
+</blockquote>
+<blockquote>
+<p>By seeing problems as they occur and swarming them until effective countermeasures are in place, we continually shorten and amplify our feedback loops, a core tenet of virtually all modern process improvement methodologies. This maximizes the opportunities for our organization to learn and improve.</p>
+</blockquote>
+<h4 id="the-first-way-the-principles-of-flow" class="group relative scroll-mt-20">
+  The First Way: The Principles of Flow
+  <a
+    href="#the-first-way-the-principles-of-flow"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h4>
+<blockquote>
+<p>Work is not done when Development completes the implementation of a feature—rather, it is only done when our application is running successfully in production, delivering value to the customer.</p>
+</blockquote>
+<blockquote>
+<p>REDUCE THE NUMBER OF HANDOFFS</p>
+</blockquote>
+<blockquote>
+<p>High performers, regardless of whether an engineer is in Development, QA, Ops, or Infosec, state that their goal is to help maximize developer productivity.</p>
+</blockquote>
+<h4 id="the-second-way-the-principles-of-feedback" class="group relative scroll-mt-20">
+  The Second Way: The Principles of Feedback
+  <a
+    href="#the-second-way-the-principles-of-feedback"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h4>
+<blockquote>
+<p>Dr. Sidney Dekker, who also codified some of the key elements of safety culture, observed another characteristic of complex systems: doing the same thing twice will not predictably or necessarily lead to the same result. It is this characteristic that makes static checklists and best practices, while valuable, insufficient to prevent catastrophes from occurring.</p>
+</blockquote>
+<blockquote>
+<p>We use peer reviews of our proposed changes to gain whatever assurance is needed that our changes will operate as designed. We automate as much of the quality checking typically performed by a QA or Information Security department as possible. Instead of developers needing to request or schedule a test to be run, these tests can be performed on demand, enabling developers to quickly test their own code and even deploy those changes into production themselves. By doing this, we truly make quality everyone’s responsibility as opposed to it being the sole responsibility of a separate department.</p>
+</blockquote>
+<h4 id="the-third-way-the-principles-of-continuous-learning-and-experimentation" class="group relative scroll-mt-20">
+  The Third Way: The Principles of Continuous Learning and Experimentation
+  <a
+    href="#the-third-way-the-principles-of-continuous-learning-and-experimentation"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h4>
+<blockquote>
+<p>The leader helps coach the person conducting the experiment with questions that may include:</p>
+<ul>
+<li>What was your last step and what happened?</li>
+<li>What did you learn?</li>
+<li>What is your condition now?</li>
+<li>What is your next target condition?</li>
+<li>What obstacle are you working on now?</li>
+<li>What is your next step?</li>
+<li>What is your expected outcome?</li>
+<li>When can we check?</li>
+</ul>
+</blockquote>
+<h3 id="part-ii--where-to-start" class="group relative scroll-mt-20">
+  Part II — Where to Start
+  <a
+    href="#part-ii--where-to-start"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<blockquote>
+<p>Instead of the top-down, command-and-control approach, we need broad support from throughout the organization, especially from those doing the daily work.</p>
+</blockquote>
+<blockquote>
+<p>Find Innovators and Early Adopters: In the beginning, we focus our efforts on teams who actually want to help—these are our kindred spirits and fellow travelers who are the first to volunteer to start the DevOps journey.</p>
+</blockquote>
+<blockquote>
+<p>Based on their research, Dr. Govindarajan and Dr. Trimble assert that organizations need to create a dedicated transformation team that is able to operate outside of the rest of the organization that is responsible for daily operations (which they call the “dedicated team” and “performance engine” respectively).</p>
+</blockquote>
+<blockquote>
+<p>By dedicating 20% of our cycles so that Dev and Ops can create lasting countermeasures to the problems we encounter in our daily work, we ensure that technical debt doesn’t impede our ability to quickly and safely develop and operate our services in production.</p>
+</blockquote>
+<blockquote>
+<p>These observations led to what is now known as Conway’s Law, which states that “organizations which design systems… are constrained to produce designs which are copies of the communication structures of these organizations…. The larger an organization is, the less flexibility it has and the more pronounced the phenomenon.”</p>
+</blockquote>
+<blockquote>
+<p>In high-performing organizations, everyone within the team shares a common goal—quality, availability, and security aren’t the responsibility of individual departments, but are a part of everyone’s job, every day.</p>
+</blockquote>
+<blockquote>
+<p>As Jason Cox, Director of Systems Engineering at Disney, described, “Inside of Operations, we had to change our hiring practices. We looked for people who had ‘curiosity, courage, and candor,’ who were not only capable of being generalists but also renegades… We want to promote positive disruption so our business doesn’t get stuck and can move into the future.”</p>
+</blockquote>
+<blockquote>
+<p>Another way to enable high-performing outcomes is to create stable service teams with ongoing funding to execute their own strategy and road map of initiatives. These teams have the dedicated engineers needed to deliver on concrete commitments made to internal and external customers, such as features, stories, and tasks.</p>
+</blockquote>
+<blockquote>
+<p>Another way we can enable more market-oriented outcomes is by enabling product teams to become more self-sufficient by embedding Operations engineers within them, thus reducing their reliance on centralized Operations.</p>
+</blockquote>
+<h3 id="part-iii--the-first-way-flow" class="group relative scroll-mt-20">
+  Part III — The First Way: Flow
+  <a
+    href="#part-iii--the-first-way-flow"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<blockquote>
+<p>Deploying the same way to every environment</p>
+</blockquote>
+<blockquote>
+<p>But why does using version control for our environments predict IT and organizational performance better than using version control for our code? Because in almost all cases, there are orders of magnitude more configurable settings in our environment than in our code. Consequently, it is the environment that needs to be in version control the most.</p>
+</blockquote>
+<blockquote>
+<p>In other words, we will only accept development work as done when it can be successfully built, deployed, and confirmed that it runs as expected in a production-like environment, instead of merely when a developer believes it to be done—ideally, it runs under a production-like load with a production-like dataset, long before the end of a sprint.</p>
+</blockquote>
+<blockquote>
+<p>ADOPT TRUNK-BASED DEVELOPMENT PRACTICES</p>
+</blockquote>
+<blockquote>
+<p>Frequent code commits to trunk means we can run all automated tests on our software system as a whole and receive alerts when a change breaks some other part of the application or interferes with the work of another developer. And because we can detect merge problems when they are small, we can correct them faster.</p>
+</blockquote>
+<blockquote>
+<p>Of course, we know that we need to be deploying more frequently to achieve our desired outcome of smooth and fast flow, not less frequently. To enable this, we need to decouple our production deployments from our feature releases. In practice, the terms deployment and release are often used interchangeably.</p>
+</blockquote>
+<blockquote>
+<p>Gracefully degrade performance: When our service experiences extremely high loads that would normally require us to increase capacity or, worse, risk having our service fail in production, we can use feature toggles to reduce the quality of service. In other words, we can increase the number of users we serve by reducing the level of functionality delivered (e.g., reduce the number of customers who can access a certain feature, disable CPU-intensive features such as recommendations, etc.).</p>
+</blockquote>
+<h3 id="part-iv--the-second-way-feedback" class="group relative scroll-mt-20">
+  Part IV — The Second Way: Feedback
+  <a
+    href="#part-iv--the-second-way-feedback"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<blockquote>
+<p>As Adrian Cockcroft pointed out, “Monitoring is so important that our monitoring systems need to be more available and scalable than the systems being monitored.”</p>
+</blockquote>
+<blockquote>
+<p>To enable everyone to be able to find and fix problems in their daily work, we need to enable everyone to create metrics in their daily work that can be easily created, displayed, and analyzed.</p>
+</blockquote>
+<blockquote>
+<p>When critical production services have problems, waking people at 2 a.m. may be the right thing to do. However, when we create alerts that are not actionable or are false-positives, we’ve unnecessarily woken up people in the middle of the night.</p>
+</blockquote>
+<blockquote>
+<p>Tom Limoncelli, co-author of The Practice of Cloud System Administration: Designing and Operating Large Distributed Systems and a former Site Reliability Engineer at Google, relates the following story on monitoring: “When people ask me for recommendations on what to monitor, I joke that in an ideal world, we would delete all the alerts we currently have in our monitoring system. Then, after each user-visible outage, we’d ask what indicators would have predicted that outage and then add those to our monitoring system, alerting as needed. Repeat. Now we only have alerts that prevent outages, as opposed to being bombarded by alerts after an outage already occurred.”</p>
+</blockquote>
+<blockquote>
+<p>Before we build a feature, we should rigorously ask ourselves, “Should we build it, and why?” We should then perform the cheapest and fastest experiments possible to validate through user research whether the intended feature will actually achieve the desired outcomes. We can use techniques such as hypothesis-driven development, customer acquisition funnels, and A/ B testing, concepts we explore throughout this chapter.</p>
+</blockquote>
+<blockquote>
+<p>The surprising reality is that in environments with low-trust, command-and-control cultures, the outcomes of these types of change control and testing countermeasures often result in an increased likelihood that problems will occur again, potentially with even worse outcomes.</p>
+</blockquote>
+<blockquote>
+<p>One of the core beliefs in the Toyota Production System is that “people closest to a problem typically know the most about it.”</p>
+</blockquote>
+<blockquote>
+<p>Pair programming has the additional benefit of spreading knowledge throughout the organization and increasing information flow within the team. Having more experienced engineers review while the less experienced engineer codes is also an effective way to teach and be taught.</p>
+</blockquote>
+<h3 id="part-v--the-third-way-continual-learning-and-experimentation" class="group relative scroll-mt-20">
+  Part V — The Third Way: Continual Learning and Experimentation
+  <a
+    href="#part-v--the-third-way-continual-learning-and-experimentation"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<blockquote>
+<p>Blameless post-mortems are about accurately learning what happened, not about assigning blame.</p>
+</blockquote>
+<blockquote>
+<p>During the meeting and the subsequent resolution, we should explicitly disallow the phrases “would have” or “could have,” as they are counterfactual statements that result from our human tendency to create possible alternatives to events that have already occurred. Counterfactual statements, such as “I could have…” or “If I had known about that, I should have…,” frame the problem in terms of the system as imagined instead of in terms of the system that actually exists, which is the context we need to restrict ourselves to.</p>
+</blockquote>
+<blockquote>
+<p>In addition to the Lean-oriented terms kaizen blitz and improvement blitz, the technique of dedicated rituals for improvement work has also been called spring or fall cleanings and ticket queue inversion weeks. Other terms have also been used, such as hack days, hackathons, and 20% innovation time.</p>
+</blockquote>
+<blockquote>
+<p>A dynamic culture of learning creates conditions so that everyone can not only learn, but also teach, whether through traditional didactic methods (e.g., people taking classes, attending training) or more experiential or open methods (e.g., conferences, workshops, mentoring). One way that we can foster this teaching and learning is to dedicate organizational time to it.</p>
+</blockquote>
+<blockquote>
+<p>Bland said, at that time, there was a 20% innovation time policy at Google, enabling developers to spend roughly one day per week on a Google-related project outside of their primary area of responsibility. Some engineers chose to form grouplets, ad hoc teams of like-minded engineers who wanted to pool their 20% time, allowing them to do focused improvement blitzes.</p>
+</blockquote>
+<h3 id="part-vi-integrating-security-change-management-and-compliance" class="group relative scroll-mt-20">
+  Part VI: Integrating Security, Change Management and Compliance
+  <a
+    href="#part-vi-integrating-security-change-management-and-compliance"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<blockquote>
+<p>Instead of inspecting security into our product at the end of the process, we will create and integrate security controls into the daily work of Development and Operations, so that security is part of everyone’s job, every day. Ideally, this work will be automated and put into our deployment pipeline. Furthermore, we will augment our manual practices, acceptances, and approval processes with automated controls, relying less on controls such as separation of duties and change approval processes.</p>
+</blockquote>
+<blockquote>
+<p>Source code integrity and code signing: All developers should have their own PGP key, perhaps created and managed in a system such as keybase.io.</p>
+</blockquote>
+<blockquote>
+<p>OWASP publishes a great deal of useful guidance such as the Cheat Sheet series, which includes: How to store passwords How to handle forgotten passwords How to handle logging How to prevent cross-site scripting (XSS) vulnerabilities</p>
+</blockquote>
+<blockquote>
+<p>No one actually looks at the unit tests, and they’re run every time someone commits code to the repo.” This demonstrates that in order to adequately protect the integrity of our applications and environments, we must also mitigate the attack vectors on our deployment pipeline.</p>
+</blockquote>
+<blockquote>
+<p>In this case, we must ensure that any submitted change requests are as complete and accurate as possible, giving the CAB everything they need to properly evaluate our change—after all, if our change request is malformed or incomplete, it will be bounced back to us, increasing the time required for us to get into production and casting doubt on whether we actually understand the goals of the change management process.</p>
+</blockquote>
+<blockquote>
+<p>For Mangot and Mathew, one of the key successes from all the repeatability and rigor they designed into the process was being told by their change management group that “infrastructure changes made through Puppet would now be treated as ‘standard changes,’ requiring far less or even no further approvals from the CAB.” Furthermore, they noted that “manual changes to infrastructure would still require approvals.”</p>
+</blockquote>
+<h3 id="appendices" class="group relative scroll-mt-20">
+  Appendices
+  <a
+    href="#appendices"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<blockquote>
+<p>APPENDIX 9 THE SIMIAN ARMY After the 2011 AWS EAST Outage, Netflix had numerous discussions about engineering their systems to automatically deal with failure. These discussions have evolved into a service called “Chaos Monkey.”</p>
+</blockquote>
+]]></content:encoded></item><item><title>Clean Code</title><link>https://westernwilson.com/books/clean-code/</link><pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/clean-code/</guid><description>&lt;h2 id="notes-on-clean-code" class="group relative scroll-mt-20"&gt;&#10; Notes on Clean Code&#10; &lt;a&#10; href="#notes-on-clean-code"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;This book is packed with examples and opinions by people with decades of experience. Martin has clearly written a lot of code and seen a lot of projects go sideways, then picked up the pieces and improved them.&lt;/p&gt;&#10;&lt;p&gt;My main takeaway is that the cost of bad code is huge, and it compounds over time. A team that moves fast with messy code will eventually stall. Anyone who has picked up someone else&amp;rsquo;s code and spent an hour just trying to figure out what it does will know exactly what he means.&lt;/p&gt;</description><content:encoded><![CDATA[<h2 id="notes-on-clean-code" class="group relative scroll-mt-20">
+  Notes on Clean Code
+  <a
+    href="#notes-on-clean-code"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>This book is packed with examples and opinions by people with decades of experience. Martin has clearly written a lot of code and seen a lot of projects go sideways, then picked up the pieces and improved them.</p>
+<p>My main takeaway is that the cost of bad code is huge, and it compounds over time. A team that moves fast with messy code will eventually stall. Anyone who has picked up someone else&rsquo;s code and spent an hour just trying to figure out what it does will know exactly what he means.</p>
+<p>Somewhere in the first chapter he makes a link between the abstraction away from byte code to assembly to object oriented languages, then expands further to consider a new AI system that will do our jobs for us (similar to what we are living through). It gave me a strong sense that no matter what level of abstraction we rise to (AI non-deterministic prompting being the latest), we still need strong, clear communication of our ideas.</p>
+<p>There was a comment about Coders being essentially Authors, I don&rsquo;t know why, but was a paradigm shift in my brain. We are writers using language syntax that tells machines what to do, but also has to show other Authors/engineers what it does. So be professional and communicate clearly. You&rsquo;ve read bad articles or books, and you&rsquo;ve read good ones, make sure your code aligns closely with the good ones.</p>
+<p>He put a lot of emphasis on the effort you should spend on good names. But not letting that effort slow you down because it is refactorable. Both of these change how I think about naming things.</p>
+<p>A clever shorthand variable name might save you ten seconds when you write it, but it&rsquo;ll cost the next person ten minutes when they read it.</p>
+<p>A good variable or function name is a small piece of documentation that you never have to keep in <em>sync</em> with the code, because it <em>is</em> the code. The time you spend thinking of a better name is almost always worth it.</p>
+<p>Functions should do one thing. That principle sounds obvious until you realise how hard it actually is to follow. While reading this chapter I remembered functions I&rsquo;d written that did a few things, and cringed. Ideally, the function should do one thing well, and be named in line with exactly what it does.</p>
+<p>I&rsquo;d heard these comment vs code arguments from an old colleague, this book reemphasised what he was saying. Comments are a failure; they&rsquo;re a sign that the code isn&rsquo;t clear enough to speak for itself. Every comment you write is maintenance debt. Code changes; comments drift. There&rsquo;s nothing worse than a comment that confidently describes something the code no longer does. I agreed with this chapter wholeheartedly.</p>
+<p>The boy scout rule is great too: leave the campground cleaner than you found it. Don&rsquo;t just fix the bug and ship it. Rename the thing that confused you, or extract the chunk that didn&rsquo;t belong. Don&rsquo;t rewriting everything, but small incremental improvements accumulating over time into a codebase makes it actually pleasant to work in.</p>
+<p>One key idea to me was the purpose of writing OOP; from what I gather, it&rsquo;s to make the code easily changeable and extensible in such a way that future features are easier to add. This tends to look like standardised patterns so you know exactly how to make changes to extend the code without stepping on each others toes. By following uncle Bob&rsquo;s rules in this book, you can both make code easy to understand, but also easy to change.</p>
+<p>The final chapters taught me that writing clean code is not something you get right the first time. It&rsquo;s like writing an article or blog post, you have multiple stages of drafts, and over time the output condenses into something legible.</p>
+<p>The book shows a systematic way go from idea to messy code, then from messy code to refactored clean code (iteratively). To do this, automated unit tests are a requirement. OOP helps make testing easier by abstracting away key components of the system.</p>
+<h2 id="quotes" class="group relative scroll-mt-20">
+  Quotes
+  <a
+    href="#quotes"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<h3 id="foreword" class="group relative scroll-mt-20">
+  Foreword
+  <a
+    href="#foreword"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<blockquote>
+<p>Clean code honors the deep roots of wisdom beneath our broader culture, or our culture as it once was, or should be, and can be with attentiveness to detail.</p>
+</blockquote>
+<blockquote>
+<p>It is a recommended practice in Scrum that re-factoring be part of the concept of “Done.” Neither architecture nor clean code insist on perfection, only on honesty and doing the best we can. To err is human; to forgive, divine. In Scrum, we make everything visible. We air our dirty laundry. We are honest about the state of our code because code is never perfect.</p>
+</blockquote>
+<h3 id="chapter-1-clean-code" class="group relative scroll-mt-20">
+  Chapter 1 Clean Code
+  <a
+    href="#chapter-1-clean-code"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>Yo&hellip; AI? It&rsquo;s not there yet, not sure if it will ever be.</p>
+<blockquote>
+<p>They are hoping that one day we will discover a way to create machines that can do what we want rather than what we say. These machines will have to be able to understand us so well that they can translate vaguely specified needs into perfectly executing programs that precisely meet those needs.</p>
+</blockquote>
+<p>Truth. Though I strive to not allow it to be my truth.</p>
+<blockquote>
+<p>We’ve all said we’d go back and clean it up later. Of course, in those days we didn’t know LeBlanc’s law: Later equals never .</p>
+</blockquote>
+<p>I worked somewhere stuck in this same situation, it&rsquo;s so refreshing to know that 1) it wasn&rsquo;t a unique experience to me, and 2) that there are ways around it.</p>
+<blockquote>
+<p>Now the two teams are in a race. The tiger team must build a new system that does everything that the old system does. Not only that, they have to keep up with the changes that are continuously being made to the old system. Management will not replace the old system until the new system can do everything that the old system does. This race can go on for a very long time. I’ve seen it take 10 years. And by the time it’s done, the original members of the tiger team are long gone, and the current members are demanding that the new system be redesigned because it’s such a mess.</p>
+</blockquote>
+<blockquote>
+<p>You will not make the deadline by making the mess. Indeed, the mess will slow you down instantly, and will force you to miss the deadline. The only way to make the deadline—the only way to go fast—is to keep the code as clean as possible at all times.</p>
+</blockquote>
+<blockquote>
+<p>Bjarne Stroustrup, inventor of C + + and author of The C + + Programming Language</p>
+</blockquote>
+<blockquote>
+<p>But don’t make the mistake of thinking that we are somehow “right” in any absolute sense. There are other schools and other masters that have just as much claim to professionalism as we. It would behoove you to learn from them as well.</p>
+</blockquote>
+<blockquote>
+<p>We are authors. And one thing about authors is that they have readers. Indeed, authors are responsible for communicating well with their readers. The next time you write a line of code, remember you are an author, writing for readers who will judge your effort.</p>
+</blockquote>
+<blockquote>
+<p>It’s not enough to write the code well. The code has to be kept clean over time. We’ve all seen code rot and degrade as time passes. So we must take an active role in preventing this degradation.</p>
+</blockquote>
+<h3 id="chapter-2-meningful-names" class="group relative scroll-mt-20">
+  Chapter 2 Meningful Names
+  <a
+    href="#chapter-2-meningful-names"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<blockquote>
+<p>The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name does not reveal its intent.</p>
+</blockquote>
+<blockquote>
+<p>Classes and objects should have noun or noun phrase names like Customer , WikiPage , Account , and AddressParser . Avoid words like Manager , Processor , Data , or Info in the name of a class. A class name should not be a verb.</p>
+</blockquote>
+<blockquote>
+<p>Single-letter variable names are only acceptable as loop counters. Everything else deserves better.</p>
+</blockquote>
+<blockquote>
+<p>The name AccountVisitor means a great deal to a programmer who is familiar with the VISITOR pattern. What programmer would not know what a JobQueue was? There are lots of very technical things that programmers have to do. Choosing technical names for those things is usually the most appropriate course.</p>
+</blockquote>
+<h3 id="chapter-3-functions" class="group relative scroll-mt-20">
+  Chapter 3 Functions
+  <a
+    href="#chapter-3-functions"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<blockquote>
+<p>Functions that do one thing cannot be reasonably divided into sections.
+&hellip;
+To say this differently, we want to be able to read the program as though it were a set of TO paragraphs, each of which is describing the current level of abstraction and referencing subsequent TO paragraphs at the next level down. To include the setups and teardowns, we include setups, then we include the test page content, and then we include the teardowns.</p>
+</blockquote>
+<blockquote>
+<p>The first rule of functions is that they should be small. The second rule of functions is that they should be smaller than that.</p>
+</blockquote>
+<blockquote>
+<p>Functions should do one thing. They should do it well. They should do it only.
+This feels achievable until you&rsquo;re actually in the middle of writing something and you just want to add one more thing because it&rsquo;s almost related.</p>
+</blockquote>
+<blockquote>
+<p>A function with two arguments is harder to understand than a monadic function. For example, writeField( name) is easier to understand than writeField( output-Stream, name). Though the meaning of both is clear, the first glides past the eye, easily depositing its meaning. The second requires a short pause until we learn to ignore the first parameter. And that, of course, eventually results in problems because we should never ignore any part of code. The parts we ignore are where the bugs will hide.</p>
+</blockquote>
+<blockquote>
+<p>Have No Side Effects Side effects are lies. Your function promises to do one thing, but it also does other hidden things. Sometimes it will make unexpected changes to the variables of its own class.</p>
+</blockquote>
+<blockquote>
+<p>In general output arguments should be avoided. If your function must change the state of something, have it change the state of its owning object.</p>
+</blockquote>
+<blockquote>
+<p>On the other hand, if you use exceptions instead of returned error codes, then the error processing code can be separated from the happy path code and can be simplified:</p>
+</blockquote>
+<h3 id="chapter-4-comments" class="group relative scroll-mt-20">
+  Chapter 4 Comments
+  <a
+    href="#chapter-4-comments"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<blockquote>
+<p>So when you find yourself in a position where you need to write a comment, think it through and see whether there isn’t some way to turn the tables and express yourself in code.</p>
+</blockquote>
+<blockquote>
+<p>Others who see that commented-out code won’t have the courage to delete it. They’ll think it is there for a reason and is too important to delete.</p>
+</blockquote>
+<blockquote>
+<p>Every time you write a comment, you should grimace and feel the failure of your ability of expression.</p>
+</blockquote>
+<h3 id="chapter-5-formatting" class="group relative scroll-mt-20">
+  Chapter 5 Formatting
+  <a
+    href="#chapter-5-formatting"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<blockquote>
+<p>We use horizontal white space to associate things that are strongly related and disassociate things that are more weakly related.</p>
+</blockquote>
+<h3 id="chapter-6-objects-and-data-structures" class="group relative scroll-mt-20">
+  Chapter 6 Objects and Data Structures
+  <a
+    href="#chapter-6-objects-and-data-structures"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<blockquote>
+<p>In any complex system there are going to be times when we want to add new data types rather than new functions. For these cases objects and OO are most appropriate. On the other hand, there will also be times when we’ll want to add new functions as opposed to data types. In that case procedural code and data structures will be more appropriate.</p>
+</blockquote>
+<blockquote>
+<p>More precisely, the Law of Demeter says that a method f of a class C should only call the methods of these: • C • An object created by f • An object passed as an argument to f • An object held in an instance variable of C The method should not invoke methods on objects that are returned by any of the allowed functions.</p>
+</blockquote>
+<p>I wrote a note here to look more into procedural vs oop methodoloies and programming.</p>
+<blockquote>
+<p>They have functions that do significant things, and they also have either public variables or public accessors and mutators that, for all intents and purposes, make the private variables public, tempting other external functions to use those variables the way a procedural program would use a data structure.</p>
+</blockquote>
+<p>The quasi-encapsulation of beans seems to make some OO purists feel better but usually provides no other benefit.</p>
+<h3 id="chapter-7-use-exceptions-rather-than-return-codes" class="group relative scroll-mt-20">
+  Chapter 7 Use Exceptions Rather Than Return Codes
+  <a
+    href="#chapter-7-use-exceptions-rather-than-return-codes"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<blockquote>
+<p>Use Exceptions Rather Than Return Codes</p>
+</blockquote>
+<blockquote>
+<p>Create informative error messages and pass them along with your exceptions. Mention the operation that failed and the type of failure. If you are logging in your application, pass along enough information to be able to log the error in your catch.</p>
+</blockquote>
+<blockquote>
+<p>It’s easy to say that the problem with the code above is that it is missing a null check, but in actuality, the problem is that it has too many. If you are tempted to return null from a method, consider throwing an exception or returning a SPECIAL CASE object instead.</p>
+</blockquote>
+<h3 id="chapter-8-boundaries" class="group relative scroll-mt-20">
+  Chapter 8 Boundaries
+  <a
+    href="#chapter-8-boundaries"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<blockquote>
+<p>If you use a boundary interface like Map, keep it inside the class, or close family of classes, where it is used. Avoid returning it from, or accepting it as an argument to, public APIs.</p>
+</blockquote>
+<p>In learning tests we call the third-party API, as we expect to use it in our application. We’re essentially doing controlled experiments that check our understanding of that API. The tests focus on what we want out of the API.</p>
+<p>We manage third-party boundaries by having very few places in the code that refer to them. We may wrap them as we did with Map , or we may use an ADAPTER to convert from our perfect interface to the provided interface. Either way our code speaks to us better, promotes internally consistent usage across the boundary, and has fewer maintenance points when the third-party code changes.</p>
+<h3 id="chapter-9-unit-tests" class="group relative scroll-mt-20">
+  Chapter 9 Unit Tests
+  <a
+    href="#chapter-9-unit-tests"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>in the mad rush to add testing to our discipline, many programmers have missed some of the more subtle, and important, points of writing good tests.</p>
+<p>First Law You may not write production code until you have written a failing unit test. Second Law You may not write more of a unit test than is sufficient to fail, and not compiling is failing. Third Law You may not write more production code than is sufficient to pass the currently failing test.</p>
+<p>The moral of the story is simple: Test code is just as important as production code. It is not a second-class citizen. It requires thought, design, and care. It must be kept as clean as production code.</p>
+<p>That is the nature of the dual standard. There are things that you might never do in a production environment that are perfectly fine in a test environment. Usually they involve issues of memory or CPU efficiency. But they never involve issues of cleanliness.</p>
+<p>Timely The tests need to be written in a timely fashion. Unit tests should be written just before the production code that makes them pass. If you write tests after the production code, then you may find the production code to be hard to test. You may decide that some production code is too hard to test. You may not design the production code to be testable.</p>
+<blockquote>
+<p>Clean boundaries. Code at the boundaries needs clear separation and tests that define expectations.
+There&rsquo;s a whole class of bugs that only exist because the assumptions on one side of an API boundary were never written down anywhere. Tests are the written-down version.</p>
+</blockquote>
+<h3 id="chapter-10-classes" class="group relative scroll-mt-20">
+  Chapter 10 Classes
+  <a
+    href="#chapter-10-classes"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>There is seldom a good reason to have a public variable. Public functions should follow the list of variables. We like to put the private utilities called by a public function right after the public function itself. This follows the stepdown rule and helps the program read like a newspaper article.</p>
+<p>With functions we measured size by counting physical lines. With classes we use a different measure. We count responsibilities</p>
+<p>The problem is that too many of us think that we are done once the program works. We fail to switch to the other concern of organization and cleanliness. We move on to the next problem rather than going back and breaking the overstuffed classes into decoupled units with single responsibilities.</p>
+<p>many developers fear that a large number of small, single-purpose classes makes it more difficult to understand the bigger picture. They are concerned that they must navigate from class to class in order to figure out how a larger piece of work gets accomplished. However, a system with many small classes has no more moving parts than a system with a few large classes. There is just as much to learn in the system with a few large classes. So the question is: Do you want your tools organized into toolboxes with many small drawers each containing well-defined and well-labeled components? Or do you want a few drawers that you just toss everything into?</p>
+<p>To restate the former points for emphasis: We want our systems to be composed of many small classes, not a few large ones.</p>
+<p>We learned in OO 101 that there are concrete classes, which contain implementation details (code), and abstract classes, which represent concepts only.</p>
+<h3 id="chapter-11-systems" class="group relative scroll-mt-20">
+  Chapter 11 Systems
+  <a
+    href="#chapter-11-systems"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>Domain-Specific Languages allow all levels of abstraction and all domains in the application to be expressed as POJOs, from high-level policy to low-level details.</p>
+<p>Whether you are designing systems or individual modules, never forget to use the simplest thing that can possibly work .</p>
+<h3 id="chapter-12-emergence" class="group relative scroll-mt-20">
+  Chapter 12 Emergence
+  <a
+    href="#chapter-12-emergence"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>As systems become more complex, they take more and more time for a developer to understand, and there is an ever greater opportunity for a misunderstanding. Therefore, code should clearly express the intent of its author. The clearer the author can make the code, the less time others will have to spend understanding it. This will reduce defects and shrink the cost of maintenance. You can express yourself by choosing good names. We want to be able to hear a class or function name and not be surprised when we discover its responsibilities. You can also express yourself by keeping your functions and classes small. Small classes and functions are usually easy to name, easy to write, and easy to understand.</p>
+<h3 id="chapter-13-concurrency" class="group relative scroll-mt-20">
+  Chapter 13 Concurrency
+  <a
+    href="#chapter-13-concurrency"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>Recommendation : Write tests that have the potential to expose problems and then run them frequently, with different programatic configurations and system configurations and load. If tests ever fail, track down the failure. Don’t ignore a failure just because the tests pass on a subsequent run.</p>
+<p>Recommendation : Run your threaded code on all target platforms early and often.</p>
+<p>The point is to jiggle the code so that threads run in different orderings at different times. The combination of well-written tests and jiggling can dramatically increase the chance finding errors.</p>
+<h3 id="chapter-14-junit-internals" class="group relative scroll-mt-20">
+  Chapter 14 JUnit Internals
+  <a
+    href="#chapter-14-junit-internals"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>I don’t like the way that the last two lines of the new function return variables, but the first two don’t. They aren’t using consistent conventions [G11]. So we should change findCommonPrefix and findCommonSuffix to return the prefix and suffix values.</p>
+<h3 id="chapter-16-refactoring-serialdate" class="group relative scroll-mt-20">
+  Chapter 16 Refactoring SerialDate
+  <a
+    href="#chapter-16-refactoring-serialdate"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>This chapter was hard to read on my ereader, like it took a bit of time to disect what was happening. But the explanations that walked you through his thinking when refactoring was SO GOOD. There are probably Youtubers who walk through code like this too, giving me a new angle and new lease on thinking about writing good code.</p>
+<blockquote>
+<p>It’s generally a bad idea for base classes to know about their derivatives. To fix this, we should use the ABSTRACT FACTORY 3 pattern and create a DayDateFactory . This factory will create the instances of DayDate that we need and can also answer questions about the implementation, such as the maximum and minimum dates.</p>
+</blockquote>
+<blockquote>
+<p>The next abstract method is toDate (lines 838–844). It converts a DayDate to a java.util.Date . Why is this method abstract? If we look at its implementation in SpreadsheetDate (lines 198–207, Listing B-5 , page 382 ), we see that it doesn’t depend on anything in the implementation of that class [G6]. So I pushed it up.</p>
+</blockquote>
+<h3 id="chapter-17-smells-and-heuristics" class="group relative scroll-mt-20">
+  Chapter 17 Smells and Heuristics
+  <a
+    href="#chapter-17-smells-and-heuristics"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>All else being equal, we want to eliminate Feature Envy because it exposes the internals of one class to another. Sometimes, however, Feature Envy is a necessary evil.</p>
+<p>This is a great example of how to make code more readable by avoiding selector arguments. With selector arguments we break the single responsibility principle, which is bad because it makes the code harder to understand.</p>
+<blockquote>
+<p>There is hardly anything more abominable than a dangling false argument at the end of a function call. What does it mean? What would it change if it were true ? Not only is the purpose of a selector argument difficult to remember, each selector argument combines many functions into one.</p>
+</blockquote>
+<p>I like this, I often get troubled with reading boundaries for <code>++</code> or <code>-=1</code> and sometimes result to trial and error.</p>
+<blockquote>
+<p>Notice that level + 1 appears twice. This is a boundary condition that should be encapsulated within a variable named something like nextLevel . int nextLevel = level + 1; if( nextLevel &lt; tags.length) { parts = new Parse( body, tags, nextLevel, offset + endTag); body = null; }</p>
+</blockquote>
+<blockquote>
+<p>More specifically, if A collaborates with B , and B collaborates with C , we don’t want modules that use A to know about C . (For example, we don’t want a.getB(). getC(). doSomething() ;.) This is sometimes called the Law of Demeter. The Pragmatic Programmers call it “Writing Shy Code.” 12 In</p>
+</blockquote>
+<blockquote>
+<p>Rather we want our immediate collaborators to offer all the services we need. We should not have to roam through the object graph of the system, hunting for the method we want to call. Rather we should simply be able to say: myCollaborator.doSomething().</p>
+</blockquote>
+<blockquote>
+<p>J2: Don’t Inherit Constants I have seen this several times and it always makes me grimace. A programmer puts some constants in an interface and then gains access to those constants by inheriting that interface.</p>
+</blockquote>
+<blockquote>
+<p>T6: Exhaustively Test Near Bugs Bugs tend to congregate. When you find a bug in a function, it is wise to do an exhaustive test of that function. You’ll probably find that the bug was not alone.</p>
+</blockquote>
+<h2 id="appendix-a-concurrency-ii" class="group relative scroll-mt-20">
+  Appendix A Concurrency II
+  <a
+    href="#appendix-a-concurrency-ii"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>On evaluating and understanding how complex async programming becomes.</p>
+<blockquote>
+<p>If the code is processor bound, more processing hardware can improve throughput, making our test pass. But there are only so many CPU cycles available, so adding threads to a processor-bound problem will not make it go faster. On the other hand, if the process is I/ O bound, then concurrency can increase efficiency. When one part of the system is waiting for I/ O, another part can use that wait time to process something else,</p>
+</blockquote>
+<blockquote>
+<p>And this is a simple problem. If we cannot demonstrate broken code easily with this problem, how will we ever detect truly complex problems? So what approaches can we take to demonstrate this simple failure? And, more importantly, how can we write tests that will demonstrate failures in more complex code? How will we be able to discover if our code has failures when we do not know where to look?</p>
+</blockquote>
+]]></content:encoded></item><item><title>Babel: An Arcane History</title><link>https://westernwilson.com/books/babel-an-arcane-history/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/babel-an-arcane-history/</guid><description>&lt;h2 id="notes-on-babel" class="group relative scroll-mt-20"&gt;&#10; Notes on Babel&#10; &lt;a&#10; href="#notes-on-babel"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;This book begins and ends with sadness. It has many ups and downs which helped me feel really invested in the students journey.&lt;/p&gt;&#10;&lt;p&gt;The author moves through the story really quick. It&amp;rsquo;s great to read because it feels like there is no dawdling on useless parts of text or superflous detail. It all moves the plot or develops a character. Such a good author.&lt;/p&gt;</description><content:encoded><![CDATA[<h2 id="notes-on-babel" class="group relative scroll-mt-20">
+  Notes on Babel
+  <a
+    href="#notes-on-babel"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>This book begins and ends with sadness. It has many ups and downs which helped me feel really invested in the students journey.</p>
+<p>The author moves through the story really quick. It&rsquo;s great to read because it feels like there is no dawdling on useless parts of text or superflous detail. It all moves the plot or develops a character. Such a good author.</p>
+<p>It reminds me of Derek Sivers and his ethos about reducing and refining the texts he writes into their most condensed form. It makes his writing great to read too, because it shifts quickly and captures big ideas in a small amount of text.</p>
+<p>I drew parallels with the plot of this book and the age of AI we are currently living through. Yes it&rsquo;s written in a time near the industrial revolution but the silverworking automations are more like magic (which in some ways is what AI can feel like).</p>
+<p>The book explores privileged/secret knowledge learnt by a select few scholars (in real life, this would be tech workers), and the benefits of these outputs given to that small class. With the age of AI, we are being sold a pipe dream where complex technical knowledge is no longer limited to a select few who studied it, and now anyone can pull up a chatbot to create something.</p>
+<p>There are substantial job losses as a result of silver working by the scholars and researchers at Oxford. Loads of people losing work because of the efficiency gains that silver gives machines. It sounds similar to what&rsquo;s happening now in the AI revolution.</p>
+<p>The book forces us to acknowledge how our optimisations affect people without that knowledge, it&rsquo;s something that the scholars (or tech workers) tend to ignore. Confronting the loss of jobs and sometimes even loss of lives due to new technology (self driving cars, unsafe automated machinery, and working conditions or environmental impact). It&rsquo;s a bleak look at a different era where some of these same problems seem to be reoccurring.</p>
+<p>There are huge colonialist undertones throughout the book and in the secret (or perhaps no longer secret) inner workings of the translation society in bringing the world under their leadership. They achieve this not through war, but through knowledge and intentional mistranslation of treaties. Tbh they might have been unintentional mistranslations, but at the time it was the best translation they could give with their scoped in points of view.</p>
+<p>This idea is relevant to the Treaty of Waitangi and central to some of the arguments presented in NZ politics. They argue that Māori understood and signed the Māori document, assuming that same intent was on the English version. There are arguments that this was intentional mistranslation in favor of the crown.</p>
+<p>Many characters in the story come from broken homes, grew up as slaves, or lost their families to sickness. The kids that showed intelligence were plucked by the translation society, and indoctrinated into an English upbringing to take advantage of their natural language heritage. We know how much our environment can shape our opinions. Imagine growing up as a child taken from your homeland and raised inside the empire of the English? Imagine how much that upbringing might shape your perspective of the world. Western ideas and Western thoughts.</p>
+<p>On that, AI as built today, thinks in this same Western thought. The data is more heavily weighted towards what is on the internet, and so minority languages that arent as common in the public domain are weighted out. Not an easy problem to solve, and probably not one many people will want to solve because of the percieved &ldquo;pay off&rdquo;. It&rsquo;ll take a strong and well-driven community to drive it, or a banding together of indigenous folks in similar predicaments. The latter is more realistic imo.</p>
+<p>At the end of this book, I can&rsquo;t help but feel sad. Their dependence on silver working was the downfall of the empire. There are lessons here warning us about over-dependence on AI.</p>
+<p>Professor Lovell in the book uses the argument that the scholars&rsquo; hard work is justification enough for them to profit from it. He believes this information is out there for anyone to learn, they could&rsquo;ve taken advantage of the system and learnt and succeeded like him. But what that argument misses is that the environment in which the professor grew up in is vastly different. The tutors, the private lessons, access to resources. Even something as simple as time to study.</p>
+<p>It&rsquo;s sad we don&rsquo;t hear about whether the empire recovered from the tragedy of the tower collapse. But I assume this is intentional as it allows us the freedom to think about what might have happened.</p>
+<h2 id="quotes" class="group relative scroll-mt-20">
+  Quotes
+  <a
+    href="#quotes"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Chapter 2</p>
+<blockquote>
+<p>&lsquo;But in latin, malum means &ldquo;bad&rdquo; and mālum,&rsquo; he wrote the words out for Robin, emphasizing the macron with force, &lsquo;means &ldquo;apple&rdquo;&rsquo;.
+Interesting comparison to the macron in Maori. The main example I remember has to do with shit I think.</p>
+</blockquote>
+<p>Learnt about the word &ldquo;erudite&rdquo;, which means to have or show great knowledge.</p>
+<blockquote>
+<p>He learned what the Corns Laws we&rsquo;re and what they had to do with a Frenchman named Napoleon. He learned who the Catholics and Protestants were, and how the (he thought at least) small doctrinal differences between the two were apparently a matter of great and bloody importance.</p>
+</blockquote>
+<blockquote>
+<p>New words in English were a game to him, for in understanding the word he always came to understand something about English history or culture itself. He delighted when common words were, unexpectedly, formed from other words he knew. Hussy was a compound word of house and wife. Holiday was a compound of holy and day. Bedlam came, implausibly, from Bethlehem. Goodbye was, incredibly, a shortened version of God be with you.</p>
+</blockquote>
+<p>Chapter 3</p>
+<blockquote>
+<p>So what does that tell you Birdie? If they&rsquo;re going to tell stories about you, use it to your advantage. The English are never going to think I&rsquo;m posh, but if I fit into their fantasy, then they&rsquo;ll at least think I&rsquo;m royalty.&rsquo;
+This was Remy assuming the identity of a royal and behaving in a way that took control of the narrative of how he was perceived. Within the realms of what the English though practicable.</p>
+</blockquote>
+<p>Chapter 6</p>
+<blockquote>
+<p>He felt loose, vulnerable. Too passionate for what should have been and intellectual discussion. &lsquo;We take their languages, their ways of seeing and describing the world. We ought to give them something in return.&rsquo;
+&lsquo;But language,&rsquo; said Professor Lovell, &lsquo;is not like a commercial good, like tea or silks, to be bought and paid for. Language is an infinite resource. And if we learn it, if we use it - who are we stealing from?&rsquo;</p>
+</blockquote>
+<p>Chapter 9</p>
+<blockquote>
+<p>&lsquo;Then the expense is entirely invented?&rsquo; Robin asked. This came about more sharply than he&rsquo;d intended. But her was thinking, then, of the choleric plague that had swept through London; of how Mrs Piper explained the poor simply could not be helped, for silver-work was so terribly costly.
+&lsquo;Oh, yes.&rsquo; Professor Playfair seemed to find this all very funny. &lsquo;We hold the secrets, and we can set whatever terms we like. That&rsquo;s the beauty of being cleverer than everyone else&hellip;&rsquo;
+This makes me think about IT or any other skill based or learned field. We charge a premium not for the difficulty of the task at hand. But for the years of experience spent learning to make the task fast. Some element of time efficiency and not having to burden ourselves with that knowledge too. Even if it might be easy to learn, shrouding it in difficulty makes paying for it easier.
+I want to try my best to learn throughout my whole life. Always tinker and try things out myself. We have the internet in our pockets.</p>
+</blockquote>
+<p>Chapter 10</p>
+<blockquote>
+<p>&lsquo;But China has no reciprocal appetite for British goods. When the Qianglong Emperor received a display of British manufactured items from Lord Macartney, do you know what his response was? Strange and costly objects do not interest me. The Chinese don&rsquo;t need anything we&rsquo;re selling; they can produce everything they want on their own. So silver keeps flowing to China, and there&rsquo;s nothing the British can do about it because they can&rsquo;t alter supply and demand. One day it won&rsquo;t matter how much translation talent we have, because silver reserves will simply not exist to put it to use. The British Empire will crumble as a consequence of its own greed. Meanwhile, silver will accrue in new centres of power - places that have heretofore had their resources stolen and exploited&hellip;&rsquo;
+This conversation was between Robin and his older brother.</p>
+</blockquote>
+<p>Chapter 12</p>
+<blockquote>
+<p>The full impact of so-called silver industrial revolution, a term coined by Peter Gaskell just six years before, was just beginning to be felt across the country. Silver-powered machines of the kind William Blake dubbed &lsquo;dark Satanic Mills&rsquo; were rapidly replacing artisinal labour, but rather than bringing prosperity to all, they had instead created an economic recession, had caused a widening gap between rich and poor that would soon become the stuff of novels by Disraeli and Dickens. Rural agriculture was in decline; men, woman, and children moved en masse to urban centres to work in factories, where they laboured unimaginably long hours and lost limbs and lives in frightful accidents.
+Our civilization has gone through this industrial revolution already. But it begs the question, what would happen if the knowledge work was replaced by agentic systems. Would people in the know have working knowledge to profit from it? Will people retreat from urban centres into the country sides, in an effort to claim back that which makes us human?</p>
+</blockquote>
+<p>Chapter 32
+Todo: add characters.</p>
+<blockquote>
+<p>Insane was not enough to cover it, Robin thought. English was insufficient to describe all this. His mind wandered to old Chinese texts, the idioms they employed about dynastic collapse and change. (Add chars here); tiānfalāndìfù. The heavens fell, and the earth collapsed in on itself.</p>
+</blockquote>
+<p>Chapter 33</p>
+<blockquote>
+<p>How did one make peace with one&rsquo;s own death? According to the accounts of Crito, the Phaedo, and the Apology, Socrates went to his death without distress, with such preternatural calm that he refused multiple entreaties to escape.</p>
+</blockquote>
+<p>I copied this quote while on a plane leaving Athens. This was after walking past the prison of Socrates and the university building where he taught.</p>
+]]></content:encoded></item><item><title>Unfuck Your Boundaries</title><link>https://westernwilson.com/books/unfuck-your-boundaries/</link><pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/unfuck-your-boundaries/</guid><description>&lt;blockquote&gt;&#10;&lt;p&gt;We respect these boundaries through how we care for others and by letting them have their own emotional experiences&lt;/p&gt;&#10;&lt;/blockquote&gt;&#10;&lt;p&gt;Too often we feel the emotional burden, or perceived microexpression that means a person is angry or sad. Then you immediate feel an urge to rush in and fix it.&lt;/p&gt;&#10;&lt;p&gt;That isn&amp;rsquo;t respect. They didnt ask for help. They&amp;rsquo;re processing something you can&amp;rsquo;t see. You must let them have that experience and not feel guilty about not forcing your hand to help.&lt;/p&gt;</description><content:encoded><![CDATA[<blockquote>
+<p>We respect these boundaries through how we care for others and by letting them have their own emotional experiences</p>
+</blockquote>
+<p>Too often we feel the emotional burden, or perceived microexpression that means a person is angry or sad. Then you immediate feel an urge to rush in and fix it.</p>
+<p>That isn&rsquo;t respect. They didnt ask for help. They&rsquo;re processing something you can&rsquo;t see. You must let them have that experience and not feel guilty about not forcing your hand to help.</p>
+<p>This book comes with a lot of hard-hitting boundary related questions that are worth diving into. Some are pretty confronting tbh. Firstly it&rsquo;s important to understand the categories, even at a surface level.</p>
+<p>The categories Fath G. Harper uses for the various boundaries we have:</p>
+<ul>
+<li><strong>Time boundaries</strong> - limits around how you spend your time, who has access to it, and protecting it from overcommitment or others&rsquo; demands</li>
+<li><strong>Spiritual boundaries</strong> (belief system) - the right to hold your own beliefs, values, and practices without pressure to adopt or justify them to others</li>
+<li><strong>Intellectual boundaries</strong> - protecting your thoughts, opinions, and ideas from ridicule, dismissal, or coercion to think differently</li>
+<li><strong>Emotional/relational boundaries</strong> - defining what emotional labor you will and won&rsquo;t take on, and how others are allowed to treat you in relationships</li>
+<li><strong>Sexual boundaries</strong> - determining what sexual contact, conversation, or attention you consent to, with whom, and under what circumstances</li>
+<li><strong>Property boundaries</strong> - your right to control who uses your belongings, space, and possessions</li>
+<li><strong>Physical boundaries</strong> - limits around your body, personal space, and physical touch</li>
+</ul>
+<blockquote>
+<p>Questions for consideration:</p>
+<ol>
+<li>what are some of the boundaries you have for each of these categories?</li>
+<li>which kinds of boundary violations do you experience the most? Which categories do those violation s belong to?</li>
+<li>which kinds of boundaries do you have the most difficulty respecting for others? Which categories do those violations belong to?</li>
+</ol>
+</blockquote>
+<blockquote>
+<p>Four main biggest reasons boundaries get walked over:</p>
+<ol>
+<li>Overall social hierarchy problems</li>
+<li>Screwed up attachment styles</li>
+<li>High conflict personality</li>
+<li>Perpetuation of coercive control</li>
+</ol>
+</blockquote>
+<p>Originally it was difficult to understand what the words in this sentence meant: &ldquo;perpetuation of coercive control&rdquo;. Breaking down what each part of the sentence means makes more sense. It feels like a persistent, slow burn where a person is using force to control someone. Hectic.</p>
+<p>The book explains an ideal cultural norm where &ldquo;yes means yes&rdquo; and not having the opposite where we are forced to look &ldquo;no means no&rdquo;. She describes the the flip of what we currently have. This is good.</p>
+<p>The books says tha all large political movements started with a boundary being crossed and someone standing up for their right to protect said boundary. So, in essence, boundaries are eventually political by nature. They&rsquo;re definitely shaped by politics and what is acceptable by both our culture and our laws.</p>
+<p>Schools aren&rsquo;t always equipped to set kids up for healthy communication and boundaries, though they try. Sometimes it feels like they&rsquo;re set up for compliance and adhering to the status quo. I remember a time as a young kid where answering questions was fun, and more people put up their hands. Eventually less and less hands were keen to go up. It felt like you were shamed for answering questions wrong, and so the social rejection / embarrassment trained you to ask less questions. Since then, I consistently try to ask one useful question in meetings/events that I&rsquo;m a part of. Something that&rsquo;s taken time to unlearn. Heck, I still get nervous at the thought of putting my hand up to ask a question.</p>
+<p>Three attachment styles in a nutshell:</p>
+<ul>
+<li>Secure attachment - general comfortability with others. 60% of people in the US.</li>
+<li>Avoidance attachment - hard time trusting or depending on others, uncomfortable with the level of closeness people expect of them</li>
+<li>Anxious attachment - hard time with worry, fear of abandonment</li>
+</ul>
+<p>It feels like that depending on the context of whatever situation you&rsquo;re in, and people you&rsquo;re with, you slide in and out of each attachment style. Say for example, with your best friend you feel secure around. But a mean teacher you feel avoidance toward.</p>
+<p>The book reinforces the impact childhood has on attachment styles in adulthood. And until we learn skills to react differently to the world around us, we won&rsquo;t really be able to move past our attachment styles.</p>
+<p>I knew these words, but I didn&rsquo;t realise the succinct meaning behind them:</p>
+<ol>
+<li>Narcissistic - excessive self-interest in self and appearance</li>
+<li>Histrionic - excessively theatrical or dramatic in character or style</li>
+</ol>
+<blockquote>
+<p>The minute we start paying attention to our own bullshit is the minute it starts to change.
+On noticing your own state and not externalising your problems on the world.</p>
+</blockquote>
+<blockquote>
+<p>Best way to respond to High Confilct Individuals, is to first ask if you even need to respond? What are the consequences of not responding, what about if you respond?</p>
+</blockquote>
+<p>The final bits of the book for me remind me that effective communication is possible. It shows a fair few examples and says everyone has a responsibility to help make the world a better place. Decent read. I think if I was more strict on the questions and spending time on them I might have got more out of this book.
+The questions are worth picking up and going through at various stages of your life.</p>
+]]></content:encoded></item><item><title>The Great Mental Models</title><link>https://westernwilson.com/books/the-great-mental-models/</link><pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/the-great-mental-models/</guid><description>&lt;p&gt;This book starts off explaining why mental models are required and gives many examples of situations show its importance. A lot of books do this, it&amp;rsquo;s like they try to entice you into reading the book. But I&amp;rsquo;d already decided to read it, so its hard to get through the start of the book.&lt;/p&gt;&#10;&lt;p&gt;This book leans on Charlie Munger&amp;rsquo;s philosophy. Early on he shares a Munger quote:&lt;/p&gt;&#10;&lt;blockquote&gt;&#10;&lt;p&gt;I believe in the discipline of mastering the best of what other people have figured out&#10;When mental models are not applied then you probably have failed understanding of a given situation.&lt;/p&gt;</description><content:encoded><![CDATA[<p>This book starts off explaining why mental models are required and gives many examples of situations show its importance. A lot of books do this, it&rsquo;s like they try to entice you into reading the book. But I&rsquo;d already decided to read it, so its hard to get through the start of the book.</p>
+<p>This book leans on Charlie Munger&rsquo;s philosophy. Early on he shares a Munger quote:</p>
+<blockquote>
+<p>I believe in the discipline of mastering the best of what other people have figured out
+When mental models are not applied then you probably have failed understanding of a given situation.</p>
+</blockquote>
+<p>One example is the context of an elephant and a blind person who has never experienced an elephant. They might mistake an elephant ear to be a fan, the trunk tusks might be mistaken as a spear, or the trunk as a snake.</p>
+<p>The main chunk of the book explains general thinking concepts that are akin to common sense. For example:</p>
+<ol>
+<li>Map is not the territory</li>
+<li>First order principles (using 5 whys or scratch method)</li>
+<li>Thought experiments</li>
+<li>Circle of competence</li>
+<li>Inversion - begin with the end in mind. Work both ways.</li>
+<li>Falsifiability</li>
+<li>Second order thinking. Literally just thinking about the consequences of consequence. Reminded me of playing chess or even 8-ball pool.</li>
+</ol>
+<p>Probabilistic thinking is a mental model I naturally lean towards. I avoid thinking in black &amp; white or definite yes/no thinking. Instead, things tend to be more of a grey area, belonging to a spectrum of possibilities. In reality, probabilities should update based the most up to date information too.</p>
+<p>I enjoyed learning about Occams razor; the simplest explanation, if most probable, is the most likely.
+Hanlons razor was equally facinating; it&rsquo;s not malice, it&rsquo;s probably stupidity or ignorance.</p>
+<p>There are a few supporting ideas, one that stuck out is necessity and sufficiency. Where sometimes something might be necessary, or sufficient, and any combination of either or.</p>
+<p>I learnt about blood-letting in this book, and how it was the suggested medical practice for over 2000 years. The idea that if you get sick you can bleed it out of you. But losing blood actually makes you weaker and might end up making your more sick.</p>
+<p>I was reminded of Causation vs. Correlation in this book. The classic example of shark attacks increasing in correlation with ice cream sales. Though buying an ice cream doesn&rsquo;t cause a shark attack. I think it was more likely summer time, which means it&rsquo;s both hot enough for ice cream but also means more people are swimming.</p>
+<p>Think through whether an idea is required or not before jumping to conclusions. Sometimes we have a bias toward ideas that support the conclusion we want, over the conclusion that actually is.</p>
+<h3 id="quotes" class="group relative scroll-mt-20">
+  Quotes
+  <a
+    href="#quotes"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<blockquote>
+<p>The skill for finding the right solutions for the right problems is one form of wisdom</p>
+</blockquote>
+<blockquote>
+<p>Our failures to update from interacting with reality spring primarily from three things: not having the right perspective or vantage point, ego-induced denial, and distance from the consequences of our decisions.</p>
+</blockquote>
+<blockquote>
+<p>Admitting that we&rsquo;re wrong is tough. It&rsquo;s easier to fool ourselves that we&rsquo;re right at a high level than at the micro level, because at the micro level we see and feel the immediate consequences.</p>
+</blockquote>
+<blockquote>
+<p>There is an old adage that encapsulates this: &ldquo;To the man with only a hammer, everything starts looking like a nail.&rdquo;</p>
+</blockquote>
+<blockquote>
+<p>In order to use a map or model as accurately as possible, we should take three important considerations into account: Reality is the ultimate update. Consider the cartographer. Maps can influence territories.</p>
+</blockquote>
+]]></content:encoded></item><item><title>Yellowface</title><link>https://westernwilson.com/books/yellowface/</link><pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/yellowface/</guid><description>&lt;p&gt;&lt;strong&gt;Contains spoilers.&lt;/strong&gt;&lt;/p&gt;&#10;&lt;p&gt;This book was amazing read for me. I barely read anything fictional thats not got some element of fantasy or super powers. But I couldn&amp;rsquo;t stop myself from turning pages. Thoroughly enjoyed it and I&amp;rsquo;ll be reading her other works.&lt;/p&gt;&#10;&lt;p&gt;This book was gripping, the pacing of each sentence was masterful. It feels like it was written in its most condensed form without losing any meaning from the text. It jumped from plot to plot, and I like that it didn&amp;rsquo;t waffle on about unessesary bits.&lt;/p&gt;</description><content:encoded><![CDATA[<p><strong>Contains spoilers.</strong></p>
+<p>This book was amazing read for me. I barely read anything fictional thats not got some element of fantasy or super powers. But I couldn&rsquo;t stop myself from turning pages. Thoroughly enjoyed it and I&rsquo;ll be reading her other works.</p>
+<p>This book was gripping, the pacing of each sentence was masterful. It feels like it was written in its most condensed form without losing any meaning from the text. It jumped from plot to plot, and I like that it didn&rsquo;t waffle on about unessesary bits.</p>
+<p>The book was broken into many main themes as the story progressed. Basically, it shows a lonely character Juniper Song (Hayward) go through the envy, then stardom, then the fall because of her silly decisions.</p>
+<p>She wants to be a great writer, but isn&rsquo;t ever that good at creating her own ideas. She keeps trying to draw parallels between her own messed up situations and what Athena, the successful author of the book (in the novel), and herself. I wonder if she might have done better as an editor of other peoples works (though envy and her mean inner voice probably wouldn&rsquo;t have helped her case).</p>
+<p>There are significant moments in the book that make your insides curl. Basically, June was racist and couldn&rsquo;t understand why. We see her struggling to understand what its like to be a person of colour, and how she continues to miss the mark, and unfortunately believes in her mind that she&rsquo;s in the right. There is one scene where she chats to her mentee, a young aspiring Asian author and says something along the lines of: &ldquo;don&rsquo;t worry, you&rsquo;ll be fine. You could write anything, you&rsquo;re diverse and publishers eat that up!&rdquo;.</p>
+<p>R.F.Kuang showed June as a bad writer by showing us the bad decisions she made while writing, especially the parts June decided to cut out.</p>
+<p>I enjoyed seeing the difference between having a star publishing team vs an independant agent who doesn&rsquo;t have the resources to support a writer. I wonder how much of this is true in the real world? Marketing is such a skill, and if you aren&rsquo;t able to get your book, product, or tech in front of people then I doubt they&rsquo;ll use it.</p>
+<p>June&rsquo;s whole life changed when she got a great publishing team. They were able to publicise her book and get out to the best sellers list. They had connections, and methods, and a team of publicists to help her. Though June&rsquo;s success is probably due to the foundations of the story she stole.</p>
+<p>Juniper struggles with her social media addiction, and her incessant need to be popular, also maybe her ego. These all warp any effective decision making she would ever be able to make, she fixes the momentary problems as they come up but doesn&rsquo;t think about long-term consequences.</p>
+<p>By the end of the book she is caught out on her lies, and even at the end, it finishes by June coming up with a delusional plan to flip the narrative on its head and go against the person who has video taped proof of her admitting her guilt.</p>
+]]></content:encoded></item><item><title>A New Earth: Awakening to Your Life's Purpose</title><link>https://westernwilson.com/books/a-new-earth/</link><pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/a-new-earth/</guid><description>&lt;p&gt;It&amp;rsquo;s worth questioning where the inner voice comes from. Once you unlock the watcher of the voice, it feels like your inner world expands, and as a consequence your experience in the physical world too.&lt;/p&gt;&#10;&lt;h2 id="quotes" class="group relative scroll-mt-20"&gt;&#10; Quotes&#10; &lt;a&#10; href="#quotes"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;blockquote&gt;&#10;&lt;p&gt;Most people are only peripherally aware of the world that surrounds them, especially if their surroundings are familiar. The voice in the head absorbs the greater part of their attention.&lt;/p&gt;</description><content:encoded><![CDATA[<p>It&rsquo;s worth questioning where the inner voice comes from. Once you unlock the watcher of the voice, it feels like your inner world expands, and as a consequence your experience in the physical world too.</p>
+<h2 id="quotes" class="group relative scroll-mt-20">
+  Quotes
+  <a
+    href="#quotes"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<blockquote>
+<p>Most people are only peripherally aware of the world that surrounds them, especially if their surroundings are familiar. The voice in the head absorbs the greater part of their attention.</p>
+</blockquote>
+<blockquote>
+<p>What a liberation to realize that the voice in my head is not who I am. Who am I then? The one who sees that. The awareness that is prior to thought, the space in which the thought or the emotion or sense perception happens.</p>
+</blockquote>
+<blockquote>
+<p>The inspiration for the title of this book came from a Bible prophecy that seems more applicable now than at any other time in human history. It occurs in both the Old and the New Testament and speaks of the collapse of the existing world order and the arising of a new heaven and a new earth.</p>
+</blockquote>
+<blockquote>
+<p>The Buddha is said to have given a silent sermon once during which he held up a flower and gazed at it. After a while, one of those present, a monk called Mahakasyapa, began to smile. He is said to have been the only one who had understood the sermon.</p>
+</blockquote>
+<blockquote>
+<p>Everything, a bird, a tree, even a simple stone, and certainly a human being, is ultimately unknowable.</p>
+</blockquote>
+<blockquote>
+<p>All we can perceive, experience, think about, is the surface layer of reality, less than the tip of an iceberg.</p>
+</blockquote>
+<blockquote>
+<p>Some economists are so attached to the notion of growth that they cant let go of that word, so they refer to recession as a time of negative growth.</p>
+</blockquote>
+<blockquote>
+<p>One thing we do know: Life will give you whatever experience is most helpful for the evolution of your consciousness.</p>
+</blockquote>
+<blockquote>
+<p>If you consider the ego to be your personal problem, thats just more ego.</p>
+</blockquote>
+<blockquote>
+<p>In the days of the white settlement, the natives of North America found ownership of land an incomprehensible concept. And so they lost it when the Europeans made them signs pieces of paper that were equally incomprehensible to them. They felt they belonged to the land, but the land did not belong to them.</p>
+</blockquote>
+<blockquote>
+<p>Since you cannot find yourself through having, however, there is another more powerful drive underneath it that pertains to the structure of the ego: the need for more, which we could also call wanting. No ego can last for long without the need for more. Therefore, wanting keeps the ego alive much more than having. The ego wants to want more than it wants to have.</p>
+</blockquote>
+<blockquote>
+<p>Non reaction is not weakness but strength. Another word for nonreaction is forgiveness. To forgive is to overlook, or rather to look through. You look through the ego to the sanity that is in every human being as his or her essence.</p>
+</blockquote>
+<blockquote>
+<p>Thought can at best point to the truth, but it never is the truth. That&rsquo;s why Buddhists say The finger pointing to the moon is not the moon.</p>
+</blockquote>
+]]></content:encoded></item><item><title>The 4-Hour Work Week</title><link>https://westernwilson.com/books/4-hour-work-week/</link><pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/4-hour-work-week/</guid><description>&lt;h2 id="the-4-hour-work-week" class="group relative scroll-mt-20"&gt;&#10; The 4-Hour Work Week&#10; &lt;a&#10; href="#the-4-hour-work-week"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;This book has given me the biggest paradigm shift of any book I&amp;rsquo;ve ever read. From critical thinking, to bending rules, to working smarter not harder. It&amp;rsquo;s an enjoyable read, just a bit shocking to see how other people decide operate.&lt;/p&gt;&#10;&lt;p&gt;Timothy Ferris shares a bunch of stories where he questions the world and how it operates, and find ways to side-step those rules. He manages to stay within the legal rules, but is an outside-of-the-box thinker. He shares how he&amp;rsquo;s had this critical mind ever since being a kid and how it&amp;rsquo;s helped him.&lt;/p&gt;</description><content:encoded><![CDATA[<h2 id="the-4-hour-work-week" class="group relative scroll-mt-20">
+  The 4-Hour Work Week
+  <a
+    href="#the-4-hour-work-week"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>This book has given me the biggest paradigm shift of any book I&rsquo;ve ever read. From critical thinking, to bending rules, to working smarter not harder. It&rsquo;s an enjoyable read, just a bit shocking to see how other people decide operate.</p>
+<p>Timothy Ferris shares a bunch of stories where he questions the world and how it operates, and find ways to side-step those rules. He manages to stay within the legal rules, but is an outside-of-the-box thinker. He shares how he&rsquo;s had this critical mind ever since being a kid and how it&rsquo;s helped him.</p>
+<p>The main part I remember is about him winning some fighting tournament by using his size to push people outside of the ring. Which causes the opponent to be instantly disqualified. Not very good sportsmanship, but in line with the rules and very much allowed. Just noone else abused that system.</p>
+<p>His critical thinking reminds me of videogame speedrunners. They find creative wasy to totally break, from skipping cutscenes to skipping whole sections of the game.</p>
+<p>There is a whole section on useful tools and methods for turning your business into a less busy business, where you direct where the ship should go with minimal time rather than steer the ship yourself.</p>
+<p>He also gives so many tips and tricks on travelling, assistants, selling digitally, working remotely etc.</p>
+<p>It&rsquo;s essentially a playbook for gaining time back after you&rsquo;ve already worked hard. And only focusing on the most useful tasks.</p>
+<p>9/10 recommend, even if just to shift how you think!</p>
+]]></content:encoded></item><item><title>The Richest Man in Babylon</title><link>https://westernwilson.com/books/the-richest-man-in-babylon/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/the-richest-man-in-babylon/</guid><description>&lt;p&gt;This book has helps point me in the right direction with my finances time and time again. A friend gave it to me in 2023 to read, and to this day &lt;strong&gt;it&amp;rsquo;s my favourite book&lt;/strong&gt;.&lt;/p&gt;&#10;&lt;p&gt;I saw a social media clip of Robert Greene recommending it, and countless other people saying it&amp;rsquo;s a good one. So I gave it a go and have read it yearly since.&lt;/p&gt;&#10;&lt;p&gt;It&amp;rsquo;s a book of parables in the Babylonian time teaching you lessons using stories from that era. I think the stories were inspired by actual real life clay tablets. I&amp;rsquo;ve read many other finance books after this one, and they all seem to borrow concepts taught here.&#10;It makes me wonder if this book was truly written from the clay tablets, or if there was some other historical influence this is based off of.&lt;/p&gt;</description><content:encoded><![CDATA[<p>This book has helps point me in the right direction with my finances time and time again. A friend gave it to me in 2023 to read, and to this day <strong>it&rsquo;s my favourite book</strong>.</p>
+<p>I saw a social media clip of Robert Greene recommending it, and countless other people saying it&rsquo;s a good one. So I gave it a go and have read it yearly since.</p>
+<p>It&rsquo;s a book of parables in the Babylonian time teaching you lessons using stories from that era. I think the stories were inspired by actual real life clay tablets. I&rsquo;ve read many other finance books after this one, and they all seem to borrow concepts taught here.
+It makes me wonder if this book was truly written from the clay tablets, or if there was some other historical influence this is based off of.</p>
+<p>If you want to sort your finances out, or take your wealth to the next level, and love fantasy-esc stories, then give this a read.</p>
+]]></content:encoded></item></channel></rss>

@@ -1,1 +1,195 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Coffee-App on Western Wilson</title><link>https://westernwilson.com/tags/coffee-app/</link><description>Recent content in Coffee-App on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/coffee-app/index.xml" rel="self" type="application/rss+xml"/><item><title>Why AWS SSO? Why OIDC?</title><link>https://westernwilson.com/reflections/oidc/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/oidc/</guid><description>&lt;p&gt;While building a demo coffee app you realise that the infrastructure-as-code needs appropriate authentication &amp;amp; authorisation to make changes securely. I&amp;rsquo;ve set this up in previous jobs but have been on a travel break since then, and the muscle memory needs a reminder.&lt;/p&gt;&#10;&lt;p&gt;So, I&amp;rsquo;m refreshing my understanding and reflecting on it here.&lt;/p&gt;&#10;&lt;h2 id="important-terminology-and-tools" class="group relative scroll-mt-20"&gt;&#10; Important terminology and tools&#10; &lt;a&#10; href="#important-terminology-and-tools"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;An important distiction is the difference between Authentication and Authorisation. &lt;strong&gt;Authentication&lt;/strong&gt; asks &amp;ldquo;&lt;em&gt;are you who you say you are&lt;/em&gt;&amp;rdquo;, while &lt;strong&gt;Authorisation&lt;/strong&gt; says &amp;ldquo;&lt;em&gt;I know you, but are you allowed to do what you&amp;rsquo;re trying to do&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;</description></item><item><title>Terraform state s3 bucket naming convention</title><link>https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/</link><pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/</guid><description>&lt;p&gt;While working on my personal devops project (&lt;a href="https://github.com/wjkw1/devops-profile-coffee-card-app-demo"&gt;see github&lt;/a&gt;), I realised I hadn&amp;rsquo;t thought through the naming convention of my terraform state in a long time.&lt;/p&gt;&#10;&lt;h2 id="naming-convention-decision" class="group relative scroll-mt-20"&gt;&#10; Naming convention decision&#10; &lt;a&#10; href="#naming-convention-decision"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;&lt;strong&gt;Final name:&lt;/strong&gt; &lt;code&gt;tfstate-{AccountId}-{GitHubRepo}&lt;/code&gt;&lt;/p&gt;&#10;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; &lt;code&gt;tfstate-123456789012-aws-foundations&lt;/code&gt;&lt;/p&gt;&#10;&lt;h3 id="why-this-name" class="group relative scroll-mt-20"&gt;&#10; Why this name&#10; &lt;a&#10; href="#why-this-name"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h3&gt;&#10;&lt;p&gt;The convention earns its structure because I&amp;rsquo;m committing to one terraform state bucket per project.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/tags/coffee-app/</link><description>Recent content in Coffee-App on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/coffee-app/index.xml" rel="self" type="application/rss+xml"/><item><title>Why AWS SSO? Why OIDC?</title><link>https://westernwilson.com/reflections/oidc/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/oidc/</guid><description>&lt;p&gt;While building a demo coffee app you realise that the infrastructure-as-code needs appropriate authentication &amp;amp; authorisation to make changes securely. I&amp;rsquo;ve set this up in previous jobs but have been on a travel break since then, and the muscle memory needs a reminder.&lt;/p&gt;&#10;&lt;p&gt;So, I&amp;rsquo;m refreshing my understanding and reflecting on it here.&lt;/p&gt;&#10;&lt;h2 id="important-terminology-and-tools" class="group relative scroll-mt-20"&gt;&#10; Important terminology and tools&#10; &lt;a&#10; href="#important-terminology-and-tools"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;An important distiction is the difference between Authentication and Authorisation. &lt;strong&gt;Authentication&lt;/strong&gt; asks &amp;ldquo;&lt;em&gt;are you who you say you are&lt;/em&gt;&amp;rdquo;, while &lt;strong&gt;Authorisation&lt;/strong&gt; says &amp;ldquo;&lt;em&gt;I know you, but are you allowed to do what you&amp;rsquo;re trying to do&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;</description><content:encoded><![CDATA[<p>While building a demo coffee app you realise that the infrastructure-as-code needs appropriate authentication &amp; authorisation to make changes securely. I&rsquo;ve set this up in previous jobs but have been on a travel break since then, and the muscle memory needs a reminder.</p>
+<p>So, I&rsquo;m refreshing my understanding and reflecting on it here.</p>
+<h2 id="important-terminology-and-tools" class="group relative scroll-mt-20">
+  Important terminology and tools
+  <a
+    href="#important-terminology-and-tools"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>An important distiction is the difference between Authentication and Authorisation. <strong>Authentication</strong> asks &ldquo;<em>are you who you say you are</em>&rdquo;, while <strong>Authorisation</strong> says &ldquo;<em>I know you, but are you allowed to do what you&rsquo;re trying to do</em>&rdquo;.</p>
+<p><strong>Infrastructure-as-code (IaC)</strong> is self-explanatory, it allows you to codify your infrastructure changes. Letting you track infra changes over time, and efficiently keep the infra actually deployed in line with your intentions. When there is drift between intentions and actual, IaC helps it realign.</p>
+<p><strong>Terraform</strong> is a great tool for IAC, and is the focus for this reflection.</p>
+<p>There are many other tools that help with IaC including <strong>CloudFormation</strong> and <strong>Ansible</strong>. <strong>CloudFormation</strong> is AWS&rsquo;s solution for the IaC giving declarative provisioning, but its locked to AWS. <strong>Ansible</strong> is more focused on configuration management and orchestration once infrastructure exists, though there is some overlap with IaC.</p>
+<p><strong>CI/CD</strong> is Continuous Integration / Continuous Delivery. It is a mindset with many tools that helps our code build, test, and deploy safely for our users. <strong>GitHub Actions</strong> our CI/CD tool of choice. There are others like TeamCity, Circle CI, Jenkins, Octopus Deploy, GitLab CI etc.</p>
+<p>When mentioning <strong>MacBook</strong> it could be any developer machine enabling you to make infra changes by running Terraform.</p>
+<p>Given all of this, there are two main use cases:</p>
+<ul>
+<li><strong><em>Human to machine</em></strong> - Connecting MacBook to AWS</li>
+<li><strong><em>Machine to machine</em></strong> - Connecting GitHub Actions to AWS</li>
+</ul>
+<p>Both use cases need to authenticate and authorise, but they do it using different methods. We&rsquo;ll explore that difference in the upcoming sections.</p>
+<h2 id="human-to-machine" class="group relative scroll-mt-20">
+  Human to machine
+  <a
+    href="#human-to-machine"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>When running Terraform from your laptop, the industry standard is to authenticate with <strong>AWS SSO</strong> (rebranded as AWS IAM Identity Center in 2022, though the CLI commands remain the same).</p>
+<p>From the terminal you run an aws cli command that opens your browser, asks you to log in using your identity provider (or aws creds), and grabs a short-lived credential for use during your AWS terminal session. It normally expires after 8 hours, but this is configurable. Terraform picks up that short-lived credential and uses it to configure the infrastructure however you&rsquo;ve defined.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span><span style="color:#75715e"># day to day example (assumes sso roles are setup)</span>
+</span></span><span style="display:flex;"><span>aws sso login --profile terraform
+</span></span><span style="display:flex;"><span>export AWS_PROFILE<span style="color:#f92672">=</span>terraform
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>terraform apply
+</span></span></code></pre></div><p>These commands work because there&rsquo;s a human in the loop. Developers can login to AWS, click a button, and complete an MFA prompt. It&rsquo;s verifiable that you are the person at the keyboard.</p>
+<p>This is not possible the moment you&rsquo;re out of the loop.</p>
+<h2 id="machine-to-machine" class="group relative scroll-mt-20">
+  Machine to machine
+  <a
+    href="#machine-to-machine"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>A GitHub Actions CI/CD pipeline can&rsquo;t easily open a browser or tap an allow button on your phone. It needs to authenticate to AWS without a person in the loop, securely, and without any of the interactive trust mechanisms that make SSO work locally.</p>
+<p>The old answer was to generate an AWS access key pair, paste it into GitHub as a secret, and let the pipeline use that to authenticate with AWS. This still works, but it&rsquo;s a liability and no longer recommended. Long-lived access keys, if leaked, can grant authentication to whoever gets them. Unfortunately, because infra work requires a broader set of permissions, losing these keys is a bigger security risk.</p>
+<p>Long-lived keys should also be <em>rotated</em> frequently (i.e. rotating means to update the keys). That requires additional reminder scheduling, and if the key is used in many places, the work to update might require a bit more effort.</p>
+<p>The better answer is Open ID Connect (OIDC). To understand OIDC, you have to understand JWTs first.</p>
+<h2 id="jwts" class="group relative scroll-mt-20">
+  JWTs
+  <a
+    href="#jwts"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>JWT stands for JSON Web Token. It&rsquo;s a compact, self-contained token for passing claims between parties.</p>
+<p>A <strong>claim</strong> is a key-value assertion about a subject, e.g. <code>&quot;sub&quot;: &quot;user_123&quot;</code> or <code>&quot;email&quot;: &quot;john@example.com&quot;</code>. The issuer party (AWS or GitHub) is saying: I assert these properties are true about the subject of this token (and that it is valid for the stated audience and time window)</p>
+<p>What might be at first surprising, is that a signed JWT isn&rsquo;t encrypted and anyone can read it. Paste a JWT string into <a href="https://jwt.io">jwt.io</a> and you&rsquo;ll see everything inside (with real tokens, keep them out of public tools!).</p>
+<p>The point of JWT tokens isn&rsquo;t secrecy, it&rsquo;s integrity. If you trust the issuer&rsquo;s public key, and the signature checks out, then you can trust the claims.</p>
+<p>Think of it like a driver&rsquo;s licence, it&rsquo;s contents are not a secret (anyone who physically holds it has the info), but it&rsquo;s validity is trusted because it was created by a trusted authority. Other parties (police, security, the supermarket cashier) recognise it and trust what it <em>claims</em>.</p>
+<p>A JWT is a string with three parts separated by dots. Header, payload, and signature.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>&lt;header&gt;.&lt;payload&gt;.&lt;signature&gt;
+</span></span></code></pre></div><p>The <em>header</em> says how it was signed. The <em>payload</em> is a set of claims or facts about whoever the token is describing. The <em>signature</em> is the issuer&rsquo;s cryptographic stamp.</p>
+<p>E.g.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjdXJpb3VzX3JlYWRlciIsIm5hbWUiOiJZb3UsIHRoZSBjdXJpb3VzIG9uZSIsIm1lc3NhZ2UiOiJUaGV5IHNheSBjdXJpb3NpdHkga2lsbGVkIHRoZSBjYXQsIGJ1dCBpdCB3b24ndCBraWxsIHlvdS4gU3RheSBjdXJpb3VzLiIsImlhdCI6MTc0NjY2MjQwMCwiZXhwIjo5OTk5OTk5OTk5fQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+</span></span></code></pre></div><p>You can read more detail here: <a href="https://www.jwt.io/introduction#what-is-json-web-token">https://www.jwt.io/introduction#what-is-json-web-token</a></p>
+<h2 id="oidc" class="group relative scroll-mt-20">
+  OIDC
+  <a
+    href="#oidc"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>OIDC (OpenID Connect) is how JWTs get used for authentication. An identity provider mints a signed JWT about who someone is or what it&rsquo;s doing, and a relying party verifies the token and decides what to do.</p>
+<p>Back to the analogy of a JWT and a drivers license. The issuing authority is whoever grants drivers licenses, in New Zealand this would be NZ Transport Agency (NZTA or Waka Kotahi). The relying party, again, could be police, security, or the supermarket cashier.</p>
+<p>For your CI/CD, GitHub is the identity provider and AWS is the relying party. GitHub publishes its public keys at a well-known URL. AWS knows where to find them and when the workflow pipeline runs, GitHub mints a JWT describing that specific job (the repo, git branch, the workflow file) and signs it. The pipeline hands the token to AWS, AWS verifies the signature, reads the claims, and decides whether to issue short-lived credentials.</p>
+<p>There&rsquo;s no shared secret and no pre-arranged handshake. You declare in your AWS account that you trust GitHub&rsquo;s issuer URL and from that moment, AWS knows how to verify any token GitHub signs.</p>
+<p>This grants you authentication, and next it&rsquo;s important to look at the policies that grant authorisation to make changes.</p>
+<h2 id="the-trust-policy" class="group relative scroll-mt-20">
+  The trust policy
+  <a
+    href="#the-trust-policy"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>With the authentication and JWT verification mostly handled by AWS &amp; GitHub, you can focus more on deciding which GitHub claims you&rsquo;ll accept.</p>
+<p>For example, every JWT GitHub mints contains a <code>sub</code> claim, i.e. the subject</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>repo:my-org/my-repo:ref:refs/heads/main
+</span></span></code></pre></div><p>That string identifies exactly which repo, branch, or trigger produced the token. Your trust policy in AWS is a set of conditions on those claims. So if you pin the <code>sub</code> claim to a specific repo and your main branch (like the above example), then only that combination can assume the role.</p>
+<p>Set up the AWS trust policy too loosely and you replace one risk with another. The biggest mistake is wildcarding the subject <code>repo:*</code>, which means that any repository on GitHub could potentially assume your role. The fix is to only give access to specific repositories that need it, following least privilege access. Most tutorials highlight this point too.</p>
+<h2 id="using-github-environments" class="group relative scroll-mt-20">
+  Using GitHub environments
+  <a
+    href="#using-github-environments"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Many tutorials suggest the use of GitHub Environments for production deploys. So you can pin the trust policy to <code>repo:my-org/my-repo:environment:production</code>. You then set up your repo to require manual approval on production deployments, thus adding another layer of protection. Now even a workflow on main can&rsquo;t deploy until a human clicks a button.</p>
+<p>For an enterprise team, this makes sense. Multiple people merging code, the reviewer and the deployer might not be the same person. So the approval gate gives you a real second pair of eyes.</p>
+<p>For a solo project without actual customers it&rsquo;s optional, but worth knowing the pattern exists for when the team grows.</p>
+<h2 id="relearning" class="group relative scroll-mt-20">
+  Relearning
+  <a
+    href="#relearning"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Coming back to OIDC after a year of travel, I noticed new details since the first time round. Especially in terms of trust policies, and <em>why</em> the <code>sub</code> claim specificity matters. Going back to first principles about JWTs and OIDC before touching any config gave that stronger mental model.</p>
+<p>If you want to see how someone might configure all of this, check out my repositories here:</p>
+<ul>
+<li>AWS Foundation SSO &amp; OIDC setup: <a href="https://github.com/wjkw1/aws-foundations">https://github.com/wjkw1/aws-foundations</a></li>
+<li>Demo Application: <a href="https://github.com/wjkw1/devops-profile-coffee-card-app-demo">https://github.com/wjkw1/devops-profile-coffee-card-app-demo</a></li>
+</ul>
+]]></content:encoded></item><item><title>Terraform state s3 bucket naming convention</title><link>https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/</link><pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/</guid><description>&lt;p&gt;While working on my personal devops project (&lt;a href="https://github.com/wjkw1/devops-profile-coffee-card-app-demo"&gt;see github&lt;/a&gt;), I realised I hadn&amp;rsquo;t thought through the naming convention of my terraform state in a long time.&lt;/p&gt;&#10;&lt;h2 id="naming-convention-decision" class="group relative scroll-mt-20"&gt;&#10; Naming convention decision&#10; &lt;a&#10; href="#naming-convention-decision"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;&lt;strong&gt;Final name:&lt;/strong&gt; &lt;code&gt;tfstate-{AccountId}-{GitHubRepo}&lt;/code&gt;&lt;/p&gt;&#10;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; &lt;code&gt;tfstate-123456789012-aws-foundations&lt;/code&gt;&lt;/p&gt;&#10;&lt;h3 id="why-this-name" class="group relative scroll-mt-20"&gt;&#10; Why this name&#10; &lt;a&#10; href="#why-this-name"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h3&gt;&#10;&lt;p&gt;The convention earns its structure because I&amp;rsquo;m committing to one terraform state bucket per project.&lt;/p&gt;</description><content:encoded><![CDATA[<p>While working on my personal devops project (<a href="https://github.com/wjkw1/devops-profile-coffee-card-app-demo">see github</a>), I realised I hadn&rsquo;t thought through the naming convention of my terraform state in a long time.</p>
+<h2 id="naming-convention-decision" class="group relative scroll-mt-20">
+  Naming convention decision
+  <a
+    href="#naming-convention-decision"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><strong>Final name:</strong> <code>tfstate-{AccountId}-{GitHubRepo}</code></p>
+<p><strong>Example:</strong> <code>tfstate-123456789012-aws-foundations</code></p>
+<h3 id="why-this-name" class="group relative scroll-mt-20">
+  Why this name
+  <a
+    href="#why-this-name"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>The convention earns its structure because I&rsquo;m committing to one terraform state bucket per project.</p>
+<p>So, the three pieces of information communicated in the bucket name:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Segment</th>
+					<th>Reason</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><code>tfstate</code> <em>prefix</em></td>
+					<td>Immediately identifies the bucket&rsquo;s purpose to any observer, without needing to open it.</td>
+			</tr>
+			<tr>
+					<td><code>{AccountId}</code></td>
+					<td>The only reliable way to guarantee global S3 uniqueness (bucket names are shared across all of AWS); also identifies ownership at a glance in billing, access logs, and cross-account contexts.</td>
+			</tr>
+			<tr>
+					<td><code>{GitHubRepo}</code></td>
+					<td>1:1 mapping between bucket and repository — you can navigate from S3 → GitHub (or back) without any lookup.</td>
+			</tr>
+	</tbody>
+</table>
+<p>The convention scales cleanly: every future infrastructure repository gets <code>tfstate-{AccountId}-{GitHubRepo}</code>, with no naming decisions to revisit.</p>
+<h3 id="options-considered-and-why-they-were-rejected" class="group relative scroll-mt-20">
+  Options considered and why they were rejected
+  <a
+    href="#options-considered-and-why-they-were-rejected"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p><strong><code>tfstate-aws-foundations</code></strong></p>
+<p>Not globally unique, and almost certainly already taken thanks to the known limitation of S3. It also encodes the github project name in a bucket originally conceived as potentially holding all account state. Once my intent changed, the name became misleading.</p>
+<p><strong><code>tfstate-{AccountId}</code></strong> <em>(original)</em></p>
+<p>Unique and future-proof, but loses the repo link. Fine if one bucket holds state for many projects; less good when the bucket is scoped 1:1 to a single repo, where the link has real navigational value.</p>
+<p><strong><code>{AccountId}-aws-foundations</code></strong></p>
+<p>Globally unique, still links to the repo. But without a <code>tfstate</code> indicator, anyone browsing S3 has no immediate signal about what the bucket is for. The AccountId prefix also groups infrastructure buckets together when sorted, at the cost of reading unnaturally left-to-right.</p>
+<p><strong><code>aws-foundations-{AccountId}</code></strong></p>
+<p>More readable than the account-first example, same repo link. Still missing the <code>tfstate</code> indicator.</p>
+<p><strong><code>tfstate-{AccountId}-aws-foundations</code></strong> <em>(chosen)</em></p>
+<p>Purpose is obvious. Guaranteed to be unique. The 1:1 GitHub mapping is perfect. The tradeoff: twelve digits in the middle makes the name long and not great to say out loud. That cost is low because this string gets typed approximately twice in the bucket&rsquo;s lifetime &ndash; at creation and in <code>versions.tf</code> &ndash; so conversational readability is not important.</p>
+<h3 id="convention-going-forward" class="group relative scroll-mt-20">
+  Convention going forward
+  <a
+    href="#convention-going-forward"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p><code>tfstate-{AccountId}-{GitHubRepo}</code></p>
+<p>Other projects I create that require aws infra will each get their own S3 state bucket following this pattern.</p>
+<p>This gives me state isolation between projects; a terraform mistake in one project cannot affect another, and state files stay small and fast.</p>
+]]></content:encoded></item></channel></rss>

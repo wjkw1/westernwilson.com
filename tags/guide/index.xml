@@ -1,1 +1,248 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide on Western Wilson</title><link>https://westernwilson.com/tags/guide/</link><description>Recent content in Guide on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>AnyType setup with PARA</title><link>https://westernwilson.com/reflections/2025-07-12-anytype-with-para/</link><pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2025-07-12-anytype-with-para/</guid><description>&lt;p&gt;Find out how I use Tiago Forte&amp;rsquo;s PARA methodology to organise my notes inside AnyType.&#10;If it&amp;rsquo;s your first time hearing about PARA and AnyType, then lucky you!&lt;/p&gt;&#10;&lt;h2 id="setting-the-scene" class="group relative scroll-mt-20"&gt;&#10; Setting the scene&#10; &lt;a&#10; href="#setting-the-scene"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;First a bit of background, I&amp;rsquo;m a copious note-taker. I&amp;rsquo;ve been this way ever since I was a wee boy. Writing notes helped me focus on the speaker better, even when my notes tended to be more of a gibberish scribble and mostly illegible for future Western.&#10;With physical note taking however I would consistently forget my notebooks and have to write on spare paper. Then I&amp;rsquo;d lose the spare paper and the state of my notes was a mixed bag.&#10;So, I shifted to digital notes to try solve this problem. What have I tried? &lt;a href="https://drive.google.com"&gt;Google Docs and Drive&lt;/a&gt;, &lt;a href="https://www.microsoft.com/en-us/microsoft-365/onenote"&gt;OneNote&lt;/a&gt;, &lt;a href="https://www.bookstackapp.com"&gt;BookStack&lt;/a&gt;, &lt;a href="https://js.wiki"&gt;Wiki.js&lt;/a&gt;, &lt;a href="https://www.atlassian.com/software/confluence"&gt;Confluence&lt;/a&gt;, &lt;a href="https://www.notion.so"&gt;Notion&lt;/a&gt;, &lt;a href="https://evernote.com"&gt;Evernote&lt;/a&gt;, &lt;a href="https://obsidian.md"&gt;Obsidian&lt;/a&gt;, &lt;a href="https://keep.google.com"&gt;Google Keep&lt;/a&gt;, and others.&lt;/p&gt;</description></item><item><title>Supercharge Your SSH with VS Code</title><link>https://westernwilson.com/reflections/2023-10-29-ssh-using-vscode/</link><pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2023-10-29-ssh-using-vscode/</guid><description>&lt;p&gt;&lt;em&gt;Have you ever wished you could use the full feature set of Visual Studio Code (VS Code) while connecting to remote servers via SSH? If you&amp;rsquo;re a developer or sysadmin, you&amp;rsquo;ll appreciate the productivity boost this can bring. In this blog post, we&amp;rsquo;ll walk you through the process of setting up VS Code as your primary SSH tool for both work and home use. Let&amp;rsquo;s dive in!&lt;/em&gt;&lt;/p&gt;&#10;&lt;h2 id="overview" class="group relative scroll-mt-20"&gt;&#10; Overview&#10; &lt;a&#10; href="#overview"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;VS Code is renowned for its versatility and has extensions for all types of development activities. This guide will show you how to harness its power as an SSH client, giving you a seamless development experience on remote servers.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/tags/guide/</link><description>Recent content in Guide on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 17 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>AnyType setup with PARA</title><link>https://westernwilson.com/reflections/2025-07-12-anytype-with-para/</link><pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2025-07-12-anytype-with-para/</guid><description>&lt;p&gt;Find out how I use Tiago Forte&amp;rsquo;s PARA methodology to organise my notes inside AnyType.&#10;If it&amp;rsquo;s your first time hearing about PARA and AnyType, then lucky you!&lt;/p&gt;&#10;&lt;h2 id="setting-the-scene" class="group relative scroll-mt-20"&gt;&#10; Setting the scene&#10; &lt;a&#10; href="#setting-the-scene"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;First a bit of background, I&amp;rsquo;m a copious note-taker. I&amp;rsquo;ve been this way ever since I was a wee boy. Writing notes helped me focus on the speaker better, even when my notes tended to be more of a gibberish scribble and mostly illegible for future Western.&#10;With physical note taking however I would consistently forget my notebooks and have to write on spare paper. Then I&amp;rsquo;d lose the spare paper and the state of my notes was a mixed bag.&#10;So, I shifted to digital notes to try solve this problem. What have I tried? &lt;a href="https://drive.google.com"&gt;Google Docs and Drive&lt;/a&gt;, &lt;a href="https://www.microsoft.com/en-us/microsoft-365/onenote"&gt;OneNote&lt;/a&gt;, &lt;a href="https://www.bookstackapp.com"&gt;BookStack&lt;/a&gt;, &lt;a href="https://js.wiki"&gt;Wiki.js&lt;/a&gt;, &lt;a href="https://www.atlassian.com/software/confluence"&gt;Confluence&lt;/a&gt;, &lt;a href="https://www.notion.so"&gt;Notion&lt;/a&gt;, &lt;a href="https://evernote.com"&gt;Evernote&lt;/a&gt;, &lt;a href="https://obsidian.md"&gt;Obsidian&lt;/a&gt;, &lt;a href="https://keep.google.com"&gt;Google Keep&lt;/a&gt;, and others.&lt;/p&gt;</description><content:encoded><![CDATA[<p>Find out how I use Tiago Forte&rsquo;s PARA methodology to organise my notes inside AnyType.
+If it&rsquo;s your first time hearing about PARA and AnyType, then lucky you!</p>
+<h2 id="setting-the-scene" class="group relative scroll-mt-20">
+  Setting the scene
+  <a
+    href="#setting-the-scene"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>First a bit of background, I&rsquo;m a copious note-taker. I&rsquo;ve been this way ever since I was a wee boy. Writing notes helped me focus on the speaker better, even when my notes tended to be more of a gibberish scribble and mostly illegible for future Western.
+With physical note taking however I would consistently forget my notebooks and have to write on spare paper. Then I&rsquo;d lose the spare paper and the state of my notes was a mixed bag.
+So, I shifted to digital notes to try solve this problem. What have I tried? <a href="https://drive.google.com">Google Docs and Drive</a>, <a href="https://www.microsoft.com/en-us/microsoft-365/onenote">OneNote</a>, <a href="https://www.bookstackapp.com">BookStack</a>, <a href="https://js.wiki">Wiki.js</a>, <a href="https://www.atlassian.com/software/confluence">Confluence</a>, <a href="https://www.notion.so">Notion</a>, <a href="https://evernote.com">Evernote</a>, <a href="https://obsidian.md">Obsidian</a>, <a href="https://keep.google.com">Google Keep</a>, and others.</p>
+<p>Unfortunately, no tool was perfect; they all missed one aspect of my requirements, or felt clunky, or had features locked behind paywalls, or couldn&rsquo;t be used while travelling without Internet access (Notion, I&rsquo;m looking at you!).
+My requirements:</p>
+<ol>
+<li>Offline notes with online sync</li>
+<li>Free with no paywall</li>
+<li>Cross-platform – Windows, Mac &amp; Android</li>
+<li>The Notion-like block WYSIWYG text editing</li>
+<li>Configurable to use PARA to organise notes (recent ~5yr old requirement)</li>
+<li>Markdown export so I&rsquo;m not locked into a tool</li>
+<li>Great security</li>
+<li>(optional) Graph view to show linkage between notes, so you can see grouped ideas</li>
+<li>(optional) Import function or API to script the import</li>
+<li>(optional) Collaboration with other note takers</li>
+</ol>
+<h2 id="introducing-anytype" class="group relative scroll-mt-20">
+  Introducing AnyType
+  <a
+    href="#introducing-anytype"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>AnyType hits every requirement above and took them further; open-source, offline first, free forever, online peer to peer sync between cross-platform devices, block editing with Markdown text shortcuts, AnyType Gallery to share and use community templates, great security first, imports and exports, graph view, API and basic collaboration features.
+The app is positioning itself as a web3 everything app built on freedom and trust. They&rsquo;re building something special here and since it&rsquo;s inception has consistently improved month on month. It&rsquo;s much more polished than it used to be, it&rsquo;s a joy to work with nowadays.
+I&rsquo;ll explain some of the features below, but honestly the best way to get a feel for it is to download and try it yourself: <a href="https://download.anytype.io/">https://download.anytype.io/</a>
+The main concepts in AnyType to understand are:</p>
+<ol>
+<li><a href="https://doc.anytype.io/anytype-docs/getting-started/object-editor">‍Objects</a> - all things are objects in AnyType ‍</li>
+<li><a href="https://doc.anytype.io/anytype-docs/getting-started/types">Types</a> - categorise the Objects you create to have a Type ‍</li>
+<li><a href="https://doc.anytype.io/anytype-docs/getting-started/types/relations">Properties</a> - attach metadata to Types and create relations between them ‍</li>
+<li><a href="https://doc.anytype.io/anytype-docs/getting-started/sets">Query</a> - List view showing a single Object/Type</li>
+<li><a href="https://doc.anytype.io/anytype-docs/getting-started/sets/collections">‍Collections</a> - Folder-like collection of different Objects/Types</li>
+<li><a href="https://doc.anytype.io/anytype-docs/getting-started/types/templates">‍Templates</a> - speed up your workflow with pre-defined templates for object creation</li>
+</ol>
+<p>For example, to create a Book tracking system, you could define:‍</p>
+<ol>
+<li><strong>Book</strong> type with the properties: Title, GoodreadsUrl, and links to an <strong>Author</strong></li>
+<li><strong>Author</strong> type with the properties: name &amp; bio‍</li>
+<li><strong>Quote</strong> type with a property that links to our <strong>Book</strong></li>
+</ol>
+<p>Now, when you create a new Book, you can link it to a new or existing Author and write whatever notes about the book that you want. Then when inspired by a Quote, you can create a Quote and link it to your Book. The note taking is flexible, linkage can happen anywhere organically, and you can write whatever you want from within the Author, Book or Quote types. AnyType allows and in fact encourages these relationships between Types.</p>
+<p><figure><img src="/reflections/2025-07-12-anytype-with-para/anytype-schema.png"
+			alt="Conceptual example of how Book types could relate to each other in AnyType"><figcaption>
+			<p>Conceptual example of how Book types could relate to each other in AnyType</p>
+		</figcaption>
+</figure>
+
+<figure><img src="/reflections/2025-07-12-anytype-with-para/anytype-graph.png"
+			alt="AnyType Graph View of example Book objects"><figcaption>
+			<p>AnyType Graph View of example Book objects</p>
+		</figcaption>
+</figure>
+</p>
+<h2 id="quickly-explaining-para" class="group relative scroll-mt-20">
+  Quickly explaining PARA
+  <a
+    href="#quickly-explaining-para"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>If you’re new to <a href="https://fortelabs.com/blog/para/">Tiago Forte’s PARA methodology</a>, you’re in for a treat. PARA is a simple yet powerful system to organise your digital life—whether that’s notes, projects, or files—into four clear categories. It stands for:</p>
+<ul>
+<li>‍<strong>P - Projects:</strong> Active tasks or outcomes you’re currently working on. ‍</li>
+<li><strong>A - Areas:</strong> Ongoing responsibilities or spheres of activity without a specific end date. ‍</li>
+<li><strong>R - Resources:</strong> Useful reference materials or topics of interest.</li>
+<li>‍<strong>A - Archives:</strong> Inactive items you want to keep but don’t need right now.
+As you use this system over time, you’ll develop an intuitive sense for where each note belongs. The key mindset shift for me was letting go of the need to choose the “perfect” category and remembering that it’s easy to move things around later.</li>
+</ul>
+<h2 id="how-i-use-para-within-anytype" class="group relative scroll-mt-20">
+  How I use PARA within AnyType
+  <a
+    href="#how-i-use-para-within-anytype"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Using PARA inside AnyType means you can create custom Types and Properties for each category, linking notes, tasks, and references easily. You can quickly switch between your active Projects, Areas and Resources, while your Archives keep everything tidy but accessible.
+I created a Template Space that should be available to copy from the AnyGallery thanks to my approved <a href="https://github.com/anyproto/gallery/issues/171">github submission</a>. I&rsquo;ll explain how it works below.</p>
+<h3 id="key-features" class="group relative scroll-mt-20">
+  Key features‍
+  <a
+    href="#key-features"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<ul>
+<li>PARA Dashboard is a Query of type Queries with a custom property <strong>PARA Type</strong> set to PARA</li>
+<li>Projects, Areas and Resources are a Query of Collection objects with the <strong>PARA Type</strong> set to Project, Area, or Resource respectively.</li>
+<li>A collection with an <strong>Is Archive</strong> property checked will show as Archived on the various dashboards.</li>
+</ul>
+<h3 id="1-para-type-classification" class="group relative scroll-mt-20">
+  1. &lsquo;PARA Type&rsquo; Classification
+  <a
+    href="#1-para-type-classification"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<ul>
+<li>Introduces a dedicated &ldquo;PARA Type&rdquo; property that allows you to specify whether a Collection is a Project, Area, Resource, or **PARA.**‍</li>
+<li>When a Query&rsquo;s PARA Type is set to PARA it will show on our PARA Dashboard.</li>
+<li>When a Collection&rsquo;s PARA Type is set to Project, Area or Resource, they will display on their respective Query of Collections dashboard i.e. Projects, Areas, or Resources</li>
+<li>This structure makes it easy to filter, group, and view your content according to the PARA methodology.</li>
+</ul>
+<h3 id="2-is-archive-property" class="group relative scroll-mt-20">
+  2. &lsquo;Is Archive&rsquo; Property
+  <a
+    href="#2-is-archive-property"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<ul>
+<li>Every <strong>Collection</strong> includes an <strong>Is Archived</strong> property.</li>
+<li>Easily mark items as archived to declutter your active workspace without permanently deleting anything.</li>
+<li>Archived items are automatically filtered out from main views but remain accessible for future reference.</li>
+<li>See all archived Projects, Areas and Resources both on the Archived query view, and also within their respective Projects, Areas, or Resources query views.</li>
+</ul>
+<h3 id="3-manual-link-management-via-templates" class="group relative scroll-mt-20">
+  3. Manual Link Management via Templates
+  <a
+    href="#3-manual-link-management-via-templates"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<ul>
+<li>Every Collection also has a &ldquo;<strong>PARA Linked to</strong>&rdquo; property, this overcomes a limitation I noticed where Queries were not showing on the Graph view for Collections created from their Query view.</li>
+<li>Templates automatically create this <strong>manual link</strong> property for each of our Projects, Areas , or Resources</li>
+<li>This linkage can be removed at any time, giving you control over what appears in the Graph view.</li>
+<li>Declutter your visual workspace by removing unnecessary connections, while still maintaining essential relationships.</li>
+</ul>
+<h3 id="how-it-all-works-together" class="group relative scroll-mt-20">
+  How it all works together
+  <a
+    href="#how-it-all-works-together"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<ul>
+<li>‍<strong>Creating New Projects, Areas or Resources:</strong> Templates are used by default to add new Projects, Areas, or Resources. Each template ensures the correct PARA Type and properties are set when creating an object from each dashboard.</li>
+<li>‍<strong>Change PARA Type:</strong> Updating the PARA Type property on a given collection will move it between Projects, Areas or Resources as needed. This is especially helpful if, for example, a Resource evolves into a Project later on.</li>
+<li><strong>Creating New Objects:</strong> Within any specific Project, Area, or Resource, you can add any object—the default is a Page—and it will be created with the appropriate properties. You can link any type, such as Tasks, Bookmarks, Books, Quotes, literally any Type.</li>
+<li>‍<strong>Manually Link to PARA:</strong> Use AnyType&rsquo;s &ldquo;Link to Collection&rdquo; feature to link any object newly created to a specific Project, Area or Resource yourself. This is particularly useful in Graph view if you like to see clusters of related information.</li>
+<li>‍<strong>Archive Projects, Areas or Resources:</strong> Archiving is handled with a simple checkbox field on Collections that have relevant PARA Types.</li>
+</ul>
+<figure><img src="/reflections/2025-07-12-anytype-with-para/anytype-graph-2.png">
+</figure>
+
+<h2 id="shared-gallery" class="group relative scroll-mt-20">
+  Shared Gallery
+  <a
+    href="#shared-gallery"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>There’s a wide variety of community-created templates available for AnyType, giving you plenty of options to explore and enhance your workflow.</p>
+<p>It&rsquo;s easy to import and play with them too, simply go to the gallery and import it into a new space. While you can import templates into existing spaces, be mindful that this may introduce extra Types and Properties, potentially cluttering your setup and making cleanup tedious. So my advice is to first verify the new Types and Properties in a new, isolated space before merging them it into your main spaces.</p>
+<h2 id="conclusion--next-steps" class="group relative scroll-mt-20">
+  Conclusion &amp; Next steps
+  <a
+    href="#conclusion--next-steps"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>If you’ve made it this far, congratulations! Hopefully, you’ve picked up something new and feel inspired to try out AnyType or the PARA system for your own daily organisation.</p>
+<h3 id="bonus-note-on-anytypes-api--mcp-server" class="group relative scroll-mt-20">
+  Bonus note on AnyType&rsquo;s API &amp; MCP server
+  <a
+    href="#bonus-note-on-anytypes-api--mcp-server"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h3>
+<p>Recently AnyType added an official API and Model Context Protocol (MCP) server. This advancement allows AI agents and assistants to interact with and update your documentation directly. In the <a href="https://developers.anytype.io/docs/examples/intermediate/mcp/">docs here</a> they highlight <a href="https://raycast.com/?via=western-AnyType">RayCast.ai</a> for seamless AI Chatbot integration and workflows.</p>
+<p>With these tools, RayCast turns your AnyType knowledge base into an even more powerful resource—ready to answer your questions and automate parts of your note-taking system.</p>
+]]></content:encoded></item><item><title>Supercharge Your SSH with VS Code</title><link>https://westernwilson.com/reflections/2023-10-29-ssh-using-vscode/</link><pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2023-10-29-ssh-using-vscode/</guid><description>&lt;p&gt;&lt;em&gt;Have you ever wished you could use the full feature set of Visual Studio Code (VS Code) while connecting to remote servers via SSH? If you&amp;rsquo;re a developer or sysadmin, you&amp;rsquo;ll appreciate the productivity boost this can bring. In this blog post, we&amp;rsquo;ll walk you through the process of setting up VS Code as your primary SSH tool for both work and home use. Let&amp;rsquo;s dive in!&lt;/em&gt;&lt;/p&gt;&#10;&lt;h2 id="overview" class="group relative scroll-mt-20"&gt;&#10; Overview&#10; &lt;a&#10; href="#overview"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;VS Code is renowned for its versatility and has extensions for all types of development activities. This guide will show you how to harness its power as an SSH client, giving you a seamless development experience on remote servers.&lt;/p&gt;</description><content:encoded><![CDATA[<p><em>Have you ever wished you could use the full feature set of Visual Studio Code (VS Code) while connecting to remote servers via SSH? If you&rsquo;re a developer or sysadmin, you&rsquo;ll appreciate the productivity boost this can bring. In this blog post, we&rsquo;ll walk you through the process of setting up VS Code as your primary SSH tool for both work and home use. Let&rsquo;s dive in!</em></p>
+<h2 id="overview" class="group relative scroll-mt-20">
+  Overview
+  <a
+    href="#overview"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>VS Code is renowned for its versatility and has extensions for all types of development activities. This guide will show you how to harness its power as an SSH client, giving you a seamless development experience on remote servers.</p>
+<h2 id="what-is-vs-code" class="group relative scroll-mt-20">
+  What is VS Code?
+  <a
+    href="#what-is-vs-code"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Before we get started, let&rsquo;s quickly clarify what VS Code is. <a href="https://code.visualstudio.com/">Visual Studio Code</a>, often referred to as VS Code, is a free, open-source code editor developed by Microsoft. It&rsquo;s widely used in the software development industry and is known for its robust features and extensibility.</p>
+<h2 id="what-is-ssh" class="group relative scroll-mt-20">
+  What is SSH?
+  <a
+    href="#what-is-ssh"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><a href="https://en.wikipedia.org/wiki/Secure_Shell">SSH</a> stands for Secure Shell, and it&rsquo;s a network protocol used for secure data communication, remote command-line access, and other network services. It&rsquo;s a fundamental tool for connecting to remote servers securely.</p>
+<h2 id="official-vs-code-tutorial" class="group relative scroll-mt-20">
+  Official VS Code Tutorial
+  <a
+    href="#official-vs-code-tutorial"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>For a detailed, step-by-step guide on setting up VS Code as your primary SSH tool, please visit the official <a href="https://code.visualstudio.com/docs/remote/ssh">VS Code tutorial</a>.</p>
+<h1 id="in-a-nutshell" class="group relative scroll-mt-20">
+  In a Nutshell
+  <a
+    href="#in-a-nutshell"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h1>
+<p>In a nutshell, here&rsquo;s a brief overview of what you&rsquo;ll find in the official tutorial:</p>
+<ul>
+<li>Installing the required VS Code packages on the SSH box.</li>
+<li>Installing the Remote Developer extension on your local machine&rsquo;s VS Code.</li>
+<li>Setting up your SSH config file for VS Code for easy reconnection.</li>
+<li>(<em>Optional</em>) Creating an SSH key for effortless logins.</li>
+</ul>
+<p>By enabling VS Code&rsquo;s ssh capabilities you can centralise the tool you use for development. Happy coding!</p>
+]]></content:encoded></item></channel></rss>
