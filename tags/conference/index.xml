@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/tags/conference/</link><description>Recent content in Conference on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 26 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/conference/index.xml" rel="self" type="application/rss+xml"/><item><title>AGNTCon + MCPCon Europe 2026</title><link>https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/</link><pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/</guid><description>&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; I spent the full second day at &lt;a href="https://events.linuxfoundation.org/agntcon-mcpcon-europe"&gt;AGNTCon + MCPCon Europe&lt;/a&gt; in Amsterdam, and the most interesting talks showed a new normal for humans now that agents write most of the code.&lt;/p&gt;&#10;&lt;p&gt;Dexter Horthy was the best speaker of the day, and Dylan Ratcliffe won me over after I initially disagreed with his premise. His line &amp;ldquo;easier to reject the recipe than the meal&amp;rdquo; is the same lesson I learnt the hard way at the &lt;a href="https://westernwilson.com/reflections/bunq-hackathon-7"&gt;bunq hackathon&lt;/a&gt;: i.e review the plan before anything gets built. Roy Belio&amp;rsquo;s red teaming lab made me glad I&amp;rsquo;d already &lt;a href="https://westernwilson.com/reflections/containerising-my-coding-agent"&gt;locked down egress on my coding agent&lt;/a&gt;, and gave me a list of things I still haven&amp;rsquo;t done (DNS, canary tokens, read-only config). Another thing is that plenty of the live demos broke, which shows non-determinism in action.&lt;/p&gt;</description><content:encoded><![CDATA[<p><strong>TL;DR:</strong> I spent the full second day at <a href="https://events.linuxfoundation.org/agntcon-mcpcon-europe">AGNTCon + MCPCon Europe</a> in Amsterdam, and the most interesting talks showed a new normal for humans now that agents write most of the code.</p>
-<p>Dexter Horthy was the best speaker of the day, and Dylan Ratcliffe won me over after I initially disagreed with his premise. His line &ldquo;easier to reject the recipe than the meal&rdquo; is the same lesson I learnt the hard way at the <a href="/reflections/bunq-hackathon-7">bunq hackathon</a>: i.e review the plan before anything gets built. Roy Belio&rsquo;s red teaming lab made me glad I&rsquo;d already <a href="/reflections/containerising-my-coding-agent">locked down egress on my coding agent</a>, and gave me a list of things I still haven&rsquo;t done (DNS, canary tokens, read-only config). Another thing is that plenty of the live demos broke, which shows non-determinism in action.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/tags/conference/</link><description>Recent content in Conference on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 26 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/conference/index.xml" rel="self" type="application/rss+xml"/><item><title>AGNTCon + MCPCon Europe 2026</title><link>https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/</link><pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/</guid><description>TL;DR: I spent the full second day at AGNTCon + MCPCon Europe in Amsterdam, and the most interesting talks showed a new normal for humans now that agents write most of the code.&#10;Dexter Horthy was the best speaker of the day, and Dylan Ratcliffe won me over after I initially disagreed with his premise. His line “easier to reject the recipe than the meal” is the same lesson I learnt the hard way at the bunq hackathon: i.e review the plan before anything gets built. Roy Belio’s red teaming lab made me glad I’d already locked down egress on my coding agent, and gave me a list of things I still haven’t done (DNS, canary tokens, read-only config). Another thing is that plenty of the live demos broke, which shows non-determinism in action.&#10;</description><content:encoded><![CDATA[<p><strong>TL;DR:</strong> I spent the full second day at <a href="https://events.linuxfoundation.org/agntcon-mcpcon-europe">AGNTCon + MCPCon Europe</a> in Amsterdam, and the most interesting talks showed a new normal for humans now that agents write most of the code.</p>
+<p>Dexter Horthy was the best speaker of the day, and Dylan Ratcliffe won me over after I initially disagreed with his premise. His line &ldquo;easier to reject the recipe than the meal&rdquo; is the same lesson I learnt the hard way at the <a href="https://westernwilson.com/reflections/bunq-hackathon-7">bunq hackathon</a>: i.e review the plan before anything gets built. Roy Belio&rsquo;s red teaming lab made me glad I&rsquo;d already <a href="https://westernwilson.com/reflections/containerising-my-coding-agent">locked down egress on my coding agent</a>, and gave me a list of things I still haven&rsquo;t done (DNS, canary tokens, read-only config). Another thing is that plenty of the live demos broke, which shows non-determinism in action.</p>
 <p>Next year&rsquo;s conference is in London, and I&rsquo;m hoping to go! Reach out if you&rsquo;re going too.</p>
 <p>The rest of this post is my notes from each talk, lightly tidied up.</p>
 <h2 id="catch-them-early" class="group relative scroll-mt-20">
   Catch Them Early
   <a
-    href="#catch-them-early"
+    href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#catch-them-early"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -19,7 +19,7 @@
 <h2 id="getting-to-stateless-mcp-in-production" class="group relative scroll-mt-20">
   Getting to stateless MCP in production
   <a
-    href="#getting-to-stateless-mcp-in-production"
+    href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#getting-to-stateless-mcp-in-production"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -33,7 +33,7 @@
 <h2 id="three-doors-to-one-tool-mcp-vs-webmcp-vs-cli" class="group relative scroll-mt-20">
   Three doors to one tool: MCP vs WebMCP vs CLI
   <a
-    href="#three-doors-to-one-tool-mcp-vs-webmcp-vs-cli"
+    href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#three-doors-to-one-tool-mcp-vs-webmcp-vs-cli"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -49,7 +49,7 @@
 <h2 id="state-of-the-software-factory" class="group relative scroll-mt-20">
   State of the software factory
   <a
-    href="#state-of-the-software-factory"
+    href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#state-of-the-software-factory"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -64,7 +64,7 @@
 <h2 id="pull-requests-are-dead-long-live-peer-review" class="group relative scroll-mt-20">
   Pull Requests are dead, long live peer review
   <a
-    href="#pull-requests-are-dead-long-live-peer-review"
+    href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#pull-requests-are-dead-long-live-peer-review"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -85,7 +85,7 @@
 <h2 id="from-works-on-my-prompt-to-production-slos" class="group relative scroll-mt-20">
   From &ldquo;works on my prompt&rdquo; to production SLOs
   <a
-    href="#from-works-on-my-prompt-to-production-slos"
+    href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#from-works-on-my-prompt-to-production-slos"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -101,7 +101,7 @@
 <h2 id="governance-you-can-run-checkable-properties-for-production-agents" class="group relative scroll-mt-20">
   Governance you can run: Checkable properties for production agents
   <a
-    href="#governance-you-can-run-checkable-properties-for-production-agents"
+    href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#governance-you-can-run-checkable-properties-for-production-agents"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -117,7 +117,7 @@
 <h2 id="governed-agent-autonomy-building-a-control-plane-for-agentic-systems" class="group relative scroll-mt-20">
   Governed agent autonomy: Building a control plane for agentic systems
   <a
-    href="#governed-agent-autonomy-building-a-control-plane-for-agentic-systems"
+    href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#governed-agent-autonomy-building-a-control-plane-for-agentic-systems"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -141,7 +141,7 @@
 <h2 id="beyond-chatbots-agentic-ui-with-open-standards" class="group relative scroll-mt-20">
   Beyond Chatbots: Agentic UI with Open Standards
   <a
-    href="#beyond-chatbots-agentic-ui-with-open-standards"
+    href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#beyond-chatbots-agentic-ui-with-open-standards"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -156,7 +156,7 @@
 <h2 id="mcp-apps-and-the-agentic-web" class="group relative scroll-mt-20">
   MCP Apps and the Agentic Web
   <a
-    href="#mcp-apps-and-the-agentic-web"
+    href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#mcp-apps-and-the-agentic-web"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -175,7 +175,7 @@
 <h2 id="no-central-brain" class="group relative scroll-mt-20">
   No Central Brain
   <a
-    href="#no-central-brain"
+    href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#no-central-brain"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -190,7 +190,7 @@
 <h2 id="infrastructure-red-teaming-with-abliterated-models" class="group relative scroll-mt-20">
   Infrastructure red teaming with abliterated models
   <a
-    href="#infrastructure-red-teaming-with-abliterated-models"
+    href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#infrastructure-red-teaming-with-abliterated-models"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>

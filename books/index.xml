@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/books/</link><description>Recent content in Books on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 06 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/books/index.xml" rel="self" type="application/rss+xml"/><item><title>The DevOps Handbook</title><link>https://westernwilson.com/books/the-devops-handbook/</link><pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/the-devops-handbook/</guid><description>&lt;h2 id="notes-on-the-devops-handbook" class="group relative scroll-mt-20"&gt;&#10; Notes on The DevOps Handbook&#10; &lt;a&#10; href="#notes-on-the-devops-handbook"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;I&amp;rsquo;ve read this book twice now, once early on in my career and again now whilst having a breadth of more DevOps experience at companies with different levels of DevOps maturity.&#10;I found myself skimming sections that weren&amp;rsquo;t as useful to me now, but re-reading in detail sections I found new insights from. You&amp;rsquo;ll be able to tell which based on my most recent quote pulls at the end.&#10;The whole book hangs off the Three Ways, which is kind of funny because Taoism talks about &amp;ldquo;The Way&amp;rdquo;, so this recent reading reminded me of Taoism and the book I recently read there.&lt;/p&gt;</description><content:encoded><![CDATA[<h2 id="notes-on-the-devops-handbook" class="group relative scroll-mt-20">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/books/</link><description>Recent content in Books on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 06 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/books/index.xml" rel="self" type="application/rss+xml"/><item><title>The DevOps Handbook</title><link>https://westernwilson.com/books/the-devops-handbook/</link><pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/the-devops-handbook/</guid><description> Notes on The DevOps Handbook I’ve read this book twice now, once early on in my career and again now whilst having a breadth of more DevOps experience at companies with different levels of DevOps maturity. I found myself skimming sections that weren’t as useful to me now, but re-reading in detail sections I found new insights from. You’ll be able to tell which based on my most recent quote pulls at the end. The whole book hangs off the Three Ways, which is kind of funny because Taoism talks about “The Way”, so this recent reading reminded me of Taoism and the book I recently read there.&#10;</description><content:encoded><![CDATA[<h2 id="notes-on-the-devops-handbook" class="group relative scroll-mt-20">
   Notes on The DevOps Handbook
   <a
-    href="#notes-on-the-devops-handbook"
+    href="https://westernwilson.com/books/the-devops-handbook/#notes-on-the-devops-handbook"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -28,7 +28,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
 <h2 id="quotes" class="group relative scroll-mt-20">
   Quotes
   <a
-    href="#quotes"
+    href="https://westernwilson.com/books/the-devops-handbook/#quotes"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -36,7 +36,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
 <h3 id="introductions" class="group relative scroll-mt-20">
   Introductions
   <a
-    href="#introductions"
+    href="https://westernwilson.com/books/the-devops-handbook/#introductions"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -53,7 +53,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
 <h3 id="part-i--the-three-ways" class="group relative scroll-mt-20">
   Part I — The Three Ways
   <a
-    href="#part-i--the-three-ways"
+    href="https://westernwilson.com/books/the-devops-handbook/#part-i--the-three-ways"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -70,7 +70,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
 <h4 id="the-first-way-the-principles-of-flow" class="group relative scroll-mt-20">
   The First Way: The Principles of Flow
   <a
-    href="#the-first-way-the-principles-of-flow"
+    href="https://westernwilson.com/books/the-devops-handbook/#the-first-way-the-principles-of-flow"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -87,7 +87,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
 <h4 id="the-second-way-the-principles-of-feedback" class="group relative scroll-mt-20">
   The Second Way: The Principles of Feedback
   <a
-    href="#the-second-way-the-principles-of-feedback"
+    href="https://westernwilson.com/books/the-devops-handbook/#the-second-way-the-principles-of-feedback"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -101,7 +101,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
 <h4 id="the-third-way-the-principles-of-continuous-learning-and-experimentation" class="group relative scroll-mt-20">
   The Third Way: The Principles of Continuous Learning and Experimentation
   <a
-    href="#the-third-way-the-principles-of-continuous-learning-and-experimentation"
+    href="https://westernwilson.com/books/the-devops-handbook/#the-third-way-the-principles-of-continuous-learning-and-experimentation"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -122,7 +122,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
 <h3 id="part-ii--where-to-start" class="group relative scroll-mt-20">
   Part II — Where to Start
   <a
-    href="#part-ii--where-to-start"
+    href="https://westernwilson.com/books/the-devops-handbook/#part-ii--where-to-start"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -157,7 +157,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
 <h3 id="part-iii--the-first-way-flow" class="group relative scroll-mt-20">
   Part III — The First Way: Flow
   <a
-    href="#part-iii--the-first-way-flow"
+    href="https://westernwilson.com/books/the-devops-handbook/#part-iii--the-first-way-flow"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -186,7 +186,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
 <h3 id="part-iv--the-second-way-feedback" class="group relative scroll-mt-20">
   Part IV — The Second Way: Feedback
   <a
-    href="#part-iv--the-second-way-feedback"
+    href="https://westernwilson.com/books/the-devops-handbook/#part-iv--the-second-way-feedback"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -218,7 +218,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
 <h3 id="part-v--the-third-way-continual-learning-and-experimentation" class="group relative scroll-mt-20">
   Part V — The Third Way: Continual Learning and Experimentation
   <a
-    href="#part-v--the-third-way-continual-learning-and-experimentation"
+    href="https://westernwilson.com/books/the-devops-handbook/#part-v--the-third-way-continual-learning-and-experimentation"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -241,7 +241,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
 <h3 id="part-vi-integrating-security-change-management-and-compliance" class="group relative scroll-mt-20">
   Part VI: Integrating Security, Change Management and Compliance
   <a
-    href="#part-vi-integrating-security-change-management-and-compliance"
+    href="https://westernwilson.com/books/the-devops-handbook/#part-vi-integrating-security-change-management-and-compliance"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -267,7 +267,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
 <h3 id="appendices" class="group relative scroll-mt-20">
   Appendices
   <a
-    href="#appendices"
+    href="https://westernwilson.com/books/the-devops-handbook/#appendices"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -275,10 +275,10 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
 <blockquote>
 <p>APPENDIX 9 THE SIMIAN ARMY After the 2011 AWS EAST Outage, Netflix had numerous discussions about engineering their systems to automatically deal with failure. These discussions have evolved into a service called “Chaos Monkey.”</p>
 </blockquote>
-]]></content:encoded></item><item><title>Clean Code</title><link>https://westernwilson.com/books/clean-code/</link><pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/clean-code/</guid><description>&lt;h2 id="notes-on-clean-code" class="group relative scroll-mt-20"&gt;&#10; Notes on Clean Code&#10; &lt;a&#10; href="#notes-on-clean-code"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;This book is packed with examples and opinions by people with decades of experience. Martin has clearly written a lot of code and seen a lot of projects go sideways, then picked up the pieces and improved them.&lt;/p&gt;&#10;&lt;p&gt;My main takeaway is that the cost of bad code is huge, and it compounds over time. A team that moves fast with messy code will eventually stall. Anyone who has picked up someone else&amp;rsquo;s code and spent an hour just trying to figure out what it does will know exactly what he means.&lt;/p&gt;</description><content:encoded><![CDATA[<h2 id="notes-on-clean-code" class="group relative scroll-mt-20">
+]]></content:encoded></item><item><title>Clean Code</title><link>https://westernwilson.com/books/clean-code/</link><pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/clean-code/</guid><description> Notes on Clean Code This book is packed with examples and opinions by people with decades of experience. Martin has clearly written a lot of code and seen a lot of projects go sideways, then picked up the pieces and improved them.&#10;My main takeaway is that the cost of bad code is huge, and it compounds over time. A team that moves fast with messy code will eventually stall. Anyone who has picked up someone else’s code and spent an hour just trying to figure out what it does will know exactly what he means.&#10;</description><content:encoded><![CDATA[<h2 id="notes-on-clean-code" class="group relative scroll-mt-20">
   Notes on Clean Code
   <a
-    href="#notes-on-clean-code"
+    href="https://westernwilson.com/books/clean-code/#notes-on-clean-code"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -299,7 +299,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
 <h2 id="quotes" class="group relative scroll-mt-20">
   Quotes
   <a
-    href="#quotes"
+    href="https://westernwilson.com/books/clean-code/#quotes"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -307,7 +307,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
 <h3 id="foreword" class="group relative scroll-mt-20">
   Foreword
   <a
-    href="#foreword"
+    href="https://westernwilson.com/books/clean-code/#foreword"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -321,7 +321,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
 <h3 id="chapter-1-clean-code" class="group relative scroll-mt-20">
   Chapter 1 Clean Code
   <a
-    href="#chapter-1-clean-code"
+    href="https://westernwilson.com/books/clean-code/#chapter-1-clean-code"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -356,7 +356,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
 <h3 id="chapter-2-meningful-names" class="group relative scroll-mt-20">
   Chapter 2 Meningful Names
   <a
-    href="#chapter-2-meningful-names"
+    href="https://westernwilson.com/books/clean-code/#chapter-2-meningful-names"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -376,7 +376,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
 <h3 id="chapter-3-functions" class="group relative scroll-mt-20">
   Chapter 3 Functions
   <a
-    href="#chapter-3-functions"
+    href="https://westernwilson.com/books/clean-code/#chapter-3-functions"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -408,7 +408,7 @@ This feels achievable until you&rsquo;re actually in the middle of writing somet
 <h3 id="chapter-4-comments" class="group relative scroll-mt-20">
   Chapter 4 Comments
   <a
-    href="#chapter-4-comments"
+    href="https://westernwilson.com/books/clean-code/#chapter-4-comments"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -425,7 +425,7 @@ This feels achievable until you&rsquo;re actually in the middle of writing somet
 <h3 id="chapter-5-formatting" class="group relative scroll-mt-20">
   Chapter 5 Formatting
   <a
-    href="#chapter-5-formatting"
+    href="https://westernwilson.com/books/clean-code/#chapter-5-formatting"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -436,7 +436,7 @@ This feels achievable until you&rsquo;re actually in the middle of writing somet
 <h3 id="chapter-6-objects-and-data-structures" class="group relative scroll-mt-20">
   Chapter 6 Objects and Data Structures
   <a
-    href="#chapter-6-objects-and-data-structures"
+    href="https://westernwilson.com/books/clean-code/#chapter-6-objects-and-data-structures"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -455,7 +455,7 @@ This feels achievable until you&rsquo;re actually in the middle of writing somet
 <h3 id="chapter-7-use-exceptions-rather-than-return-codes" class="group relative scroll-mt-20">
   Chapter 7 Use Exceptions Rather Than Return Codes
   <a
-    href="#chapter-7-use-exceptions-rather-than-return-codes"
+    href="https://westernwilson.com/books/clean-code/#chapter-7-use-exceptions-rather-than-return-codes"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -472,7 +472,7 @@ This feels achievable until you&rsquo;re actually in the middle of writing somet
 <h3 id="chapter-8-boundaries" class="group relative scroll-mt-20">
   Chapter 8 Boundaries
   <a
-    href="#chapter-8-boundaries"
+    href="https://westernwilson.com/books/clean-code/#chapter-8-boundaries"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -485,7 +485,7 @@ This feels achievable until you&rsquo;re actually in the middle of writing somet
 <h3 id="chapter-9-unit-tests" class="group relative scroll-mt-20">
   Chapter 9 Unit Tests
   <a
-    href="#chapter-9-unit-tests"
+    href="https://westernwilson.com/books/clean-code/#chapter-9-unit-tests"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -502,7 +502,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
 <h3 id="chapter-10-classes" class="group relative scroll-mt-20">
   Chapter 10 Classes
   <a
-    href="#chapter-10-classes"
+    href="https://westernwilson.com/books/clean-code/#chapter-10-classes"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -516,7 +516,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
 <h3 id="chapter-11-systems" class="group relative scroll-mt-20">
   Chapter 11 Systems
   <a
-    href="#chapter-11-systems"
+    href="https://westernwilson.com/books/clean-code/#chapter-11-systems"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -526,7 +526,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
 <h3 id="chapter-12-emergence" class="group relative scroll-mt-20">
   Chapter 12 Emergence
   <a
-    href="#chapter-12-emergence"
+    href="https://westernwilson.com/books/clean-code/#chapter-12-emergence"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -535,7 +535,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
 <h3 id="chapter-13-concurrency" class="group relative scroll-mt-20">
   Chapter 13 Concurrency
   <a
-    href="#chapter-13-concurrency"
+    href="https://westernwilson.com/books/clean-code/#chapter-13-concurrency"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -546,7 +546,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
 <h3 id="chapter-14-junit-internals" class="group relative scroll-mt-20">
   Chapter 14 JUnit Internals
   <a
-    href="#chapter-14-junit-internals"
+    href="https://westernwilson.com/books/clean-code/#chapter-14-junit-internals"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -555,7 +555,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
 <h3 id="chapter-16-refactoring-serialdate" class="group relative scroll-mt-20">
   Chapter 16 Refactoring SerialDate
   <a
-    href="#chapter-16-refactoring-serialdate"
+    href="https://westernwilson.com/books/clean-code/#chapter-16-refactoring-serialdate"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -570,7 +570,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
 <h3 id="chapter-17-smells-and-heuristics" class="group relative scroll-mt-20">
   Chapter 17 Smells and Heuristics
   <a
-    href="#chapter-17-smells-and-heuristics"
+    href="https://westernwilson.com/books/clean-code/#chapter-17-smells-and-heuristics"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -599,7 +599,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
 <h2 id="appendix-a-concurrency-ii" class="group relative scroll-mt-20">
   Appendix A Concurrency II
   <a
-    href="#appendix-a-concurrency-ii"
+    href="https://westernwilson.com/books/clean-code/#appendix-a-concurrency-ii"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -611,10 +611,10 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
 <blockquote>
 <p>And this is a simple problem. If we cannot demonstrate broken code easily with this problem, how will we ever detect truly complex problems? So what approaches can we take to demonstrate this simple failure? And, more importantly, how can we write tests that will demonstrate failures in more complex code? How will we be able to discover if our code has failures when we do not know where to look?</p>
 </blockquote>
-]]></content:encoded></item><item><title>Babel: An Arcane History</title><link>https://westernwilson.com/books/babel-an-arcane-history/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/babel-an-arcane-history/</guid><description>&lt;h2 id="notes-on-babel" class="group relative scroll-mt-20"&gt;&#10; Notes on Babel&#10; &lt;a&#10; href="#notes-on-babel"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;This book begins and ends with sadness. It has many ups and downs which helped me feel really invested in the students journey.&lt;/p&gt;&#10;&lt;p&gt;The author moves through the story really quick. It&amp;rsquo;s great to read because it feels like there is no dawdling on useless parts of text or superflous detail. It all moves the plot or develops a character. Such a good author.&lt;/p&gt;</description><content:encoded><![CDATA[<h2 id="notes-on-babel" class="group relative scroll-mt-20">
+]]></content:encoded></item><item><title>Babel: An Arcane History</title><link>https://westernwilson.com/books/babel-an-arcane-history/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/babel-an-arcane-history/</guid><description> Notes on Babel This book begins and ends with sadness. It has many ups and downs which helped me feel really invested in the students journey.&#10;The author moves through the story really quick. It’s great to read because it feels like there is no dawdling on useless parts of text or superflous detail. It all moves the plot or develops a character. Such a good author.&#10;</description><content:encoded><![CDATA[<h2 id="notes-on-babel" class="group relative scroll-mt-20">
   Notes on Babel
   <a
-    href="#notes-on-babel"
+    href="https://westernwilson.com/books/babel-an-arcane-history/#notes-on-babel"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -636,7 +636,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
 <h2 id="quotes" class="group relative scroll-mt-20">
   Quotes
   <a
-    href="#quotes"
+    href="https://westernwilson.com/books/babel-an-arcane-history/#quotes"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -690,7 +690,7 @@ Todo: add characters.</p>
 <p>How did one make peace with one&rsquo;s own death? According to the accounts of Crito, the Phaedo, and the Apology, Socrates went to his death without distress, with such preternatural calm that he refused multiple entreaties to escape.</p>
 </blockquote>
 <p>I copied this quote while on a plane leaving Athens. This was after walking past the prison of Socrates and the university building where he taught.</p>
-]]></content:encoded></item><item><title>Unfuck Your Boundaries</title><link>https://westernwilson.com/books/unfuck-your-boundaries/</link><pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/unfuck-your-boundaries/</guid><description>&lt;blockquote&gt;&#10;&lt;p&gt;We respect these boundaries through how we care for others and by letting them have their own emotional experiences&lt;/p&gt;&#10;&lt;/blockquote&gt;&#10;&lt;p&gt;Too often we feel the emotional burden, or perceived microexpression that means a person is angry or sad. Then you immediate feel an urge to rush in and fix it.&lt;/p&gt;&#10;&lt;p&gt;That isn&amp;rsquo;t respect. They didnt ask for help. They&amp;rsquo;re processing something you can&amp;rsquo;t see. You must let them have that experience and not feel guilty about not forcing your hand to help.&lt;/p&gt;</description><content:encoded><![CDATA[<blockquote>
+]]></content:encoded></item><item><title>Unfuck Your Boundaries</title><link>https://westernwilson.com/books/unfuck-your-boundaries/</link><pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/unfuck-your-boundaries/</guid><description> We respect these boundaries through how we care for others and by letting them have their own emotional experiences&#10;Too often we feel the emotional burden, or perceived microexpression that means a person is angry or sad. Then you immediate feel an urge to rush in and fix it.&#10;That isn’t respect. They didnt ask for help. They’re processing something you can’t see. You must let them have that experience and not feel guilty about not forcing your hand to help.&#10;</description><content:encoded><![CDATA[<blockquote>
 <p>We respect these boundaries through how we care for others and by letting them have their own emotional experiences</p>
 </blockquote>
 <p>Too often we feel the emotional burden, or perceived microexpression that means a person is angry or sad. Then you immediate feel an urge to rush in and fix it.</p>
@@ -749,7 +749,7 @@ On noticing your own state and not externalising your problems on the world.</p>
 </blockquote>
 <p>The final bits of the book for me remind me that effective communication is possible. It shows a fair few examples and says everyone has a responsibility to help make the world a better place. Decent read. I think if I was more strict on the questions and spending time on them I might have got more out of this book.
 The questions are worth picking up and going through at various stages of your life.</p>
-]]></content:encoded></item><item><title>The Great Mental Models</title><link>https://westernwilson.com/books/the-great-mental-models/</link><pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/the-great-mental-models/</guid><description>&lt;p&gt;This book starts off explaining why mental models are required and gives many examples of situations show its importance. A lot of books do this, it&amp;rsquo;s like they try to entice you into reading the book. But I&amp;rsquo;d already decided to read it, so its hard to get through the start of the book.&lt;/p&gt;&#10;&lt;p&gt;This book leans on Charlie Munger&amp;rsquo;s philosophy. Early on he shares a Munger quote:&lt;/p&gt;&#10;&lt;blockquote&gt;&#10;&lt;p&gt;I believe in the discipline of mastering the best of what other people have figured out&#10;When mental models are not applied then you probably have failed understanding of a given situation.&lt;/p&gt;</description><content:encoded><![CDATA[<p>This book starts off explaining why mental models are required and gives many examples of situations show its importance. A lot of books do this, it&rsquo;s like they try to entice you into reading the book. But I&rsquo;d already decided to read it, so its hard to get through the start of the book.</p>
+]]></content:encoded></item><item><title>The Great Mental Models</title><link>https://westernwilson.com/books/the-great-mental-models/</link><pubDate>Sat, 21 Mar 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/the-great-mental-models/</guid><description>This book starts off explaining why mental models are required and gives many examples of situations show its importance. A lot of books do this, it’s like they try to entice you into reading the book. But I’d already decided to read it, so its hard to get through the start of the book.&#10;This book leans on Charlie Munger’s philosophy. Early on he shares a Munger quote:&#10;I believe in the discipline of mastering the best of what other people have figured out When mental models are not applied then you probably have failed understanding of a given situation.&#10;</description><content:encoded><![CDATA[<p>This book starts off explaining why mental models are required and gives many examples of situations show its importance. A lot of books do this, it&rsquo;s like they try to entice you into reading the book. But I&rsquo;d already decided to read it, so its hard to get through the start of the book.</p>
 <p>This book leans on Charlie Munger&rsquo;s philosophy. Early on he shares a Munger quote:</p>
 <blockquote>
 <p>I believe in the discipline of mastering the best of what other people have figured out
@@ -776,7 +776,7 @@ Hanlons razor was equally facinating; it&rsquo;s not malice, it&rsquo;s probably
 <h3 id="quotes" class="group relative scroll-mt-20">
   Quotes
   <a
-    href="#quotes"
+    href="https://westernwilson.com/books/the-great-mental-models/#quotes"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -796,7 +796,7 @@ Hanlons razor was equally facinating; it&rsquo;s not malice, it&rsquo;s probably
 <blockquote>
 <p>In order to use a map or model as accurately as possible, we should take three important considerations into account: Reality is the ultimate update. Consider the cartographer. Maps can influence territories.</p>
 </blockquote>
-]]></content:encoded></item><item><title>Yellowface</title><link>https://westernwilson.com/books/yellowface/</link><pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/yellowface/</guid><description>&lt;p&gt;&lt;strong&gt;Contains spoilers.&lt;/strong&gt;&lt;/p&gt;&#10;&lt;p&gt;This book was amazing read for me. I barely read anything fictional thats not got some element of fantasy or super powers. But I couldn&amp;rsquo;t stop myself from turning pages. Thoroughly enjoyed it and I&amp;rsquo;ll be reading her other works.&lt;/p&gt;&#10;&lt;p&gt;This book was gripping, the pacing of each sentence was masterful. It feels like it was written in its most condensed form without losing any meaning from the text. It jumped from plot to plot, and I like that it didn&amp;rsquo;t waffle on about unessesary bits.&lt;/p&gt;</description><content:encoded><![CDATA[<p><strong>Contains spoilers.</strong></p>
+]]></content:encoded></item><item><title>Yellowface</title><link>https://westernwilson.com/books/yellowface/</link><pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/yellowface/</guid><description>Contains spoilers.&#10;This book was amazing read for me. I barely read anything fictional thats not got some element of fantasy or super powers. But I couldn’t stop myself from turning pages. Thoroughly enjoyed it and I’ll be reading her other works.&#10;This book was gripping, the pacing of each sentence was masterful. It feels like it was written in its most condensed form without losing any meaning from the text. It jumped from plot to plot, and I like that it didn’t waffle on about unessesary bits.&#10;</description><content:encoded><![CDATA[<p><strong>Contains spoilers.</strong></p>
 <p>This book was amazing read for me. I barely read anything fictional thats not got some element of fantasy or super powers. But I couldn&rsquo;t stop myself from turning pages. Thoroughly enjoyed it and I&rsquo;ll be reading her other works.</p>
 <p>This book was gripping, the pacing of each sentence was masterful. It feels like it was written in its most condensed form without losing any meaning from the text. It jumped from plot to plot, and I like that it didn&rsquo;t waffle on about unessesary bits.</p>
 <p>The book was broken into many main themes as the story progressed. Basically, it shows a lonely character Juniper Song (Hayward) go through the envy, then stardom, then the fall because of her silly decisions.</p>
@@ -807,11 +807,11 @@ Hanlons razor was equally facinating; it&rsquo;s not malice, it&rsquo;s probably
 <p>June&rsquo;s whole life changed when she got a great publishing team. They were able to publicise her book and get out to the best sellers list. They had connections, and methods, and a team of publicists to help her. Though June&rsquo;s success is probably due to the foundations of the story she stole.</p>
 <p>Juniper struggles with her social media addiction, and her incessant need to be popular, also maybe her ego. These all warp any effective decision making she would ever be able to make, she fixes the momentary problems as they come up but doesn&rsquo;t think about long-term consequences.</p>
 <p>By the end of the book she is caught out on her lies, and even at the end, it finishes by June coming up with a delusional plan to flip the narrative on its head and go against the person who has video taped proof of her admitting her guilt.</p>
-]]></content:encoded></item><item><title>A New Earth: Awakening to Your Life's Purpose</title><link>https://westernwilson.com/books/a-new-earth/</link><pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/a-new-earth/</guid><description>&lt;p&gt;It&amp;rsquo;s worth questioning where the inner voice comes from. Once you unlock the watcher of the voice, it feels like your inner world expands, and as a consequence your experience in the physical world too.&lt;/p&gt;&#10;&lt;h2 id="quotes" class="group relative scroll-mt-20"&gt;&#10; Quotes&#10; &lt;a&#10; href="#quotes"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;blockquote&gt;&#10;&lt;p&gt;Most people are only peripherally aware of the world that surrounds them, especially if their surroundings are familiar. The voice in the head absorbs the greater part of their attention.&lt;/p&gt;</description><content:encoded><![CDATA[<p>It&rsquo;s worth questioning where the inner voice comes from. Once you unlock the watcher of the voice, it feels like your inner world expands, and as a consequence your experience in the physical world too.</p>
+]]></content:encoded></item><item><title>A New Earth: Awakening to Your Life's Purpose</title><link>https://westernwilson.com/books/a-new-earth/</link><pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/a-new-earth/</guid><description>It’s worth questioning where the inner voice comes from. Once you unlock the watcher of the voice, it feels like your inner world expands, and as a consequence your experience in the physical world too.&#10;Quotes Most people are only peripherally aware of the world that surrounds them, especially if their surroundings are familiar. The voice in the head absorbs the greater part of their attention.&#10;</description><content:encoded><![CDATA[<p>It&rsquo;s worth questioning where the inner voice comes from. Once you unlock the watcher of the voice, it feels like your inner world expands, and as a consequence your experience in the physical world too.</p>
 <h2 id="quotes" class="group relative scroll-mt-20">
   Quotes
   <a
-    href="#quotes"
+    href="https://westernwilson.com/books/a-new-earth/#quotes"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -855,10 +855,10 @@ Hanlons razor was equally facinating; it&rsquo;s not malice, it&rsquo;s probably
 <blockquote>
 <p>Thought can at best point to the truth, but it never is the truth. That&rsquo;s why Buddhists say The finger pointing to the moon is not the moon.</p>
 </blockquote>
-]]></content:encoded></item><item><title>The 4-Hour Work Week</title><link>https://westernwilson.com/books/4-hour-work-week/</link><pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/4-hour-work-week/</guid><description>&lt;h2 id="the-4-hour-work-week" class="group relative scroll-mt-20"&gt;&#10; The 4-Hour Work Week&#10; &lt;a&#10; href="#the-4-hour-work-week"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;This book has given me the biggest paradigm shift of any book I&amp;rsquo;ve ever read. From critical thinking, to bending rules, to working smarter not harder. It&amp;rsquo;s an enjoyable read, just a bit shocking to see how other people decide operate.&lt;/p&gt;&#10;&lt;p&gt;Timothy Ferris shares a bunch of stories where he questions the world and how it operates, and find ways to side-step those rules. He manages to stay within the legal rules, but is an outside-of-the-box thinker. He shares how he&amp;rsquo;s had this critical mind ever since being a kid and how it&amp;rsquo;s helped him.&lt;/p&gt;</description><content:encoded><![CDATA[<h2 id="the-4-hour-work-week" class="group relative scroll-mt-20">
+]]></content:encoded></item><item><title>The 4-Hour Work Week</title><link>https://westernwilson.com/books/4-hour-work-week/</link><pubDate>Sun, 22 Jun 2025 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/4-hour-work-week/</guid><description> The 4-Hour Work Week This book has given me the biggest paradigm shift of any book I’ve ever read. From critical thinking, to bending rules, to working smarter not harder. It’s an enjoyable read, just a bit shocking to see how other people decide operate.&#10;Timothy Ferris shares a bunch of stories where he questions the world and how it operates, and find ways to side-step those rules. He manages to stay within the legal rules, but is an outside-of-the-box thinker. He shares how he’s had this critical mind ever since being a kid and how it’s helped him.&#10;</description><content:encoded><![CDATA[<h2 id="the-4-hour-work-week" class="group relative scroll-mt-20">
   The 4-Hour Work Week
   <a
-    href="#the-4-hour-work-week"
+    href="https://westernwilson.com/books/4-hour-work-week/#the-4-hour-work-week"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -871,7 +871,7 @@ Hanlons razor was equally facinating; it&rsquo;s not malice, it&rsquo;s probably
 <p>He also gives so many tips and tricks on travelling, assistants, selling digitally, working remotely etc.</p>
 <p>It&rsquo;s essentially a playbook for gaining time back after you&rsquo;ve already worked hard. And only focusing on the most useful tasks.</p>
 <p>9/10 recommend, even if just to shift how you think!</p>
-]]></content:encoded></item><item><title>The Richest Man in Babylon</title><link>https://westernwilson.com/books/the-richest-man-in-babylon/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/the-richest-man-in-babylon/</guid><description>&lt;p&gt;This book has helps point me in the right direction with my finances time and time again. A friend gave it to me in 2023 to read, and to this day &lt;strong&gt;it&amp;rsquo;s my favourite book&lt;/strong&gt;.&lt;/p&gt;&#10;&lt;p&gt;I saw a social media clip of Robert Greene recommending it, and countless other people saying it&amp;rsquo;s a good one. So I gave it a go and have read it yearly since.&lt;/p&gt;&#10;&lt;p&gt;It&amp;rsquo;s a book of parables in the Babylonian time teaching you lessons using stories from that era. I think the stories were inspired by actual real life clay tablets. I&amp;rsquo;ve read many other finance books after this one, and they all seem to borrow concepts taught here.&#10;It makes me wonder if this book was truly written from the clay tablets, or if there was some other historical influence this is based off of.&lt;/p&gt;</description><content:encoded><![CDATA[<p>This book has helps point me in the right direction with my finances time and time again. A friend gave it to me in 2023 to read, and to this day <strong>it&rsquo;s my favourite book</strong>.</p>
+]]></content:encoded></item><item><title>The Richest Man in Babylon</title><link>https://westernwilson.com/books/the-richest-man-in-babylon/</link><pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate><guid>https://westernwilson.com/books/the-richest-man-in-babylon/</guid><description>This book has helps point me in the right direction with my finances time and time again. A friend gave it to me in 2023 to read, and to this day it’s my favourite book.&#10;I saw a social media clip of Robert Greene recommending it, and countless other people saying it’s a good one. So I gave it a go and have read it yearly since.&#10;It’s a book of parables in the Babylonian time teaching you lessons using stories from that era. I think the stories were inspired by actual real life clay tablets. I’ve read many other finance books after this one, and they all seem to borrow concepts taught here. It makes me wonder if this book was truly written from the clay tablets, or if there was some other historical influence this is based off of.&#10;</description><content:encoded><![CDATA[<p>This book has helps point me in the right direction with my finances time and time again. A friend gave it to me in 2023 to read, and to this day <strong>it&rsquo;s my favourite book</strong>.</p>
 <p>I saw a social media clip of Robert Greene recommending it, and countless other people saying it&rsquo;s a good one. So I gave it a go and have read it yearly since.</p>
 <p>It&rsquo;s a book of parables in the Babylonian time teaching you lessons using stories from that era. I think the stories were inspired by actual real life clay tablets. I&rsquo;ve read many other finance books after this one, and they all seem to borrow concepts taught here.
 It makes me wonder if this book was truly written from the clay tablets, or if there was some other historical influence this is based off of.</p>

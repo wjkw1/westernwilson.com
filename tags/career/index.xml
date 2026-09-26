@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/tags/career/</link><description>Recent content in Career on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/career/index.xml" rel="self" type="application/rss+xml"/><item><title>DevOps vs Platform vs Infrastructure Engineer</title><link>https://westernwilson.com/reflections/devops-vs-platform-vs-infrastructure-engineer/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/devops-vs-platform-vs-infrastructure-engineer/</guid><description>&lt;p&gt;I&amp;rsquo;ve been a DevOps &amp;amp; Infra Engineer for over 5 years. To me, it&amp;rsquo;s about helping developers move from code to production in the fastest, safest, most secure, and most reliable way possible. The job market seems a bit less certain about this definition however&amp;hellip;&lt;/p&gt;&#10;&lt;p&gt;Scrolling through job listings this past month, I noticed roles titled &lt;em&gt;DevOps Engineer&lt;/em&gt; or &lt;em&gt;Platform Engineer&lt;/em&gt; or &lt;em&gt;Infrastructure Engineer&lt;/em&gt; that were listed with almost identical responsibilities.&lt;/p&gt;</description><content:encoded><![CDATA[<p>I&rsquo;ve been a DevOps &amp; Infra Engineer for over 5 years. To me, it&rsquo;s about helping developers move from code to production in the fastest, safest, most secure, and most reliable way possible. The job market seems a bit less certain about this definition however&hellip;</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/tags/career/</link><description>Recent content in Career on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/career/index.xml" rel="self" type="application/rss+xml"/><item><title>DevOps vs Platform vs Infrastructure Engineer</title><link>https://westernwilson.com/reflections/devops-vs-platform-vs-infrastructure-engineer/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/devops-vs-platform-vs-infrastructure-engineer/</guid><description>I’ve been a DevOps &amp; Infra Engineer for over 5 years. To me, it’s about helping developers move from code to production in the fastest, safest, most secure, and most reliable way possible. The job market seems a bit less certain about this definition however…&#10;Scrolling through job listings this past month, I noticed roles titled DevOps Engineer or Platform Engineer or Infrastructure Engineer that were listed with almost identical responsibilities.&#10;</description><content:encoded><![CDATA[<p>I&rsquo;ve been a DevOps &amp; Infra Engineer for over 5 years. To me, it&rsquo;s about helping developers move from code to production in the fastest, safest, most secure, and most reliable way possible. The job market seems a bit less certain about this definition however&hellip;</p>
 <p>Scrolling through job listings this past month, I noticed roles titled <em>DevOps Engineer</em> or <em>Platform Engineer</em> or <em>Infrastructure Engineer</em> that were listed with almost identical responsibilities.</p>
 <p>I know innately that these roles have some differences, but the titles are often used interchangeably by hiring teams.</p>
 <h2 id="where-devops-came-from" class="group relative scroll-mt-20">
   Where DevOps came from
   <a
-    href="#where-devops-came-from"
+    href="https://westernwilson.com/reflections/devops-vs-platform-vs-infrastructure-engineer/#where-devops-came-from"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -16,7 +16,7 @@
 <h2 id="what-a-devops-engineer-actually-does" class="group relative scroll-mt-20">
   What a DevOps Engineer actually does
   <a
-    href="#what-a-devops-engineer-actually-does"
+    href="https://westernwilson.com/reflections/devops-vs-platform-vs-infrastructure-engineer/#what-a-devops-engineer-actually-does"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -27,7 +27,7 @@
 <h2 id="platform-engineering" class="group relative scroll-mt-20">
   Platform Engineering
   <a
-    href="#platform-engineering"
+    href="https://westernwilson.com/reflections/devops-vs-platform-vs-infrastructure-engineer/#platform-engineering"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -41,7 +41,7 @@
 <h2 id="infrastructure-engineering" class="group relative scroll-mt-20">
   Infrastructure Engineering
   <a
-    href="#infrastructure-engineering"
+    href="https://westernwilson.com/reflections/devops-vs-platform-vs-infrastructure-engineer/#infrastructure-engineering"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -53,7 +53,7 @@
 <h2 id="why-the-roles-overlap" class="group relative scroll-mt-20">
   Why the roles overlap
   <a
-    href="#why-the-roles-overlap"
+    href="https://westernwilson.com/reflections/devops-vs-platform-vs-infrastructure-engineer/#why-the-roles-overlap"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -66,7 +66,7 @@
 <h2 id="read-the-job-description" class="group relative scroll-mt-20">
   Read the job description
   <a
-    href="#read-the-job-description"
+    href="https://westernwilson.com/reflections/devops-vs-platform-vs-infrastructure-engineer/#read-the-job-description"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -74,11 +74,11 @@
 <p>After reading many applications, the practical lesson is to read past the title and into the responsibilities. A &ldquo;Platform Engineer&rdquo; role at a thirty-person startup will look nothing like the same title at an enterprise company. A &ldquo;DevOps Engineer&rdquo; role at a bank might be closer to what a Platform team does at a tech company.</p>
 <p>The questions worth asking in an interview: Are you embedded in a product team or sitting in a centralised infrastructure group? Are you building tooling <em>for</em> developers, or helping productionise a single product app? What does ownership look like when something breaks at 3am?</p>
 <p>I like that DevOps Engineering is broad; I like having the option to do whatever is required to get the job done.</p>
-]]></content:encoded></item><item><title>Developer dynamics</title><link>https://westernwilson.com/reflections/2023-10-28-developer-dynamics/</link><pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2023-10-28-developer-dynamics/</guid><description>&lt;p&gt;&lt;em&gt;Full disclosure, I first heard of these architypes from a workshop run in 2020 by &lt;a href="https://tuanz.org.nz/flint/flint-wellington/"&gt;FLINT Wellington&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#10;&lt;h1 id="types-of-developers-in-the-workplace" class="group relative scroll-mt-20"&gt;&#10; Types of Developers in the Workplace&#10; &lt;a&#10; href="#types-of-developers-in-the-workplace"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h1&gt;&#10;&lt;p&gt;In a dynamic and collaborative workplace, you&amp;rsquo;ll encounter various types of developers, each driven by different motivations and approaches to their work. Understanding these developer archetypes can help foster a more effective and harmonious team environment.&lt;/p&gt;</description><content:encoded><![CDATA[<p><em>Full disclosure, I first heard of these architypes from a workshop run in 2020 by <a href="https://tuanz.org.nz/flint/flint-wellington/">FLINT Wellington</a></em></p>
+]]></content:encoded></item><item><title>Developer dynamics</title><link>https://westernwilson.com/reflections/2023-10-28-developer-dynamics/</link><pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2023-10-28-developer-dynamics/</guid><description>Full disclosure, I first heard of these architypes from a workshop run in 2020 by FLINT Wellington&#10;Types of Developers in the Workplace In a dynamic and collaborative workplace, you’ll encounter various types of developers, each driven by different motivations and approaches to their work. Understanding these developer archetypes can help foster a more effective and harmonious team environment.&#10;</description><content:encoded><![CDATA[<p><em>Full disclosure, I first heard of these architypes from a workshop run in 2020 by <a href="https://tuanz.org.nz/flint/flint-wellington/">FLINT Wellington</a></em></p>
 <h1 id="types-of-developers-in-the-workplace" class="group relative scroll-mt-20">
   Types of Developers in the Workplace
   <a
-    href="#types-of-developers-in-the-workplace"
+    href="https://westernwilson.com/reflections/2023-10-28-developer-dynamics/#types-of-developers-in-the-workplace"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -87,7 +87,7 @@
 <h2 id="1-the-detective" class="group relative scroll-mt-20">
   1. The Detective
   <a
-    href="#1-the-detective"
+    href="https://westernwilson.com/reflections/2023-10-28-developer-dynamics/#1-the-detective"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -96,7 +96,7 @@
 <h2 id="2-the-cowboy--go-getter" class="group relative scroll-mt-20">
   2. The Cowboy / Go-getter
   <a
-    href="#2-the-cowboy--go-getter"
+    href="https://westernwilson.com/reflections/2023-10-28-developer-dynamics/#2-the-cowboy--go-getter"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -105,7 +105,7 @@
 <h2 id="3-the-artist-or-creative" class="group relative scroll-mt-20">
   3. The Artist or Creative
   <a
-    href="#3-the-artist-or-creative"
+    href="https://westernwilson.com/reflections/2023-10-28-developer-dynamics/#3-the-artist-or-creative"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -114,18 +114,18 @@
 <h2 id="4-the-mad-scientist" class="group relative scroll-mt-20">
   4. The Mad Scientist
   <a
-    href="#4-the-mad-scientist"
+    href="https://westernwilson.com/reflections/2023-10-28-developer-dynamics/#4-the-mad-scientist"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
 <p>Drive: Mad Scientists are tech enthusiasts. They eagerly embrace the latest technologies and enjoy experimenting with new libraries and features. Their adventurous spirit leads to innovation and pushing the boundaries of what&rsquo;s possible. They&rsquo;re the team&rsquo;s tech trailblazers.</p>
 <p>In a balanced development team, these diverse types of developers can complement each other, fostering creativity, efficiency, and problem-solving. Recognizing and valuing these different approaches can lead to a more well-rounded and successful team.</p>
-]]></content:encoded></item><item><title>Talking Tech, to Non-Tech</title><link>https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/</link><pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/</guid><description>&lt;p&gt;&lt;em&gt;Early in my career, I attended a workshop where the goal was to bridge the gap between technical and non-technical people when discussing technical concepts. The session emphasized the use of analogies to explain concepts and catering to different learning styles, such as visual aids.&lt;/em&gt;&lt;/p&gt;&#10;&lt;h2 id="simplifying-technical-jargon" class="group relative scroll-mt-20"&gt;&#10; Simplifying Technical Jargon&#10; &lt;a&#10; href="#simplifying-technical-jargon"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;To communicate tech concepts to non-technical individuals, analogies are invaluable.&lt;/p&gt;</description><content:encoded><![CDATA[<p><em>Early in my career, I attended a workshop where the goal was to bridge the gap between technical and non-technical people when discussing technical concepts. The session emphasized the use of analogies to explain concepts and catering to different learning styles, such as visual aids.</em></p>
+]]></content:encoded></item><item><title>Talking Tech, to Non-Tech</title><link>https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/</link><pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/</guid><description>Early in my career, I attended a workshop where the goal was to bridge the gap between technical and non-technical people when discussing technical concepts. The session emphasized the use of analogies to explain concepts and catering to different learning styles, such as visual aids.&#10;Simplifying Technical Jargon To communicate tech concepts to non-technical individuals, analogies are invaluable.&#10;</description><content:encoded><![CDATA[<p><em>Early in my career, I attended a workshop where the goal was to bridge the gap between technical and non-technical people when discussing technical concepts. The session emphasized the use of analogies to explain concepts and catering to different learning styles, such as visual aids.</em></p>
 <h2 id="simplifying-technical-jargon" class="group relative scroll-mt-20">
   Simplifying Technical Jargon
   <a
-    href="#simplifying-technical-jargon"
+    href="https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/#simplifying-technical-jargon"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -134,7 +134,7 @@
 <h3 id="the-barrier-of-technical-jargon" class="group relative scroll-mt-20">
   The Barrier of Technical Jargon
   <a
-    href="#the-barrier-of-technical-jargon"
+    href="https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/#the-barrier-of-technical-jargon"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -143,7 +143,7 @@
 <h3 id="harnessing-the-power-of-analogies" class="group relative scroll-mt-20">
   Harnessing the Power of Analogies
   <a
-    href="#harnessing-the-power-of-analogies"
+    href="https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/#harnessing-the-power-of-analogies"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -154,7 +154,7 @@
 <h2 id="types-of-applications" class="group relative scroll-mt-20">
   Types of Applications
   <a
-    href="#types-of-applications"
+    href="https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/#types-of-applications"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -169,7 +169,7 @@
 <h2 id="understanding-apis" class="group relative scroll-mt-20">
   Understanding APIs
   <a
-    href="#understanding-apis"
+    href="https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/#understanding-apis"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -179,17 +179,17 @@
 <h2 id="team-dynamics" class="group relative scroll-mt-20">
   Team Dynamics
   <a
-    href="#team-dynamics"
+    href="https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/#team-dynamics"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
 <p>Different types of team members, including detectives, cowboys, artists, and mad scientists, each have distinct work styles and motivations. Recognizing these differences can improve team collaboration.</p>
-<p><a href="/blog/developer-dynamics">Click here</a> to read the full article on these archetypes here.</p>
+<p><a href="https://westernwilson.com/blog/developer-dynamics">Click here</a> to read the full article on these archetypes here.</p>
 <h2 id="the-coding-process" class="group relative scroll-mt-20">
   The Coding Process
   <a
-    href="#the-coding-process"
+    href="https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/#the-coding-process"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -198,7 +198,7 @@
 <h2 id="future-technology" class="group relative scroll-mt-20">
   Future Technology
   <a
-    href="#future-technology"
+    href="https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/#future-technology"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>

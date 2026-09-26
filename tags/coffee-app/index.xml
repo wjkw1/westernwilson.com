@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/tags/coffee-app/</link><description>Recent content in Coffee-App on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/coffee-app/index.xml" rel="self" type="application/rss+xml"/><item><title>Why AWS SSO? Why OIDC?</title><link>https://westernwilson.com/reflections/oidc/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/oidc/</guid><description>&lt;p&gt;While building a demo coffee app you realise that the infrastructure-as-code needs appropriate authentication &amp;amp; authorisation to make changes securely. I&amp;rsquo;ve set this up in previous jobs but have been on a travel break since then, and the muscle memory needs a reminder.&lt;/p&gt;&#10;&lt;p&gt;So, I&amp;rsquo;m refreshing my understanding and reflecting on it here.&lt;/p&gt;&#10;&lt;h2 id="important-terminology-and-tools" class="group relative scroll-mt-20"&gt;&#10; Important terminology and tools&#10; &lt;a&#10; href="#important-terminology-and-tools"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;An important distiction is the difference between Authentication and Authorisation. &lt;strong&gt;Authentication&lt;/strong&gt; asks &amp;ldquo;&lt;em&gt;are you who you say you are&lt;/em&gt;&amp;rdquo;, while &lt;strong&gt;Authorisation&lt;/strong&gt; says &amp;ldquo;&lt;em&gt;I know you, but are you allowed to do what you&amp;rsquo;re trying to do&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;</description><content:encoded><![CDATA[<p>While building a demo coffee app you realise that the infrastructure-as-code needs appropriate authentication &amp; authorisation to make changes securely. I&rsquo;ve set this up in previous jobs but have been on a travel break since then, and the muscle memory needs a reminder.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/tags/coffee-app/</link><description>Recent content in Coffee-App on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 21 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/coffee-app/index.xml" rel="self" type="application/rss+xml"/><item><title>Why AWS SSO? Why OIDC?</title><link>https://westernwilson.com/reflections/oidc/</link><pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/oidc/</guid><description>While building a demo coffee app you realise that the infrastructure-as-code needs appropriate authentication &amp; authorisation to make changes securely. I’ve set this up in previous jobs but have been on a travel break since then, and the muscle memory needs a reminder.&#10;So, I’m refreshing my understanding and reflecting on it here.&#10;Important terminology and tools An important distiction is the difference between Authentication and Authorisation. Authentication asks “are you who you say you are”, while Authorisation says “I know you, but are you allowed to do what you’re trying to do”.&#10;</description><content:encoded><![CDATA[<p>While building a demo coffee app you realise that the infrastructure-as-code needs appropriate authentication &amp; authorisation to make changes securely. I&rsquo;ve set this up in previous jobs but have been on a travel break since then, and the muscle memory needs a reminder.</p>
 <p>So, I&rsquo;m refreshing my understanding and reflecting on it here.</p>
 <h2 id="important-terminology-and-tools" class="group relative scroll-mt-20">
   Important terminology and tools
   <a
-    href="#important-terminology-and-tools"
+    href="https://westernwilson.com/reflections/oidc/#important-terminology-and-tools"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -23,24 +23,24 @@
 <h2 id="human-to-machine" class="group relative scroll-mt-20">
   Human to machine
   <a
-    href="#human-to-machine"
+    href="https://westernwilson.com/reflections/oidc/#human-to-machine"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
 <p>When running Terraform from your laptop, the industry standard is to authenticate with <strong>AWS SSO</strong> (rebranded as AWS IAM Identity Center in 2022, though the CLI commands remain the same).</p>
 <p>From the terminal you run an aws cli command that opens your browser, asks you to log in using your identity provider (or aws creds), and grabs a short-lived credential for use during your AWS terminal session. It normally expires after 8 hours, but this is configurable. Terraform picks up that short-lived credential and uses it to configure the infrastructure however you&rsquo;ve defined.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span><span style="color:#75715e"># day to day example (assumes sso roles are setup)</span>
-</span></span><span style="display:flex;"><span>aws sso login --profile terraform
-</span></span><span style="display:flex;"><span>export AWS_PROFILE<span style="color:#f92672">=</span>terraform
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>terraform apply
+<div class="highlight"><pre tabindex="0"><code class="language-zsh" data-lang="zsh"><span><span><span># day to day example (assumes sso roles are setup)</span>
+</span></span><span><span>aws sso login --profile terraform
+</span></span><span><span>export AWS_PROFILE<span>=</span>terraform
+</span></span><span><span>
+</span></span><span><span>terraform apply
 </span></span></code></pre></div><p>These commands work because there&rsquo;s a human in the loop. Developers can login to AWS, click a button, and complete an MFA prompt. It&rsquo;s verifiable that you are the person at the keyboard.</p>
 <p>This is not possible the moment you&rsquo;re out of the loop.</p>
 <h2 id="machine-to-machine" class="group relative scroll-mt-20">
   Machine to machine
   <a
-    href="#machine-to-machine"
+    href="https://westernwilson.com/reflections/oidc/#machine-to-machine"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -52,7 +52,7 @@
 <h2 id="jwts" class="group relative scroll-mt-20">
   JWTs
   <a
-    href="#jwts"
+    href="https://westernwilson.com/reflections/oidc/#jwts"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -63,15 +63,15 @@
 <p>The point of JWT tokens isn&rsquo;t secrecy, it&rsquo;s integrity. If you trust the issuer&rsquo;s public key, and the signature checks out, then you can trust the claims.</p>
 <p>Think of it like a driver&rsquo;s licence, it&rsquo;s contents are not a secret (anyone who physically holds it has the info), but it&rsquo;s validity is trusted because it was created by a trusted authority. Other parties (police, security, the supermarket cashier) recognise it and trust what it <em>claims</em>.</p>
 <p>A JWT is a string with three parts separated by dots. Header, payload, and signature.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>&lt;header&gt;.&lt;payload&gt;.&lt;signature&gt;
+<div class="highlight"><pre tabindex="0"><code class="language-zsh" data-lang="zsh"><span><span>&lt;header&gt;.&lt;payload&gt;.&lt;signature&gt;
 </span></span></code></pre></div><p>The <em>header</em> says how it was signed. The <em>payload</em> is a set of claims or facts about whoever the token is describing. The <em>signature</em> is the issuer&rsquo;s cryptographic stamp.</p>
 <p>E.g.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjdXJpb3VzX3JlYWRlciIsIm5hbWUiOiJZb3UsIHRoZSBjdXJpb3VzIG9uZSIsIm1lc3NhZ2UiOiJUaGV5IHNheSBjdXJpb3NpdHkga2lsbGVkIHRoZSBjYXQsIGJ1dCBpdCB3b24ndCBraWxsIHlvdS4gU3RheSBjdXJpb3VzLiIsImlhdCI6MTc0NjY2MjQwMCwiZXhwIjo5OTk5OTk5OTk5fQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+<div class="highlight"><pre tabindex="0"><code class="language-zsh" data-lang="zsh"><span><span>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjdXJpb3VzX3JlYWRlciIsIm5hbWUiOiJZb3UsIHRoZSBjdXJpb3VzIG9uZSIsIm1lc3NhZ2UiOiJUaGV5IHNheSBjdXJpb3NpdHkga2lsbGVkIHRoZSBjYXQsIGJ1dCBpdCB3b24ndCBraWxsIHlvdS4gU3RheSBjdXJpb3VzLiIsImlhdCI6MTc0NjY2MjQwMCwiZXhwIjo5OTk5OTk5OTk5fQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 </span></span></code></pre></div><p>You can read more detail here: <a href="https://www.jwt.io/introduction#what-is-json-web-token">https://www.jwt.io/introduction#what-is-json-web-token</a></p>
 <h2 id="oidc" class="group relative scroll-mt-20">
   OIDC
   <a
-    href="#oidc"
+    href="https://westernwilson.com/reflections/oidc/#oidc"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -84,20 +84,20 @@
 <h2 id="the-trust-policy" class="group relative scroll-mt-20">
   The trust policy
   <a
-    href="#the-trust-policy"
+    href="https://westernwilson.com/reflections/oidc/#the-trust-policy"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
 <p>With the authentication and JWT verification mostly handled by AWS &amp; GitHub, you can focus more on deciding which GitHub claims you&rsquo;ll accept.</p>
 <p>For example, every JWT GitHub mints contains a <code>sub</code> claim, i.e. the subject</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>repo:my-org/my-repo:ref:refs/heads/main
+<div class="highlight"><pre tabindex="0"><code class="language-zsh" data-lang="zsh"><span><span>repo:my-org/my-repo:ref:refs/heads/main
 </span></span></code></pre></div><p>That string identifies exactly which repo, branch, or trigger produced the token. Your trust policy in AWS is a set of conditions on those claims. So if you pin the <code>sub</code> claim to a specific repo and your main branch (like the above example), then only that combination can assume the role.</p>
 <p>Set up the AWS trust policy too loosely and you replace one risk with another. The biggest mistake is wildcarding the subject <code>repo:*</code>, which means that any repository on GitHub could potentially assume your role. The fix is to only give access to specific repositories that need it, following least privilege access. Most tutorials highlight this point too.</p>
 <h2 id="using-github-environments" class="group relative scroll-mt-20">
   Using GitHub environments
   <a
-    href="#using-github-environments"
+    href="https://westernwilson.com/reflections/oidc/#using-github-environments"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -108,7 +108,7 @@
 <h2 id="relearning" class="group relative scroll-mt-20">
   Relearning
   <a
-    href="#relearning"
+    href="https://westernwilson.com/reflections/oidc/#relearning"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -119,11 +119,11 @@
 <li>AWS Foundation SSO &amp; OIDC setup: <a href="https://github.com/wjkw1/aws-foundations">https://github.com/wjkw1/aws-foundations</a></li>
 <li>Demo Application: <a href="https://github.com/wjkw1/devops-profile-coffee-card-app-demo">https://github.com/wjkw1/devops-profile-coffee-card-app-demo</a></li>
 </ul>
-]]></content:encoded></item><item><title>Terraform state s3 bucket naming convention</title><link>https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/</link><pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/</guid><description>&lt;p&gt;While working on my personal devops project (&lt;a href="https://github.com/wjkw1/devops-profile-coffee-card-app-demo"&gt;see github&lt;/a&gt;), I realised I hadn&amp;rsquo;t thought through the naming convention of my terraform state in a long time.&lt;/p&gt;&#10;&lt;h2 id="naming-convention-decision" class="group relative scroll-mt-20"&gt;&#10; Naming convention decision&#10; &lt;a&#10; href="#naming-convention-decision"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;&lt;strong&gt;Final name:&lt;/strong&gt; &lt;code&gt;tfstate-{AccountId}-{GitHubRepo}&lt;/code&gt;&lt;/p&gt;&#10;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; &lt;code&gt;tfstate-123456789012-aws-foundations&lt;/code&gt;&lt;/p&gt;&#10;&lt;h3 id="why-this-name" class="group relative scroll-mt-20"&gt;&#10; Why this name&#10; &lt;a&#10; href="#why-this-name"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h3&gt;&#10;&lt;p&gt;The convention earns its structure because I&amp;rsquo;m committing to one terraform state bucket per project.&lt;/p&gt;</description><content:encoded><![CDATA[<p>While working on my personal devops project (<a href="https://github.com/wjkw1/devops-profile-coffee-card-app-demo">see github</a>), I realised I hadn&rsquo;t thought through the naming convention of my terraform state in a long time.</p>
+]]></content:encoded></item><item><title>Terraform state s3 bucket naming convention</title><link>https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/</link><pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/</guid><description>While working on my personal devops project (see github), I realised I hadn’t thought through the naming convention of my terraform state in a long time.&#10;Naming convention decision Final name: tfstate-{AccountId}-{GitHubRepo}&#10;Example: tfstate-123456789012-aws-foundations&#10;Why this name The convention earns its structure because I’m committing to one terraform state bucket per project.&#10;</description><content:encoded><![CDATA[<p>While working on my personal devops project (<a href="https://github.com/wjkw1/devops-profile-coffee-card-app-demo">see github</a>), I realised I hadn&rsquo;t thought through the naming convention of my terraform state in a long time.</p>
 <h2 id="naming-convention-decision" class="group relative scroll-mt-20">
   Naming convention decision
   <a
-    href="#naming-convention-decision"
+    href="https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/#naming-convention-decision"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -133,7 +133,7 @@
 <h3 id="why-this-name" class="group relative scroll-mt-20">
   Why this name
   <a
-    href="#why-this-name"
+    href="https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/#why-this-name"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -166,7 +166,7 @@
 <h3 id="options-considered-and-why-they-were-rejected" class="group relative scroll-mt-20">
   Options considered and why they were rejected
   <a
-    href="#options-considered-and-why-they-were-rejected"
+    href="https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/#options-considered-and-why-they-were-rejected"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
@@ -184,7 +184,7 @@
 <h3 id="convention-going-forward" class="group relative scroll-mt-20">
   Convention going forward
   <a
-    href="#convention-going-forward"
+    href="https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/#convention-going-forward"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
