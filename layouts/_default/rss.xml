@@ -57,15 +57,23 @@
 		{{- with .OutputFormats.Get "RSS" }}
 			{{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
 		{{- end }}
+		{{- $root := strings.TrimSuffix "/" site.BaseURL }}
 		{{- range $pages }}
+			{{- /* Feed readers have no page context, so make every link absolute and drop
+			     syntax-highlighting inline styles (readers strip them anyway). */}}
+			{{- $content := .Content }}
+			{{- $content = replaceRE `(\s(?:href|src))="/([^/"])` (printf `$1="%s/$2` $root) $content }}
+			{{- $content = replaceRE `(\s(?:href|src))="#` (printf `$1="%s#` .Permalink) $content }}
+			{{- $content = replaceRE `(\s(?:href|src))="([^"#/:?][^":]*)"` (printf `$1="%s$2"` .Permalink) $content }}
+			{{- $content = replaceRE `\sstyle="[^"]*"` "" $content }}
 			<item>
 				<title>{{ .Title }}</title>
 				<link>{{ .Permalink }}</link>
 				<pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
 				{{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
 				<guid>{{ .Permalink }}</guid>
-				<description>{{ .Summary | transform.XMLEscape | safeHTML }}</description>
-				<content:encoded>{{ printf "<![CDATA[%s]]>" (replace .Content "]]>" "]]]]><![CDATA[>") | safeHTML }}</content:encoded>
+				<description>{{ .Summary | plainify | htmlUnescape | transform.XMLEscape | safeHTML }}</description>
+				<content:encoded>{{ printf "<![CDATA[%s]]>" (replace $content "]]>" "]]]]><![CDATA[>") | safeHTML }}</content:encoded>
 			</item>
 		{{- end }}
 	</channel>

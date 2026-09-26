@@ -26,6 +26,7 @@ Good linting hygiene should show up at meaningful points in your development lif
 Each layer serves a different purpose. Together, they make code quality essentially automatic. (Tools like [SonarQube](https://www.sonarsource.com/products/sonarqube/) go deeper —security, coverage, and code smells at a project level— but that's a reflection for another time.)
 
 {{< figure src="linting_touchpoints_light.svg" class="img-light" alt="Three linting touchpoints" >}}
+
 {{< figure src="linting_touchpoints_dark.svg" class="img-dark" alt="Three linting touchpoints" >}}
 
 **In the IDE (or text editor)**, I use [VS Code](https://code.visualstudio.com) with the relevant extensions installed and Format on Save enabled. It does what it sounds like: when the file saves, the formatter runs. Sometimes this needs dev dependencies installed to work properly; check the official docs and you'll figure it out quickly, I'll go into [Ruff](https://docs.astral.sh/ruff/) for Python specifically later in this post.

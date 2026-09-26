@@ -52,6 +52,7 @@ For example, to create a Book tracking system, you could define:‍
 Now, when you create a new Book, you can link it to a new or existing Author and write whatever notes about the book that you want. Then when inspired by a Quote, you can create a Quote and link it to your Book. The note taking is flexible, linkage can happen anywhere organically, and you can write whatever you want from within the Author, Book or Quote types. AnyType allows and in fact encourages these relationships between Types.
 
 {{< figure src="anytype-schema.png" caption="Conceptual example of how Book types could relate to each other in AnyType" >}}
+
 {{< figure src="anytype-graph.png" caption="AnyType Graph View of example Book objects" >}}
 
 ## Quickly explaining PARA
