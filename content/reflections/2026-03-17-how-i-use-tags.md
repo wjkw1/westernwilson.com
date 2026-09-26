@@ -1,7 +1,7 @@
 ---
 title: "How I use Tags"
 date: 2026-03-17
-lastmod: 2026-04-09
+lastmod: 2026-09-26
 slug: "how-i-use-tags"
 tags: ["meta", "definitions"]
 draft: false
@@ -20,6 +20,9 @@ _Use when:_ the post reflects on the people side of software -- roles, culture, 
 
 **`communication`** -- Explaining ideas about communicating, for example to non-technical audiences, across teams, or in documentation.
 _Use when:_ the post is about how we convey information to other people.
+
+**`conference`** -- Notes and reflections from conferences I attend. Any conference I go to gets written up here.
+_Use when:_ the post is about a conference or event I attended, its talks, and what I took away from it.
 
 **`definitions`** -- Posts that define how I use a specific term, phrase, or concept -- personal vocab entries.
 _Use when:_ the post is structured around explaining what something means to me.
