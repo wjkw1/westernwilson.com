@@ -1,4 +1,215 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/reflections/</link><description>Recent content in Reflections on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 21 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/reflections/index.xml" rel="self" type="application/rss+xml"/><item><title>Containerising my coding agent</title><link>https://westernwilson.com/reflections/containerising-my-coding-agent/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/containerising-my-coding-agent/</guid><description>&lt;p&gt;I containerised Claude Code this week because I wanted to let it run with fewer guardrails and not hand it unlimited access the rest of my machine. There&amp;rsquo;s a &lt;a href="https://news.ycombinator.com/item?id=46268222"&gt;Hacker News thread&lt;/a&gt; from 6 months ago about someone running Claude in yolo mode who asked it to clean something up and watched it &lt;code&gt;rm -rf&lt;/code&gt; their home directory 😅. So let&amp;rsquo;s aim to at least avoid that.&lt;/p&gt;&#10;&lt;p&gt;Thankfully, I found &lt;a href="https://containers.dev"&gt;Dev Containers&lt;/a&gt;, which turned into its own rabbit hole but lets us lock down Claude without having to maintain our own docker image.&lt;/p&gt;</description><content:encoded><![CDATA[<p>I containerised Claude Code this week because I wanted to let it run with fewer guardrails and not hand it unlimited access the rest of my machine. There&rsquo;s a <a href="https://news.ycombinator.com/item?id=46268222">Hacker News thread</a> from 6 months ago about someone running Claude in yolo mode who asked it to clean something up and watched it <code>rm -rf</code> their home directory 😅. So let&rsquo;s aim to at least avoid that.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/reflections/</link><description>Recent content in Reflections on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 26 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/reflections/index.xml" rel="self" type="application/rss+xml"/><item><title>AGNTCon + MCPCon Europe 2026</title><link>https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/</link><pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/</guid><description>&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; I spent the full second day at &lt;a href="https://events.linuxfoundation.org/agntcon-mcpcon-europe"&gt;AGNTCon + MCPCon Europe&lt;/a&gt; in Amsterdam, and the most interesting talks showed a new normal for humans now that agents write most of the code.&lt;/p&gt;&#10;&lt;p&gt;Dexter Horthy was the best speaker of the day, and Dylan Ratcliffe won me over after I initially disagreed with his premise. His line &amp;ldquo;easier to reject the recipe than the meal&amp;rdquo; is the same lesson I learnt the hard way at the &lt;a href="https://westernwilson.com/reflections/bunq-hackathon-7"&gt;bunq hackathon&lt;/a&gt;: i.e review the plan before anything gets built. Roy Belio&amp;rsquo;s red teaming lab made me glad I&amp;rsquo;d already &lt;a href="https://westernwilson.com/reflections/containerising-my-coding-agent"&gt;locked down egress on my coding agent&lt;/a&gt;, and gave me a list of things I still haven&amp;rsquo;t done (DNS, canary tokens, read-only config). Another thing is that plenty of the live demos broke, which shows non-determinism in action.&lt;/p&gt;</description><content:encoded><![CDATA[<p><strong>TL;DR:</strong> I spent the full second day at <a href="https://events.linuxfoundation.org/agntcon-mcpcon-europe">AGNTCon + MCPCon Europe</a> in Amsterdam, and the most interesting talks showed a new normal for humans now that agents write most of the code.</p>
+<p>Dexter Horthy was the best speaker of the day, and Dylan Ratcliffe won me over after I initially disagreed with his premise. His line &ldquo;easier to reject the recipe than the meal&rdquo; is the same lesson I learnt the hard way at the <a href="/reflections/bunq-hackathon-7">bunq hackathon</a>: i.e review the plan before anything gets built. Roy Belio&rsquo;s red teaming lab made me glad I&rsquo;d already <a href="/reflections/containerising-my-coding-agent">locked down egress on my coding agent</a>, and gave me a list of things I still haven&rsquo;t done (DNS, canary tokens, read-only config). Another thing is that plenty of the live demos broke, which shows non-determinism in action.</p>
+<p>Next year&rsquo;s conference is in London, and I&rsquo;m hoping to go! Reach out if you&rsquo;re going too.</p>
+<p>The rest of this post is my notes from each talk, lightly tidied up.</p>
+<h2 id="catch-them-early" class="group relative scroll-mt-20">
+  Catch Them Early
+  <a
+    href="#catch-them-early"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><a href="https://agntconmcpconeu26.sched.com/event/2RBEf/keynote-catch-them-early-manik-surtani-cto-agentic-ai-foundation"><strong>9:07am, Manik Surtani (CTO, Agentic AI Foundation)</strong></a></p>
+<ul>
+<li>The <a href="https://aaif.io/">Agentic AI Foundation (AAIF)</a> compared itself to the CNCF, which had the benefit of an industry that already had lots of experience with cloud.</li>
+<li>They&rsquo;ve copied the CNCF bar for accepting projects, and in some places raised it.</li>
+<li>They&rsquo;ve had a 3-4x growth pace compared to CNCF&hellip; the AI hype probably helped tbh</li>
+</ul>
+<h2 id="getting-to-stateless-mcp-in-production" class="group relative scroll-mt-20">
+  Getting to stateless MCP in production
+  <a
+    href="#getting-to-stateless-mcp-in-production"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><a href="https://agntconmcpconeu26.sched.com/event/2RBHz/keynote-getting-to-stateless-mcp-in-production-shaun-smith-mcp-and-transport-working-group-maintainer-hugging-face"><strong>9:19am, Shaun Smith (Hugging Face, MCP transport working group maintainer)</strong></a></p>
+<ul>
+<li>Streamable HTTP is a smarter way to connect, closer to one-to-one client-to-server.</li>
+<li>The stateless release brought improvements, but they needed migrating to the new SDK.</li>
+<li>Uptake has been massive.</li>
+</ul>
+<h2 id="three-doors-to-one-tool-mcp-vs-webmcp-vs-cli" class="group relative scroll-mt-20">
+  Three doors to one tool: MCP vs WebMCP vs CLI
+  <a
+    href="#three-doors-to-one-tool-mcp-vs-webmcp-vs-cli"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><a href="https://agntconmcpconeu26.sched.com/event/2RBVv/keynote-three-doors-to-one-tool-mcp-vs-webmcp-vs-cli-frederic-barthelet-cto-co-founder-alpic-dominic-farolino-editor-of-the-webmcp-specification-software-engineer-google"><strong>9:29am, Dominic Farolino (Google Chrome) &amp; Frederic Barthelet (CTO, Alpic)</strong></a></p>
+<ul>
+<li>WebMCP is a layer on a website that lets agents interact with your website much faster.</li>
+<li>Better than <code>llms.txt</code> which isn&rsquo;t often looked at</li>
+<li>CLIs integrate well with agents.</li>
+<li>A harness is tools, memory, context, and guards.</li>
+<li>MCP can be a local server or a public one.</li>
+</ul>
+<h2 id="state-of-the-software-factory" class="group relative scroll-mt-20">
+  State of the software factory
+  <a
+    href="#state-of-the-software-factory"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><a href="https://agntconmcpconeu26.sched.com/event/2RBUc/keynote-state-of-the-software-factory-dexter-horthy-ceo-and-co-founder-humanlayer"><strong>9:41am, Dexter Horthy (CEO &amp; co-founder, HumanLayer)</strong></a></p>
+<ul>
+<li>A fantastic speaker who also has a YouTube channel.</li>
+<li>The best talk of the day, with interesting content that&rsquo;s worth checking out properly.</li>
+<li>Walked through HumanLayer&rsquo;s multiplayer AI chat tooling, which drives spec and code diff checks.</li>
+</ul>
+<p>Tools mentioned: <a href="https://hlyr.dev/resources">HumanLayer&rsquo;s resources</a>.</p>
+<h2 id="pull-requests-are-dead-long-live-peer-review" class="group relative scroll-mt-20">
+  Pull Requests are dead, long live peer review
+  <a
+    href="#pull-requests-are-dead-long-live-peer-review"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><a href="https://agntconmcpconeu26.sched.com/event/2RB8Y/pull-requests-are-dead-long-live-peer-review-dylan-ratcliffe-overmind"><strong>10:20am, Dylan Ratcliffe (Overmind)</strong></a></p>
+<p>The most controversial talk of the day, at first. By the end he&rsquo;d convinced me, mostly because he showed how it&rsquo;s working for them right now.</p>
+<ul>
+<li>Pull requests are dead.</li>
+<li>AI is not your peer, and its code is harder to review.</li>
+<li>Agents are agreeable. They&rsquo;re bad at disagreeing with you.</li>
+<li>He was a passable engineer who was outperforming his own team, and considered firing the engineering team. Instead he shifted the engineers left, into more product-oriented roles.</li>
+<li>Move peer review into the planning phase, where the decisions actually get made.</li>
+<li>The loop: research, decide on an approach, weigh up tradeoffs, plan, collaborate, then implement until the implementation matches the plan.</li>
+<li>It&rsquo;s easier to reject the recipe than the meal. People are more willing to reject a plan, because it&rsquo;s cheaper to fix.</li>
+<li>My open question: what about conflicts between the plan and the existing system? Does that get caught in review?</li>
+</ul>
+<p>Tools mentioned: <a href="https://www.notyourpeer.com/">AI Is Not Your Peer</a>, and <a href="https://until.dev/">Until</a>, which makes sure your agent implements every part of the plans you write.</p>
+<h2 id="from-works-on-my-prompt-to-production-slos" class="group relative scroll-mt-20">
+  From &ldquo;works on my prompt&rdquo; to production SLOs
+  <a
+    href="#from-works-on-my-prompt-to-production-slos"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><a href="https://agntconmcpconeu26.sched.com/event/2RBA3/from-works-on-my-prompt-to-production-slos-building-agent-observability-manik-khandelwal-microsoft"><strong>10:55am, Manik Khandelwal (Microsoft)</strong></a></p>
+<ul>
+<li>He wants agents that don&rsquo;t need constant checking.</li>
+<li>It was confusing what he was trying to do. He has a framework that watches whether an agent needs active supervision or can be left running in the background.</li>
+<li>The slides were AI generated. Cool to look at and interactive, but they lacked humanity in a way I can&rsquo;t quite describe. It didn&rsquo;t tell a story, it was more show and tell.</li>
+<li>I didn&rsquo;t get much from this one.</li>
+</ul>
+<p>Tools mentioned: Mitra, an internal tool for monitoring agents. Not sure if it&rsquo;s open sourced yet.</p>
+<h2 id="governance-you-can-run-checkable-properties-for-production-agents" class="group relative scroll-mt-20">
+  Governance you can run: Checkable properties for production agents
+  <a
+    href="#governance-you-can-run-checkable-properties-for-production-agents"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><a href="https://agntconmcpconeu26.sched.com/event/2RBAC/governance-you-can-run-checkable-properties-for-production-agents-seshu-tolety-siemens"><strong>11:30am, Seshu Tolety (Director of Agentic AI, Siemens)</strong></a></p>
+<ul>
+<li>The cost of ungoverned AI model usage on privacy, operational burden, and more.</li>
+<li>Three lifecycles as new mental models: AI adoption, engineering, and operations (can we run AI safely at scale?).</li>
+<li>He walked through today&rsquo;s organisation and policy structures, then out to a future state where AI governs AI policy.</li>
+<li>Humans sit in that structure reviewing the policy that AI creates. As we know from code, that makes humans the bottleneck. After hearing Dylan&rsquo;s talk, I&rsquo;m not sure I agree. The idea is both scary and interesting at the same time!</li>
+<li>&ldquo;Governance should never slow innovation. It should help you scale it.&rdquo;</li>
+</ul>
+<h2 id="governed-agent-autonomy-building-a-control-plane-for-agentic-systems" class="group relative scroll-mt-20">
+  Governed agent autonomy: Building a control plane for agentic systems
+  <a
+    href="#governed-agent-autonomy-building-a-control-plane-for-agentic-systems"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><a href="https://agntconmcpconeu26.sched.com/event/2RBAR/governed-agent-autonomy-building-a-control-plane-for-agentic-systems-nnenna-ndukwe-qodo-ai"><strong>1:15pm, Nnenna Ndukwe (Qodo AI)</strong></a></p>
+<ul>
+<li>Harness config, mostly around what to allow.</li>
+<li>Five governance patterns found in the leaked Claude Code source, which she open sourced:
+<ol>
+<li>Planning</li>
+<li>Permissions (can this action proceed?)</li>
+<li>Tool trust (capability trust)</li>
+<li>Verification</li>
+<li>Runtime (what were the outcomes?)</li>
+</ol>
+</li>
+<li>She implemented them in a Rust agent.</li>
+<li>The demo was supposed to block a deployment to production. It didn&rsquo;t xD</li>
+</ul>
+<p>Tools mentioned: Goose (an AAIF project), GAAP (agent observability), and Martin Fowler&rsquo;s writing on harness engineering.</p>
+<h2 id="beyond-chatbots-agentic-ui-with-open-standards" class="group relative scroll-mt-20">
+  Beyond Chatbots: Agentic UI with Open Standards
+  <a
+    href="#beyond-chatbots-agentic-ui-with-open-standards"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><a href="https://agntconmcpconeu26.sched.com/event/2RBAs/beyond-chatbots-agentic-ui-with-open-standards-manfred-steyer-angulararchitects"><strong>1:25pm, Manfred Steyer (ANGULARarchitects)</strong></a></p>
+<ul>
+<li>An interesting talk, and one of the few live demos that worked. Well, it didn&rsquo;t at first, until they realised it was just the WiFi. Once that was fixed it worked.</li>
+<li>&ldquo;To chat or not to chat&hellip; that&rsquo;s the wrong question.&rdquo;</li>
+<li>Showed a UI progressively changing as you chat with it and co-create.</li>
+</ul>
+<p>Tools mentioned: AG-UI (agent communication), A2UI (dynamic UI), and MCP Apps.</p>
+<h2 id="mcp-apps-and-the-agentic-web" class="group relative scroll-mt-20">
+  MCP Apps and the Agentic Web
+  <a
+    href="#mcp-apps-and-the-agentic-web"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><a href="https://agntconmcpconeu26.sched.com/event/2RBAU/mcp-apps-and-the-agentic-web-liad-yosef-mcp-apps"><strong>1:50pm, Liad Yosef (MCP Apps)</strong></a></p>
+<ul>
+<li>The difference between a website, WebMCP, and MCP Apps.</li>
+<li>A really convincing talk on how brands can bring their apps into chat instead of splicing up their current website.</li>
+<li>His point is that we might move away from browsers entirely, because we might not need them.</li>
+<li>Salesforce is going headless, even though UI was their differentiator.</li>
+<li>Cloudflare says bot traffic has overtaken human traffic.</li>
+<li>Web search isn&rsquo;t great for agents, and an app store probably isn&rsquo;t either. What about an agentic identity that&rsquo;s tied to you?</li>
+<li>The next big thing is the discovery layer for agents. He compared it to web search, with <code>.well-known/ai-catalog.json</code> as a unified standard.</li>
+</ul>
+<p>Tools mentioned: Goose, DoorDash&rsquo;s new CLI, Sentry, Ora&rsquo;s researcher benchmark, <code>npx ax</code> (an audit tool for how agents use your website), and Ora&rsquo;s <a href="https://ora.directory/">Agentic Resources Discovery: the agentic index of the web</a>.</p>
+<h2 id="no-central-brain" class="group relative scroll-mt-20">
+  No Central Brain
+  <a
+    href="#no-central-brain"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><a href="https://agntconmcpconeu26.sched.com/event/2RBBV/no-central-brain-fausto-albers-wonderwhy"><strong>3:25pm, Fausto Albers (WonderWhy, co-founder of AI Builders Club)</strong></a></p>
+<ul>
+<li>No central brain. Ominous music. Who decides what&rsquo;s true?</li>
+<li>&ldquo;Attention is all you need&rdquo;, reframed as: 1. harness and loop, 2. recursive self improvement, 3. memory and learning.</li>
+<li>The harness reinvents itself. It self-learns and stores each change along with its cost, tests itself, makes changes, evaluates the model, then recreates the harness.</li>
+<li>I wonder if it&rsquo;ll converge on AI granting itself unlimited access and some wild harness configurations…</li>
+</ul>
+<h2 id="infrastructure-red-teaming-with-abliterated-models" class="group relative scroll-mt-20">
+  Infrastructure red teaming with abliterated models
+  <a
+    href="#infrastructure-red-teaming-with-abliterated-models"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><a href="https://agntconmcpconeu26.sched.com/event/2RBBJ/infrastructure-red-teaming-with-abliterated-models-what-actually-stops-agent-attacks-roy-belio-red-hat"><strong>3:30pm, Roy Belio (Red Hat)</strong></a></p>
+<ul>
+<li>Red teaming chat models and model refusal. Injection gets past a lot of guardrails.</li>
+<li>There are lots of CVEs about prompt injection and ways around guardrails.</li>
+<li>Guardrails and classifiers are a good start, but they&rsquo;ll miss anything that isn&rsquo;t in English.</li>
+<li>His outcome was to run tooling on an SSH server somewhere else, not on the same service as the LLM.</li>
+<li>In the interactive lab, a tool would sometimes error out, but <code>cat</code> was still available so the agent read the file anyway. Sometimes the LLM hid the logs too.</li>
+<li>A read-only container running <code>sshd</code> is a good idea.</li>
+<li>Watch for direct socket operations and exfiltration over DNS. Block egress, and keep DNS traffic internal too.</li>
+<li>The slash command illusion.</li>
+<li>Keep the config that shapes the agent&rsquo;s behaviour on the pods, and never let it be writable. The agent will rewrite itself.</li>
+<li>Put canary tokens anywhere that could tell you you&rsquo;ve been compromised.</li>
+</ul>
+<p>Further reading he mentioned: EchoLeak (Microsoft), AWS Strands, MCP Poison (Cursor), the Deadbugz campaign (August 2026), and <em>Crash test dummy</em>, the blog where he first worked through this talk.</p>
+]]></content:encoded></item><item><title>Containerising my coding agent</title><link>https://westernwilson.com/reflections/containerising-my-coding-agent/</link><pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/containerising-my-coding-agent/</guid><description>&lt;p&gt;I containerised Claude Code this week because I wanted to let it run with fewer guardrails and not hand it unlimited access the rest of my machine. There&amp;rsquo;s a &lt;a href="https://news.ycombinator.com/item?id=46268222"&gt;Hacker News thread&lt;/a&gt; from 6 months ago about someone running Claude in yolo mode who asked it to clean something up and watched it &lt;code&gt;rm -rf&lt;/code&gt; their home directory 😅. So let&amp;rsquo;s aim to at least avoid that.&lt;/p&gt;&#10;&lt;p&gt;Thankfully, I found &lt;a href="https://containers.dev"&gt;Dev Containers&lt;/a&gt;, which turned into its own rabbit hole but lets us lock down Claude without having to maintain our own docker image.&lt;/p&gt;</description><content:encoded><![CDATA[<p>I containerised Claude Code this week because I wanted to let it run with fewer guardrails and not hand it unlimited access the rest of my machine. There&rsquo;s a <a href="https://news.ycombinator.com/item?id=46268222">Hacker News thread</a> from 6 months ago about someone running Claude in yolo mode who asked it to clean something up and watched it <code>rm -rf</code> their home directory 😅. So let&rsquo;s aim to at least avoid that.</p>
 <p>Thankfully, I found <a href="https://containers.dev">Dev Containers</a>, which turned into its own rabbit hole but lets us lock down Claude without having to maintain our own docker image.</p>
 <p>This reflection post talks through the containerised setup and some issues I faced while setting it up. If you just want the solution, then the implementation is in the <a href="https://github.com/wjkw1/westernwilson.com/tree/main/.devcontainer">.devcontainer/</a> directory of this website&rsquo;s source code.</p>
 <h2 id="feature-or-docker-image" class="group relative scroll-mt-20">
@@ -665,6 +876,8 @@ This is a pragmatic acknowledgement that diagrams are tools, not artefacts to be
 <em>Use when:</em> the post reflects on the people side of software &ndash; roles, culture, collaboration.</p>
 <p><strong><code>communication</code></strong> &ndash; Explaining ideas about communicating, for example to non-technical audiences, across teams, or in documentation.
 <em>Use when:</em> the post is about how we convey information to other people.</p>
+<p><strong><code>conference</code></strong> &ndash; Notes and reflections from conferences I attend. Any conference I go to gets written up here.
+<em>Use when:</em> the post is about a conference or event I attended, its talks, and what I took away from it.</p>
 <p><strong><code>definitions</code></strong> &ndash; Posts that define how I use a specific term, phrase, or concept &ndash; personal vocab entries.
 <em>Use when:</em> the post is structured around explaining what something means to me.</p>
 <p><strong><code>devops</code></strong> &ndash; Platform engineering, infrastructure, CI/CD, and the operational side of software.
@@ -1283,87 +1496,4 @@ I don&rsquo;t have a perfect answer to this, but I know that I can&rsquo;t let p
 </h2>
 <p>Drive: Mad Scientists are tech enthusiasts. They eagerly embrace the latest technologies and enjoy experimenting with new libraries and features. Their adventurous spirit leads to innovation and pushing the boundaries of what&rsquo;s possible. They&rsquo;re the team&rsquo;s tech trailblazers.</p>
 <p>In a balanced development team, these diverse types of developers can complement each other, fostering creativity, efficiency, and problem-solving. Recognizing and valuing these different approaches can lead to a more well-rounded and successful team.</p>
-]]></content:encoded></item><item><title>Talking Tech, to Non-Tech</title><link>https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/</link><pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/</guid><description>&lt;p&gt;&lt;em&gt;Early in my career, I attended a workshop where the goal was to bridge the gap between technical and non-technical people when discussing technical concepts. The session emphasized the use of analogies to explain concepts and catering to different learning styles, such as visual aids.&lt;/em&gt;&lt;/p&gt;&#10;&lt;h2 id="simplifying-technical-jargon" class="group relative scroll-mt-20"&gt;&#10; Simplifying Technical Jargon&#10; &lt;a&#10; href="#simplifying-technical-jargon"&#10; class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"&#10; aria-label="Link to this heading"&#10; &gt;&lt;i class="fa-solid fa-link" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/h2&gt;&#10;&lt;p&gt;To communicate tech concepts to non-technical individuals, analogies are invaluable.&lt;/p&gt;</description><content:encoded><![CDATA[<p><em>Early in my career, I attended a workshop where the goal was to bridge the gap between technical and non-technical people when discussing technical concepts. The session emphasized the use of analogies to explain concepts and catering to different learning styles, such as visual aids.</em></p>
-<h2 id="simplifying-technical-jargon" class="group relative scroll-mt-20">
-  Simplifying Technical Jargon
-  <a
-    href="#simplifying-technical-jargon"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
-    aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h2>
-<p>To communicate tech concepts to non-technical individuals, analogies are invaluable.</p>
-<h3 id="the-barrier-of-technical-jargon" class="group relative scroll-mt-20">
-  The Barrier of Technical Jargon
-  <a
-    href="#the-barrier-of-technical-jargon"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
-    aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h3>
-<p>In the tech world, complex terminology and buzzwords are commonplace. While they serve a purpose among peers, they can hinder communication with non-technical individuals.</p>
-<h3 id="harnessing-the-power-of-analogies" class="group relative scroll-mt-20">
-  Harnessing the Power of Analogies
-  <a
-    href="#harnessing-the-power-of-analogies"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
-    aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h3>
-<p>Analogies act as bridges, simplifying intricate tech concepts for the non-technical. They make the unfamiliar more accessible, fostering better understanding and collaboration.</p>
-<p>Striking the Balance</p>
-<p>Balancing the use of technical jargon and analogies is key. Precision is vital in technical discussions, but in broader contexts, simplification enhances communication, collaboration, and innovation.</p>
-<h2 id="types-of-applications" class="group relative scroll-mt-20">
-  Types of Applications
-  <a
-    href="#types-of-applications"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
-    aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h2>
-<p>Applications can be web-based (run in browsers), desktop (run on a computer), or mobile (run on phones). Examples like Netflix, Spotify, and Instagram show the diversity of platforms.</p>
-<p>In simplified terms, an application&rsquo;s <strong>Stack</strong> includes a <strong>Client</strong> (the end-user with a Laptop or Mobile device), a <strong>Server</strong> (handles requests, processes data, and communicates with the Database), and a <strong>Database</strong> (stores information). Think of this stack like a person withdrawing money from a bank:</p>
-<ol>
-<li>Front-end -&gt; Person/Client</li>
-<li>Server -&gt; Bank Teller</li>
-<li>Database -&gt; Money Stash</li>
-</ol>
-<h2 id="understanding-apis" class="group relative scroll-mt-20">
-  Understanding APIs
-  <a
-    href="#understanding-apis"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
-    aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h2>
-<p>APIs (Application Programming Interfaces) are communication tools for technology. Think of ordering fast food: the client orders, the server takes the order, and the chefs in the kitchen fulfill it. An API is like the menu, specific to the restaurant you&rsquo;re at.</p>
-<p>If you go to <a href="https://www.burgerking.co.nz/">Burger King</a> and order a <a href="https://mcdonalds.co.nz/menu/big-mac">Big Mac</a>, the server will not understand that request as it is not on their Menu.</p>
-<h2 id="team-dynamics" class="group relative scroll-mt-20">
-  Team Dynamics
-  <a
-    href="#team-dynamics"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
-    aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h2>
-<p>Different types of team members, including detectives, cowboys, artists, and mad scientists, each have distinct work styles and motivations. Recognizing these differences can improve team collaboration.</p>
-<p><a href="/blog/developer-dynamics">Click here</a> to read the full article on these archetypes here.</p>
-<h2 id="the-coding-process" class="group relative scroll-mt-20">
-  The Coding Process
-  <a
-    href="#the-coding-process"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
-    aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h2>
-<p>Developers need uninterrupted time to code effectively. Minimize interruptions by scheduling meetings in blocks, improving productivity.</p>
-<h2 id="future-technology" class="group relative scroll-mt-20">
-  Future Technology
-  <a
-    href="#future-technology"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
-    aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h2>
-<p>Full-stack development offers efficiency by using one language across all stack components. Libraries like React can translate web apps into desktop and mobile versions. Distributed technology, like blockchain, shares data across a network, reducing the risk of single points of failure and enhancing security.</p>
 ]]></content:encoded></item></channel></rss>
