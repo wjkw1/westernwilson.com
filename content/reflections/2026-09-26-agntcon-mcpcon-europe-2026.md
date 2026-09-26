@@ -15,7 +15,7 @@ The rest of this post is my notes from each talk, lightly tidied up.
 
 ## Catch Them Early
 
-**9:07am, Manik Surtani (CTO, Agentic AI Foundation)**
+[**9:07am, Manik Surtani (CTO, Agentic AI Foundation)**](https://agntconmcpconeu26.sched.com/event/2RBEf/keynote-catch-them-early-manik-surtani-cto-agentic-ai-foundation)
 
 - The Agentic AI Foundation (AAIF) compared itself to the CNCF, which had the benefit of an industry that already had lots of experience with cloud.
 - They've copied the CNCF bar for accepting projects, and in some places raised it.
@@ -23,7 +23,7 @@ The rest of this post is my notes from each talk, lightly tidied up.
 
 ## Getting to stateless MCP in production
 
-**9:19am, Shaun Smith (Hugging Face, MCP transport working group maintainer)**
+[**9:19am, Shaun Smith (Hugging Face, MCP transport working group maintainer)**](https://agntconmcpconeu26.sched.com/event/2RBHz/keynote-getting-to-stateless-mcp-in-production-shaun-smith-mcp-and-transport-working-group-maintainer-hugging-face)
 
 - Streamable HTTP is a smarter way to connect, closer to one-to-one client-to-server.
 - The stateless release brought improvements, but they needed migrating to the new SDK.
@@ -31,7 +31,7 @@ The rest of this post is my notes from each talk, lightly tidied up.
 
 ## Three doors to one tool: MCP vs WebMCP vs CLI
 
-**9:29am, Dominic Farolino (Google Chrome) & Frederic Barthelet (CTO, Alpic)**
+[**9:29am, Dominic Farolino (Google Chrome) & Frederic Barthelet (CTO, Alpic)**](https://agntconmcpconeu26.sched.com/event/2RBVv/keynote-three-doors-to-one-tool-mcp-vs-webmcp-vs-cli-frederic-barthelet-cto-co-founder-alpic-dominic-farolino-editor-of-the-webmcp-specification-software-engineer-google)
 
 - WebMCP is a layer on a website that lets agents interact with your website much faster. 
 - Better than `llms.txt` which isn't often looked at
@@ -41,7 +41,7 @@ The rest of this post is my notes from each talk, lightly tidied up.
 
 ## State of the software factory
 
-**9:41am, Dexter Horthy (CEO & co-founder, HumanLayer)**
+[**9:41am, Dexter Horthy (CEO & co-founder, HumanLayer)**](https://agntconmcpconeu26.sched.com/event/2RBUc/keynote-state-of-the-software-factory-dexter-horthy-ceo-and-co-founder-humanlayer)
 
 - A fantastic speaker who also has a YouTube channel.
 - The best talk of the day, with interesting content that's worth checking out properly.
@@ -49,7 +49,7 @@ The rest of this post is my notes from each talk, lightly tidied up.
 
 ## Pull Requests are dead, long live peer review
 
-**10:20am, Dylan Ratcliffe (Overmind)**
+[**10:20am, Dylan Ratcliffe (Overmind)**](https://agntconmcpconeu26.sched.com/event/2RB8Y/pull-requests-are-dead-long-live-peer-review-dylan-ratcliffe-overmind)
 
 The most controversial talk of the day, at first. By the end he'd convinced me, mostly because he showed how it's working for them right now.
 
@@ -66,7 +66,7 @@ Tools mentioned: _AI Is Not Your Peer_, and _Until_, which makes sure your agent
 
 ## From "works on my prompt" to production SLOs
 
-**10:55am, Manik Khandelwal (Microsoft)**
+[**10:55am, Manik Khandelwal (Microsoft)**](https://agntconmcpconeu26.sched.com/event/2RBA3/from-works-on-my-prompt-to-production-slos-building-agent-observability-manik-khandelwal-microsoft)
 
 - He wants agents that don't need constant checking.
 - It was confusing what he was trying to do. He has a framework that watches whether an agent needs active supervision or can be left running in the background.
@@ -77,7 +77,7 @@ Tools mentioned: Mitra, an internal tool for monitoring agents. Not sure if it's
 
 ## Governance you can run: Checkable properties for production agents
 
-**11:30am, Seshu Tolety (Director of Agentic AI, Siemens)**
+[**11:30am, Seshu Tolety (Director of Agentic AI, Siemens)**](https://agntconmcpconeu26.sched.com/event/2RBAC/governance-you-can-run-checkable-properties-for-production-agents-seshu-tolety-siemens)
 
 - The cost of ungoverned AI model usage on privacy, operational burden, and more.
 - Three lifecycles as new mental models: AI adoption, engineering, and operations (can we run AI safely at scale?).
@@ -87,7 +87,7 @@ Tools mentioned: Mitra, an internal tool for monitoring agents. Not sure if it's
 
 ## Governed agent autonomy: Building a control plane for agentic systems
 
-**1:15pm, Nnenna Ndukwe (Qodo AI)**
+[**1:15pm, Nnenna Ndukwe (Qodo AI)**](https://agntconmcpconeu26.sched.com/event/2RBAR/governed-agent-autonomy-building-a-control-plane-for-agentic-systems-nnenna-ndukwe-qodo-ai)
 
 - Harness config, mostly around what to allow.
 - Five governance patterns found in the leaked Claude Code source, which she open sourced:
@@ -103,7 +103,7 @@ Tools mentioned: Goose (an AAIF project), GAAP (agent observability), and Martin
 
 ## Beyond Chatbots: Agentic UI with Open Standards
 
-**1:25pm, Manfred Steyer (ANGULARarchitects)**
+[**1:25pm, Manfred Steyer (ANGULARarchitects)**](https://agntconmcpconeu26.sched.com/event/2RBAs/beyond-chatbots-agentic-ui-with-open-standards-manfred-steyer-angulararchitects)
 
 - An interesting talk, and one of the few live demos that worked. Well, it didn't at first, until they realised it was just the WiFi. Once that was fixed it worked.
 - "To chat or not to chat... that's the wrong question."
@@ -113,7 +113,7 @@ Tools mentioned: AG-UI (agent communication), A2UI (dynamic UI), and MCP Apps.
 
 ## MCP Apps and the Agentic Web
 
-**1:50pm, Liad Yosef (MCP Apps)**
+[**1:50pm, Liad Yosef (MCP Apps)**](https://agntconmcpconeu26.sched.com/event/2RBAU/mcp-apps-and-the-agentic-web-liad-yosef-mcp-apps)
 
 - The difference between a website, WebMCP, and MCP Apps.
 - A really convincing talk on how brands can bring their apps into chat instead of splicing up their current website.
@@ -127,7 +127,7 @@ Tools mentioned: Goose, DoorDash's new CLI, Sentry, Ora's researcher benchmark, 
 
 ## AI Builders Club
 
-**3:25pm, Faustos Albers (Co-founder, AI Builders Club)**
+[**3:25pm, Faustos Albers (Co-founder, AI Builders Club)**](https://events.linuxfoundation.org/agntcon-mcpcon-europe/program/schedule/)
 
 - No central brain. Ominous music. Who decides what's true?
 - "Attention is all you need", reframed as: 1. harness and loop, 2. recursive self improvement, 3. memory and learning.
@@ -136,7 +136,7 @@ Tools mentioned: Goose, DoorDash's new CLI, Sentry, Ora's researcher benchmark, 
 
 ## Infrastructure red teaming with abliterated models
 
-**3:30pm, Roy Belio (Red Hat)**
+[**3:30pm, Roy Belio (Red Hat)**](https://agntconmcpconeu26.sched.com/event/2RBBJ/infrastructure-red-teaming-with-abliterated-models-what-actually-stops-agent-attacks-roy-belio-red-hat)
 
 - Red teaming chat models and model refusal. Injection gets past a lot of guardrails.
 - There are lots of CVEs about prompt injection and ways around guardrails.
