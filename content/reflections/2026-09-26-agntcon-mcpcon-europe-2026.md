@@ -2,12 +2,16 @@
 title: "AGNTCon + MCPCon Europe 2026"
 date: 2026-09-26
 slug: "agntcon-mcpcon-europe-2026"
-tags: ["ai", "devops"]
+tags: ["ai", "devops", "conference"]
 ---
 
-**TLDR:** I spent a full day at AGNTCon + MCPCon Europe, and the talks that stuck with me weren't about new protocols. They were about where humans belong now that agents write most of the code. Dexter Horthy was the best speaker of the day, and Dylan Ratcliffe won me over after I walked in ready to disagree. His line "easier to reject the recipe than the meal" is the same lesson I learnt the hard way at the [bunq hackathon](/reflections/bunq-hackathon-7): review the plan before anything gets built. Roy Belio's red teaming lab made me glad I'd already [locked down egress on my coding agent](/reflections/containerising-my-coding-agent), and gave me a list of things I still haven't done (DNS, canary tokens, read-only config). Plenty of the live demos broke, which was oddly reassuring. Next year's conference is in London, and I'm hoping to go.
+**TL;DR:** I spent the full second day at AGNTCon + MCPCon Europe in Amsterdam, and the most interesting talks showed a new normal for humans now that agents write most of the code.
 
-The rest of this post is my notes from each talk, lightly tidied up. Times are when each talk started.
+Dexter Horthy was the best speaker of the day, and Dylan Ratcliffe won me over after I initially disagreed with his premise. His line "easier to reject the recipe than the meal" is the same lesson I learnt the hard way at the [bunq hackathon](/reflections/bunq-hackathon-7): i.e review the plan before anything gets built. Roy Belio's red teaming lab made me glad I'd already [locked down egress on my coding agent](/reflections/containerising-my-coding-agent), and gave me a list of things I still haven't done (DNS, canary tokens, read-only config). Another thing is that plenty of the live demos broke, which shows non-determinism in action.
+
+Next year's conference is in London, and I'm hoping to go! Reach out if you're going too.
+
+The rest of this post is my notes from each talk, lightly tidied up.
 
 ## Catch Them Early
 
@@ -15,6 +19,7 @@ The rest of this post is my notes from each talk, lightly tidied up. Times are w
 
 - The Agentic AI Foundation (AAIF) compared itself to the CNCF, which had the benefit of an industry that already had lots of experience with cloud.
 - They've copied the CNCF bar for accepting projects, and in some places raised it.
+- They've had a 3-4x growth pace compared to CNCF... the AI hype probably helped tbh
 
 ## Getting to stateless MCP in production
 
@@ -28,7 +33,8 @@ The rest of this post is my notes from each talk, lightly tidied up. Times are w
 
 **9:29am, Dominic Farolino (Google Chrome) & Frederic Barthelet (CTO, Alpic)**
 
-- WebMCP is a layer on a website that lets agents interact with it much faster.
+- WebMCP is a layer on a website that lets agents interact with your website much faster. 
+- Better than `llms.txt` which isn't often looked at
 - CLIs integrate well with agents.
 - A harness is tools, memory, context, and guards.
 - MCP can be a local server or a public one.
