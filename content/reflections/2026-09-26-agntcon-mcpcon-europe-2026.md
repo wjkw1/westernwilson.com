@@ -5,7 +5,7 @@ slug: "agntcon-mcpcon-europe-2026"
 tags: ["ai", "devops", "conference"]
 ---
 
-**TL;DR:** I spent the full second day at AGNTCon + MCPCon Europe in Amsterdam, and the most interesting talks showed a new normal for humans now that agents write most of the code.
+**TL;DR:** I spent the full second day at [AGNTCon + MCPCon Europe](https://events.linuxfoundation.org/agntcon-mcpcon-europe) in Amsterdam, and the most interesting talks showed a new normal for humans now that agents write most of the code.
 
 Dexter Horthy was the best speaker of the day, and Dylan Ratcliffe won me over after I initially disagreed with his premise. His line "easier to reject the recipe than the meal" is the same lesson I learnt the hard way at the [bunq hackathon](/reflections/bunq-hackathon-7): i.e review the plan before anything gets built. Roy Belio's red teaming lab made me glad I'd already [locked down egress on my coding agent](/reflections/containerising-my-coding-agent), and gave me a list of things I still haven't done (DNS, canary tokens, read-only config). Another thing is that plenty of the live demos broke, which shows non-determinism in action.
 
@@ -17,7 +17,7 @@ The rest of this post is my notes from each talk, lightly tidied up.
 
 [**9:07am, Manik Surtani (CTO, Agentic AI Foundation)**](https://agntconmcpconeu26.sched.com/event/2RBEf/keynote-catch-them-early-manik-surtani-cto-agentic-ai-foundation)
 
-- The Agentic AI Foundation (AAIF) compared itself to the CNCF, which had the benefit of an industry that already had lots of experience with cloud.
+- The [Agentic AI Foundation (AAIF)](https://aaif.io/) compared itself to the CNCF, which had the benefit of an industry that already had lots of experience with cloud.
 - They've copied the CNCF bar for accepting projects, and in some places raised it.
 - They've had a 3-4x growth pace compared to CNCF... the AI hype probably helped tbh
 
@@ -47,6 +47,8 @@ The rest of this post is my notes from each talk, lightly tidied up.
 - The best talk of the day, with interesting content that's worth checking out properly.
 - Walked through HumanLayer's multiplayer AI chat tooling, which drives spec and code diff checks.
 
+Tools mentioned: [HumanLayer's resources](https://hlyr.dev/resources).
+
 ## Pull Requests are dead, long live peer review
 
 [**10:20am, Dylan Ratcliffe (Overmind)**](https://agntconmcpconeu26.sched.com/event/2RB8Y/pull-requests-are-dead-long-live-peer-review-dylan-ratcliffe-overmind)
@@ -62,7 +64,7 @@ The most controversial talk of the day, at first. By the end he'd convinced me, 
 - It's easier to reject the recipe than the meal. People are more willing to reject a plan, because it's cheaper to fix.
 - My open question: what about conflicts between the plan and the existing system? Does that get caught in review?
 
-Tools mentioned: _AI Is Not Your Peer_, and _Until_, which makes sure your agent implements every part of the plans you write.
+Tools mentioned: [AI Is Not Your Peer](https://www.notyourpeer.com/), and [Until](https://until.dev/), which makes sure your agent implements every part of the plans you write.
 
 ## From "works on my prompt" to production SLOs
 
@@ -123,11 +125,11 @@ Tools mentioned: AG-UI (agent communication), A2UI (dynamic UI), and MCP Apps.
 - Web search isn't great for agents, and an app store probably isn't either. What about an agentic identity that's tied to you?
 - The next big thing is the discovery layer for agents. He compared it to web search, with `.well-known/ai-catalog.json` as a unified standard.
 
-Tools mentioned: Goose, DoorDash's new CLI, Sentry, Ora's researcher benchmark, `npx ax` (an audit tool for how agents use your website), and Ora's _Agentic Resources Discovery: the agentic index of the web_.
+Tools mentioned: Goose, DoorDash's new CLI, Sentry, Ora's researcher benchmark, `npx ax` (an audit tool for how agents use your website), and Ora's [Agentic Resources Discovery: the agentic index of the web](https://ora.directory/).
 
-## AI Builders Club
+## No Central Brain
 
-[**3:25pm, Faustos Albers (Co-founder, AI Builders Club)**](https://events.linuxfoundation.org/agntcon-mcpcon-europe/program/schedule/)
+[**3:25pm, Fausto Albers (WonderWhy, co-founder of AI Builders Club)**](https://events.linuxfoundation.org/agntcon-mcpcon-europe/program/schedule/)
 
 - No central brain. Ominous music. Who decides what's true?
 - "Attention is all you need", reframed as: 1. harness and loop, 2. recursive self improvement, 3. memory and learning.
