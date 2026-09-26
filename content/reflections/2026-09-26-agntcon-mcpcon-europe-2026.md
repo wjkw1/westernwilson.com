@@ -129,7 +129,7 @@ Tools mentioned: Goose, DoorDash's new CLI, Sentry, Ora's researcher benchmark, 
 
 ## No Central Brain
 
-[**3:25pm, Fausto Albers (WonderWhy, co-founder of AI Builders Club)**](https://events.linuxfoundation.org/agntcon-mcpcon-europe/program/schedule/)
+[**3:25pm, Fausto Albers (WonderWhy, co-founder of AI Builders Club)**](https://agntconmcpconeu26.sched.com/event/2RBBV/no-central-brain-fausto-albers-wonderwhy)
 
 - No central brain. Ominous music. Who decides what's true?
 - "Attention is all you need", reframed as: 1. harness and loop, 2. recursive self improvement, 3. memory and learning.
