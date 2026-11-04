@@ -5,7 +5,7 @@ slug: "gvb-korting"
 tags: ["travel"]
 ---
 
-I was hoping that there was some sort of subscriptions or concession cards that could make it slightly cheaper for me overall.
+Public transport is super accessible in Amsterdam. Since moving here I've been using it a lot: trams into town, the metro to the office, buses for everything in between. It all adds up though, so I was hoping there was some sort of subscription or concession card that could make it slightly cheaper for me overall.
 
 And I found something!! [GVB Korting](https://www.gvb.nl/gvbkorting)
 
