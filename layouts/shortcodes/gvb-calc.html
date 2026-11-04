@@ -1,0 +1,59 @@
+{{- /*
+  GVB Korting calculator. Use in a post with: {{< gvb-calc >}}
+  Optional defaults: {{< gvb-calc fare="2.00" days="3" extra="10" >}}
+  Prices: https://www.gvb.nl/tarieven — update TIERS each January.
+*/ -}}
+{{- $id := printf "gvb-%d" .Ordinal -}}
+<div class="gvb-calc not-prose" id="{{ $id }}">
+  <label>Fare per trip (€) <input type="number" data-k="fare" value="{{ .Get "fare" | default "2.00" }}" step="0.01" min="0" inputmode="decimal"></label>
+  <label>Office days per week <input type="number" data-k="days" value="{{ .Get "days" | default "2" }}" step="1" min="0" max="7" inputmode="numeric"></label>
+  <label>Other GVB spend per month, e.g. weekends (€) <input type="number" data-k="extra" value="{{ .Get "extra" | default "0" }}" step="1" min="0" inputmode="decimal"></label>
+  <table>
+    <thead><tr><th>Tier</th><th>Fee / month</th><th>Net saving / month</th></tr></thead>
+    <tbody data-k="rows"></tbody>
+  </table>
+  <p data-k="summary"></p>
+  <small>2026 GVB prices · 52 ÷ 12 weeks per month · a return trip per office day</small>
+</div>
+
+<style>
+  .gvb-calc { border: 1px solid var(--c-border); background: var(--c-bg-alt); border-radius: .5rem; padding: 1rem 1.25rem; margin: 1.5rem 0; font-size: .9rem; }
+  .gvb-calc label { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: .5rem; }
+  .gvb-calc input { width: 5.5rem; padding: .2rem .4rem; border: 1px solid var(--c-border); border-radius: .25rem; background: var(--c-bg); color: var(--c-text); }
+  .gvb-calc table { width: 100%; border-collapse: collapse; margin: .75rem 0; }
+  .gvb-calc th, .gvb-calc td { text-align: left; padding: .35rem .25rem; border-bottom: 1px solid var(--c-border); }
+  .gvb-calc th { color: var(--c-muted); font-weight: 500; }
+  .gvb-calc tr.best td { color: var(--c-accent); font-weight: 600; }
+  .gvb-calc td.neg { color: var(--c-muted); }
+  .gvb-calc p { margin: .5rem 0; }
+  .gvb-calc small { color: var(--c-muted); }
+</style>
+
+<script>
+(function () {
+  var TIERS = [
+    { name: "10% Korting", pct: 0.10, fee: 1.00 },
+    { name: "20% Korting", pct: 0.20, fee: 5.50 },
+    { name: "40% Korting", pct: 0.40, fee: 15.00 }
+  ];
+  var root = document.getElementById("{{ $id }}");
+  var el = function (k) { return root.querySelector('[data-k="' + k + '"]'); };
+  var num = function (k) { return parseFloat(el(k).value) || 0; };
+  var eur = function (n) { return (n < 0 ? "−€" : "€") + Math.abs(n).toFixed(2); };
+
+  function update() {
+    var spend = num("fare") * 2 * num("days") * 52 / 12 + num("extra");
+    var res = TIERS.map(function (t) { return { t: t, net: spend * t.pct - t.fee }; });
+    var best = res.reduce(function (a, b) { return b.net > a.net ? b : a; });
+    el("rows").innerHTML = res.map(function (r) {
+      return '<tr' + (r === best && r.net > 0 ? ' class="best"' : '') + '><td>' + r.t.name +
+        '</td><td>' + eur(r.t.fee) + '</td><td' + (r.net < 0 ? ' class="neg"' : '') + '>' + eur(r.net) + '</td></tr>';
+    }).join("");
+    el("summary").textContent = "GVB spend without discount: " + eur(spend) + "/month. " +
+      (best.net > 0 ? "Best: " + best.t.name + ", saving " + eur(best.net) + "/month."
+                    : "No tier pays off at this spend.");
+  }
+  root.addEventListener("input", update);
+  update();
+})();
+</script>
