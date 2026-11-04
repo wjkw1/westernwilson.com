@@ -711,6 +711,9 @@
   .inline {
     display: inline;
   }
+  .table {
+    display: table;
+  }
   .h-5 {
     height: calc(var(--spacing) * 5);
   }
@@ -749,6 +752,9 @@
   }
   .grow {
     flex-grow: 1;
+  }
+  .border-collapse {
+    border-collapse: collapse;
   }
   .-translate-y-full {
     --tw-translate-y: -100%;
@@ -846,6 +852,10 @@
   }
   .rounded-full {
     border-radius: calc(infinity * 1px);
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
   }
   .border-0 {
     border-style: var(--tw-border-style);
