@@ -22,11 +22,12 @@ hugo new books/my-book/index.md
 
 ## Commit requirement
 
-Every `git commit` must include the co-author trailer or the pre-commit hook will block it:
+Every `git commit` must include the co-author trailer or the pre-commit hook will block it, for example:
 
 ```
 Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
 ```
+Replace the model with whatever one was used.
 
 ## Architecture
 
