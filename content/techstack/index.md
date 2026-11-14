@@ -1,6 +1,7 @@
 ---
 title: "Tools & Tech"
 date: 2026-06-16
+lastmod: 2026-11-14
 slug: "techstack"
 tags: ["devtools"]
 ---
@@ -13,7 +14,7 @@ A snapshot of the tools, languages, and tech I'm currently using or exploring. F
 - [AnyType](https://anytype.io) for personal notes
 - [Claude](https://claude.ai)
 - [Flow](https://www.flow.app) for pomodoro timing
-- [Arc](https://arc.net) browser
+- [Firefox](https://www.firefox.com) browser
 - Kindle ereader (11th Gen Paperwhite)
 
 ## Technical Stack
