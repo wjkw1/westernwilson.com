@@ -1,4 +1,126 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/reflections/</link><description>Recent content in Reflections on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 26 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/reflections/index.xml" rel="self" type="application/rss+xml"/><item><title>AGNTCon + MCPCon Europe 2026</title><link>https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/</link><pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/</guid><description>TL;DR: I spent the full second day at AGNTCon + MCPCon Europe in Amsterdam, and the most interesting talks showed a new normal for humans now that agents write most of the code.&#10;Dexter Horthy was the best speaker of the day, and Dylan Ratcliffe won me over after I initially disagreed with his premise. His line “easier to reject the recipe than the meal” is the same lesson I learnt the hard way at the bunq hackathon: i.e review the plan before anything gets built. Roy Belio’s red teaming lab made me glad I’d already locked down egress on my coding agent, and gave me a list of things I still haven’t done (DNS, canary tokens, read-only config). Another thing is that plenty of the live demos broke, which shows non-determinism in action.&#10;</description><content:encoded><![CDATA[<p><strong>TL;DR:</strong> I spent the full second day at <a href="https://events.linuxfoundation.org/agntcon-mcpcon-europe">AGNTCon + MCPCon Europe</a> in Amsterdam, and the most interesting talks showed a new normal for humans now that agents write most of the code.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/reflections/</link><description>Recent content in Reflections on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 04 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/reflections/index.xml" rel="self" type="application/rss+xml"/><item><title>Cheaper trams, buses and metro in Amsterdam</title><link>https://westernwilson.com/reflections/gvb-korting/</link><pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/gvb-korting/</guid><description>Public transport is super accessible in Amsterdam. Since moving here I’ve been using it a lot: trams into town, the metro to the office, buses for everything in between. It all adds up though, so I was hoping there was some sort of subscription or concession card that could make it slightly cheaper for me overall.&#10;And I found something!! GVB Korting&#10;I also made a small calculator that tells you which tier saves you the most. Jump to it ↓&#10;</description><content:encoded><![CDATA[<p>Public transport is super accessible in Amsterdam. Since moving here I&rsquo;ve been using it a lot: trams into town, the metro to the office, buses for everything in between. It all adds up though, so I was hoping there was some sort of subscription or concession card that could make it slightly cheaper for me overall.</p>
+<p>And I found something!! <a href="https://www.gvb.nl/gvbkorting">GVB Korting</a></p>
+<p>I also made a small calculator that tells you which tier saves you the most. <a href="https://westernwilson.com/reflections/gvb-korting/#is-it-worth-it">Jump to it ↓</a></p>
+<h2 id="what-gvb-korting-is" class="group relative scroll-mt-20">
+  What GVB Korting is
+  <a
+    href="https://westernwilson.com/reflections/gvb-korting/#what-gvb-korting-is"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>GVB Korting (called GVB Flex until October 2026) is a monthly add-on for your bank card or OV-pas. You pay a small fixed fee, and every GVB trip after that is cheaper.</p>
+<table>
+	<thead>
+			<tr>
+					<th>Discount</th>
+					<th>Fee / month</th>
+					<th>Worth it from (GVB)</th>
+					<th>Worth it above (spend / month)</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>10%</td>
+					<td>€1.00</td>
+					<td>~4 trips/month</td>
+					<td>€10</td>
+			</tr>
+			<tr>
+					<td>20%</td>
+					<td>€5.50</td>
+					<td>~17 trips/month</td>
+					<td>€27.50</td>
+			</tr>
+			<tr>
+					<td>40%</td>
+					<td>€15.00</td>
+					<td>~20 trips/month</td>
+					<td>€37.50</td>
+			</tr>
+	</tbody>
+</table>
+<p>The trip counts are GVB&rsquo;s own estimates. The spend column is the exact break-even: what you&rsquo;d spend on GVB in a month without any discount.</p>
+<ul>
+<li>Works all day, every day. No peak or off-peak rules.</li>
+<li>Covers every GVB tram, bus, metro and night bus.</li>
+<li>Doesn&rsquo;t cover NS trains, or buses run by other companies like Connexxion or EBS.</li>
+<li>You can switch tiers or cancel each month.</li>
+</ul>
+<h2 id="weekends-count-too" class="group relative scroll-mt-20">
+  Weekends count too
+  <a
+    href="https://westernwilson.com/reflections/gvb-korting/#weekends-count-too"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>It&rsquo;s not just for commuting. Weekend trips into town, to the market or to a friend&rsquo;s place get the same discount, so they all add to your monthly total. Add your weekend spend in the calculator&rsquo;s &ldquo;Other GVB spend&rdquo; field below.</p>
+<h2 id="is-it-worth-it" class="group relative scroll-mt-20">
+  Is it worth it?
+  <a
+    href="https://westernwilson.com/reflections/gvb-korting/#is-it-worth-it"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p>Check for yourself:</p>
+<div class="gvb-calc not-prose" id="gvb-0">
+  <label>Fare per trip (€) <input type="number" data-k="fare" value="2.00" step="0.01" min="0" inputmode="decimal"></label>
+  <label>Office days per week <input type="number" data-k="days" value="3" step="1" min="0" max="7" inputmode="numeric"></label>
+  <label>Other GVB spend per month, e.g. weekends (€) <input type="number" data-k="extra" value="0" step="1" min="0" inputmode="decimal"></label>
+  <table>
+    <thead><tr><th>Tier</th><th>Fee / month</th><th>Net saving / month</th></tr></thead>
+    <tbody data-k="rows"></tbody>
+  </table>
+  <p data-k="summary"></p>
+  <small>2026 GVB prices · 52 ÷ 12 weeks per month · a return trip per office day</small>
+</div>
+
+<style>
+  .gvb-calc { border: 1px solid var(--c-border); background: var(--c-bg-alt); border-radius: .5rem; padding: 1rem 1.25rem; margin: 1.5rem 0; font-size: .9rem; }
+  .gvb-calc label { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: .5rem; }
+  .gvb-calc input { width: 5.5rem; padding: .2rem .4rem; border: 1px solid var(--c-border); border-radius: .25rem; background: var(--c-bg); color: var(--c-text); }
+  .gvb-calc table { width: 100%; border-collapse: collapse; margin: .75rem 0; }
+  .gvb-calc th, .gvb-calc td { text-align: left; padding: .35rem .25rem; border-bottom: 1px solid var(--c-border); }
+  .gvb-calc th { color: var(--c-muted); font-weight: 500; }
+  .gvb-calc tr.best td { color: var(--c-accent); font-weight: 600; }
+  .gvb-calc td.neg { color: var(--c-muted); }
+  .gvb-calc p { margin: .5rem 0; }
+  .gvb-calc small { color: var(--c-muted); }
+</style>
+
+<script>
+(function () {
+  var TIERS = [
+    { name: "10% Korting", pct: 0.10, fee: 1.00 },
+    { name: "20% Korting", pct: 0.20, fee: 5.50 },
+    { name: "40% Korting", pct: 0.40, fee: 15.00 }
+  ];
+  var root = document.getElementById("gvb-0");
+  var el = function (k) { return root.querySelector('[data-k="' + k + '"]'); };
+  var num = function (k) { return parseFloat(el(k).value) || 0; };
+  var eur = function (n) { return (n < 0 ? "−€" : "€") + Math.abs(n).toFixed(2); };
+
+  function update() {
+    var spend = num("fare") * 2 * num("days") * 52 / 12 + num("extra");
+    var res = TIERS.map(function (t) { return { t: t, net: spend * t.pct - t.fee }; });
+    var best = res.reduce(function (a, b) { return b.net > a.net ? b : a; });
+    el("rows").innerHTML = res.map(function (r) {
+      return '<tr' + (r === best && r.net > 0 ? ' class="best"' : '') + '><td>' + r.t.name +
+        '</td><td>' + eur(r.t.fee) + '</td><td' + (r.net < 0 ? ' class="neg"' : '') + '>' + eur(r.net) + '</td></tr>';
+    }).join("");
+    el("summary").textContent = "GVB spend without discount: " + eur(spend) + "/month. " +
+      (best.net > 0 ? "Best: " + best.t.name + ", saving " + eur(best.net) + "/month."
+                    : "No tier pays off at this spend.");
+  }
+  root.addEventListener("input", update);
+  update();
+})();
+</script>
+
+<p>Hope it helps 🙏</p>
+]]></content:encoded></item><item><title>AGNTCon + MCPCon Europe 2026</title><link>https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/</link><pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/</guid><description>TL;DR: I spent the full second day at AGNTCon + MCPCon Europe in Amsterdam, and the most interesting talks showed a new normal for humans now that agents write most of the code.&#10;Dexter Horthy was the best speaker of the day, and Dylan Ratcliffe won me over after I initially disagreed with his premise. His line “easier to reject the recipe than the meal” is the same lesson I learnt the hard way at the bunq hackathon: i.e review the plan before anything gets built. Roy Belio’s red teaming lab made me glad I’d already locked down egress on my coding agent, and gave me a list of things I still haven’t done (DNS, canary tokens, read-only config). Another thing is that plenty of the live demos broke, which shows non-determinism in action.&#10;</description><content:encoded><![CDATA[<p><strong>TL;DR:</strong> I spent the full second day at <a href="https://events.linuxfoundation.org/agntcon-mcpcon-europe">AGNTCon + MCPCon Europe</a> in Amsterdam, and the most interesting talks showed a new normal for humans now that agents write most of the code.</p>
 <p>Dexter Horthy was the best speaker of the day, and Dylan Ratcliffe won me over after I initially disagreed with his premise. His line &ldquo;easier to reject the recipe than the meal&rdquo; is the same lesson I learnt the hard way at the <a href="https://westernwilson.com/reflections/bunq-hackathon-7">bunq hackathon</a>: i.e review the plan before anything gets built. Roy Belio&rsquo;s red teaming lab made me glad I&rsquo;d already <a href="https://westernwilson.com/reflections/containerising-my-coding-agent">locked down egress on my coding agent</a>, and gave me a list of things I still haven&rsquo;t done (DNS, canary tokens, read-only config). Another thing is that plenty of the live demos broke, which shows non-determinism in action.</p>
 <p>Next year&rsquo;s conference is in London, and I&rsquo;m hoping to go! Reach out if you&rsquo;re going too.</p>
 <p>The rest of this post is my notes from each talk, lightly tidied up.</p>
@@ -1449,51 +1571,4 @@ I don&rsquo;t have a perfect answer to this, but I know that I can&rsquo;t let p
 <li>(<em>Optional</em>) Creating an SSH key for effortless logins.</li>
 </ul>
 <p>By enabling VS Code&rsquo;s ssh capabilities you can centralise the tool you use for development. Happy coding!</p>
-]]></content:encoded></item><item><title>Developer dynamics</title><link>https://westernwilson.com/reflections/2023-10-28-developer-dynamics/</link><pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2023-10-28-developer-dynamics/</guid><description>Full disclosure, I first heard of these architypes from a workshop run in 2020 by FLINT Wellington&#10;Types of Developers in the Workplace In a dynamic and collaborative workplace, you’ll encounter various types of developers, each driven by different motivations and approaches to their work. Understanding these developer archetypes can help foster a more effective and harmonious team environment.&#10;</description><content:encoded><![CDATA[<p><em>Full disclosure, I first heard of these architypes from a workshop run in 2020 by <a href="https://tuanz.org.nz/flint/flint-wellington/">FLINT Wellington</a></em></p>
-<h1 id="types-of-developers-in-the-workplace" class="group relative scroll-mt-20">
-  Types of Developers in the Workplace
-  <a
-    href="https://westernwilson.com/reflections/2023-10-28-developer-dynamics/#types-of-developers-in-the-workplace"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
-    aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h1>
-<p>In a dynamic and collaborative workplace, you&rsquo;ll encounter various types of developers, each driven by different motivations and approaches to their work. Understanding these developer archetypes can help foster a more effective and harmonious team environment.</p>
-<h2 id="1-the-detective" class="group relative scroll-mt-20">
-  1. The Detective
-  <a
-    href="https://westernwilson.com/reflections/2023-10-28-developer-dynamics/#1-the-detective"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
-    aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h2>
-<p>Drive: Detectives love to investigate. They thrive in messy situations, dissecting problems, and fixing them. Their analytical minds excel at uncovering the root causes of issues and implementing solutions. They&rsquo;re the team&rsquo;s problem-finders, and a lot of the time, problem-solvers.</p>
-<h2 id="2-the-cowboy--go-getter" class="group relative scroll-mt-20">
-  2. The Cowboy / Go-getter
-  <a
-    href="https://westernwilson.com/reflections/2023-10-28-developer-dynamics/#2-the-cowboy--go-getter"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
-    aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h2>
-<p>Drive: Cowboys or Go-getters are known for their speed. They push code out the door quickly, often impressively so. However, they might leave a bit of a &ldquo;dirty sink&rdquo; behind, sacrificing some cleanliness for speed. They&rsquo;re the team&rsquo;s high-velocity coders.</p>
-<h2 id="3-the-artist-or-creative" class="group relative scroll-mt-20">
-  3. The Artist or Creative
-  <a
-    href="https://westernwilson.com/reflections/2023-10-28-developer-dynamics/#3-the-artist-or-creative"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
-    aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h2>
-<p>Drive: Artists or Creatives focus on the aesthetics of code. They&rsquo;re meticulous about making sure their code is not just functional but also visually appealing and highly readable. While they may code more slowly, their work introduces less technical debt. They&rsquo;re the team&rsquo;s code beautifiers.</p>
-<h2 id="4-the-mad-scientist" class="group relative scroll-mt-20">
-  4. The Mad Scientist
-  <a
-    href="https://westernwilson.com/reflections/2023-10-28-developer-dynamics/#4-the-mad-scientist"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
-    aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h2>
-<p>Drive: Mad Scientists are tech enthusiasts. They eagerly embrace the latest technologies and enjoy experimenting with new libraries and features. Their adventurous spirit leads to innovation and pushing the boundaries of what&rsquo;s possible. They&rsquo;re the team&rsquo;s tech trailblazers.</p>
-<p>In a balanced development team, these diverse types of developers can complement each other, fostering creativity, efficiency, and problem-solving. Recognizing and valuing these different approaches can lead to a more well-rounded and successful team.</p>
 ]]></content:encoded></item></channel></rss>
