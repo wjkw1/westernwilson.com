@@ -20,9 +20,9 @@
   "homepage": "https://github.com/wjkw1/westernwilson.com#readme",
   "dependencies": {
     "@tailwindcss/typography": "^0.5.20",
-    "tailwindcss": "^4.3.3"
+    "tailwindcss": "^4.3.4"
   },
   "devDependencies": {
-    "@tailwindcss/cli": "^4.3.3"
+    "@tailwindcss/cli": "^4.3.4"
   }
 }
