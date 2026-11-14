@@ -6,8 +6,8 @@ sudo chown -R vscode:vscode /home/vscode/.claude
 
 echo "Setting up git aliases..."
 git config --global user.name "wjkw1"
-git config --global user.name 
-git config --global user.email "kiaora@westernwilson.com" 
+git config --global user.name
+git config --global user.email "kiaora@westernwilson.com"
 git config --global user.email
 git config --global alias.ci commit
 git config --global alias.co checkout

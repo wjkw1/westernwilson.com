@@ -33,7 +33,7 @@ The rest of this post is my notes from each talk, lightly tidied up.
 
 [**9:29am, Dominic Farolino (Google Chrome) & Frederic Barthelet (CTO, Alpic)**](https://agntconmcpconeu26.sched.com/event/2RBVv/keynote-three-doors-to-one-tool-mcp-vs-webmcp-vs-cli-frederic-barthelet-cto-co-founder-alpic-dominic-farolino-editor-of-the-webmcp-specification-software-engineer-google)
 
-- WebMCP is a layer on a website that lets agents interact with your website much faster. 
+- WebMCP is a layer on a website that lets agents interact with your website much faster.
 - Better than `llms.txt` which isn't often looked at
 - CLIs integrate well with agents.
 - A harness is tools, memory, context, and guards.
