@@ -1,4 +1,240 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/tags/conference/</link><description>Recent content in Conference on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 26 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/conference/index.xml" rel="self" type="application/rss+xml"/><item><title>AGNTCon + MCPCon Europe 2026</title><link>https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/</link><pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/</guid><description>TL;DR: I spent the full second day at AGNTCon + MCPCon Europe in Amsterdam, and the most interesting talks showed a new normal for humans now that agents write most of the code.&#10;Dexter Horthy was the best speaker of the day, and Dylan Ratcliffe won me over after I initially disagreed with his premise. His line “easier to reject the recipe than the meal” is the same lesson I learnt the hard way at the bunq hackathon: i.e review the plan before anything gets built. Roy Belio’s red teaming lab made me glad I’d already locked down egress on my coding agent, and gave me a list of things I still haven’t done (DNS, canary tokens, read-only config). Another thing is that plenty of the live demos broke, which shows non-determinism in action.&#10;</description><content:encoded><![CDATA[<p><strong>TL;DR:</strong> I spent the full second day at <a href="https://events.linuxfoundation.org/agntcon-mcpcon-europe">AGNTCon + MCPCon Europe</a> in Amsterdam, and the most interesting talks showed a new normal for humans now that agents write most of the code.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/tags/conference/</link><description>Recent content in Conference on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/conference/index.xml" rel="self" type="application/rss+xml"/><item><title>Axoniq Conference 2026</title><link>https://westernwilson.com/reflections/axoniq-conference-2026/</link><pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/axoniq-conference-2026/</guid><description>TL;DR: I went to Axoniq Conference 2026, and the theme of the day was that AI-driven software delivery is about building software faster and mitigating the risk that comes with it.&#10;Mathias Verraes set the tone in the morning with his “97/3 no-regrets bet”: whatever probability you give AI failing, spend that share of your effort on code quality, so humans can take over again if it does. Einar Ingebrigtsen came at it from a different angle in the afternoon, saying review is now the bottleneck and it’s leading to PR fatigue. Both point at the same thing, AI shouldn’t be the only thing verifying its own output. ASSIST had the best slides of the day, and Allard’s airport parable in the closing keynote was a memorable story.&#10;</description><content:encoded><![CDATA[<p><strong>TL;DR:</strong> I went to <a href="https://www.axoniq.io/">Axoniq Conference 2026</a>, and the theme of the day was that AI-driven software delivery is about building software faster <em>and</em> mitigating the risk that comes with it.</p>
+<p>Mathias Verraes set the tone in the morning with his &ldquo;97/3 no-regrets bet&rdquo;: whatever probability you give AI failing, spend that share of your effort on code quality, so humans can take over again if it does. Einar Ingebrigtsen came at it from a different angle in the afternoon, saying review is now the bottleneck and it&rsquo;s leading to PR fatigue. Both point at the same thing, AI shouldn&rsquo;t be the only thing verifying its own output. ASSIST had the best slides of the day, and Allard&rsquo;s airport parable in the closing keynote was a memorable story.</p>
+<p>From the AI talks, conversations and my own thinking, four things stood out to me as worth additional investment in general:</p>
+<ul>
+<li><strong>Security analysis</strong>, both static and dynamic, ideally with some supply-chain risk mitigation built in. <a href="https://www.aikido.dev/">Aikido</a> is a great contender for a suite of security tooling.</li>
+<li><strong>Version and dependency tracking</strong>, ensuring you understand the risk of what&rsquo;s falling out of date before it hurts you.</li>
+<li><strong>Agentic identity</strong>, i.e. showing who manages each agent and deliberately limiting its scope, like a read-only path for your issue tracker and repos, and a separate, tighter write path for the repos. This needs some clever sandboxing that I haven&rsquo;t figured out yet.</li>
+<li><strong>Proxying LLM access to strip PII</strong> before anything leaves. One team I spoke to already does this, and I think it&rsquo;s a really good idea.</li>
+</ul>
+<p>On the Axon side, I&rsquo;m keeping an eye on:</p>
+<ul>
+<li><strong>Axoniq Insights</strong>: makes your events queryable with AI-assisted querying and MCP access.</li>
+<li><strong>Axoniq Clarity</strong> (announced at the end of the day): aims to give brownfield projects most of the insight an event-sourced system gives you, ideally showing a pathway to event-driven architecture.</li>
+<li><strong>Deployment</strong>: the industry lacks a good deployment model for Axon, especially for newcomers, so Axoniq are learning to build a Kubernetes operator and might build a community around it.</li>
+<li><strong>Axon Server</strong>: backup &amp; restore and disaster recovery work is coming.</li>
+</ul>
+<p>After chatting with Mathias and I heard about DDD Europe in Amsterdam in June 2027. Reach out if you&rsquo;re going too!</p>
+<p>The rest of this post is my notes from each talk, tidied up a bit.</p>
+<h2 id="welcome-to-axoniq-conference-2026" class="group relative scroll-mt-20">
+  Welcome to Axoniq Conference 2026
+  <a
+    href="https://westernwilson.com/reflections/axoniq-conference-2026/#welcome-to-axoniq-conference-2026"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><strong>9:30am, Allard Buijze (Founder &amp; CTO, Axoniq)</strong></p>
+<ul>
+<li>Axoniq&rsquo;s CEO Jessica sent a video thanking everyone for being there and trusting Axoniq with their journey.</li>
+<li>Allard stressed the importance of <strong>trust</strong>.</li>
+</ul>
+<h2 id="reasoning-while-we-still-can" class="group relative scroll-mt-20">
+  Reasoning While We Still Can
+  <a
+    href="https://westernwilson.com/reflections/axoniq-conference-2026/#reasoning-while-we-still-can"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><strong>9:45am, Mathias Verraes (Founder, Aardling; co-author of <em>Design and Reality</em>; founder of DDD Europe)</strong></p>
+<ul>
+<li>The core theme is <strong>risk</strong>, illustrated by the broken clock analogy: you can&rsquo;t set a broken clock right unless you already know the correct time. This comes back later.</li>
+<li>The &ldquo;dark factory&rdquo; is the next stage of AI automation.</li>
+<li>There&rsquo;s a spectrum of how much code we read: all, some, or none.</li>
+<li>Managing risk comes down to harness, accountability and testing. The missing element is <strong>rate of change</strong>, so what should we do about it?</li>
+<li>Possible futures for AI: AI destroys us, a post-scarcity society, gradual growth to a plateau, or AI disappears (data centres cancelled, costs, government regulation, the financial bubble popping).</li>
+<li><strong>97/3 &ldquo;no-regrets&rdquo; bet:</strong> whatever probability you give AI failing, spend that share of effort on code quality, in case AI goes away and we fall back to human engineering.</li>
+<li>The SDLC is all about managing risk. Agile managed risk better than waterfall.</li>
+<li>The old cycle was plan → analysis → design → implementation → testing → maintenance → back to plan. The new cycle is <strong>spec → verify</strong>.</li>
+<li>Agentic engineering currently splits work into roles. That artificial separation may not be needed anymore.</li>
+<li><strong>Own the rate of change:</strong>
+<ul>
+<li>Control which artifacts agents can change, and when. Freedom within a boundary.</li>
+<li>Specs are the single, human-readable source of truth.</li>
+<li>Regenerate code from the spec. If behaviour changes, there&rsquo;s a problem. Clean up and prune specs, and diff them.</li>
+<li>Mark an artifact as <strong>stable</strong> once it doesn&rsquo;t need changes anymore, which helps agents. e.g. a glossary or API contracts.</li>
+</ul>
+</li>
+<li>Broken clock again: AI shouldn&rsquo;t be the only thing verifying itself. Back it up with static analysis, code-smell detection, CI/CD and testing.</li>
+<li>The final slide has 6 tips for AI design, worth a look.</li>
+</ul>
+<p>Slides and a book discount code are at <a href="https://verraes.net/axoniq">verraes.net/axoniq</a>. Further reading he mentioned: Bainbridge, <em>Ironies of Automation</em>.</p>
+<h2 id="event-sourcing-in-production-five-things-nobody-warned-us" class="group relative scroll-mt-20">
+  Event Sourcing in Production: Five Things Nobody Warned Us
+  <a
+    href="https://westernwilson.com/reflections/axoniq-conference-2026/#event-sourcing-in-production-five-things-nobody-warned-us"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><strong>10:45am, Frank Scheffler &amp; Nikolai Neugebauer</strong></p>
+<ul>
+<li>Lessons from 7 years of running Axon-based systems in production. Their latest system passed 250M events in its first year.</li>
+<li>Team based in Germany, using embedded Axon.</li>
+<li>Side note: they generated the presentation as HTML because Claude reads HTML really well.</li>
+<li>Options for migrating projections:
+<ol>
+<li>Fill nulls</li>
+<li>CRUD-style migration script</li>
+<li>Axon replay, with feature flags so old events run against new code</li>
+<li>Temporary backfill projector</li>
+<li>Versioned projections</li>
+</ol>
+</li>
+<li>With versioned projections, the event store versions the projections, e.g. v1 without a <code>name</code> column and v2 with it. The trade-off is extra storage.</li>
+<li>Think about how large an event&rsquo;s payload could grow. It&rsquo;s often better to store a hash in the event and keep the data in a database table.</li>
+<li>They started with readable event data, but storing a hash made more sense in their experience. The command handler writes the data to a state-store table.</li>
+<li>Don&rsquo;t aggregate data on the event side, read it from persistent storage (Message Projector).</li>
+<li>Be conscious of downstream services when you replay.</li>
+<li>Keep command handlers (CQS) as fast as possible, and cache sourcing to stay fast.</li>
+<li>For long-running work, events act as triggers and tasks process the work. Ordered events can then be processed in parallel, which improves throughput. They call it the <strong>Task outbox</strong>, and someone in the audience called it the &ldquo;todo list&rdquo; pattern.</li>
+<li>Don&rsquo;t use generic events as a task workflow.</li>
+<li>Axon guarantees synchrony in event processing, but read differences between Postgres and Axon DCB are tricky. Solved for Postgres, not yet for DCB.</li>
+</ul>
+<h2 id="the-architecture-of-accountability" class="group relative scroll-mt-20">
+  The Architecture of Accountability
+  <a
+    href="https://westernwilson.com/reflections/axoniq-conference-2026/#the-architecture-of-accountability"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><strong>11:45am, Maarten-Jan van Gool (Craftsmen) &amp; Marc van Andel (Kadaster, Emerging Technology Center)</strong></p>
+<ul>
+<li>How event sourcing and DCB help a government account for, correct and prevent mistakes in its registers.</li>
+<li>Kadaster (the Dutch Land Registry) went through &ldquo;timeline hell&rdquo;. A year ago they didn&rsquo;t know what to do, now they do.</li>
+<li>They told the story of a man who was wrongly declared dead and is still dealing with it. The population register underpins everything, so being &ldquo;dead&rdquo; locks you out of pensions and a lot more.</li>
+<li>Recording maps to projections in Axon 4, and DCB is the new Axon 5 context.</li>
+<li><strong>To tag or not to tag:</strong> critics say tagging up front gives an event meaning before that meaning should exist, and events should just be events with meaning derived later. In government though, tagging makes sense because meaning is fixed at the moment of determination, e.g. a marriage registration.</li>
+<li>Determinations propagate downstream to other services, which makes them hard to undo. Doubt has to be registered as a new event or determination.</li>
+<li>The <strong>Event Journal</strong> tracks everything that happens, like an audit trail. The <strong>Endorsed sequence</strong> is only the current, correct &ldquo;what is known&rdquo;.</li>
+<li>e.g. correcting an address: a new event corrects the original, and another event records what was withdrawn and what it should have been.</li>
+<li>Replaying projections isn&rsquo;t good enough. A database stores current state, not the history of what happened. Adding valid-date columns gives you temporality, but mistakes aren&rsquo;t always repeatable.</li>
+<li><strong>Bitemporality</strong> adds a system time (<code>systemFrom</code>) alongside the actual valid-from date, and tracks both.</li>
+<li>Their solution is to sidestep the problem:
+<ul>
+<li>Don&rsquo;t communicate state, communicate events.</li>
+<li>Make events repeatable, with state <em>superseded</em>, not replaced.</li>
+<li>Old state events can then be replayed, so current state becomes whatever that old state was. Pretty cool.</li>
+<li>Use <strong>append-only state blobs</strong>.</li>
+</ul>
+</li>
+<li>This keeps the query side really simple compared to the complex joins a bitemporal relational database needs.</li>
+</ul>
+<h2 id="from-discovery-to-event-store-ai-assisted-event-sourcing-with-the-axoniq-stack" class="group relative scroll-mt-20">
+  From Discovery to Event Store: AI-Assisted Event Sourcing with the Axoniq Stack
+  <a
+    href="https://westernwilson.com/reflections/axoniq-conference-2026/#from-discovery-to-event-store-ai-assisted-event-sourcing-with-the-axoniq-stack"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><strong>1:30pm, Steven van Beelen, Milan Savic, Mitchell Herrijgers &amp; Marc Klefter (Axoniq)</strong></p>
+<ul>
+<li>The roadmap talk: Axon Framework 4 → 5, Axoniq Workflows, Axon Server, Axoniq Platform and Axoniq Insights.</li>
+<li>Lots of agentic resources available, plus a getting-started guide.</li>
+<li>Axoniq Platform has an event timeline view, a monitoring view, and a Kubernetes instance view.</li>
+<li>Axon Server setup can be automated through the Platform API, and the Axoniq CLI supports both Axon Server and Axoniq Platform.</li>
+<li>Axon Server now has full DCB support, with one-click migration of existing contexts to DCB, plus multi-tier storage for DCB.</li>
+<li>Learner nodes and topology reliability improvements.</li>
+<li><strong>Coming soon:</strong> redesigned backup &amp; restore, event transformation, and disaster recovery.</li>
+<li>They covered the differences between Axon Framework 4 and 5, and there are <code>axoniq-migration</code> skills to simplify the migration.</li>
+<li><strong>Axoniq Workflows</strong> is Axon&rsquo;s solution for durable execution.</li>
+<li><strong>Axoniq Insights</strong> runs alongside Axon Server (replacing an earlier feature) with AI-assisted querying:
+<ul>
+<li>Backed by DuckDB and DuckLake, so queries are apparently fast.</li>
+<li>The Insights agent takes natural-language queries instead of raw SQL.</li>
+<li>MCP support, exposing a single read-only events table.</li>
+<li>It gets smarter the more you query, including workflows. Object storage for the event lake, and Snowflake came up in questions.</li>
+<li>Their pitch: &ldquo;the indispensable query layer for Axon Server.&rdquo;</li>
+</ul>
+</li>
+</ul>
+<p>Tools mentioned: <a href="https://github.com/AxonIQ/agent-skills">AxonIQ/agent-skills</a>.</p>
+<h2 id="not-crud-anymore-migrating-to-event-driven-cqrs-without-a-big-bang" class="group relative scroll-mt-20">
+  Not CRUD Anymore: Migrating to Event-Driven CQRS Without a Big Bang
+  <a
+    href="https://westernwilson.com/reflections/axoniq-conference-2026/#not-crud-anymore-migrating-to-event-driven-cqrs-without-a-big-bang"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><strong>2:45pm, Ondřej Halata (Lead DevOps Engineer, ASSIST) &amp; Richard Bouška (CTO, ASSIST)</strong></p>
+<ul>
+<li>A live, incremental migration of a business-critical brownfield app to CQRS, DDD and event sourcing on Axon, with no big-bang cutover.</li>
+<li>Best slides of the day! The slide titles and looping GIFs tell their whole CRUD → events journey: <a href="https://assist-links.web.app/">assist-links.web.app</a>.</li>
+<li>Scale: 1.5M events/day, 75+ instances, 150+ event processors, eventually split into contexts grouped by concept.</li>
+<li>Their journey:
+<ol>
+<li>Everything in the frontend (Angular/TypeScript), going straight to SQL. This caused problems with queues and networking.</li>
+<li>BFF, &ldquo;where the best friends are frontend and backend&rdquo;. Not bad architecture, it worked fine.</li>
+<li>Event architecture on SNS, &ldquo;dragons everywhere&rdquo;. Slow network hops when services talked across clouds, and SNS tightly coupled infra and app deployments so rollbacks were painful.</li>
+<li>Axon, where <strong>the event stream becomes the source of truth.</strong></li>
+</ol>
+</li>
+</ul>
+<h2 id="the-assembly-language-for-information-systems" class="group relative scroll-mt-20">
+  The Assembly Language for Information Systems
+  <a
+    href="https://westernwilson.com/reflections/axoniq-conference-2026/#the-assembly-language-for-information-systems"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><strong>3:45pm, Einar Ingebrigtsen (Cratis)</strong></p>
+<ul>
+<li>We keep stepping up abstraction levels. &ldquo;Software engineering is dead.&rdquo;</li>
+<li>Timeline: COBOL (1959), CASE tools (1980s), 4GLs, Visual Basic and Dreamweaver (90s), offshoring (2000s), no-code (2010s), Copilot (2021, mostly autocomplete at first), ChatGPT and vibe coding (2025).</li>
+<li>He believes cheaper software means more software gets built, so <em>more</em> engineers will be needed.</li>
+<li>AI optimises for speed. Velocity is speed with direction, and we should be optimising for velocity.</li>
+<li>We&rsquo;re still learning what AI is, but one thing is clear: <strong>review is the bottleneck</strong>, which leads to PR fatigue.</li>
+<li>He also called out plumbing, tokens and drift, each their own problem.</li>
+<li>Advice for the next generation: focus on systems engineering and what makes a good architecture rather than syntax, because AI is taking syntax off our hands.</li>
+<li><strong>Screenplay</strong> is a condensed language describing how infra and code should be implemented, built on Event Modeling and following DDD ideas in how the language is defined.</li>
+<li>A PII flag automatically keeps an attribute encrypted.</li>
+<li>It generates code: Java for Axon, and .NET for Cratis.</li>
+<li><strong>Cratis</strong> is their event backend, with MCP support. Pretty sweet.</li>
+</ul>
+<h2 id="closing-keynote-a-new-perspective-on-event-sourcing-for-the-other-95" class="group relative scroll-mt-20">
+  Closing Keynote: A New Perspective on Event Sourcing for the Other 95%
+  <a
+    href="https://westernwilson.com/reflections/axoniq-conference-2026/#closing-keynote-a-new-perspective-on-event-sourcing-for-the-other-95"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<p><strong>4:45pm, Allard Buijze (Founder &amp; CTO, Axoniq)</strong></p>
+<ul>
+<li>Instead of making event sourcing easier, make most of its benefits easier to get, including for existing systems without re-architecting them.</li>
+<li>Axon by the numbers: 90M+ downloads, ~2M per month, and 96 of the Fortune 100 use Axon.</li>
+<li>Put AI agents inside event-sourced systems so they&rsquo;re auditable by default, the same as everything else that&rsquo;s event-driven.</li>
+<li><strong>Airport parable:</strong> CRUD engineers trying to find their way around event sourcing. Great story.</li>
+<li>&ldquo;We&rsquo;ve asked drivers to become mechanics.&rdquo;</li>
+<li><strong>&ldquo;Ask Steven&rdquo;</strong>, a review agent trained on the nits a picky engineer would normally raise in reviews. Funny because then engineers would turn the agent back on the original engineer xD</li>
+<li>Event modeling is great for generating code.</li>
+<li>Use words the whole room understands, not technical concepts only the 5% (the techies) get.</li>
+<li><strong>Shu Ha Ri:</strong> follow the rules → break the rules → define the rules.</li>
+<li><strong>&ldquo;The Great Migration&rdquo; parable</strong> (wildebeest crossing the river), about brownfield projects.</li>
+<li><strong>Announcement: Axoniq Clarity.</strong> Code scanning for brownfield projects, deployed as agents that watch and monitor your code. Similar to New Relic APM, but it stores what it observes as events: code, APIs, code execution, and database changes. It currently handles 20,000 events per second.</li>
+</ul>
+<h2 id="unconference" class="group relative scroll-mt-20">
+  Unconference
+  <a
+    href="https://westernwilson.com/reflections/axoniq-conference-2026/#unconference"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    aria-label="Link to this heading"
+  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+</h2>
+<ul>
+<li>Using an event model to generate diagrams, e.g. sequence diagrams. There was some talk of BPMN (the business process standard) vs using the event model itself.</li>
+<li>One CTO raised a bunch of interesting topics, mostly about Event Modeling, built around one question: &ldquo;What&rsquo;s the most useful general abstraction to show clients?&rdquo; He described creating an event model for a client, who then used it to build the application themselves with Claude.</li>
+<li>One consultant gives the client a proof-of-concept app with a built-in feedback interface. As the client uses it and gives feedback, agents update the app in real time along with the event model behind it. After two weeks or more, they have a solid event model and process flow to lock in for the proper build. A really cool idea, the app changes straight away in response to user feedback.</li>
+<li>One team proxies their LLM access to strip PII before anything leaves.</li>
+<li>Kubernetes: run one StatefulSet per node, not multiple, otherwise you hit problems.</li>
+</ul>
+<p>Agentic tools that came up during the day: <a href="https://orca.dev">Orca.dev</a>, <a href="https://herdr.dev">Herdr.dev</a>, <a href="https://hermes-agent.nousresearch.com/">Hermes</a>, and <a href="https://opencode.ai/">OpenCode</a>.</p>
+]]></content:encoded></item><item><title>AGNTCon + MCPCon Europe 2026</title><link>https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/</link><pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/</guid><description>TL;DR: I spent the full second day at AGNTCon + MCPCon Europe in Amsterdam, and the most interesting talks showed a new normal for humans now that agents write most of the code.&#10;Dexter Horthy was the best speaker of the day, and Dylan Ratcliffe won me over after I initially disagreed with his premise. His line “easier to reject the recipe than the meal” is the same lesson I learnt the hard way at the bunq hackathon: i.e review the plan before anything gets built. Roy Belio’s red teaming lab made me glad I’d already locked down egress on my coding agent, and gave me a list of things I still haven’t done (DNS, canary tokens, read-only config). Another thing is that plenty of the live demos broke, which shows non-determinism in action.&#10;</description><content:encoded><![CDATA[<p><strong>TL;DR:</strong> I spent the full second day at <a href="https://events.linuxfoundation.org/agntcon-mcpcon-europe">AGNTCon + MCPCon Europe</a> in Amsterdam, and the most interesting talks showed a new normal for humans now that agents write most of the code.</p>
 <p>Dexter Horthy was the best speaker of the day, and Dylan Ratcliffe won me over after I initially disagreed with his premise. His line &ldquo;easier to reject the recipe than the meal&rdquo; is the same lesson I learnt the hard way at the <a href="https://westernwilson.com/reflections/bunq-hackathon-7">bunq hackathon</a>: i.e review the plan before anything gets built. Roy Belio&rsquo;s red teaming lab made me glad I&rsquo;d already <a href="https://westernwilson.com/reflections/containerising-my-coding-agent">locked down egress on my coding agent</a>, and gave me a list of things I still haven&rsquo;t done (DNS, canary tokens, read-only config). Another thing is that plenty of the live demos broke, which shows non-determinism in action.</p>
 <p>Next year&rsquo;s conference is in London, and I&rsquo;m hoping to go! Reach out if you&rsquo;re going too.</p>
 <p>The rest of this post is my notes from each talk, lightly tidied up.</p>
