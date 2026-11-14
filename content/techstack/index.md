@@ -14,7 +14,7 @@ A snapshot of the tools, languages, and tech I'm currently using or exploring. F
 - [AnyType](https://anytype.io) for personal notes
 - [Claude](https://claude.ai)
 - [Flow](https://www.flow.app) for pomodoro timing
-- [Firefox](https://www.firefox.com) browser, with vertical tabs and tab groups to get close to Arc
+- [Firefox](https://www.firefox.com) browser, with vertical tabs and tab groups to get close to [Arc](https://arc.net)
 - Kindle ereader (11th Gen Paperwhite)
 
 ## Technical Stack
