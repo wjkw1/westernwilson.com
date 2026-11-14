@@ -1,0 +1,26 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+        # Two trailing spaces are a hard line break in Markdown.
+        args: [--markdown-linebreak-ext=md]
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+        args: [--fix=lf]
+      - id: check-yaml
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-case-conflict
+      - id: check-added-large-files
+        args: [--maxkb=1024]
+
+  - repo: local
+    hooks:
+      - id: hugo-build
+        name: hugo build
+        # Builds into a throwaway directory so the check never touches public/.
+        entry: bash -c 'out="$(mktemp -d)"; hugo --minify --quiet --destination "$out"; status=$?; rm -rf "$out"; exit $status'
+        language: system
+        pass_filenames: false
+        always_run: true

@@ -71,7 +71,7 @@ I haven't picked one yet, for now I'm sitting with the risk while I think about 
 
 ## Logging in to Claude
 
-Logging in had its own gotcha. In VS Code there is a big orange "use your subscription" button that opens a browser and waits for a callback to `localhost`, which never makes it back into the container and just hangs. The fix is to skip the button, open a terminal inside the container and run `claude`, which kicks off the same browser flow but resolves the callback correctly. 
+Logging in had its own gotcha. In VS Code there is a big orange "use your subscription" button that opens a browser and waits for a callback to `localhost`, which never makes it back into the container and just hangs. The fix is to skip the button, open a terminal inside the container and run `claude`, which kicks off the same browser flow but resolves the callback correctly.
 
 We then use `~/.claude`, which is now owned by the `vscode` thanks to the `chown` at the top of `post-create.sh`, so once logged in, we gain stickier login sessions.
 
@@ -81,6 +81,6 @@ In doing the whole login dance from a bare terminal meant that my first real ses
 
 The other thing that briefly worried me is VS Code forwarded around thirty-two ports the moment the container came up. My first thought was that something in the container was reaching out on its own. It's not, after some searching I found that it's VS Code's automatic port-forwarding scanning the container for anything listening on a port, for example a dev server that you'll want to open in a browser. It's a separate, fairly trigger-happy feature, and apparently a known source of noise; [This GitHub issue](https://github.com/microsoft/vscode-remote-release/issues/10926) describes the exact same "over 20 ports auto-forwarded" behaviour after a setting silently flips from `process` to `hybrid` detection mode.
 
-If you want to see the actual config rather than the excerpts above, it's all in this repo under [.devcontainer/](https://github.com/wjkw1/westernwilson.com/tree/main/.devcontainer). Treat it as a personal setup to extend, not a hardened image to copy verbatim. 
+If you want to see the actual config rather than the excerpts above, it's all in this repo under [.devcontainer/](https://github.com/wjkw1/westernwilson.com/tree/main/.devcontainer). Treat it as a personal setup to extend, not a hardened image to copy verbatim.
 
 Further reading: Anthropic's [Dev Containers docs](https://code.claude.com/docs/en/devcontainer) and the [VS Code Dev Containers tutorial](https://code.visualstudio.com/docs/devcontainers/tutorial).
