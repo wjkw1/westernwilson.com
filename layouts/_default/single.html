@@ -1,31 +1,27 @@
 {{ define "main" }}
-<article>
+<article class="relative">
   <header class="mb-10 pb-6 border-b border-line">
-    <h1 class="font-display text-3xl font-semibold leading-tight text-balance mt-0 mb-3">{{ .Title }}</h1>
+    <h1 class="font-display text-3xl font-semibold leading-tight mt-0 mb-3">{{ .Title }}</h1>
     {{ with .Params.subtitle }}
     <p class="text-sm text-muted italic mt-0 mb-3 inline-links">{{ . | markdownify }}</p>
     {{ end }}
-    {{ if not .Date.IsZero }}
-    <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-      <time datetime="{{ .Date.Format "2006-01-02" }}" class="text-muted italic text-sm">
-        {{ .Date.Format "January 2, 2006" }}
-        {{ if .Lastmod.After .Date }}
-        <span class="text-muted italic text-sm">(updated <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "January 2, 2006" }}</time>)</span>
-        {{ end }}
-      </time>
-    </div>
-    {{ end }}
-    <span class="text-muted text-sm italic">{{ .ReadingTime }} min read</span>
-    {{ with .GetTerms "tags" }}
-    <div class="flex flex-wrap gap-2 mt-3">
-      {{ range . }}
-      <a href="{{ .RelPermalink }}" class="text-xs no-underline! lowercase text-muted hover:underline!">
-        #{{ .Title }}
-      </a>
+    <p class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted m-0">
+      {{ if not .Date.IsZero }}
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+      {{ if .Lastmod.After .Date }}
+      <span aria-hidden="true">·</span>
+      <span>Updated <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "January 2, 2006" }}</time></span>
       {{ end }}
-    </div>
+      <span aria-hidden="true">·</span>
+      {{ end }}
+      <span>{{ .ReadingTime }} min read</span>
+    </p>
+    {{ with .GetTerms "tags" }}
+    <div class="mt-4">{{ partial "tags.html" $ }}</div>
     {{ end }}
   </header>
+
+  {{ partial "toc.html" . }}
 
   <div class="prose">
     {{ .Content }}
@@ -58,7 +54,7 @@
   {{ end }}
 
   {{ if or .PrevInSection .NextInSection }}
-  <nav class="flex justify-between gap-3 pt-6 pb-6 border-t border-line">
+  <nav aria-label="Previous and next posts" class="flex justify-between gap-3 pt-6 pb-6 border-t border-line">
     <div class="flex-1">
       {{ with .PrevInSection }}
       <a href="{{ .RelPermalink }}" class="group flex flex-col no-underline! text-muted">

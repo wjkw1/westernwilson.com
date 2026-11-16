@@ -1,0 +1,13 @@
+{{- with .GetTerms "tags" -}}
+<ul class="flex flex-wrap gap-1.5 list-none m-0 p-0" aria-label="Tags">
+  {{- range . }}
+  <li>
+    <a
+      href="{{ .RelPermalink }}"
+      class="inline-block rounded bg-alt px-2 py-0.5 text-xs lowercase text-muted no-underline! hover:text-accent"
+      >#{{ .LinkTitle }}</a
+    >
+  </li>
+  {{- end }}
+</ul>
+{{- end -}}

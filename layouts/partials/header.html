@@ -34,7 +34,7 @@
             <a
               href="{{ .URL }}"
               {{ if $current }}aria-current="{{ $current }}"{{ end }}
-              class="inline-block py-2 text-sm no-underline hover:underline! [&[aria-current]]:underline [&[aria-current]]:decoration-2 [&[aria-current]]:underline-offset-8"
+              class="inline-block py-2 text-sm text-muted no-underline hover:underline! hover:text-accent [&[aria-current]]:text-heading [&[aria-current]]:underline [&[aria-current]]:decoration-accent [&[aria-current]]:decoration-2 [&[aria-current]]:underline-offset-8"
               >{{ .Name }}</a
             >
           </li>
@@ -93,6 +93,28 @@
         return "system";
       }
 
+      // Browser UI colour: the media-scoped metas follow the OS; a pinned
+      // scheme points both at that scheme's colour.
+      var themeMetas = Array.prototype.map.call(
+        document.querySelectorAll('meta[name="theme-color"]'),
+        function (el) {
+          return { el: el, media: el.media, content: el.content, dark: /dark/.test(el.media) };
+        }
+      );
+
+      function syncThemeColor(pref) {
+        themeMetas.forEach(function (meta) {
+          if (pref === "system") {
+            meta.el.media = meta.media;
+            meta.el.content = meta.content;
+          } else {
+            var pinned = themeMetas.filter(function (m) { return m.dark === (pref === "dark"); })[0];
+            meta.el.media = "all";
+            meta.el.content = pinned.content;
+          }
+        });
+      }
+
       function applyPreference(pref) {
         var root = document.documentElement;
         if (pref === "system") root.removeAttribute("data-theme");
@@ -107,6 +129,7 @@
         });
         btn.setAttribute("aria-label", label);
         btn.setAttribute("title", label);
+        syncThemeColor(pref);
       }
 
       applyPreference(getPreference());
