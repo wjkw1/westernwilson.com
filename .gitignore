@@ -9,3 +9,6 @@ node_modules/
 # OS
 .DS_Store
 .env
+
+# Lighthouse CI output
+.lighthouseci/

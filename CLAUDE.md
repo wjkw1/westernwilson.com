@@ -18,6 +18,12 @@ npm update     # update packages
 # Scaffold new content with correct front matter
 hugo new reflections/my-post.md
 hugo new books/my-book/index.md
+
+# Site checks that CI runs (axe on every page in light + dark, then Lighthouse)
+npm ci --prefix tests
+hugo --minify && (python3 -m http.server 8080 --directory public &)
+BROWSER=firefox BROWSER_PATH=/Applications/Firefox.app/Contents/MacOS/firefox node tests/check-a11y.mjs http://localhost:8080
+tests/node_modules/.bin/lhci autorun --config=tests/lighthouserc.json   # needs Chrome
 ```
 
 ## Commit requirement
@@ -31,7 +37,7 @@ Replace the model with whatever one was used.
 
 ## Architecture
 
-**Hugo static site** deployed to GitHub Pages (`gh-pages` branch) via [deploy.yml](.github/workflows/deploy.yml). CI runs on PRs to `main` ([ci.yml](.github/workflows/ci.yml)).
+**Hugo static site** deployed to GitHub Pages (`gh-pages` branch) via [deploy.yml](.github/workflows/deploy.yml). CI runs on every PR ([ci.yml](.github/workflows/ci.yml)): the Hugo build, an axe-core accessibility check of every page in both themes, and Lighthouse budgets on a few key pages ([tests/](tests/)).
 
 **CSS pipeline** — Tailwind CSS v4 is imported in [assets/css/main.css](assets/css/main.css) and processed by the Hugo asset pipeline (requires the extended Hugo binary). Colors are CSS custom properties (`--c-bg`, `--c-accent`, etc.) defined once in `:root` with `light-dark()`; the `data-theme` toggle pins `color-scheme`. They are registered in `@theme` as Tailwind colours, so use `text-heading`, `text-muted`, `bg-alt`, `border-line`, etc. rather than `[color:var(...)]`.
 
