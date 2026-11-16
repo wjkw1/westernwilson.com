@@ -37,7 +37,7 @@ This repo is set up so you can fork it and make it your own without touching `la
 - `content/_index.md` — your homepage bio.
 - `content/reflections/_index.md`, `content/books/_index.md` — your section blurbs (or delete the corresponding `content/<section>/` directory entirely if you don't want that section — the homepage and nav only show what has content/menu entries, so nothing breaks).
 - `content/` — replace with your own posts/pages. Use `hugo new reflections/my-post.md` or `hugo new books/my-book/index.md` to scaffold new entries with the right front matter automatically (see `archetypes/`).
-- `static/images/` — swap in your own avatar and favicon, then update `avatarURL`/`favicon` in `hugo.yaml` if you rename the files.
+- `assets/images/` — swap in your own avatar and logo, then update `avatar`/`logo` in `hugo.yaml` if you rename the files. Replace `static/favicon.ico` too.
 - `assets/css/main.css` — recolor by editing the `:root` CSS custom properties (`--c-bg`, `--c-accent`, etc.) near the top of the file.
 
 **Files you generally won't need to touch:** `layouts/` — personal copy lives in content files and params; the templates are intentionally generic.

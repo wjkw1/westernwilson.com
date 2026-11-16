@@ -101,8 +101,8 @@ python3 - <<'EOF'
 import re
 h = open('public/books/atomic-habits/index.html', encoding='utf-8').read()
 print("title  :", re.findall(r'<h1[^>]*>\s*([^<]+?)\s*</h1>', h))
-print("cover  :", re.findall(r'<img src="([^"]+)"', h))
-print("stars  :", h.count("fa-solid fa-star "), "full,", h.count("fa-star-half-stroke"), "half")
+print("cover  :", re.findall(r'<img src="([^"]*/cover_hu_[^"]+)"', h))
+print("rating :", re.findall(r'Rated ([\d.]+) out of 5', h))
 print("read   :", re.findall(r'>Read ([A-Z][a-z]+ \d{4})<', h))
 print("gr link:", "goodreads.com/book" in h)
 EOF
@@ -112,8 +112,8 @@ Verified output for the Atomic Habits example:
 
 ```
 title  : ['Atomic Habits']
-cover  : ['cover.jpg']
-stars  : 4 full, 1 half
+cover  : ['/books/atomic-habits/cover_hu_<hash>.webp']
+rating : ['4.5']
 read   : ['Aug 2026']
 gr link: True
 ```

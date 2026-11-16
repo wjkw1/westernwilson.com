@@ -6,11 +6,9 @@
       href="{{ .Site.BaseURL }}"
       class="font-display font-semibold text-base text-heading no-underline hover:underline! hover:text-accent flex items-center gap-2"
     >
-      {{ with .Site.Params.favicon }}<img
-        src="{{ . | absURL }}"
-        alt=""
-        class="w-5 h-5"
-      />{{ end }} {{ .Site.Title }}
+      {{ with resources.Get .Site.Params.logo }}
+      {{ partial "img.html" (dict "image" . "alt" "" "widths" (slice 23 46 69) "class" "w-5 h-5" "loading" "eager") }}
+      {{ end }} {{ .Site.Title }}
     </a>
 
     <div class="flex items-center gap-6">
@@ -23,7 +21,8 @@
         aria-controls="mobile-menu"
         class="sm:hidden inline-flex items-center justify-center size-10 -m-2.5 text-muted hover:text-accent cursor-pointer bg-transparent border-0 p-0 leading-none"
       >
-        <i id="burger-icon" class="fa-solid fa-bars text-sm" aria-hidden="true"></i>
+        <span data-menu-icon="closed">{{ partial "icon.html" (dict "name" "bars" "class" "text-sm") }}</span>
+        <span data-menu-icon="open" hidden>{{ partial "icon.html" (dict "name" "xmark" "class" "text-sm") }}</span>
       </button>
 
       <!-- Desktop nav -->
@@ -46,7 +45,9 @@
 
       <!-- Theme toggle (always visible) -->
       <button id="theme-toggle" aria-label="Color scheme: System" title="Color scheme: System" class="inline-flex items-center justify-center size-10 -m-2.5 text-muted hover:text-accent cursor-pointer bg-transparent border-0 p-0 leading-none">
-        <i id="theme-icon" class="fa-solid fa-circle-half-stroke text-sm" aria-hidden="true"></i>
+        <span data-scheme="system">{{ partial "icon.html" (dict "name" "circle-half-stroke" "class" "text-sm") }}</span>
+        <span data-scheme="light" hidden>{{ partial "icon.html" (dict "name" "sun" "class" "text-sm") }}</span>
+        <span data-scheme="dark" hidden>{{ partial "icon.html" (dict "name" "moon" "class" "text-sm") }}</span>
       </button>
     </div>
   </div>
@@ -75,14 +76,13 @@
   <script>
     (function () {
       var btn = document.getElementById("theme-toggle");
-      var icon = document.getElementById("theme-icon");
 
       // Color scheme preference: "system" (default), "light" or "dark".
       // Clicking cycles System -> Light -> Dark -> System.
       var SCHEMES = {
-        system: { label: "System", icon: "fa-circle-half-stroke", next: "light" },
-        light: { label: "Light", icon: "fa-sun", next: "dark" },
-        dark: { label: "Dark", icon: "fa-moon", next: "system" },
+        system: { label: "System", next: "light" },
+        light: { label: "Light", next: "dark" },
+        dark: { label: "Dark", next: "system" },
       };
 
       function getPreference() {
@@ -102,7 +102,9 @@
         var label =
           "Color scheme: " + scheme.label +
           " (switch to " + SCHEMES[scheme.next].label + ")";
-        icon.className = "fa-solid " + scheme.icon + " text-sm";
+        btn.querySelectorAll("[data-scheme]").forEach(function (el) {
+          el.hidden = el.getAttribute("data-scheme") !== pref;
+        });
         btn.setAttribute("aria-label", label);
         btn.setAttribute("title", label);
       }
@@ -120,20 +122,25 @@
 
       var menuToggle = document.getElementById("menu-toggle");
       var mobileMenu = document.getElementById("mobile-menu");
-      var burgerIcon = document.getElementById("burger-icon");
 
       if (menuToggle) {
+        function setMenuIcon(isOpen) {
+          menuToggle.querySelectorAll("[data-menu-icon]").forEach(function (el) {
+            el.hidden = el.getAttribute("data-menu-icon") !== (isOpen ? "open" : "closed");
+          });
+        }
+
         function closeMenu() {
           mobileMenu.classList.add("hidden");
           menuToggle.setAttribute("aria-expanded", "false");
-          burgerIcon.className = "fa-solid fa-bars text-sm";
+          setMenuIcon(false);
         }
 
         menuToggle.addEventListener("click", function (e) {
           e.stopPropagation();
           var open = mobileMenu.classList.toggle("hidden");
           menuToggle.setAttribute("aria-expanded", String(!open));
-          burgerIcon.className = open ? "fa-solid fa-bars text-sm" : "fa-solid fa-xmark text-sm";
+          setMenuIcon(!open);
         });
 
         document.addEventListener("click", function (e) {

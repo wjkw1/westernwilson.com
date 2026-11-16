@@ -5,14 +5,14 @@
       {{ range sort . "weight" }}
       <li>
         <a href="{{ .url }}" rel="{{ .rel }}" aria-label="{{ .name }}" class="inline-flex p-2 text-lg text-muted no-underline! hover:text-accent">
-          <i class="{{ .icon }}" aria-hidden="true"></i>
+          {{ partial "icon.html" (dict "name" .icon) }}
         </a>
       </li>
       {{ end }}
       {{ with site.Home.OutputFormats.Get "rss" }}
       <li>
         <a href="{{ .RelPermalink }}" type="{{ .MediaType.Type }}" aria-label="RSS feed" class="inline-flex p-2 text-lg text-muted no-underline! hover:text-accent">
-          <i class="fa-solid fa-rss" aria-hidden="true"></i>
+          {{ partial "icon.html" (dict "name" "rss") }}
         </a>
       </li>
       {{ end }}

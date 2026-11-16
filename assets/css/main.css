@@ -157,6 +157,19 @@ html[data-theme="light"] {
   }
 }
 
+/* ── Components ────────────────────────────────────────────────────────────── */
+
+@layer components {
+  /* Inline SVG icons size to the surrounding font-size, like the icon font did. */
+  .icon {
+    display: inline-block;
+    height: 1em;
+    width: auto;
+    vertical-align: -0.125em;
+    overflow: visible;
+  }
+}
+
 /* ── Utilities ─────────────────────────────────────────────────────────────── */
 
 /* Links inside running text need a non-colour cue: the accent is under 3:1

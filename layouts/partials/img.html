@@ -1,0 +1,37 @@
+{{- /*
+  Responsive <img> for an image resource: WebP renditions at the given widths
+  (never upscaled), explicit width/height to prevent layout shift, lazy by default.
+
+  Params (dict):
+    image          resource (required)
+    alt            string
+    widths         slice of ints, smallest first; the first is the 1x display width.
+                   Defaults to the article column.
+    sizes          string; defaults to the first width, or the column when widths is unset
+    class          string
+    loading        "lazy" (default) or "eager"
+    fetchpriority  "high" for the LCP image
+*/ -}}
+{{- $img := .image -}}
+{{- $widths := .widths | default (slice 702 1404) -}}
+{{- $sizes := .sizes | default (cond (isset . "widths") (printf "%dpx" (index $widths 0)) "(min-width: 756px) 702px, calc(100vw - 54px)") -}}
+{{- $loading := .loading | default "lazy" -}}
+{{- if eq $img.MediaType.SubType "svg" -}}
+<img src="{{ $img.RelPermalink }}" alt="{{ .alt }}"{{ with .class }} class="{{ . }}"{{ end }} loading="{{ $loading }}" decoding="async">
+{{- else -}}
+  {{- $renditions := slice -}}
+  {{- range $widths -}}
+    {{- if le . $img.Width -}}
+      {{- $renditions = $renditions | append ($img.Process (printf "resize %dx webp q80" .)) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $renditions -}}
+    {{- $renditions = slice ($img.Process "webp q80") -}}
+  {{- end -}}
+  {{- $src := index $renditions 0 -}}
+  {{- $srcset := slice -}}
+  {{- range $renditions -}}
+    {{- $srcset = $srcset | append (printf "%s %dw" .RelPermalink .Width) -}}
+  {{- end -}}
+<img src="{{ $src.RelPermalink }}" srcset="{{ delimit $srcset ", " }}" sizes="{{ $sizes }}" width="{{ $src.Width }}" height="{{ $src.Height }}" alt="{{ .alt }}"{{ with .class }} class="{{ . }}"{{ end }} loading="{{ $loading }}"{{ with .fetchpriority }} fetchpriority="{{ . }}"{{ end }} decoding="async">
+{{- end -}}

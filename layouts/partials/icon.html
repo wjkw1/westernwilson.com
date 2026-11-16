@@ -1,0 +1,8 @@
+{{- /* Inlines an SVG from assets/icons. Params: name (required), class (optional). */ -}}
+{{- $svg := resources.Get (printf "icons/%s.svg" .name) -}}
+{{- if not $svg -}}
+  {{- errorf "icon %q not found in assets/icons" .name -}}
+{{- end -}}
+{{- $markup := replaceRE `<!--[\s\S]*?-->` "" $svg.Content | strings.TrimSpace -}}
+{{- $attrs := printf `<svg class="icon %s" aria-hidden="true" fill="currentColor" ` (.class | default "") -}}
+{{- replace $markup "<svg " $attrs 1 | safeHTML -}}

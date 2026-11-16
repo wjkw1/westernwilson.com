@@ -1,0 +1,10 @@
+{{- $u := urls.Parse .Destination -}}
+{{- $img := "" -}}
+{{- if not $u.IsAbs -}}
+  {{- $img = or (.PageInner.Resources.Get $u.Path) (resources.Get $u.Path) -}}
+{{- end -}}
+{{- if $img -}}
+  {{- partial "img.html" (dict "image" $img "alt" .PlainText) -}}
+{{- else -}}
+<img src="{{ .Destination | safeURL }}" alt="{{ .PlainText }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy" decoding="async">
+{{- end -}}

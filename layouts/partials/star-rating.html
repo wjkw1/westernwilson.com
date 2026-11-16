@@ -13,11 +13,11 @@
   <span class="sr-only">Rated {{ $rating }} out of 5</span>
   {{ range $i := seq 1 5 }}
     {{ if le $i $floor }}
-    <i class="fa-solid fa-star {{ $size }}" aria-hidden="true"></i>
+    {{ partial "icon.html" (dict "name" "star" "class" $size) }}
     {{ else if and $hasFraction (eq $i (add $floor 1)) }}
-    <i class="fa-solid fa-star-half-stroke {{ $size }}" aria-hidden="true"></i>
+    {{ partial "icon.html" (dict "name" "star-half-stroke" "class" $size) }}
     {{ else }}
-    <i class="fa-regular fa-star {{ $size }}" aria-hidden="true"></i>
+    {{ partial "icon.html" (dict "name" "star-regular" "class" $size) }}
     {{ end }}
   {{ end }}
   {{ if .showLabel }}
