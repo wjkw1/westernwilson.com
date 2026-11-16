@@ -6,7 +6,7 @@ If it&rsquo;s your first time hearing about PARA and AnyType, then lucky you!</p
     href="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/#setting-the-scene"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+  ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h2>
 <p>First a bit of background, I&rsquo;m a copious note-taker. I&rsquo;ve been this way ever since I was a wee boy. Writing notes helped me focus on the speaker better, even when my notes tended to be more of a gibberish scribble and mostly illegible for future Western.
 With physical note taking however I would consistently forget my notebooks and have to write on spare paper. Then I&rsquo;d lose the spare paper and the state of my notes was a mixed bag.
@@ -31,7 +31,7 @@ My requirements:</p>
     href="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/#introducing-anytype"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+  ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h2>
 <p>AnyType hits every requirement above and took them further; open-source, offline first, free forever, online peer to peer sync between cross-platform devices, block editing with Markdown text shortcuts, AnyType Gallery to share and use community templates, great security first, imports and exports, graph view, API and basic collaboration features.
 The app is positioning itself as a web3 everything app built on freedom and trust. They&rsquo;re building something special here and since it&rsquo;s inception has consistently improved month on month. It&rsquo;s much more polished than it used to be, it&rsquo;s a joy to work with nowadays.
@@ -52,17 +52,9 @@ The main concepts in AnyType to understand are:</p>
 <li><strong>Quote</strong> type with a property that links to our <strong>Book</strong></li>
 </ol>
 <p>Now, when you create a new Book, you can link it to a new or existing Author and write whatever notes about the book that you want. Then when inspired by a Quote, you can create a Quote and link it to your Book. The note taking is flexible, linkage can happen anywhere organically, and you can write whatever you want from within the Author, Book or Quote types. AnyType allows and in fact encourages these relationships between Types.</p>
-<figure><img src="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/anytype-schema.png"
-			alt="Conceptual example of how Book types could relate to each other in AnyType"><figcaption>
-			<p>Conceptual example of how Book types could relate to each other in AnyType</p>
-		</figcaption>
-</figure>
+<figure><img src="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/anytype-schema_hu_b2c0cc7040d577e6.webp" srcset="/reflections/2025-07-12-anytype-with-para/anytype-schema_hu_b2c0cc7040d577e6.webp 702w, /reflections/2025-07-12-anytype-with-para/anytype-schema_hu_c15cc7492e83f03b.webp 1404w" sizes="(min-width: 756px) 702px, calc(100vw - 54px)" width="702" height="468" alt="Conceptual example of how Book types could relate to each other in AnyType" loading="lazy" decoding="async"><figcaption><p>Conceptual example of how Book types could relate to each other in AnyType</p></figcaption></figure>
 
-<figure><img src="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/anytype-graph.png"
-			alt="AnyType Graph View of example Book objects"><figcaption>
-			<p>AnyType Graph View of example Book objects</p>
-		</figcaption>
-</figure>
+<figure><img src="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/anytype-graph_hu_1b244c1c6f35dfdb.webp" srcset="/reflections/2025-07-12-anytype-with-para/anytype-graph_hu_1b244c1c6f35dfdb.webp 702w, /reflections/2025-07-12-anytype-with-para/anytype-graph_hu_39e90a248ace1ea.webp 1404w" sizes="(min-width: 756px) 702px, calc(100vw - 54px)" width="702" height="304" alt="AnyType Graph View of example Book objects" loading="lazy" decoding="async"><figcaption><p>AnyType Graph View of example Book objects</p></figcaption></figure>
 
 <h2 id="quickly-explaining-para" class="group relative scroll-mt-20">
   Quickly explaining PARA
@@ -70,7 +62,7 @@ The main concepts in AnyType to understand are:</p>
     href="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/#quickly-explaining-para"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+  ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h2>
 <p>If you’re new to <a href="https://fortelabs.com/blog/para/">Tiago Forte’s PARA methodology</a>, you’re in for a treat. PARA is a simple yet powerful system to organise your digital life—whether that’s notes, projects, or files—into four clear categories. It stands for:</p>
 <ul>
@@ -86,7 +78,7 @@ As you use this system over time, you’ll develop an intuitive sense for where 
     href="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/#how-i-use-para-within-anytype"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+  ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h2>
 <p>Using PARA inside AnyType means you can create custom Types and Properties for each category, linking notes, tasks, and references easily. You can quickly switch between your active Projects, Areas and Resources, while your Archives keep everything tidy but accessible.
 I created a Template Space that should be available to copy from the AnyGallery thanks to my approved <a href="https://github.com/anyproto/gallery/issues/171">github submission</a>. I&rsquo;ll explain how it works below.</p>
@@ -96,7 +88,7 @@ I created a Template Space that should be available to copy from the AnyGallery 
     href="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/#key-features"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+  ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h3>
 <ul>
 <li>PARA Dashboard is a Query of type Queries with a custom property <strong>PARA Type</strong> set to PARA</li>
@@ -109,7 +101,7 @@ I created a Template Space that should be available to copy from the AnyGallery 
     href="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/#1-para-type-classification"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+  ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h3>
 <ul>
 <li>Introduces a dedicated &ldquo;PARA Type&rdquo; property that allows you to specify whether a Collection is a Project, Area, Resource, or **PARA.**‍</li>
@@ -123,7 +115,7 @@ I created a Template Space that should be available to copy from the AnyGallery 
     href="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/#2-is-archive-property"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+  ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h3>
 <ul>
 <li>Every <strong>Collection</strong> includes an <strong>Is Archived</strong> property.</li>
@@ -137,7 +129,7 @@ I created a Template Space that should be available to copy from the AnyGallery 
     href="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/#3-manual-link-management-via-templates"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+  ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h3>
 <ul>
 <li>Every Collection also has a &ldquo;<strong>PARA Linked to</strong>&rdquo; property, this overcomes a limitation I noticed where Queries were not showing on the Graph view for Collections created from their Query view.</li>
@@ -151,7 +143,7 @@ I created a Template Space that should be available to copy from the AnyGallery 
     href="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/#how-it-all-works-together"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+  ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h3>
 <ul>
 <li>‍<strong>Creating New Projects, Areas or Resources:</strong> Templates are used by default to add new Projects, Areas, or Resources. Each template ensures the correct PARA Type and properties are set when creating an object from each dashboard.</li>
@@ -160,9 +152,7 @@ I created a Template Space that should be available to copy from the AnyGallery 
 <li>‍<strong>Manually Link to PARA:</strong> Use AnyType&rsquo;s &ldquo;Link to Collection&rdquo; feature to link any object newly created to a specific Project, Area or Resource yourself. This is particularly useful in Graph view if you like to see clusters of related information.</li>
 <li>‍<strong>Archive Projects, Areas or Resources:</strong> Archiving is handled with a simple checkbox field on Collections that have relevant PARA Types.</li>
 </ul>
-<figure><img src="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/anytype-graph-2.png"
-			alt="AnyType graph view with the PARA Query Dashboard at the centre, linked to Projects, Areas, Resources and Archived, each with example objects attached">
-</figure>
+<figure><img src="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/anytype-graph-2_hu_e2e5d9fecf1d0cbe.webp" srcset="/reflections/2025-07-12-anytype-with-para/anytype-graph-2_hu_e2e5d9fecf1d0cbe.webp 702w" sizes="(min-width: 756px) 702px, calc(100vw - 54px)" width="702" height="589" alt="AnyType graph view with the PARA Query Dashboard at the centre, linked to Projects, Areas, Resources and Archived, each with example objects attached" loading="lazy" decoding="async"></figure>
 
 <h2 id="shared-gallery" class="group relative scroll-mt-20">
   Shared Gallery
@@ -170,7 +160,7 @@ I created a Template Space that should be available to copy from the AnyGallery 
     href="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/#shared-gallery"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+  ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h2>
 <p>There’s a wide variety of community-created templates available for AnyType, giving you plenty of options to explore and enhance your workflow.</p>
 <p>It&rsquo;s easy to import and play with them too, simply go to the gallery and import it into a new space. While you can import templates into existing spaces, be mindful that this may introduce extra Types and Properties, potentially cluttering your setup and making cleanup tedious. So my advice is to first verify the new Types and Properties in a new, isolated space before merging them it into your main spaces.</p>
@@ -180,7 +170,7 @@ I created a Template Space that should be available to copy from the AnyGallery 
     href="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/#conclusion--next-steps"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+  ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h2>
 <p>If you’ve made it this far, congratulations! Hopefully, you’ve picked up something new and feel inspired to try out AnyType or the PARA system for your own daily organisation.</p>
 <h3 id="bonus-note-on-anytypes-api--mcp-server" class="group relative scroll-mt-20">
@@ -189,7 +179,7 @@ I created a Template Space that should be available to copy from the AnyGallery 
     href="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/#bonus-note-on-anytypes-api--mcp-server"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+  ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h3>
 <p>Recently AnyType added an official API and Model Context Protocol (MCP) server. This advancement allows AI agents and assistants to interact with and update your documentation directly. In the <a href="https://developers.anytype.io/docs/examples/intermediate/mcp/">docs here</a> they highlight <a href="https://raycast.com/?via=western-AnyType">RayCast.ai</a> for seamless AI Chatbot integration and workflows.</p>
 <p>With these tools, RayCast turns your AnyType knowledge base into an even more powerful resource—ready to answer your questions and automate parts of your note-taking system.</p>
@@ -200,7 +190,7 @@ I created a Template Space that should be available to copy from the AnyGallery 
     href="https://westernwilson.com/reflections/2023-10-29-ssh-using-vscode/#overview"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+  ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h2>
 <p>VS Code is renowned for its versatility and has extensions for all types of development activities. This guide will show you how to harness its power as an SSH client, giving you a seamless development experience on remote servers.</p>
 <h2 id="what-is-vs-code" class="group relative scroll-mt-20">
@@ -209,7 +199,7 @@ I created a Template Space that should be available to copy from the AnyGallery 
     href="https://westernwilson.com/reflections/2023-10-29-ssh-using-vscode/#what-is-vs-code"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+  ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h2>
 <p>Before we get started, let&rsquo;s quickly clarify what VS Code is. <a href="https://code.visualstudio.com/">Visual Studio Code</a>, often referred to as VS Code, is a free, open-source code editor developed by Microsoft. It&rsquo;s widely used in the software development industry and is known for its robust features and extensibility.</p>
 <h2 id="what-is-ssh" class="group relative scroll-mt-20">
@@ -218,7 +208,7 @@ I created a Template Space that should be available to copy from the AnyGallery 
     href="https://westernwilson.com/reflections/2023-10-29-ssh-using-vscode/#what-is-ssh"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+  ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h2>
 <p><a href="https://en.wikipedia.org/wiki/Secure_Shell">SSH</a> stands for Secure Shell, and it&rsquo;s a network protocol used for secure data communication, remote command-line access, and other network services. It&rsquo;s a fundamental tool for connecting to remote servers securely.</p>
 <h2 id="official-vs-code-tutorial" class="group relative scroll-mt-20">
@@ -227,7 +217,7 @@ I created a Template Space that should be available to copy from the AnyGallery 
     href="https://westernwilson.com/reflections/2023-10-29-ssh-using-vscode/#official-vs-code-tutorial"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+  ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h2>
 <p>For a detailed, step-by-step guide on setting up VS Code as your primary SSH tool, please visit the official <a href="https://code.visualstudio.com/docs/remote/ssh">VS Code tutorial</a>.</p>
 <h1 id="in-a-nutshell" class="group relative scroll-mt-20">
@@ -236,7 +226,7 @@ I created a Template Space that should be available to copy from the AnyGallery 
     href="https://westernwilson.com/reflections/2023-10-29-ssh-using-vscode/#in-a-nutshell"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
-  ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
+  ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h1>
 <p>In a nutshell, here&rsquo;s a brief overview of what you&rsquo;ll find in the official tutorial:</p>
 <ul>
