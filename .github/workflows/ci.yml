@@ -1,9 +1,8 @@
 name: CI
 
+# Every PR, not just those into main, so stacked PRs get checked too.
 on:
   pull_request:
-    branches:
-      - main
 
 permissions:
   contents: read
@@ -22,6 +21,9 @@ jobs:
         with:
           node-version: 24
           cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            tests/package-lock.json
 
       - name: Install Node dependencies
         run: npm ci
@@ -39,3 +41,23 @@ jobs:
 
       - name: Build
         run: hugo --minify
+
+      - name: Install site checks
+        run: npm ci --prefix tests
+
+      - name: Accessibility (axe on every page, light and dark)
+        run: |
+          python3 -m http.server 8080 --directory public >/dev/null 2>&1 &
+          BROWSER_PATH="$(command -v google-chrome)" node tests/check-a11y.mjs http://localhost:8080
+
+      - name: Lighthouse
+        if: ${{ !cancelled() }}
+        run: tests/node_modules/.bin/lhci autorun --config=tests/lighthouserc.json
+
+      - name: Upload Lighthouse reports
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: lighthouse-reports
+          path: .lighthouseci/reports
+          if-no-files-found: ignore
