@@ -2,10 +2,15 @@
 <article>
   <header class="mb-10 pb-6 border-b border-line">
     <div class="flex gap-6 mb-5">
-      {{ with .Params.bookCover }}
-      <img src="{{ . }}" alt="{{ $.Title }} cover"
-           class="w-24 h-auto object-cover rounded shadow-sm shrink-0">
-      {{ end }}
+      {{ with .Params.bookCover }}{{ with $.Resources.Get . }}
+      {{ partial "img.html" (dict
+        "image" .
+        "alt" (printf "%s cover" $.Title)
+        "widths" (slice 108 216 324)
+        "class" "w-24 h-auto object-cover rounded shadow-sm shrink-0"
+        "loading" "eager"
+      ) }}
+      {{ end }}{{ end }}
 
       <div class="flex flex-col justify-center gap-2">
         <h1 class="font-display text-2xl sm:text-3xl font-semibold leading-tight text-balance mt-0 mb-0">{{ .Title }}</h1>
@@ -21,7 +26,7 @@
         {{ with .Params.goodreadsUrl }}
         <a href="{{ . }}" target="_blank" rel="noopener"
            class="text-sm no-underline text-muted hover:text-accent hover:underline! flex items-center gap-1.5">
-          <i class="fa-brands fa-goodreads" aria-hidden="true"></i> View on Goodreads
+          {{ partial "icon.html" (dict "name" "goodreads") }} View on Goodreads
         </a>
         {{ end }}
       </div>
@@ -50,7 +55,7 @@
   </header>
   {{ with .Site.Params.bookDisclaimer }}
   <div class="flex items-center gap-2 text-muted text-sm italic bg-alt rounded py-2 px-2 mb-6">
-    <i class="fa-solid fa-pencil text-xs shrink-0" aria-hidden="true"></i>
+    {{ partial "icon.html" (dict "name" "pencil" "class" "text-xs shrink-0") }}
     <span>{{ . }}</span>
   </div>
   {{ end }}

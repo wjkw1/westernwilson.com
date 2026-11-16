@@ -2,11 +2,17 @@
 <div class="space-y-14">
   <!-- Hero -->
   <section class="flex flex-col sm:flex-row items-center sm:items-start gap-6">
-    <img
-      src="{{ .Site.Params.avatarURL | absURL }}"
-      alt="{{ .Site.Params.avatarAlt | default .Site.Title }}"
-      class="w-32 h-32 md:w-36 md:h-36 rounded-full object-cover border-2 border-muted shadow-sm shrink-0"
-    />
+    {{ with resources.Get .Site.Params.avatar }}
+    {{ partial "img.html" (dict
+      "image" .
+      "alt" ($.Site.Params.avatarAlt | default $.Site.Title)
+      "widths" (slice 162 324)
+      "sizes" "(min-width: 768px) 162px, 144px"
+      "class" "w-32 h-32 md:w-36 md:h-36 rounded-full object-cover border-2 border-muted shadow-sm shrink-0"
+      "loading" "eager"
+      "fetchpriority" "high"
+    ) }}
+    {{ end }}
     <div>
       <h1 class="font-display text-2xl font-semibold mt-0 mb-3">
         {{ .Title }}
@@ -26,7 +32,7 @@
             aria-label="{{ .name }}"
             class="inline-flex p-2 text-lg text-muted no-underline! hover:text-accent"
           >
-            <i class="{{ .icon }}" aria-hidden="true"></i>
+            {{ partial "icon.html" (dict "name" .icon) }}
           </a>
         </li>
         {{ end }}
@@ -38,7 +44,7 @@
             aria-label="RSS feed"
             class="inline-flex p-2 text-lg text-muted no-underline! hover:text-accent"
           >
-            <i class="fa-solid fa-rss" aria-hidden="true"></i>
+            {{ partial "icon.html" (dict "name" "rss") }}
           </a>
         </li>
         {{ end }}

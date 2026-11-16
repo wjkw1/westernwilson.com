@@ -1,0 +1,29 @@
+{{- /* Overrides Hugo's built-in figure so page-bundle images get resized WebP renditions. Same params as the built-in. */ -}}
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default (.Get "caption" | markdownify | plainify) -}}
+{{- $img := "" -}}
+{{- if not (urls.Parse $src).IsAbs -}}
+  {{- $img = or (.Page.Resources.Get $src) (resources.Get $src) -}}
+{{- end -}}
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+  {{- with .Get "link" }}<a href="{{ . }}"{{ with $.Get "target" }} target="{{ . }}"{{ end }}{{ with $.Get "rel" }} rel="{{ . }}"{{ end }}>{{ end -}}
+  {{- if $img -}}
+    {{- partial "img.html" (dict "image" $img "alt" $alt) -}}
+  {{- else -}}
+    <img src="{{ $src }}" alt="{{ $alt }}"{{ with .Get "width" }} width="{{ . }}"{{ end }}{{ with .Get "height" }} height="{{ . }}"{{ end }} loading="lazy" decoding="async">
+  {{- end -}}
+  {{- if .Get "link" }}</a>{{ end -}}
+  {{- if or (.Get "title") (.Get "caption") (.Get "attr") -}}
+  <figcaption>
+    {{- with .Get "title" }}<h4>{{ . }}</h4>{{ end -}}
+    {{- if or (.Get "caption") (.Get "attr") -}}
+    <p>
+      {{- .Get "caption" | markdownify -}}
+      {{- with .Get "attrlink" }}<a href="{{ . }}">{{ end -}}
+      {{- .Get "attr" | markdownify -}}
+      {{- if .Get "attrlink" }}</a>{{ end -}}
+    </p>
+    {{- end -}}
+  </figcaption>
+  {{- end -}}
+</figure>

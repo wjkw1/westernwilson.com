@@ -15,9 +15,9 @@ params:
   author: Western Wilson
   description: "Kia ora, I'm Western Wilson 👋"
   keywords: "blog, reflections, software, engineering, technology, devops"
-  avatarURL: images/western.png
+  avatar: images/western.png
   avatarAlt: Western Wilson
-  favicon: images/favicon.ico
+  logo: images/logo.png
 
   colorScheme: auto
   hideColorSchemeToggle: false
@@ -29,22 +29,22 @@ params:
     - name: GitHub
       weight: 1
       url: "https://github.com/wjkw1"
-      icon: fa-brands fa-github
+      icon: github
       rel: me noopener
     - name: LinkedIn
       weight: 2
       url: "https://www.linkedin.com/in/western-wilson"
-      icon: fa-brands fa-linkedin
+      icon: linkedin
       rel: me noopener
     - name: Goodreads
       weight: 4
       url: "https://www.goodreads.com/wjkw1"
-      icon: fa-brands fa-goodreads
+      icon: goodreads
       rel: me noopener
     - name: Email
       weight: 5
       url: "mailto:kiaora@westernwilson.com"
-      icon: fa-solid fa-envelope
+      icon: envelope
       rel: me
 
 menu:
