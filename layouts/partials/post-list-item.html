@@ -1,24 +1,16 @@
-<li class="py-3 flex items-stretch justify-between gap-4 border-b border-line last:border-b-0">
-  <div class="flex flex-col justify-between">
+<li class="py-4 flex items-start justify-between gap-4 border-b border-line last:border-b-0">
+  <div class="min-w-0">
     <a href="{{ .RelPermalink }}" class="text-heading font-medium no-underline hover:underline! hover:text-accent">
       {{ .Title }}
     </a>
     {{ with .GetTerms "tags" }}
-    <div class="flex flex-wrap gap-2 mt-2">
-      {{ range . }}
-      <a href="{{ .RelPermalink }}" class="text-xs no-underline! lowercase text-muted hover:underline!">
-        #{{ .Title }}
-      </a>
-      {{ end }}
-    </div>
+    <div class="mt-2">{{ partial "tags.html" $ }}</div>
     {{ end }}
   </div>
   {{ if ne .Kind "term" }}
-  <div class="flex flex-col justify-between">
-  <time datetime="{{ .Date.Format "2006-01-02" }}" class="text-muted text-sm whitespace-nowrap shrink-0 mt-0.5">
-    {{ .Date.Format "Jan 2006" }}
-  </time>
-  <span class="text-muted text-xs italic">{{ .ReadingTime }} min read</span>
-  </div>
+  <p class="flex flex-col items-end gap-1 shrink-0 m-0 text-sm text-muted whitespace-nowrap">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2006" }}</time>
+    <span class="text-xs">{{ .ReadingTime }} min read</span>
+  </p>
   {{ end }}
 </li>

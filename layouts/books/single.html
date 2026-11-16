@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article>
+<article class="relative">
   <header class="mb-10 pb-6 border-b border-line">
     <div class="flex gap-6 mb-5">
       {{ with .Params.bookCover }}{{ with $.Resources.Get . }}
@@ -13,7 +13,7 @@
       {{ end }}{{ end }}
 
       <div class="flex flex-col justify-center gap-2">
-        <h1 class="font-display text-2xl sm:text-3xl font-semibold leading-tight text-balance mt-0 mb-0">{{ .Title }}</h1>
+        <h1 class="font-display text-3xl font-semibold leading-tight mt-0 mb-0">{{ .Title }}</h1>
 
         {{ with .Params.bookAuthor }}
         <p class="text-muted text-sm mt-0 mb-0">by {{ . }}</p>
@@ -36,20 +36,11 @@
     <p class="text-muted text-sm italic mt-0 mb-4">{{ . }}</p>
     {{ end }}
 
-    <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+    <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
       {{ with .Params.dateRead }}
-      <span class="text-muted italic text-sm">Read {{ . | time.Format "Jan 2006" }}</span>
+      <span class="text-muted text-sm">Read <time datetime="{{ . | time.Format "2006-01" }}">{{ . | time.Format "Jan 2006" }}</time></span>
       {{ end }}
-      {{ with $.Params.tags }}
-      <div class="flex flex-wrap gap-2">
-        {{ range . }}
-        <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/"
-           class="text-xs px-2 py-1 rounded no-underline! text-muted hover:text-accent bg-alt">
-          {{ . }}
-        </a>
-        {{ end }}
-      </div>
-      {{ end }}
+      {{ partial "tags.html" . }}
     </div>
 
   </header>
@@ -59,6 +50,7 @@
     <span>{{ . }}</span>
   </div>
   {{ end }}
+  {{ partial "toc.html" . }}
   <div class="prose">
     {{ .Content }}
   </div>

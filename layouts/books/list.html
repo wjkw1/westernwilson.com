@@ -1,40 +1,12 @@
 {{ define "main" }}
 <div>
-  <h1 class="font-display text-lg uppercase font-semibold mt-0 mb-3">
-    {{ .Title }}
-  </h1>
+  <h1 class="font-display text-3xl font-semibold leading-tight mt-0 mb-3">{{ .Title }}</h1>
   {{ with .Params.description }}
   <p class="text-muted text-sm mb-8 leading-relaxed inline-links">{{ . | markdownify }}</p>
   {{ end }}
   <ul class="list-none m-0 p-0">
-    {{ range .Pages }}
-    <li class="py-5 border-b border-line last:border-b-0">
-      <div class="flex items-start justify-between gap-4">
-        <div>
-          <a
-            href="{{ .RelPermalink }}"
-            class="font-display font-semibold text-lg text-heading hover:text-accent hover:underline!"
-          >
-            {{ .Title }}
-          </a>
-          {{ with .Params.bookAuthor }}
-          <p class="text-muted text-sm mt-0.5 mb-0">by {{ . }}</p>
-          {{ end }} {{ with .Params.bookDescription }}
-          <p class="text-sm mt-2 mb-0">{{ . }}</p>
-          {{ end }}
-        </div>
-
-        <div class="flex flex-col items-end gap-1.5 shrink-0">
-          {{ with .Params.dateRead }}
-          <span class="text-muted italic text-sm whitespace-nowrap"
-            >Read {{ . | time.Format "Jan 2006" }}</span
-          >
-          {{ end }} {{ with .Params.rating }}
-          {{ partial "star-rating.html" (dict "rating" .) }}
-          {{ end }}
-        </div>
-      </div>
-    </li>
+    {{ range $i, $book := .Pages }}
+    {{ partial "book-list-item.html" (dict "page" $book "index" $i) }}
     {{ end }}
   </ul>
 </div>

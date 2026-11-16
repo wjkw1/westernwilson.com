@@ -1,0 +1,46 @@
+{{- /* A book row with its cover. Params (dict): page, index (eager-load the first
+       three covers), compact (home page: smaller cover, no description). */ -}}
+{{- $book := .page -}}
+{{- $compact := .compact | default false -}}
+{{- $loading := cond (lt (.index | default 99) 3) "eager" "lazy" -}}
+<li class="{{ cond $compact "py-4" "py-5" }} border-b border-line last:border-b-0">
+  <div class="flex items-start gap-4">
+    <a
+      href="{{ $book.RelPermalink }}"
+      class="shrink-0 {{ cond $compact "w-10" "w-16" }}"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      {{- with $book.Resources.Get ($book.Params.bookCover | default "") }}
+      {{- partial "img.html" (dict
+        "image" .
+        "alt" ""
+        "widths" (cond $compact (slice 45 90 135) (slice 72 144 216))
+        "class" "w-full h-auto rounded shadow-sm"
+        "loading" $loading
+      ) }}
+      {{- else }}
+      <span class="block aspect-[2/3] rounded bg-alt"></span>
+      {{- end -}}
+    </a>
+    <div class="min-w-0">
+      <a
+        href="{{ $book.RelPermalink }}"
+        class="{{ cond $compact "font-medium" "font-display font-semibold text-lg leading-snug" }} text-heading no-underline hover:underline! hover:text-accent"
+        >{{ $book.Title }}</a
+      >
+      {{ with $book.Params.bookAuthor }}
+      <p class="text-muted text-sm mt-0.5 mb-0">by {{ . }}</p>
+      {{ end }}
+      <div class="flex flex-wrap items-center gap-x-3 gap-y-1 mt-1.5 text-sm text-muted">
+        {{ with $book.Params.rating }}{{ partial "star-rating.html" (dict "rating" .) }}{{ end }}
+        {{ with $book.Params.dateRead }}
+        <span>Read <time datetime="{{ . | time.Format "2006-01" }}">{{ . | time.Format "Jan 2006" }}</time></span>
+        {{ end }}
+      </div>
+      {{ if not $compact }}{{ with $book.Params.bookDescription }}
+      <p class="text-sm mt-2 mb-0">{{ . }}</p>
+      {{ end }}{{ end }}
+    </div>
+  </div>
+</li>

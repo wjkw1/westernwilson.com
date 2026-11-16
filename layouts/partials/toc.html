@@ -1,0 +1,20 @@
+{{- /* Table of contents for long pages: a collapsible box above the content on
+       small screens, a sticky sidebar in the right gutter from the xl breakpoint. */ -}}
+{{- if and (ge .ReadingTime 6) (ge (len .Fragments.HeadingsMap) 4) -}}
+<details id="toc" class="toc mb-10 rounded border border-line px-4 py-3 xl:absolute xl:top-0 xl:left-full xl:ml-8 xl:mb-0 xl:h-full xl:w-52 xl:border-0 xl:p-0">
+  <summary class="cursor-pointer text-sm font-medium text-muted xl:hidden">On this page</summary>
+  <nav aria-label="Table of contents" class="mt-3 xl:sticky xl:top-20 xl:mt-0">
+    <p class="hidden xl:block text-xs font-medium uppercase tracking-wide text-muted mt-0 mb-2">On this page</p>
+    {{ .Fragments.ToHTML 2 3 false }}
+  </nav>
+</details>
+<script>
+  (function () {
+    var toc = document.getElementById("toc");
+    var wide = window.matchMedia("(min-width: 80rem)");
+    function sync() { if (wide.matches) toc.open = true; }
+    sync();
+    wide.addEventListener("change", sync);
+  })();
+</script>
+{{- end -}}

@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div>
-  <h1 class="font-display text-lg uppercase font-semibold mt-0 mb-3">{{ .Title }}</h1>
+  <h1 class="font-display text-3xl font-semibold leading-tight mt-0 mb-3">{{ .Title }}</h1>
   {{ with .Params.description }}
   <p class="text-muted text-sm mb-8 leading-relaxed inline-links">{{ . | markdownify }}</p>
   {{ end }}

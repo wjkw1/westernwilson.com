@@ -66,6 +66,12 @@
 @theme {
   --font-sans:    'Instrument Sans', system-ui, sans-serif;
   --font-display: 'Lexend', system-ui, sans-serif;
+
+  /* Display sizes scale with the viewport (~1.2 ratio steps) so titles don't
+     dominate a phone screen. Body sizes stay fixed. */
+  --text-xl:  clamp(1.125rem, 1.05rem + 0.3vw, 1.25rem);
+  --text-2xl: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  --text-3xl: clamp(1.5rem, 1.25rem + 1vw, 1.875rem);
 }
 
 /* Registering the palette here (not as hand-written classes) is what makes
@@ -80,50 +86,21 @@
   --color-line:    var(--c-border);
 }
 
+/* Each colour is defined once; light-dark() picks a side from color-scheme,
+   which follows the OS by default and is pinned by the theme toggle. */
 :root {
-  --c-bg:      #F6F1E9;
-  --c-bg-alt:  #EBE5D9;
-  --c-text:    #2C1A0F;
-  --c-muted:   #705A4C;
-  --c-heading: #1E1008;
-  --c-accent:  #7A2535;
-  --c-border:  #D8CEBC;
   color-scheme: light dark;
+  --c-bg:      light-dark(#F6F1E9, #1E1108);
+  --c-bg-alt:  light-dark(#EBE5D9, #2E1C15);
+  --c-text:    light-dark(#2C1A0F, #F0EAE2);
+  --c-muted:   light-dark(#705A4C, #B89880);
+  --c-heading: light-dark(#1E1008, #F7F2EA);
+  --c-accent:  light-dark(#7A2535, #D4828E);
+  --c-border:  light-dark(#D8CEBC, #3A2018);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --c-bg:      #1E1108;
-    --c-bg-alt:  #2E1C15;
-    --c-text:    #F0EAE2;
-    --c-muted:   #B89880;
-    --c-heading: #F7F2EA;
-    --c-accent:  #D4828E;
-    --c-border:  #3A2018;
-  }
-}
-
-html[data-theme="dark"] {
-  color-scheme: dark;
-  --c-bg:      #1E1108;
-  --c-bg-alt:  #2E1C15;
-  --c-text:    #F0EAE2;
-  --c-muted:   #B89880;
-  --c-heading: #F7F2EA;
-  --c-accent:  #D4828E;
-  --c-border:  #3A2018;
-}
-
-html[data-theme="light"] {
-  color-scheme: light;
-  --c-bg:      #F6F1E9;
-  --c-bg-alt:  #EBE5D9;
-  --c-text:    #2C1A0F;
-  --c-muted:   #705A4C;
-  --c-heading: #1E1008;
-  --c-accent:  #7A2535;
-  --c-border:  #D8CEBC;
-}
+html[data-theme="light"] { color-scheme: light; }
+html[data-theme="dark"]  { color-scheme: dark; }
 
 /* ── Base ──────────────────────────────────────────────────────────────────── */
 
@@ -154,12 +131,47 @@ html[data-theme="light"] {
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
     color: var(--c-heading);
+    text-wrap: balance;
+  }
+
+  p, li, blockquote, figcaption {
+    text-wrap: pretty;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
   }
 }
 
 /* ── Components ────────────────────────────────────────────────────────────── */
 
 @layer components {
+  .toc ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+  }
+
+  .toc ul ul {
+    padding-left: 0.75rem;
+  }
+
+  .toc li {
+    margin: 0.375rem 0;
+  }
+
+  .toc a {
+    color: var(--c-muted);
+    text-decoration: none;
+  }
+
+  .toc a:hover {
+    color: var(--c-accent);
+  }
+
   /* Inline SVG icons size to the surrounding font-size, like the icon font did. */
   .icon {
     display: inline-block;
