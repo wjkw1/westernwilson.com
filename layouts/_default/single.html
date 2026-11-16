@@ -3,7 +3,7 @@
   <header class="mb-10 pb-6 border-b border-line">
     <h1 class="font-display text-3xl font-semibold leading-tight text-balance mt-0 mb-3">{{ .Title }}</h1>
     {{ with .Params.subtitle }}
-    <p class="text-sm text-muted italic mt-0 mb-3">{{ . | markdownify }}</p>
+    <p class="text-sm text-muted italic mt-0 mb-3 inline-links">{{ . | markdownify }}</p>
     {{ end }}
     {{ if not .Date.IsZero }}
     <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">

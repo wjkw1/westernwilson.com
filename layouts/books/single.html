@@ -21,7 +21,7 @@
         {{ with .Params.goodreadsUrl }}
         <a href="{{ . }}" target="_blank" rel="noopener"
            class="text-sm no-underline text-muted hover:text-accent hover:underline! flex items-center gap-1.5">
-          <i class="fa-brands fa-goodreads"></i> View on Goodreads
+          <i class="fa-brands fa-goodreads" aria-hidden="true"></i> View on Goodreads
         </a>
         {{ end }}
       </div>
@@ -50,7 +50,7 @@
   </header>
   {{ with .Site.Params.bookDisclaimer }}
   <div class="flex items-center gap-2 text-muted text-sm italic bg-alt rounded py-2 px-2 mb-6">
-    <i class="fa-solid fa-pencil text-xs shrink-0"></i>
+    <i class="fa-solid fa-pencil text-xs shrink-0" aria-hidden="true"></i>
     <span>{{ . }}</span>
   </div>
   {{ end }}

@@ -105,7 +105,7 @@ I created a Template Space that should be available to copy from the AnyGallery 
 - ‍**Manually Link to PARA:** Use AnyType's "Link to Collection" feature to link any object newly created to a specific Project, Area or Resource yourself. This is particularly useful in Graph view if you like to see clusters of related information.
 - ‍**Archive Projects, Areas or Resources:** Archiving is handled with a simple checkbox field on Collections that have relevant PARA Types.
 
-{{< figure src="anytype-graph-2.png" >}}
+{{< figure src="anytype-graph-2.png" alt="AnyType graph view with the PARA Query Dashboard at the centre, linked to Projects, Areas, Resources and Archived, each with example objects attached" >}}
 
 ## Shared Gallery
 

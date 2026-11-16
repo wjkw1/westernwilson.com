@@ -1,0 +1,9 @@
+{{- /* Returns the aria-current value for a nav link: "page" on the page itself, "true" anywhere inside its section, "" otherwise. */ -}}
+{{- $here := .page.RelPermalink -}}
+{{- $current := "" -}}
+{{- if eq $here .url -}}
+  {{- $current = "page" -}}
+{{- else if and (ne .url "/") (hasPrefix $here .url) -}}
+  {{- $current = "true" -}}
+{{- end -}}
+{{- return $current -}}
