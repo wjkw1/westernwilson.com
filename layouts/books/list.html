@@ -8,12 +8,12 @@
   {{ end }}
   <ul class="list-none m-0 p-0">
     {{ range .Pages }}
-    <li class="py-5 border-b border-base last:border-b-0">
+    <li class="py-5 border-b border-line last:border-b-0">
       <div class="flex items-start justify-between gap-4">
         <div>
           <a
             href="{{ .RelPermalink }}"
-            class="font-display font-semibold text-lg text-heading! hover:text-accent! hover:underline!"
+            class="font-display font-semibold text-lg text-heading hover:text-accent hover:underline!"
           >
             {{ .Title }}
           </a>

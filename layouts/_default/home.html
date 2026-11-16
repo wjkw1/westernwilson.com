@@ -24,7 +24,7 @@
             href="{{ .url }}"
             rel="{{ .rel }}"
             aria-label="{{ .name }}"
-            class="text-lg text-muted! no-underline! hover:text-accent!"
+            class="text-lg text-muted no-underline! hover:text-accent"
           >
             <i class="{{ .icon }}"></i>
           </a>
@@ -36,7 +36,7 @@
             href="{{ .RelPermalink }}"
             type="{{ .MediaType.Type }}"
             aria-label="RSS feed"
-            class="text-lg text-muted! no-underline! hover:text-accent!"
+            class="text-lg text-muted no-underline! hover:text-accent"
           >
             <i class="fa-solid fa-rss"></i>
           </a>
@@ -45,7 +45,7 @@
       </ul>
       {{ end }}
       <p class="mb-3 font-medium">
-        <a href="now/" class="text-accent!">See what I'm doing now →</a>
+        <a href="now/" class="text-accent">See what I'm doing now →</a>
       </p>
     </div>
   </section>
@@ -65,7 +65,7 @@
     {{ range first 6 $reflections }} {{ partial "post-list-item.html" . }} {{
     end }} {{ if gt (len $reflections) 5 }}
     <p class="mt-4 mb-0">
-      <a href="/reflections/" class="text-sm text-accent!">All reflections →</a>
+      <a href="/reflections/" class="text-sm text-accent">All reflections →</a>
     </p>
     {{ end }}
   </section>
@@ -84,12 +84,12 @@
     {{ end }} {{ end }}
     <ul class="list-none m-0 p-0">
       {{ range first 5 $books }}
-      <li class="py-4 border-b border-base last:border-b-0">
+      <li class="py-4 border-b border-line last:border-b-0">
         <div class="flex items-start justify-between gap-4">
           <div>
             <a
               href="{{ .RelPermalink }}"
-              class="text-heading! font-medium no-underline! hover:text-accent!"
+              class="text-heading font-medium no-underline! hover:text-accent"
             >
               {{ .Title }}
             </a>
@@ -112,7 +112,7 @@
     </ul>
     {{ if gt (len $books) 5 }}
     <p class="mt-4 mb-0">
-      <a href="/books/" class="text-sm text-accent!">All books →</a>
+      <a href="/books/" class="text-sm text-accent">All books →</a>
     </p>
     {{ end }}
   </section>

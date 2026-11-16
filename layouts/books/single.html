@@ -1,6 +1,6 @@
 {{ define "main" }}
 <article>
-  <header class="mb-10 pb-6 border-b border-base">
+  <header class="mb-10 pb-6 border-b border-line">
     <div class="flex gap-6 mb-5">
       {{ with .Params.bookCover }}
       <img src="{{ . }}" alt="{{ $.Title }} cover"
@@ -8,7 +8,7 @@
       {{ end }}
 
       <div class="flex flex-col justify-center gap-2">
-        <h1 class="font-display text-2xl font-semibold mt-0 mb-0">{{ .Title }}</h1>
+        <h1 class="font-display text-2xl sm:text-3xl font-semibold leading-tight text-balance mt-0 mb-0">{{ .Title }}</h1>
 
         {{ with .Params.bookAuthor }}
         <p class="text-muted text-sm mt-0 mb-0">by {{ . }}</p>
@@ -20,7 +20,7 @@
 
         {{ with .Params.goodreadsUrl }}
         <a href="{{ . }}" target="_blank" rel="noopener"
-           class="text-sm no-underline text-muted! hover:text-accent! hover:underline! flex items-center gap-1.5">
+           class="text-sm no-underline text-muted hover:text-accent hover:underline! flex items-center gap-1.5">
           <i class="fa-brands fa-goodreads"></i> View on Goodreads
         </a>
         {{ end }}
@@ -39,7 +39,7 @@
       <div class="flex flex-wrap gap-2">
         {{ range . }}
         <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/"
-           class="text-xs px-2 py-1 rounded no-underline! text-muted! hover:text-accent! bg-alt">
+           class="text-xs px-2 py-1 rounded no-underline! text-muted hover:text-accent bg-alt">
           {{ . }}
         </a>
         {{ end }}
