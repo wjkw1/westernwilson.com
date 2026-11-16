@@ -2,7 +2,7 @@
   Notes on The DevOps Handbook
   <a
     href="https://westernwilson.com/books/the-devops-handbook/#notes-on-the-devops-handbook"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -29,7 +29,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
   Quotes
   <a
     href="https://westernwilson.com/books/the-devops-handbook/#quotes"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -37,7 +37,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
   Introductions
   <a
     href="https://westernwilson.com/books/the-devops-handbook/#introductions"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -54,7 +54,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
   Part I — The Three Ways
   <a
     href="https://westernwilson.com/books/the-devops-handbook/#part-i--the-three-ways"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -71,7 +71,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
   The First Way: The Principles of Flow
   <a
     href="https://westernwilson.com/books/the-devops-handbook/#the-first-way-the-principles-of-flow"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h4>
@@ -88,7 +88,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
   The Second Way: The Principles of Feedback
   <a
     href="https://westernwilson.com/books/the-devops-handbook/#the-second-way-the-principles-of-feedback"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h4>
@@ -102,7 +102,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
   The Third Way: The Principles of Continuous Learning and Experimentation
   <a
     href="https://westernwilson.com/books/the-devops-handbook/#the-third-way-the-principles-of-continuous-learning-and-experimentation"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h4>
@@ -123,7 +123,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
   Part II — Where to Start
   <a
     href="https://westernwilson.com/books/the-devops-handbook/#part-ii--where-to-start"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -158,7 +158,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
   Part III — The First Way: Flow
   <a
     href="https://westernwilson.com/books/the-devops-handbook/#part-iii--the-first-way-flow"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -187,7 +187,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
   Part IV — The Second Way: Feedback
   <a
     href="https://westernwilson.com/books/the-devops-handbook/#part-iv--the-second-way-feedback"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -219,7 +219,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
   Part V — The Third Way: Continual Learning and Experimentation
   <a
     href="https://westernwilson.com/books/the-devops-handbook/#part-v--the-third-way-continual-learning-and-experimentation"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -242,7 +242,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
   Part VI: Integrating Security, Change Management and Compliance
   <a
     href="https://westernwilson.com/books/the-devops-handbook/#part-vi-integrating-security-change-management-and-compliance"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -268,7 +268,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
   Appendices
   <a
     href="https://westernwilson.com/books/the-devops-handbook/#appendices"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -279,7 +279,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
   Notes on Clean Code
   <a
     href="https://westernwilson.com/books/clean-code/#notes-on-clean-code"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -300,7 +300,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
   Quotes
   <a
     href="https://westernwilson.com/books/clean-code/#quotes"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -308,7 +308,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
   Foreword
   <a
     href="https://westernwilson.com/books/clean-code/#foreword"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -322,7 +322,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
   Chapter 1 Clean Code
   <a
     href="https://westernwilson.com/books/clean-code/#chapter-1-clean-code"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -357,7 +357,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
   Chapter 2 Meningful Names
   <a
     href="https://westernwilson.com/books/clean-code/#chapter-2-meningful-names"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -377,7 +377,7 @@ Normally we think of heroics as great, but in DevOps of someone has to be a hero
   Chapter 3 Functions
   <a
     href="https://westernwilson.com/books/clean-code/#chapter-3-functions"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -409,7 +409,7 @@ This feels achievable until you&rsquo;re actually in the middle of writing somet
   Chapter 4 Comments
   <a
     href="https://westernwilson.com/books/clean-code/#chapter-4-comments"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -426,7 +426,7 @@ This feels achievable until you&rsquo;re actually in the middle of writing somet
   Chapter 5 Formatting
   <a
     href="https://westernwilson.com/books/clean-code/#chapter-5-formatting"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -437,7 +437,7 @@ This feels achievable until you&rsquo;re actually in the middle of writing somet
   Chapter 6 Objects and Data Structures
   <a
     href="https://westernwilson.com/books/clean-code/#chapter-6-objects-and-data-structures"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -456,7 +456,7 @@ This feels achievable until you&rsquo;re actually in the middle of writing somet
   Chapter 7 Use Exceptions Rather Than Return Codes
   <a
     href="https://westernwilson.com/books/clean-code/#chapter-7-use-exceptions-rather-than-return-codes"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -473,7 +473,7 @@ This feels achievable until you&rsquo;re actually in the middle of writing somet
   Chapter 8 Boundaries
   <a
     href="https://westernwilson.com/books/clean-code/#chapter-8-boundaries"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -486,7 +486,7 @@ This feels achievable until you&rsquo;re actually in the middle of writing somet
   Chapter 9 Unit Tests
   <a
     href="https://westernwilson.com/books/clean-code/#chapter-9-unit-tests"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -503,7 +503,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
   Chapter 10 Classes
   <a
     href="https://westernwilson.com/books/clean-code/#chapter-10-classes"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -517,7 +517,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
   Chapter 11 Systems
   <a
     href="https://westernwilson.com/books/clean-code/#chapter-11-systems"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -527,7 +527,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
   Chapter 12 Emergence
   <a
     href="https://westernwilson.com/books/clean-code/#chapter-12-emergence"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -536,7 +536,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
   Chapter 13 Concurrency
   <a
     href="https://westernwilson.com/books/clean-code/#chapter-13-concurrency"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -547,7 +547,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
   Chapter 14 JUnit Internals
   <a
     href="https://westernwilson.com/books/clean-code/#chapter-14-junit-internals"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -556,7 +556,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
   Chapter 16 Refactoring SerialDate
   <a
     href="https://westernwilson.com/books/clean-code/#chapter-16-refactoring-serialdate"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -571,7 +571,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
   Chapter 17 Smells and Heuristics
   <a
     href="https://westernwilson.com/books/clean-code/#chapter-17-smells-and-heuristics"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -600,7 +600,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
   Appendix A Concurrency II
   <a
     href="https://westernwilson.com/books/clean-code/#appendix-a-concurrency-ii"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -615,7 +615,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
   Notes on Babel
   <a
     href="https://westernwilson.com/books/babel-an-arcane-history/#notes-on-babel"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -637,7 +637,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
   Quotes
   <a
     href="https://westernwilson.com/books/babel-an-arcane-history/#quotes"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -777,7 +777,7 @@ Hanlons razor was equally facinating; it&rsquo;s not malice, it&rsquo;s probably
   Quotes
   <a
     href="https://westernwilson.com/books/the-great-mental-models/#quotes"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -812,7 +812,7 @@ Hanlons razor was equally facinating; it&rsquo;s not malice, it&rsquo;s probably
   Quotes
   <a
     href="https://westernwilson.com/books/a-new-earth/#quotes"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -859,7 +859,7 @@ Hanlons razor was equally facinating; it&rsquo;s not malice, it&rsquo;s probably
   The 4-Hour Work Week
   <a
     href="https://westernwilson.com/books/4-hour-work-week/#the-4-hour-work-week"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>

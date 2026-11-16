@@ -3,7 +3,7 @@
   Naming convention decision
   <a
     href="https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/#naming-convention-decision"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -13,7 +13,7 @@
   Why this name
   <a
     href="https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/#why-this-name"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -46,7 +46,7 @@
   Options considered and why they were rejected
   <a
     href="https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/#options-considered-and-why-they-were-rejected"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -64,7 +64,7 @@
   Convention going forward
   <a
     href="https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/#convention-going-forward"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>

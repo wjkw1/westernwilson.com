@@ -3,7 +3,7 @@
   Types of Developers in the Workplace
   <a
     href="https://westernwilson.com/reflections/2023-10-28-developer-dynamics/#types-of-developers-in-the-workplace"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h1>
@@ -12,7 +12,7 @@
   1. The Detective
   <a
     href="https://westernwilson.com/reflections/2023-10-28-developer-dynamics/#1-the-detective"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -21,7 +21,7 @@
   2. The Cowboy / Go-getter
   <a
     href="https://westernwilson.com/reflections/2023-10-28-developer-dynamics/#2-the-cowboy--go-getter"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -30,7 +30,7 @@
   3. The Artist or Creative
   <a
     href="https://westernwilson.com/reflections/2023-10-28-developer-dynamics/#3-the-artist-or-creative"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -39,7 +39,7 @@
   4. The Mad Scientist
   <a
     href="https://westernwilson.com/reflections/2023-10-28-developer-dynamics/#4-the-mad-scientist"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -50,7 +50,7 @@
   Simplifying Technical Jargon
   <a
     href="https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/#simplifying-technical-jargon"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -59,7 +59,7 @@
   The Barrier of Technical Jargon
   <a
     href="https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/#the-barrier-of-technical-jargon"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -68,7 +68,7 @@
   Harnessing the Power of Analogies
   <a
     href="https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/#harnessing-the-power-of-analogies"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -79,7 +79,7 @@
   Types of Applications
   <a
     href="https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/#types-of-applications"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -94,7 +94,7 @@
   Understanding APIs
   <a
     href="https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/#understanding-apis"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -104,7 +104,7 @@
   Team Dynamics
   <a
     href="https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/#team-dynamics"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -114,7 +114,7 @@
   The Coding Process
   <a
     href="https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/#the-coding-process"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -123,7 +123,7 @@
   Future Technology
   <a
     href="https://westernwilson.com/reflections/2020-08-17-tech-to-non-tech/#future-technology"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>

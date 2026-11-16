@@ -20,7 +20,7 @@
   Welcome to Axoniq Conference 2026
   <a
     href="https://westernwilson.com/reflections/axoniq-conference-2026/#welcome-to-axoniq-conference-2026"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -33,7 +33,7 @@
   Reasoning While We Still Can
   <a
     href="https://westernwilson.com/reflections/axoniq-conference-2026/#reasoning-while-we-still-can"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -64,7 +64,7 @@
   Event Sourcing in Production: Five Things Nobody Warned Us
   <a
     href="https://westernwilson.com/reflections/axoniq-conference-2026/#event-sourcing-in-production-five-things-nobody-warned-us"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -96,7 +96,7 @@
   The Architecture of Accountability
   <a
     href="https://westernwilson.com/reflections/axoniq-conference-2026/#the-architecture-of-accountability"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -126,7 +126,7 @@
   From Discovery to Event Store: AI-Assisted Event Sourcing with the Axoniq Stack
   <a
     href="https://westernwilson.com/reflections/axoniq-conference-2026/#from-discovery-to-event-store-ai-assisted-event-sourcing-with-the-axoniq-stack"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -156,7 +156,7 @@
   Not CRUD Anymore: Migrating to Event-Driven CQRS Without a Big Bang
   <a
     href="https://westernwilson.com/reflections/axoniq-conference-2026/#not-crud-anymore-migrating-to-event-driven-cqrs-without-a-big-bang"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -178,7 +178,7 @@
   The Assembly Language for Information Systems
   <a
     href="https://westernwilson.com/reflections/axoniq-conference-2026/#the-assembly-language-for-information-systems"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -200,7 +200,7 @@
   Closing Keynote: A New Perspective on Event Sourcing for the Other 95%
   <a
     href="https://westernwilson.com/reflections/axoniq-conference-2026/#closing-keynote-a-new-perspective-on-event-sourcing-for-the-other-95"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -222,7 +222,7 @@
   Unconference
   <a
     href="https://westernwilson.com/reflections/axoniq-conference-2026/#unconference"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -242,7 +242,7 @@
   Catch Them Early
   <a
     href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#catch-them-early"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -256,7 +256,7 @@
   Getting to stateless MCP in production
   <a
     href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#getting-to-stateless-mcp-in-production"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -270,7 +270,7 @@
   Three doors to one tool: MCP vs WebMCP vs CLI
   <a
     href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#three-doors-to-one-tool-mcp-vs-webmcp-vs-cli"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -286,7 +286,7 @@
   State of the software factory
   <a
     href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#state-of-the-software-factory"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -301,7 +301,7 @@
   Pull Requests are dead, long live peer review
   <a
     href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#pull-requests-are-dead-long-live-peer-review"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -322,7 +322,7 @@
   From &ldquo;works on my prompt&rdquo; to production SLOs
   <a
     href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#from-works-on-my-prompt-to-production-slos"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -338,7 +338,7 @@
   Governance you can run: Checkable properties for production agents
   <a
     href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#governance-you-can-run-checkable-properties-for-production-agents"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -354,7 +354,7 @@
   Governed agent autonomy: Building a control plane for agentic systems
   <a
     href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#governed-agent-autonomy-building-a-control-plane-for-agentic-systems"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -378,7 +378,7 @@
   Beyond Chatbots: Agentic UI with Open Standards
   <a
     href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#beyond-chatbots-agentic-ui-with-open-standards"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -393,7 +393,7 @@
   MCP Apps and the Agentic Web
   <a
     href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#mcp-apps-and-the-agentic-web"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -412,7 +412,7 @@
   No Central Brain
   <a
     href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#no-central-brain"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -427,7 +427,7 @@
   Infrastructure red teaming with abliterated models
   <a
     href="https://westernwilson.com/reflections/agntcon-mcpcon-europe-2026/#infrastructure-red-teaming-with-abliterated-models"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>

@@ -45,7 +45,7 @@
   Bit of historical context
   <a
     href="https://westernwilson.com/reflections/2025-07-6-migrating-to-webflow/#bit-of-historical-context"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -53,7 +53,7 @@
   Basic static site
   <a
     href="https://westernwilson.com/reflections/2025-07-6-migrating-to-webflow/#basic-static-site"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -64,7 +64,7 @@ Skip ahead to my first graduate job, I learnt there are other ways to develop an
   GatsbyJS
   <a
     href="https://westernwilson.com/reflections/2025-07-6-migrating-to-webflow/#gatsbyjs"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -79,7 +79,7 @@ For added context, my career was taking me down the DevOps Engineer pathway, but
   NuxtJS
   <a
     href="https://westernwilson.com/reflections/2025-07-6-migrating-to-webflow/#nuxtjs"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -92,7 +92,7 @@ With that fixed, I happily added a blog about using ChatGPT or Perplexity to sup
   Time skip to now
   <a
     href="https://westernwilson.com/reflections/2025-07-6-migrating-to-webflow/#time-skip-to-now"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -104,7 +104,7 @@ I looked into WordPress quickly, which a couple older colleagues of mine used fo
   So, why Webflow?
   <a
     href="https://westernwilson.com/reflections/2025-07-6-migrating-to-webflow/#so-why-webflow"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -115,7 +115,7 @@ I don&rsquo;t want to pay for Webflow yet, thats why my site is only available o
   What is the development process like?
   <a
     href="https://westernwilson.com/reflections/2025-07-6-migrating-to-webflow/#what-is-the-development-process-like"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -128,7 +128,7 @@ You still need some understanding of how web development html tags are structure
   Final words
   <a
     href="https://westernwilson.com/reflections/2025-07-6-migrating-to-webflow/#final-words"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>

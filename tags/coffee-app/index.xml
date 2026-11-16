@@ -4,7 +4,7 @@
   Important terminology and tools
   <a
     href="https://westernwilson.com/reflections/oidc/#important-terminology-and-tools"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -24,24 +24,24 @@
   Human to machine
   <a
     href="https://westernwilson.com/reflections/oidc/#human-to-machine"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
 <p>When running Terraform from your laptop, the industry standard is to authenticate with <strong>AWS SSO</strong> (rebranded as AWS IAM Identity Center in 2022, though the CLI commands remain the same).</p>
 <p>From the terminal you run an aws cli command that opens your browser, asks you to log in using your identity provider (or aws creds), and grabs a short-lived credential for use during your AWS terminal session. It normally expires after 8 hours, but this is configurable. Terraform picks up that short-lived credential and uses it to configure the infrastructure however you&rsquo;ve defined.</p>
-<div class="highlight"><pre tabindex="0"><code class="language-zsh" data-lang="zsh"><span><span><span># day to day example (assumes sso roles are setup)</span>
-</span></span><span><span>aws sso login --profile terraform
-</span></span><span><span>export AWS_PROFILE<span>=</span>terraform
-</span></span><span><span>
-</span></span><span><span>terraform apply
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl"><span class="c1"># day to day example (assumes sso roles are setup)</span>
+</span></span><span class="line"><span class="cl">aws sso login --profile terraform
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">AWS_PROFILE</span><span class="o">=</span>terraform
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">terraform apply
 </span></span></code></pre></div><p>These commands work because there&rsquo;s a human in the loop. Developers can login to AWS, click a button, and complete an MFA prompt. It&rsquo;s verifiable that you are the person at the keyboard.</p>
 <p>This is not possible the moment you&rsquo;re out of the loop.</p>
 <h2 id="machine-to-machine" class="group relative scroll-mt-20">
   Machine to machine
   <a
     href="https://westernwilson.com/reflections/oidc/#machine-to-machine"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -53,7 +53,7 @@
   JWTs
   <a
     href="https://westernwilson.com/reflections/oidc/#jwts"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -63,16 +63,16 @@
 <p>The point of JWT tokens isn&rsquo;t secrecy, it&rsquo;s integrity. If you trust the issuer&rsquo;s public key, and the signature checks out, then you can trust the claims.</p>
 <p>Think of it like a driver&rsquo;s licence, it&rsquo;s contents are not a secret (anyone who physically holds it has the info), but it&rsquo;s validity is trusted because it was created by a trusted authority. Other parties (police, security, the supermarket cashier) recognise it and trust what it <em>claims</em>.</p>
 <p>A JWT is a string with three parts separated by dots. Header, payload, and signature.</p>
-<div class="highlight"><pre tabindex="0"><code class="language-zsh" data-lang="zsh"><span><span>&lt;header&gt;.&lt;payload&gt;.&lt;signature&gt;
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">&lt;header&gt;.&lt;payload&gt;.&lt;signature&gt;
 </span></span></code></pre></div><p>The <em>header</em> says how it was signed. The <em>payload</em> is a set of claims or facts about whoever the token is describing. The <em>signature</em> is the issuer&rsquo;s cryptographic stamp.</p>
 <p>E.g.</p>
-<div class="highlight"><pre tabindex="0"><code class="language-zsh" data-lang="zsh"><span><span>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjdXJpb3VzX3JlYWRlciIsIm5hbWUiOiJZb3UsIHRoZSBjdXJpb3VzIG9uZSIsIm1lc3NhZ2UiOiJUaGV5IHNheSBjdXJpb3NpdHkga2lsbGVkIHRoZSBjYXQsIGJ1dCBpdCB3b24ndCBraWxsIHlvdS4gU3RheSBjdXJpb3VzLiIsImlhdCI6MTc0NjY2MjQwMCwiZXhwIjo5OTk5OTk5OTk5fQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjdXJpb3VzX3JlYWRlciIsIm5hbWUiOiJZb3UsIHRoZSBjdXJpb3VzIG9uZSIsIm1lc3NhZ2UiOiJUaGV5IHNheSBjdXJpb3NpdHkga2lsbGVkIHRoZSBjYXQsIGJ1dCBpdCB3b24ndCBraWxsIHlvdS4gU3RheSBjdXJpb3VzLiIsImlhdCI6MTc0NjY2MjQwMCwiZXhwIjo5OTk5OTk5OTk5fQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
 </span></span></code></pre></div><p>You can read more detail here: <a href="https://www.jwt.io/introduction#what-is-json-web-token">https://www.jwt.io/introduction#what-is-json-web-token</a></p>
 <h2 id="oidc" class="group relative scroll-mt-20">
   OIDC
   <a
     href="https://westernwilson.com/reflections/oidc/#oidc"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -85,20 +85,20 @@
   The trust policy
   <a
     href="https://westernwilson.com/reflections/oidc/#the-trust-policy"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
 <p>With the authentication and JWT verification mostly handled by AWS &amp; GitHub, you can focus more on deciding which GitHub claims you&rsquo;ll accept.</p>
 <p>For example, every JWT GitHub mints contains a <code>sub</code> claim, i.e. the subject</p>
-<div class="highlight"><pre tabindex="0"><code class="language-zsh" data-lang="zsh"><span><span>repo:my-org/my-repo:ref:refs/heads/main
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-zsh" data-lang="zsh"><span class="line"><span class="cl">repo:my-org/my-repo:ref:refs/heads/main
 </span></span></code></pre></div><p>That string identifies exactly which repo, branch, or trigger produced the token. Your trust policy in AWS is a set of conditions on those claims. So if you pin the <code>sub</code> claim to a specific repo and your main branch (like the above example), then only that combination can assume the role.</p>
 <p>Set up the AWS trust policy too loosely and you replace one risk with another. The biggest mistake is wildcarding the subject <code>repo:*</code>, which means that any repository on GitHub could potentially assume your role. The fix is to only give access to specific repositories that need it, following least privilege access. Most tutorials highlight this point too.</p>
 <h2 id="using-github-environments" class="group relative scroll-mt-20">
   Using GitHub environments
   <a
     href="https://westernwilson.com/reflections/oidc/#using-github-environments"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -109,7 +109,7 @@
   Relearning
   <a
     href="https://westernwilson.com/reflections/oidc/#relearning"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -124,7 +124,7 @@
   Naming convention decision
   <a
     href="https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/#naming-convention-decision"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h2>
@@ -134,7 +134,7 @@
   Why this name
   <a
     href="https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/#why-this-name"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -167,7 +167,7 @@
   Options considered and why they were rejected
   <a
     href="https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/#options-considered-and-why-they-were-rejected"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
@@ -185,7 +185,7 @@
   Convention going forward
   <a
     href="https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/#convention-going-forward"
-    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 [color:var(--c-muted)] hover:[color:var(--c-accent)] transition-opacity"
+    class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
 </h3>
