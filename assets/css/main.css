@@ -84,7 +84,7 @@
   --c-bg:      #F6F1E9;
   --c-bg-alt:  #EBE5D9;
   --c-text:    #2C1A0F;
-  --c-muted:   #7A6355;
+  --c-muted:   #705A4C;
   --c-heading: #1E1008;
   --c-accent:  #7A2535;
   --c-border:  #D8CEBC;
@@ -119,7 +119,7 @@ html[data-theme="light"] {
   --c-bg:      #F6F1E9;
   --c-bg-alt:  #EBE5D9;
   --c-text:    #2C1A0F;
-  --c-muted:   #7A6355;
+  --c-muted:   #705A4C;
   --c-heading: #1E1008;
   --c-accent:  #7A2535;
   --c-border:  #D8CEBC;
@@ -145,6 +145,12 @@ html[data-theme="light"] {
     text-decoration: underline;
   }
 
+  :focus-visible {
+    outline: 2px solid var(--c-accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
     color: var(--c-heading);
@@ -152,6 +158,16 @@ html[data-theme="light"] {
 }
 
 /* ── Utilities ─────────────────────────────────────────────────────────────── */
+
+/* Links inside running text need a non-colour cue: the accent is under 3:1
+   against body and muted text (WCAG 1.4.1). */
+@utility inline-links {
+  & a {
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+  }
+}
 
 @layer utilities {
   /* Themed images */

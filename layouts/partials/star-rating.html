@@ -10,16 +10,17 @@
 {{ $floor := int (math.Floor $rating) }}
 {{ $hasFraction := gt (sub $rating (math.Floor $rating)) 0.0 }}
 <div class="flex items-center gap-0.5 text-accent">
+  <span class="sr-only">Rated {{ $rating }} out of 5</span>
   {{ range $i := seq 1 5 }}
     {{ if le $i $floor }}
-    <i class="fa-solid fa-star {{ $size }}"></i>
+    <i class="fa-solid fa-star {{ $size }}" aria-hidden="true"></i>
     {{ else if and $hasFraction (eq $i (add $floor 1)) }}
-    <i class="fa-solid fa-star-half-stroke {{ $size }}"></i>
+    <i class="fa-solid fa-star-half-stroke {{ $size }}" aria-hidden="true"></i>
     {{ else }}
-    <i class="fa-regular fa-star {{ $size }}"></i>
+    <i class="fa-regular fa-star {{ $size }}" aria-hidden="true"></i>
     {{ end }}
   {{ end }}
   {{ if .showLabel }}
-  <span class="text-muted {{ $size }} ml-1.5">{{ $rating }}/5</span>
+  <span class="text-muted {{ $size }} ml-1.5" aria-hidden="true">{{ $rating }}/5</span>
   {{ end }}
 </div>

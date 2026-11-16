@@ -4,7 +4,7 @@
     {{ .Title }}
   </h1>
   {{ with .Params.description }}
-  <p class="text-muted text-sm mb-8 leading-relaxed">{{ . | markdownify }}</p>
+  <p class="text-muted text-sm mb-8 leading-relaxed inline-links">{{ . | markdownify }}</p>
   {{ end }}
   <ul class="list-none m-0 p-0">
     {{ range .Pages }}

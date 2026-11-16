@@ -4,8 +4,13 @@
     {{ partial "head.html" . }}
   </head>
   <body class="min-h-screen flex flex-col">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:rounded focus:bg-surface focus:px-4 focus:py-2 focus:text-sm focus:shadow"
+      >Skip to content</a
+    >
     {{ partial "header.html" . }}
-    <main class="flex-1 max-w-2xl w-full mx-auto px-6 py-14">
+    <main id="main" class="flex-1 max-w-2xl w-full mx-auto px-6 py-14">
       {{ block "main" . }}{{ end }}
     </main>
     {{ partial "footer.html" . }}

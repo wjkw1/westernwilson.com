@@ -42,7 +42,7 @@ I was reminded of Causation vs. Correlation in this book. The classic example of
 
 Think through whether an idea is required or not before jumping to conclusions. Sometimes we have a bias toward ideas that support the conclusion we want, over the conclusion that actually is.
 
-### Quotes
+## Quotes
 
 > The skill for finding the right solutions for the right problems is one form of wisdom
 

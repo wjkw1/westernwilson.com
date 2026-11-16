@@ -12,21 +12,21 @@
         {{ .Title }}
       </h1>
       {{ with .Content }}
-      <div class="text-muted text-lg mt-0 mb-3 [&_a]:font-medium">
+      <div class="text-muted text-lg mt-0 mb-3 inline-links [&_a]:font-medium">
         {{ . }}
       </div>
       {{ end }}
       {{ with .Site.Params.social }}
-      <ul class="flex gap-4 list-none m-0 p-0 mt-4 mb-6">
+      <ul class="flex gap-1 list-none -ml-2 p-0 mt-3 mb-5">
         {{ range sort . "weight" }}
         <li>
           <a
             href="{{ .url }}"
             rel="{{ .rel }}"
             aria-label="{{ .name }}"
-            class="text-lg text-muted no-underline! hover:text-accent"
+            class="inline-flex p-2 text-lg text-muted no-underline! hover:text-accent"
           >
-            <i class="{{ .icon }}"></i>
+            <i class="{{ .icon }}" aria-hidden="true"></i>
           </a>
         </li>
         {{ end }}
@@ -36,9 +36,9 @@
             href="{{ .RelPermalink }}"
             type="{{ .MediaType.Type }}"
             aria-label="RSS feed"
-            class="text-lg text-muted no-underline! hover:text-accent"
+            class="inline-flex p-2 text-lg text-muted no-underline! hover:text-accent"
           >
-            <i class="fa-solid fa-rss"></i>
+            <i class="fa-solid fa-rss" aria-hidden="true"></i>
           </a>
         </li>
         {{ end }}
@@ -60,10 +60,14 @@
       reflections
     </h2>
     {{ with .Site.GetPage "reflections" }} {{ with .Params.description }}
-    <p class="text-muted text mb-4 leading-relaxed">{{ . | markdownify }}</p>
+    <p class="text-muted text mb-4 leading-relaxed inline-links">{{ . | markdownify }}</p>
     {{ end }} {{ end }}
-    {{ range first 6 $reflections }} {{ partial "post-list-item.html" . }} {{
-    end }} {{ if gt (len $reflections) 5 }}
+    <ul class="list-none m-0 p-0">
+      {{ range first 6 $reflections }}
+      {{ partial "post-list-item.html" . }}
+      {{ end }}
+    </ul>
+    {{ if gt (len $reflections) 5 }}
     <p class="mt-4 mb-0">
       <a href="/reflections/" class="text-sm text-accent">All reflections →</a>
     </p>
@@ -80,7 +84,7 @@
       books
     </h2>
     {{ with .Site.GetPage "books" }} {{ with .Params.description }}
-    <p class="text-muted text mb-8 leading-relaxed">{{ . | markdownify }}</p>
+    <p class="text-muted text mb-8 leading-relaxed inline-links">{{ . | markdownify }}</p>
     {{ end }} {{ end }}
     <ul class="list-none m-0 p-0">
       {{ range first 5 $books }}

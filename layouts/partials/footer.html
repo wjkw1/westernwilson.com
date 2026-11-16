@@ -1,24 +1,24 @@
 <footer class="mt-auto border-t border-line">
   <div class="max-w-2xl mx-auto px-6 py-8 flex flex-col items-center gap-4">
     {{ with .Site.Params.social }}
-    <ul class="flex gap-5 list-none m-0 p-0">
+    <ul class="flex gap-1 list-none m-0 p-0">
       {{ range sort . "weight" }}
       <li>
-        <a href="{{ .url }}" rel="{{ .rel }}" aria-label="{{ .name }}" class="text-lg text-muted no-underline! hover:text-accent">
-          <i class="{{ .icon }}"></i>
+        <a href="{{ .url }}" rel="{{ .rel }}" aria-label="{{ .name }}" class="inline-flex p-2 text-lg text-muted no-underline! hover:text-accent">
+          <i class="{{ .icon }}" aria-hidden="true"></i>
         </a>
       </li>
       {{ end }}
       {{ with site.Home.OutputFormats.Get "rss" }}
       <li>
-        <a href="{{ .RelPermalink }}" type="{{ .MediaType.Type }}" aria-label="RSS feed" class="text-lg text-muted no-underline! hover:text-accent">
-          <i class="fa-solid fa-rss"></i>
+        <a href="{{ .RelPermalink }}" type="{{ .MediaType.Type }}" aria-label="RSS feed" class="inline-flex p-2 text-lg text-muted no-underline! hover:text-accent">
+          <i class="fa-solid fa-rss" aria-hidden="true"></i>
         </a>
       </li>
       {{ end }}
     </ul>
     {{ end }}
     <p class="text-sm text-muted m-0">© {{ now.Year }} {{ .Site.Params.author }}</p>
-    <p class="text-xs text-muted m-0">Built with <a href="https://gohugo.io/" rel="noopener" class="text-muted hover:text-accent">Hugo</a></p>
+    <p class="text-xs text-muted m-0 inline-links">Built with <a href="https://gohugo.io/" rel="noopener" class="text-muted hover:text-accent">Hugo</a></p>
   </div>
 </footer>
