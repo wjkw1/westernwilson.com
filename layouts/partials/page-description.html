@@ -1,0 +1,9 @@
+{{- /* Returns a plain-text description: front matter, then the book blurb, then the post summary, then the site default. */ -}}
+{{- $desc := .Description | default .Params.bookDescription -}}
+{{- if $desc -}}
+  {{- $desc = $desc | markdownify | plainify -}}
+{{- else if .IsPage -}}
+  {{- $desc = .Summary | plainify -}}
+{{- end -}}
+{{- $desc = $desc | default site.Params.description | htmlUnescape | replaceRE `\s+` " " | strings.TrimSpace -}}
+{{- return (truncate 200 $desc | htmlUnescape) -}}

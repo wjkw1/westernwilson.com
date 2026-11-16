@@ -1,0 +1,41 @@
+{{- /* schema.org JSON-LD: Person and WebSite on the home page, BlogPosting on dated
+       pages (books add the Book they are about). Params (dict): page, description. */ -}}
+{{- $page := .page -}}
+{{- $person := dict "@type" "Person" "name" site.Params.author "url" site.Home.Permalink -}}
+{{- $data := dict -}}
+{{- if $page.IsHome -}}
+  {{- $sameAs := slice -}}
+  {{- range site.Params.social }}{{ if hasPrefix .url "http" }}{{ $sameAs = $sameAs | append .url }}{{ end }}{{ end -}}
+  {{- with resources.Get site.Params.avatar }}{{ $person = merge $person (dict "image" (.Process "resize 400x webp").Permalink) }}{{ end -}}
+  {{- $data = dict
+    "@context" "https://schema.org"
+    "@graph" (slice
+      (merge $person (dict "sameAs" $sameAs "description" .description))
+      (dict "@type" "WebSite" "name" site.Title "url" site.Home.Permalink "inLanguage" site.Language.Lang)
+    )
+  -}}
+{{- else if and $page.IsPage (not $page.Date.IsZero) -}}
+  {{- $data = dict
+    "@context" "https://schema.org"
+    "@type" "BlogPosting"
+    "headline" $page.Title
+    "description" .description
+    "url" $page.Permalink
+    "mainEntityOfPage" $page.Permalink
+    "datePublished" ($page.Date.Format "2006-01-02T15:04:05Z07:00")
+    "dateModified" ($page.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+    "author" $person
+    "inLanguage" site.Language.Lang
+  -}}
+  {{- with partialCached "social-card.html" $page $page.RelPermalink }}{{ $data = merge $data (dict "image" .Permalink) }}{{ end -}}
+  {{- with $page.GetTerms "tags" -}}
+    {{- $tags := slice }}{{ range . }}{{ $tags = $tags | append (lower .LinkTitle) }}{{ end -}}
+    {{- $data = merge $data (dict "keywords" $tags) -}}
+  {{- end -}}
+  {{- with $page.Params.bookAuthor -}}
+    {{- $data = merge $data (dict "about" (dict "@type" "Book" "name" $page.Title "author" (dict "@type" "Person" "name" .))) -}}
+  {{- end -}}
+{{- end -}}
+{{- with $data }}
+<script type="application/ld+json">{{ . | jsonify | safeJS }}</script>
+{{- end }}
