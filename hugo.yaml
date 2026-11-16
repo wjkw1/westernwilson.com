@@ -72,3 +72,7 @@ security:
       - '^npx$'
       - '^postcss$'
       - '^tailwindcss$'
+
+markup:
+  highlight:
+    noClasses: false

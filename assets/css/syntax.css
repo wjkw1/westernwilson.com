@@ -1,0 +1,58 @@
+/* Merged from Chroma's modus-operandi (light) and modus-vivendi (dark) styles,
+   both built to WCAG AAA contrast. light-dark() follows the color-scheme set
+   by the theme toggle, so one rule set covers system, light and dark.
+   Regenerate with: hugo gen chromastyles --style=<name> */
+
+/* LineHighlight */ .chroma .hl { background-color: var(--c-border) }
+/* LineNumbersTable */ .chroma .lnt { white-space: pre; -webkit-user-select: none; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em; color: var(--c-muted) }
+/* LineNumbers */ .chroma .ln { white-space: pre; -webkit-user-select: none; user-select: none; margin-right: 0.4em; padding: 0 0.4em 0 0.4em; color: var(--c-muted) }
+/* Line */ .chroma .line { display: flex }
+/* Keyword */ .chroma .k { color: light-dark(#5317ac, #b6a0ff) }
+/* KeywordConstant */ .chroma .kc { color: light-dark(#0000c0, #00bcff) }
+/* KeywordDeclaration */ .chroma .kd { color: light-dark(#5317ac, #b6a0ff) }
+/* KeywordNamespace */ .chroma .kn { color: light-dark(#5317ac, #b6a0ff) }
+/* KeywordPseudo */ .chroma .kp { color: light-dark(#5317ac, #b6a0ff) }
+/* KeywordReserved */ .chroma .kr { color: light-dark(#5317ac, #b6a0ff) }
+/* KeywordType */ .chroma .kt { color: light-dark(#005a5f, #6ae4b9) }
+/* NameBuiltin */ .chroma .nb { color: light-dark(#8f0075, #f78fe7) }
+/* NameBuiltinPseudo */ .chroma .bp { color: light-dark(#8f0075, #f78fe7) }
+/* NameVariable */ .chroma .nv { color: light-dark(#00538b, #00d3d0) }
+/* NameVariableClass */ .chroma .vc { color: light-dark(#00538b, #00d3d0) }
+/* NameVariableGlobal */ .chroma .vg { color: light-dark(#00538b, #00d3d0) }
+/* NameVariableInstance */ .chroma .vi { color: light-dark(#00538b, #00d3d0) }
+/* NameVariableMagic */ .chroma .vm { color: light-dark(#00538b, #00d3d0) }
+/* NameFunction */ .chroma .nf { color: light-dark(#721045, #feacd0) }
+/* NameFunctionMagic */ .chroma .fm { color: light-dark(#721045, #feacd0) }
+/* Literal */ .chroma .l { color: light-dark(#0000c0, #00bcff) }
+/* LiteralDate */ .chroma .ld { color: light-dark(#0000c0, #00bcff) }
+/* LiteralString */ .chroma .s { color: light-dark(#2544bb, #79a8ff) }
+/* LiteralStringAffix */ .chroma .sa { color: light-dark(#2544bb, #79a8ff) }
+/* LiteralStringBacktick */ .chroma .sb { color: light-dark(#2544bb, #79a8ff) }
+/* LiteralStringChar */ .chroma .sc { color: light-dark(#2544bb, #79a8ff) }
+/* LiteralStringDelimiter */ .chroma .dl { color: light-dark(#2544bb, #79a8ff) }
+/* LiteralStringDoc */ .chroma .sd { color: light-dark(#2544bb, #79a8ff) }
+/* LiteralStringDouble */ .chroma .s2 { color: light-dark(#2544bb, #79a8ff) }
+/* LiteralStringEscape */ .chroma .se { color: light-dark(#2544bb, #79a8ff) }
+/* LiteralStringHeredoc */ .chroma .sh { color: light-dark(#2544bb, #79a8ff) }
+/* LiteralStringInterpol */ .chroma .si { color: light-dark(#2544bb, #79a8ff) }
+/* LiteralStringOther */ .chroma .sx { color: light-dark(#2544bb, #79a8ff) }
+/* LiteralStringRegex */ .chroma .sr { color: light-dark(#2544bb, #79a8ff) }
+/* LiteralStringSingle */ .chroma .s1 { color: light-dark(#2544bb, #79a8ff) }
+/* LiteralStringSymbol */ .chroma .ss { color: light-dark(#2544bb, #79a8ff) }
+/* LiteralNumber */ .chroma .m { color: light-dark(#0000c0, #00bcff) }
+/* LiteralNumberBin */ .chroma .mb { color: light-dark(#0000c0, #00bcff) }
+/* LiteralNumberFloat */ .chroma .mf { color: light-dark(#0000c0, #00bcff) }
+/* LiteralNumberHex */ .chroma .mh { color: light-dark(#0000c0, #00bcff) }
+/* LiteralNumberInteger */ .chroma .mi { color: light-dark(#0000c0, #00bcff) }
+/* LiteralNumberIntegerLong */ .chroma .il { color: light-dark(#0000c0, #00bcff) }
+/* LiteralNumberOct */ .chroma .mo { color: light-dark(#0000c0, #00bcff) }
+/* Operator */ .chroma .o { color: light-dark(#00538b, #00d3d0) }
+/* OperatorWord */ .chroma .ow { color: light-dark(#00538b, #00d3d0) }
+/* OperatorReserved */ .chroma .or { color: light-dark(#00538b, #00d3d0) }
+/* Comment */ .chroma .c { color: light-dark(#505050, #a8a8a8) }
+/* CommentHashbang */ .chroma .ch { color: light-dark(#505050, #a8a8a8) }
+/* CommentMultiline */ .chroma .cm { color: light-dark(#505050, #a8a8a8) }
+/* CommentSingle */ .chroma .c1 { color: light-dark(#505050, #a8a8a8) }
+/* CommentSpecial */ .chroma .cs { color: light-dark(#505050, #a8a8a8) }
+/* CommentPreproc */ .chroma .cp { color: light-dark(#505050, #a8a8a8) }
+/* CommentPreprocFile */ .chroma .cpf { color: light-dark(#505050, #a8a8a8) }

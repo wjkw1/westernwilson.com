@@ -15,14 +15,14 @@
     <li>
       <a
         href="{{ .Page.RelPermalink }}"
-        class="text-heading! no-underline! hover:text-accent!"
+        class="text-heading no-underline! hover:text-accent"
       >
         {{ .Page.Title }}
         <span class="text-muted text-sm">({{ .Count }})</span>
       </a>
     </li>
     <li
-      class="py-3 flex items-baseline justify-between gap-4 border-b border-base last:border-b-0"
+      class="py-3 flex items-baseline justify-between gap-4 border-b border-line last:border-b-0"
     ></li>
     {{ end }}
   </ul>
