@@ -1132,14 +1132,14 @@ You can also run it manually across all files at any point:</p>
 <p>That&rsquo;s it. Once it&rsquo;s done, your automatic project linting works in the background. Which is perfect.</p>
 ]]></content:encoded></item><item><title>C4 Models for software system diagrams</title><link>https://westernwilson.com/reflections/c4models/</link><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/c4models/</guid><description>In 2022, a colleague introduced me to the C4 Model framework for architecture diagrams. At the time, I’d seen nothing like it. I’d often been in whiteboard sessions, struggling to make sense of all the boxes and lines people drew. Diagrams were drawn completely different depending on the person holding the marker. This colleague was a star communicator and an inspiring solutions architect. Their ability to convey complex ideas clearly was a huge influence in me picking up the framework and running with it for my own diagrams.&#10;</description><content:encoded><![CDATA[<p>In 2022, a colleague introduced me to the C4 Model framework for architecture diagrams. At the time, I&rsquo;d seen nothing like it. I&rsquo;d often been in whiteboard sessions, struggling to make sense of all the boxes and lines people drew. Diagrams were drawn completely different depending on the person holding the marker.
 This colleague was a star communicator and an inspiring solutions architect. Their ability to convey complex ideas clearly was a huge influence in me picking up the framework and running with it for my own diagrams.</p>
-<h3 id="what-is-the-c4-model" class="group relative scroll-mt-20">
+<h2 id="what-is-the-c4-model" class="group relative scroll-mt-20">
   What is the C4 Model?
   <a
     href="https://westernwilson.com/reflections/c4models/#what-is-the-c4-model"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h3>
+</h2>
 <p>The C4 Model is a structured, uniform approach to describe the architecture of a software system at different level of detail. Instead of throwing everything onto a single diagram and hoping people get it, it organises abstractions in a way that mirrors how developers or software architects tend to think about systems.</p>
 <p>The 4 levels are:</p>
 <ol>
@@ -1155,61 +1155,61 @@ Visit the official website to read more detail about this framework.</p>
 </blockquote>
 </li>
 </ol>
-<h3 id="the-map-is-not-the-territory" class="group relative scroll-mt-20">
+<h2 id="the-map-is-not-the-territory" class="group relative scroll-mt-20">
   The map is not the territory
   <a
     href="https://westernwilson.com/reflections/c4models/#the-map-is-not-the-territory"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h3>
+</h2>
 <p>A book called The Great Mental Models: General Thinking Concepts has a chapter called &ldquo;the map is not the territory&rdquo;. The idea being that the granularity of Google Maps, does not show the same level of detail as someone walking around on the ground. This is a similar line of reasoning useful when thinking about the C4 diagram.
 For most intents and purposes, the maps context is enough to be useful at a high-level. But sometimes, we need more detail to understand what is going on under the hood. That&rsquo;s why we have these layers of abstraction, and at each abstraction we are targeting a different audience.</p>
-<h3 id="the-caveat-at-the-code-level" class="group relative scroll-mt-20">
+<h2 id="the-caveat-at-the-code-level" class="group relative scroll-mt-20">
   The caveat at the code level
   <a
     href="https://westernwilson.com/reflections/c4models/#the-caveat-at-the-code-level"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h3>
+</h2>
 <p>The creator of this framework, Simon Brown, recommends never manually building the lowest level C4 class diagram. It&rsquo;s not worth the effort of building, and definitely not worth keeping updated; especially with the pace at which software changes nowadays. The level of detail is normally so closely related to code that it can (and should) be generated automatically.
 This is a pragmatic acknowledgement that diagrams are tools, not artefacts to be maintained for their own sake. If a diagram can&rsquo;t keep pace with reality, it quickly becomes a source of confusion rather than clarity.</p>
-<h3 id="examples-from-a-personal-project" class="group relative scroll-mt-20">
+<h2 id="examples-from-a-personal-project" class="group relative scroll-mt-20">
   Examples from a personal project
   <a
     href="https://westernwilson.com/reflections/c4models/#examples-from-a-personal-project"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h3>
+</h2>
 <p>I&rsquo;ve been applying this framework in a recent pet project. If you&rsquo;d like to see the diagrams in action, head over to the demo project here: devops-profile-coffee-card-app-demo.</p>
-<h4 id="context" class="group relative scroll-mt-20">
+<h3 id="context" class="group relative scroll-mt-20">
   Context
   <a
     href="https://westernwilson.com/reflections/c4models/#context"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h4>
+</h3>
 <p><img src="https://westernwilson.com/reflections/c4models/CoffeeCards-C4-Context.jpg" alt="C4 Context Diagram"></p>
-<h4 id="containers" class="group relative scroll-mt-20">
+<h3 id="containers" class="group relative scroll-mt-20">
   Containers
   <a
     href="https://westernwilson.com/reflections/c4models/#containers"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h4>
+</h3>
 <p><img src="https://westernwilson.com/reflections/c4models/CoffeeCards-C4-Container.jpg" alt="C4 Container Diagram"></p>
-<h4 id="components-tbd" class="group relative scroll-mt-20">
+<h3 id="components-tbd" class="group relative scroll-mt-20">
   Components TBD
   <a
     href="https://westernwilson.com/reflections/c4models/#components-tbd"
     class="heading-anchor ml-2 text-sm no-underline! opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 [@media(hover:none)]:opacity-100 text-muted hover:text-accent transition-opacity"
     aria-label="Link to this heading"
   ><i class="fa-solid fa-link" aria-hidden="true"></i></a>
-</h4>
+</h3>
 <p><em>Coming soon&hellip;</em></p>
 ]]></content:encoded></item><item><title>Reflection vs. Blog</title><link>https://westernwilson.com/reflections/2026-03-20-blogs/</link><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/2026-03-20-blogs/</guid><description>A blog is a truncation of “weblog” and refers to&#10;“a website containing a writer’s or group of writers’ own experiences, observations, opinions, etc., and often having images and links to other websites.”&#10;A reflection has many meanings, but the two I latch onto are:&#10;a fixing of the thoughts on something; careful consideration. a thought occurring in consideration or meditation. The word reflections carries a quieter, more inward energy for me. It implies that you’re writing for the process of thinking, not for an audience or an outcome. I love that there is no implicit pressure to grow a following, monetise, or be consistent on a schedule.&#10;</description><content:encoded><![CDATA[<p>A <a href="https://www.dictionary.com/browse/blog">blog</a> is a truncation of &ldquo;weblog&rdquo; and refers to</p>
 <blockquote>
@@ -1459,7 +1459,8 @@ I created a Template Space that should be available to copy from the AnyGallery 
 <li>‍<strong>Manually Link to PARA:</strong> Use AnyType&rsquo;s &ldquo;Link to Collection&rdquo; feature to link any object newly created to a specific Project, Area or Resource yourself. This is particularly useful in Graph view if you like to see clusters of related information.</li>
 <li>‍<strong>Archive Projects, Areas or Resources:</strong> Archiving is handled with a simple checkbox field on Collections that have relevant PARA Types.</li>
 </ul>
-<figure><img src="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/anytype-graph-2.png">
+<figure><img src="https://westernwilson.com/reflections/2025-07-12-anytype-with-para/anytype-graph-2.png"
+			alt="AnyType graph view with the PARA Query Dashboard at the centre, linked to Projects, Areas, Resources and Archived, each with example objects attached">
 </figure>
 
 <h2 id="shared-gallery" class="group relative scroll-mt-20">
