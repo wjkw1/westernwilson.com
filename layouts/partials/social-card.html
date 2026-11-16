@@ -1,0 +1,60 @@
+{{- /* Builds a 1200x630 preview card for the page (title, site name, date or author,
+       and the cover on book pages) and returns the image resource. */ -}}
+{{- $base := resources.Get "images/social-card-base.png" -}}
+{{- $bold := resources.Get "fonts/Lexend-SemiBold.ttf" -}}
+{{- $regular := resources.Get "fonts/Lexend-Regular.ttf" -}}
+{{- $ink := "#1E1008" -}}
+{{- $muted := "#705A4C" -}}
+{{- $margin := 96 -}}
+
+{{- $title := .Title | default site.Title -}}
+{{- if eq .Kind "term" }}{{ $title = printf "#%s" (lower .Title) }}{{ end -}}
+
+{{- $cover := "" -}}
+{{- with .Resources.Get (.Params.bookCover | default "") }}{{ $cover = .Resize "x470" }}{{ end -}}
+
+{{- $meta := (urls.Parse site.BaseURL).Host -}}
+{{- if $cover -}}
+  {{- with .Params.bookAuthor }}{{ $meta = printf "by %s" . }}{{ end -}}
+{{- else if and .IsPage (not .Date.IsZero) -}}
+  {{- $meta = printf "%s · %d min read" (.Date.Format "January 2, 2006") .ReadingTime -}}
+{{- end -}}
+
+{{- /* images.Text wraps only at the image edge, so text is drawn on a layer
+       cropped to where it must stop: the right margin, or just short of the cover. */ -}}
+{{- $textRight := sub 1200 $margin -}}
+{{- if $cover }}{{ $textRight = sub 1200 (add (mul $margin 2) $cover.Width) }}{{ end -}}
+{{- $avail := sub $textRight $margin -}}
+
+{{- /* Largest size that fits the title in three lines; Lexend averages ~0.56em per character; very long titles fall back to the smallest size and run longer. */ -}}
+{{- $size := 44 -}}
+{{- $found := false -}}
+{{- range slice 72 64 56 50 -}}
+  {{- if not $found -}}
+    {{- $perLine := div (float $avail) (mul . 0.56) -}}
+    {{- if le (math.Ceil (div (float (len $title)) $perLine)) 3 -}}
+      {{- $size = . -}}
+      {{- $found = true -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $text := $base.Crop (printf "%dx630 TopLeft" $textRight) | images.Filter
+  (images.Text $title (dict "font" $bold "size" $size "color" $ink "x" $margin "y" 200 "linespacing" (div $size 5)))
+  (images.Text $meta (dict "font" $regular "size" 28 "color" $muted "x" $margin "y" 520 "linespacing" 6))
+-}}
+
+{{- $logo := (resources.Get site.Params.logo).Resize "64x" -}}
+{{- $filters := slice
+  (images.Overlay $text 0 0)
+  (images.Overlay $logo $margin 72)
+  (images.Text site.Title (dict "font" $regular "size" 30 "color" $ink "x" (add $margin 84) "y" 86))
+-}}
+{{- with $cover -}}
+  {{- $filters = $filters | append (images.Overlay . (sub 1200 (add $margin .Width)) (div (sub 630 .Height) 2)) -}}
+{{- end -}}
+
+{{- $card := $base | images.Filter $filters -}}
+{{- /* Cover photos balloon as PNG; text-only cards stay PNG for crisp type. */ -}}
+{{- if $cover }}{{ $card = $card.Process "jpg q88" }}{{ end -}}
+{{- return (resources.Copy (printf "%ssocial.%s" .RelPermalink $card.MediaType.SubType) $card) -}}

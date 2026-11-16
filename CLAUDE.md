@@ -35,7 +35,7 @@ Replace the model with whatever one was used.
 
 **CSS pipeline** — Tailwind CSS v4 is imported in [assets/css/main.css](assets/css/main.css) and processed by the Hugo asset pipeline (requires the extended Hugo binary). Colors are CSS custom properties (`--c-bg`, `--c-accent`, etc.) defined once in `:root` with `light-dark()`; the `data-theme` toggle pins `color-scheme`. They are registered in `@theme` as Tailwind colours, so use `text-heading`, `text-muted`, `bg-alt`, `border-line`, etc. rather than `[color:var(...)]`.
 
-**Layout hierarchy** — [`layouts/_default/baseof.html`](layouts/_default/baseof.html) is the shell (header/main/footer partials). Section templates in `layouts/_default/` and `layouts/books/` override the `main` block. Books have a richer single template (cover, rating, Goodreads link) defined in [`layouts/books/single.html`](layouts/books/single.html).
+**Layout hierarchy** — [`layouts/_default/baseof.html`](layouts/_default/baseof.html) is the shell (header/main/footer partials). Section templates in `layouts/_default/` and `layouts/books/` override the `main` block. Books have a richer single template (cover, rating, Goodreads link) defined in [`layouts/books/single.html`](layouts/books/single.html). Every page gets a generated 1200×630 social preview image (title, date or author, book cover) from [`partials/social-card.html`](layouts/partials/social-card.html), wired into Open Graph and JSON-LD in `head.html`.
 
 **Content sections:**
 - `content/reflections/` — single Markdown files; archetype at [`archetypes/reflections.md`](archetypes/reflections.md)
