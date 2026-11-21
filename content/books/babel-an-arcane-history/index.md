@@ -82,7 +82,7 @@ Chapter 12
 
 Chapter 32
 
-> Insane was not enough to cover it, Robin thought. English was insufficient to describe all this. His mind wandered to old Chinese texts, the idioms they employed about dynastic collapse and change. Tiānfalāndìfù. The heavens fell, and the earth collapsed in on itself.
+> Insane was not enough to cover it, Robin thought. English was insufficient to describe all this. His mind wandered to old Chinese texts, the idioms they employed about dynastic collapse and change. Tiānfāndìfù (天翻地覆). The heavens fell, and the earth collapsed in on itself.
 
 Chapter 33
 

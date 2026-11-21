@@ -31,7 +31,7 @@ The categories Faith G. Harper uses for the various boundaries we have:
 > Questions for consideration:
 >
 > 1. what are some of the boundaries you have for each of these categories?
-> 2. which kinds of boundary violations do you experience the most? Which categories do those violation s belong to?
+> 2. which kinds of boundary violations do you experience the most? Which categories do those violations belong to?
 > 3. which kinds of boundaries do you have the most difficulty respecting for others? Which categories do those violations belong to?
 
 > Four main biggest reasons boundaries get walked over:

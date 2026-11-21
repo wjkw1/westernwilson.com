@@ -8,7 +8,7 @@ subtitle: "Inspired by [Derek Sivers](https://sive.rs/about) — add your own [/
 
 ## Amsterdam
 
-Finally in Amsterdam after an extended stay in Belgrade, Serbia!! I've accepted a Cloud Engineer role at [Sensys Gatso Group](https://www.sensysgatso.com/) and I'm building a new normal around it.
+Finally in Amsterdam after an extended stay in Belgrade, Serbia!! I've accepted a Cloud Engineer role at [Sensys Gatso Software](https://www.sensysgatso.com/) and I'm building a new normal around it.
 
 Moving through life with more intention. At the moment that means focusing on Health (sleep hygiene and training), learning fast in the new role, and reading well: the Jane Austen classics and the Bible.
 

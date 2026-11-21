@@ -28,6 +28,7 @@ params:
       name: Sensys Gatso Software
       url: "https://www.sensysgatso.com/"
     location: Amsterdam
+    careerStart: "2021-01-01"
     country: Netherlands
     flag: "🇳🇱"
     origin: Aotearoa New Zealand

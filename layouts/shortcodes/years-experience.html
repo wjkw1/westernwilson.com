@@ -1,0 +1,6 @@
+{{- /* Whole years since identity.careerStart, spelled out up to twelve. Counted at build time, so it ticks over on the first deploy after each anniversary. */ -}}
+{{- $start := time.AsTime site.Params.identity.careerStart -}}
+{{- $years := sub now.Year $start.Year -}}
+{{- if lt (int now.Month) (int $start.Month) }}{{ $years = sub $years 1 }}{{ end -}}
+{{- $words := slice "zero" "one" "two" "three" "four" "five" "six" "seven" "eight" "nine" "ten" "eleven" "twelve" -}}
+{{- if lt $years (len $words) }}{{ index $words $years }}{{ else }}{{ $years }}{{ end -}}
