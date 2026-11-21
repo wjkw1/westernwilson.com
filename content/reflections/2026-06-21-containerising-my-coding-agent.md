@@ -2,6 +2,7 @@
 title: "Containerising my coding agent"
 description: "How I sandboxed Claude Code in a dev container with an outbound firewall, the sudo loophole I closed, and the gaps that are still open."
 date: 2026-06-21
+featured: true
 slug: "containerising-my-coding-agent"
 tags: ["ai", "devtools", "devops"]
 ---

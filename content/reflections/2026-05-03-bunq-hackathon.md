@@ -2,6 +2,7 @@
 title: "Deciding what to keep"
 description: "At 4am during bunq's 24-hour hackathon, I deleted the AI-built app and started again. What it taught me about deciding what to keep."
 date: 2026-05-03
+featured: true
 lastmod: 2026-05-19
 slug: "bunq-hackathon-7"
 tags: ["ai", "devops", "hackathon"]

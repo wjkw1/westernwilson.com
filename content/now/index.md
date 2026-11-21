@@ -2,6 +2,7 @@
 title: "Now"
 date: 2026-09-06
 slug: "now"
+status: "settling into Amsterdam and building a golf game in Godot"
 subtitle: "Inspired by [Derek Sivers](https://sive.rs/about) — add your own [/now](https://nownownow.com/about) page to your personal website too!"
 ---
 

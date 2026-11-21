@@ -26,7 +26,7 @@
     <div class="min-w-0">
       <a
         href="{{ $book.RelPermalink }}"
-        class="{{ cond $compact "font-medium" "font-display font-semibold text-lg leading-snug" }} text-heading no-underline hover:underline! hover:text-accent"
+        class="{{ cond $compact "font-medium" "font-display font-semibold text-lg leading-snug" }} link-sweep text-heading"
         >{{ $book.Title }}</a
       >
       {{ with $book.Params.bookAuthor }}

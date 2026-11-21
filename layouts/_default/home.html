@@ -1,121 +1,167 @@
 {{ define "main" }}
 <div class="space-y-14">
   <!-- Hero -->
-  <section class="flex flex-col sm:flex-row items-center sm:items-start gap-6">
+  <section class="grid grid-cols-[auto_1fr] items-center gap-x-5 sm:gap-x-7">
     {{ with resources.Get .Site.Params.avatar }}
-    {{ partial "img.html" (dict
-      "image" .
-      "alt" ($.Site.Params.avatarAlt | default $.Site.Title)
-      "widths" (slice 162 324)
-      "sizes" "(min-width: 768px) 162px, 144px"
-      "class" "w-32 h-32 md:w-36 md:h-36 rounded-full object-cover border-2 border-muted shadow-sm shrink-0"
-      "loading" "eager"
-      "fetchpriority" "high"
-    ) }}
+    <span class="relative sm:row-span-2">
+      {{ partial "img.html" (dict
+        "image" .
+        "alt" ($.Site.Params.avatarAlt | default $.Site.Title)
+        "widths" (slice 126 252)
+        "sizes" "(min-width: 640px) 126px, 72px"
+        "class" "block size-16 sm:size-28 rounded-full object-cover"
+        "loading" "eager"
+        "fetchpriority" "high"
+      ) }}
+      {{- /* Hand-drawn on purpose: a loose loop that overshoots its start, like a pen circling a photo. */}}
+      <svg class="hero-ring" viewBox="0 0 100 100" aria-hidden="true" focusable="false"><path pathLength="1" d="M41.7 2.7C43.6 2.6 49.4 2.0 53.2 2.3C57.0 2.6 60.9 3.4 64.5 4.6C68.1 5.8 71.7 7.4 75.0 9.4C78.2 11.3 81.4 13.7 84.1 16.4C86.8 19.1 89.3 22.1 91.4 25.4C93.5 28.6 95.2 32.2 96.5 35.9C97.7 39.6 98.6 43.5 98.9 47.4C99.2 51.3 99.0 55.4 98.4 59.3C97.7 63.1 96.5 67.1 94.9 70.7C93.3 74.2 91.1 77.7 88.6 80.8C86.2 83.9 83.2 86.7 80.1 89.1C76.9 91.4 73.3 93.4 69.7 94.9C66.1 96.4 62.2 97.5 58.3 98.0C54.5 98.6 50.5 98.7 46.6 98.4C42.7 98.1 38.8 97.3 35.2 96.1C31.5 94.9 27.9 93.2 24.5 91.2C21.2 89.2 18.1 86.7 15.3 84.0C12.5 81.3 10.0 78.2 7.9 74.9C5.8 71.6 4.0 67.9 2.8 64.2C1.5 60.4 0.7 56.4 0.4 52.5C0.1 48.5 0.3 44.4 0.9 40.5C1.6 36.5 2.8 32.6 4.5 28.9C6.1 25.3 8.3 21.7 10.9 18.6C13.4 15.5 16.4 12.6 19.6 10.3C22.8 7.9 26.4 5.9 30.1 4.4C33.8 2.9 37.7 1.8 41.6 1.2C45.6 0.6 49.6 0.5 53.6 0.9C57.5 1.2 63.2 2.9 65.2 3.3"/></svg>
+    </span>
     {{ end }}
-    <div>
-      <h1 class="font-display text-3xl font-semibold leading-tight mt-0 mb-3">
-        {{ .Title }}
-      </h1>
-      {{ with .Site.Params.identity }}
-      <p class="text-heading text-lg font-medium mt-0 mb-3">
-        {{ .role }}{{ with .employer }} at <a href="{{ .url }}" rel="noopener" class="text-heading underline decoration-accent decoration-1 underline-offset-4 hover:text-accent">{{ .name }}</a>{{ end }}{{ with .location }} in {{ . }}{{ end }}{{ with .flag }} {{ . }}{{ end }}
-      </p>
-      {{ end }}
+    {{- $title := .Title | htmlEscape }}
+    {{- with .Params.heroMark }}
+    {{- $mark := printf `<span class="hero-mark">%s<svg viewBox="0 0 120 12" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path pathLength="1" d="M3 9.5C28 5.5 66 3 117 4.5"/></svg></span>` . }}
+    {{- $title = replace $title . $mark 1 }}
+    {{- end }}
+    <h1 class="font-display text-4xl font-semibold leading-tight m-0 sm:self-end">{{ $title | safeHTML }}</h1>
+    {{ with .Site.Params.identity }}{{ $flag := .flag }}
+    <p class="hero-rise col-span-2 sm:col-span-1 sm:col-start-2 sm:self-start text-heading text-xl font-medium text-balance mt-4 sm:mt-3 mb-0" style="--i:0">
+      {{ .role }}{{ with .employer }} at <a href="{{ .url }}" rel="noopener" class="link-sweep whitespace-nowrap text-heading">{{ .name }}</a>{{ end }}
+      {{- with .location }} <span class="whitespace-nowrap">in {{ . }}{{ with $flag }} <span aria-hidden="true">{{ . }}</span>{{ end }}</span>{{ end }}
+    </p>
+    {{ end }}
+    <div class="col-span-2 mt-6 sm:mt-8">
       {{ with .Content }}
-      <div class="text-muted text-lg mt-0 mb-3 inline-links [&_a]:font-medium">
+      <div class="max-w-prose text-muted [&_a]:link-sweep [&_a]:text-heading">
         {{ . }}
       </div>
       {{ end }}
-      <p class="flex flex-wrap gap-3 mt-5 mb-3">
-        <a href="{{ partial "mailto.html" "Kia ora from westernwilson.com" }}" class="inline-flex items-center gap-2 rounded px-4 py-2 font-medium bg-accent text-surface no-underline! hover:bg-heading">
-          {{ partial "icon.html" (dict "name" "envelope") }} Email me
-        </a>
-        <a href="{{ "/about/" | relURL }}" class="inline-flex items-center rounded px-4 py-2 font-medium border border-line text-heading no-underline! hover:border-accent hover:text-accent">
-          About me →
-        </a>
-      </p>
-      {{ with .Site.Params.social }}
-      <ul class="flex gap-1 list-none -ml-2 p-0 mt-0 mb-3">
-        {{ range sort . "weight" }}
+      <ul class="hero-rise flex flex-wrap items-center gap-1 list-none -ml-2 p-0 mt-5 mb-0" style="--i:1">
+        {{ $email := "" }}
+        {{ range sort .Site.Params.social "weight" }}
+        {{ if hasPrefix .url "mailto:" }}{{ $email = . }}{{ continue }}{{ end }}
         <li>
-          <a
-            href="{{ .url }}"
-            rel="{{ .rel }}"
-            aria-label="{{ .name }}"
-            class="inline-flex p-2 text-lg text-muted no-underline! hover:text-accent"
-          >
+          <a href="{{ .url }}" rel="{{ .rel }}" aria-label="{{ .name }}" class="inline-flex p-2 text-lg text-muted no-underline! hover:text-accent motion-safe:transition-transform motion-safe:hover:-translate-y-0.5">
             {{ partial "icon.html" (dict "name" .icon) }}
           </a>
         </li>
         {{ end }}
-        {{ with $.OutputFormats.Get "rss" }}
+        {{ with .OutputFormats.Get "rss" }}
         <li>
-          <a
-            href="{{ .RelPermalink }}"
-            type="{{ .MediaType.Type }}"
-            aria-label="RSS feed"
-            class="inline-flex p-2 text-lg text-muted no-underline! hover:text-accent"
-          >
+          <a href="{{ .RelPermalink }}" type="{{ .MediaType.Type }}" aria-label="RSS feed" class="inline-flex p-2 text-lg text-muted no-underline! hover:text-accent motion-safe:transition-transform motion-safe:hover:-translate-y-0.5">
             {{ partial "icon.html" (dict "name" "rss") }}
           </a>
         </li>
         {{ end }}
+        {{ with $email }}
+        <li class="ml-1 pl-2 border-l border-line">
+          <a href="{{ partial "mailto.html" "Kia ora from westernwilson.com" }}" rel="{{ .rel }}" class="say-kia-ora inline-flex items-center gap-2 p-2 text-muted no-underline! hover:text-accent">
+            {{ partial "icon.html" (dict "name" .icon "class" "text-lg") }}
+            <span class="link-sweep text-sm font-medium text-heading">say kia ora<span class="sr-only"> by email</span></span>
+          </a>
+        </li>
+        {{ end }}
       </ul>
-      {{ end }}
-      <p class="mb-3 font-medium">
-        <a href="now/" class="text-accent">See what I'm doing now →</a>
+      {{ with site.GetPage "/now" }}{{ $now := . }}{{ with .Params.status }}
+      <p class="hero-rise text-sm text-muted mt-3 mb-0" style="--i:2">
+        Now (<time datetime="{{ $now.Lastmod.Format "2006-01-02" }}">{{ $now.Lastmod.Format "Jan 2006" }}</time>):
+        <a href="{{ $now.RelPermalink }}" class="link-sweep text-heading">{{ . }} →</a>
       </p>
+      {{ end }}{{ end }}
     </div>
   </section>
 
-  <!-- Recent reflections -->
-  {{ $reflections := where .Site.RegularPages "Section" "reflections" }} {{ if
-  $reflections }}
-  <section>
-    <h2
-      class="font-display text-lg font-semibold uppercase tracking-widest mb-4"
-    >
-      reflections
-    </h2>
-    {{ with .Site.GetPage "reflections" }} {{ with .Params.description }}
-    <p class="text-muted text mb-4 leading-relaxed inline-links">{{ . | markdownify }}</p>
-    {{ end }} {{ end }}
-    <ul class="list-none m-0 p-0">
-      {{ range first 6 $reflections }}
-      {{ partial "post-list-item.html" . }}
+  <!-- Reflections: hand-picked and latest -->
+  {{ $reflections := where .Site.RegularPages "Section" "reflections" }}
+  {{ with $reflections }}
+  {{ $featured := where . "Params.featured" true }}
+  <section aria-labelledby="home-reflections" class="group/views">
+    <div class="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 mb-4">
+      <h2 id="home-reflections" class="font-display text-lg font-semibold uppercase tracking-widest m-0">
+        reflections
+      </h2>
+      {{ if $featured }}
+      <fieldset class="m-0 min-w-0 border-0 p-0">
+        <legend class="sr-only">Show reflections</legend>
+        <div id="reflections-toggle" class="group/toggle relative grid grid-cols-2">
+          <span aria-hidden="true" class="pointer-events-none absolute inset-0 rounded-lg border-2 border-line"></span>
+          <span aria-hidden="true" class="pointer-events-none absolute inset-y-0 left-0 w-1/2 rounded-lg border border-accent bg-alt group-has-[#view-latest:checked]/toggle:translate-x-full motion-safe:transition-transform motion-safe:duration-300 motion-safe:ease-out-quint"></span>
+          <input type="radio" name="reflections-view" id="view-featured" class="peer/featured sr-only" checked>
+          <label for="view-featured" class="relative cursor-pointer rounded-lg px-3.5 py-1 text-center text-sm font-medium text-muted motion-safe:transition-colors peer-checked/featured:text-heading peer-focus-visible/featured:outline-2 peer-focus-visible/featured:outline-offset-2 peer-focus-visible/featured:outline-accent">Start here</label>
+          <input type="radio" name="reflections-view" id="view-latest" class="peer/latest sr-only">
+          <label for="view-latest" class="relative cursor-pointer rounded-lg px-3.5 py-1 text-center text-sm font-medium text-muted motion-safe:transition-colors peer-checked/latest:text-heading peer-focus-visible/latest:outline-2 peer-focus-visible/latest:outline-offset-2 peer-focus-visible/latest:outline-accent">Latest</label>
+        </div>
+      </fieldset>
+      <script>
+        // A click anywhere on the toggle flips it, even on the side already selected.
+        document.getElementById("reflections-toggle").addEventListener("click", function (e) {
+          if (!e.target.closest("label")) return;
+          e.preventDefault();
+          var next = document.getElementById(document.getElementById("view-latest").checked ? "view-featured" : "view-latest");
+          next.checked = true;
+          next.dispatchEvent(new Event("change", { bubbles: true }));
+        });
+      </script>
       {{ end }}
+    </div>
+    {{ with site.GetPage "reflections" }}{{ with .Params.homeIntro | default .Params.description }}
+    <p class="text-muted mb-4 leading-relaxed inline-links">{{ . | markdownify }}</p>
+    {{ end }}{{ end }}
+    {{ with $featured }}
+    <ul class="list-none m-0 p-0 group-has-[#view-latest:checked]/views:hidden">
+      {{ range . }}{{ partial "post-list-item.html" . }}{{ end }}
     </ul>
-    {{ if gt (len $reflections) 5 }}
-    <p class="mt-4 mb-0">
-      <a href="/reflections/" class="text-sm text-accent">All reflections →</a>
-    </p>
     {{ end }}
+    <ul class="list-none m-0 p-0 group-has-[#view-featured:checked]/views:hidden">
+      {{ range first 5 . }}{{ partial "post-list-item.html" . }}{{ end }}
+    </ul>
+    <p class="mt-4 mb-0">
+      <a href="{{ "/reflections/" | relURL }}" class="link-sweep text-sm text-heading">All reflections →</a>
+    </p>
   </section>
   {{ end }}
 
   <!-- Recent books -->
   {{ $books := sort (where .Site.RegularPages "Section" "books") "Params.dateRead" "desc" }} {{ if $books }}
   <section>
-    <h2
-      class="font-display text-lg font-semibold uppercase tracking-widest mb-4"
-    >
+    <h2 class="reveal font-display text-lg font-semibold uppercase tracking-widest mb-4">
       books
     </h2>
     {{ with .Site.GetPage "books" }} {{ with .Params.description }}
-    <p class="text-muted text mb-8 leading-relaxed inline-links">{{ . | markdownify }}</p>
+    <p class="reveal text-muted mb-4 leading-relaxed inline-links">{{ . | markdownify }}</p>
     {{ end }} {{ end }}
-    <ul class="list-none m-0 p-0">
+    <ul class="list-none m-0 p-0 *:reveal">
       {{ range $i, $book := first 5 $books }}
       {{ partial "book-list-item.html" (dict "page" $book "index" $i "compact" true) }}
       {{ end }}
     </ul>
     {{ if gt (len $books) 5 }}
-    <p class="mt-4 mb-0">
-      <a href="/books/" class="text-sm text-accent">All books →</a>
+    <p class="reveal mt-4 mb-0">
+      <a href="{{ "/books/" | relURL }}" class="link-sweep text-sm text-heading">All books →</a>
     </p>
     {{ end }}
   </section>
   {{ end }}
 </div>
+<script>
+  // Books rise in as they reach the viewport.
+  (function () {
+    if (!("IntersectionObserver" in window) || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var reveal = new IntersectionObserver(function (entries) {
+      var n = 0;
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        reveal.unobserve(e.target);
+        e.target.style.animationDelay = n++ * 70 + "ms";
+        e.target.dataset.reveal = "in";
+      });
+    }, { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal, .\\*\\:reveal > *").forEach(function (el) {
+      el.dataset.reveal = "pending";
+      el.addEventListener("animationend", function (e) {
+        if (e.target === el) { el.dataset.reveal = "done"; el.style.animationDelay = ""; }
+      });
+      reveal.observe(el);
+    });
+  })();
+</script>
 {{ end }}
