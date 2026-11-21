@@ -8,7 +8,7 @@ subtitle: "Inspired by [Derek Sivers](https://sive.rs/about) — add your own [/
 
 ## Life
 
-Settled in Amsterdam after an extended stay in Belgrade, Serbia!! After months of moving around it finally feels like home. I've even worked out how to [ride the trams for less](/reflections/gvb-korting/).
+Amsterdam is home now!! After months on the move, with a long stop in Belgrade, Serbia, I've finally unpacked for good. I've even worked out how to [ride the trams for less](/reflections/gvb-korting/).
 
 Moving through life with more intention. At the moment that means focusing on health: sleep hygiene and training.
 
