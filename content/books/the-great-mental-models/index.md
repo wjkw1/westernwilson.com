@@ -22,7 +22,7 @@ One example is the context of an elephant and a blind person who has never exper
 The main chunk of the book explains general thinking concepts that are akin to common sense. For example:
 
 1. Map is not the territory
-2. First order principles (using 5 whys or scratch method)
+2. First principles (using 5 whys or scratch method)
 3. Thought experiments
 4. Circle of competence
 5. Inversion - begin with the end in mind. Work both ways.

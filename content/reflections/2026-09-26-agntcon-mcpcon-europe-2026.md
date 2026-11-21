@@ -1,5 +1,6 @@
 ---
 title: "AGNTCon + MCPCon Europe 2026"
+description: "Notes from AGNTCon + MCPCon Europe 2026 in Amsterdam: the best talks on MCP in production, peer review, and governing AI agents."
 date: 2026-09-26
 slug: "agntcon-mcpcon-europe-2026"
 tags: ["ai", "devops", "conference"]

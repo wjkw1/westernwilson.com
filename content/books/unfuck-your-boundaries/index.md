@@ -18,7 +18,7 @@ That isn't respect. They didnt ask for help. They're processing something you ca
 
 This book comes with a lot of hard-hitting boundary related questions that are worth diving into. Some are pretty confronting tbh. Firstly it's important to understand the categories, even at a surface level.
 
-The categories Fath G. Harper uses for the various boundaries we have:
+The categories Faith G. Harper uses for the various boundaries we have:
 
 - **Time boundaries** - limits around how you spend your time, who has access to it, and protecting it from overcommitment or others' demands
 - **Spiritual boundaries** (belief system) - the right to hold your own beliefs, values, and practices without pressure to adopt or justify them to others
@@ -45,7 +45,7 @@ Originally it was difficult to understand what the words in this sentence meant:
 
 The book explains an ideal cultural norm where "yes means yes" and not having the opposite where we are forced to look "no means no". She describes the the flip of what we currently have. This is good.
 
-The books says tha all large political movements started with a boundary being crossed and someone standing up for their right to protect said boundary. So, in essence, boundaries are eventually political by nature. They're definitely shaped by politics and what is acceptable by both our culture and our laws.
+The book says that all large political movements started with a boundary being crossed and someone standing up for their right to protect said boundary. So, in essence, boundaries are eventually political by nature. They're definitely shaped by politics and what is acceptable by both our culture and our laws.
 
 Schools aren't always equipped to set kids up for healthy communication and boundaries, though they try. Sometimes it feels like they're set up for compliance and adhering to the status quo. I remember a time as a young kid where answering questions was fun, and more people put up their hands. Eventually less and less hands were keen to go up. It felt like you were shamed for answering questions wrong, and so the social rejection / embarrassment trained you to ask less questions. Since then, I consistently try to ask one useful question in meetings/events that I'm a part of. Something that's taken time to unlearn. Heck, I still get nervous at the thought of putting my hand up to ask a question.
 
@@ -67,7 +67,7 @@ I knew these words, but I didn't realise the succinct meaning behind them:
 > The minute we start paying attention to our own bullshit is the minute it starts to change.
 > On noticing your own state and not externalising your problems on the world.
 
-> Best way to respond to High Confilct Individuals, is to first ask if you even need to respond? What are the consequences of not responding, what about if you respond?
+> Best way to respond to High Conflict Individuals, is to first ask if you even need to respond? What are the consequences of not responding, what about if you respond?
 
 The final bits of the book for me remind me that effective communication is possible. It shows a fair few examples and says everyone has a responsibility to help make the world a better place. Decent read. I think if I was more strict on the questions and spending time on them I might have got more out of this book.
 The questions are worth picking up and going through at various stages of your life.

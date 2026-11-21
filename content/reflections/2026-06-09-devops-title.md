@@ -1,5 +1,6 @@
 ---
 title: "DevOps vs Platform vs Infrastructure Engineer"
+description: "DevOps, platform and infrastructure engineer titles get used interchangeably. Where each came from, how they differ, and how to read the job ad."
 date: 2026-06-09
 slug: "devops-vs-platform-vs-infrastructure-engineer"
 tags: ["devops", "career"]

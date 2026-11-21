@@ -1,5 +1,6 @@
 ---
 title: "Cheaper trams, buses and metro in Amsterdam"
+description: "Is GVB Korting worth it? How the discount tiers for Amsterdam's trams, buses and metro work, with a calculator to find the cheapest one for you."
 date: 2026-11-04
 slug: "gvb-korting"
 tags: ["travel"]

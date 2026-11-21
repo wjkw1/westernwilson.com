@@ -70,7 +70,7 @@ I worked somewhere stuck in this same situation, it's so refreshing to know that
 
 > It’s not enough to write the code well. The code has to be kept clean over time. We’ve all seen code rot and degrade as time passes. So we must take an active role in preventing this degradation.
 
-### Chapter 2 Meningful Names
+### Chapter 2 Meaningful Names
 
 > The name of a variable, function, or class, should answer all the big questions. It should tell you why it exists, what it does, and how it is used. If a name requires a comment, then the name does not reveal its intent.
 

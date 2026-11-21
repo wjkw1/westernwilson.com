@@ -1,5 +1,6 @@
 ---
 title: "Axoniq Conference 2026"
+description: "Notes from Axoniq Conference 2026: building software faster with AI while managing the risk, plus lessons on event sourcing in production."
 date: 2026-10-30
 slug: "axoniq-conference-2026"
 tags: ["conference", "ai", "devops"]
@@ -23,7 +24,7 @@ On the Axon side, I'm keeping an eye on:
 - **Deployment**: the industry lacks a good deployment model for Axon, especially for newcomers, so Axoniq are learning to build a Kubernetes operator and might build a community around it.
 - **Axon Server**: backup & restore and disaster recovery work is coming.
 
-After chatting with Mathias and I heard about DDD Europe in Amsterdam in June 2027. Reach out if you're going too!
+After chatting with Mathias, I heard about DDD Europe in Amsterdam in June 2027. Reach out if you're going too!
 
 The rest of this post is my notes from each talk, tidied up a bit.
 

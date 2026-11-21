@@ -1,5 +1,6 @@
 ---
 title: Developer dynamics
+description: "Four developer archetypes, the detective, cowboy, artist and mad scientist, and how knowing what drives each one helps a team work together."
 date: 2023-10-28
 tags:
   [
@@ -8,7 +9,7 @@ tags:
 draft: false
 ---
 
-_Full disclosure, I first heard of these architypes from a workshop run in 2020 by [FLINT Wellington](https://tuanz.org.nz/flint/flint-wellington/)_
+_Full disclosure, I first heard of these archetypes from a workshop run in 2020 by [FLINT Wellington](https://tuanz.org.nz/flint/flint-wellington/)_
 
 # Types of Developers in the Workplace
 

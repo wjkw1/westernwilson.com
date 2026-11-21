@@ -1,13 +1,13 @@
 ---
 title: "Linting and formatting code"
+description: "Set up linting and formatting at three touchpoints: editor, pre-commit hook and CI. A walkthrough using Ruff for a Python FastAPI project."
 date: 2026-04-02
+lastmod: 2026-11-21
 slug: "linting-and-formatting"
 tags: ["devops", "devtools"]
 ---
 
 **TL;DR:** Code style and formatting should **not** steal your brainpower. Set up linting/formatting at three touchpoints (your editor, your pre-commit hook, and your CI pipeline) and formatting becomes automatic from the moment you write code to the moment it merges. At the end, this reflection walks through exactly how to do that for a Python [FastAPI](https://fastapi.tiangolo.com) project.
-
-## Linting and formatting code
 
 Recently, while working on a [personal DevOps project](https://github.com/wjkw1/devops-profile-coffee-card-app-demo), I spent some time looking into linting tools. They amazingly save your brainpower for the actual problem, instead of code styling. Whether it's two spaces or four per indent, single quotes or double, I don't mind. Other people have thought deeply about these trade-offs, landed on reasonable answers, and codified them. I'm happy to piggyback on that.
 
@@ -71,11 +71,9 @@ Committing `.vscode/settings.json` to the repo is intentional. Anyone who clones
 No separate Ruff installation is needed as the VS Code extension ships its own binary, and the pre-commit hook (added in Step 2) bundles its own too. You just need to add your Ruff config to `ruff.toml`:
 
 ```toml
-[tool.ruff]
 line-length = 88
-target-version = "py312"
 
-[tool.ruff.lint]
+[lint]
 select = ["E", "F", "I"]
 ```
 
@@ -118,5 +116,32 @@ pre-commit run --all-files
 ```
 
 Useful for a first run after setting up, or after pulling in changes from someone else who hasn't had the hooks installed.
+
+### Step 3: CI
+
+The last touchpoint is the pipeline. In the project, it's a `lint` job in the [API's pull request workflow](https://github.com/wjkw1/devops-profile-coffee-card-app-demo/blob/main/.github/workflows/pr-api.yml), which runs on every PR that touches `api/`:
+
+```yaml
+lint:
+  runs-on: ubuntu-24.04-arm
+  defaults:
+    run:
+      working-directory: api
+  steps:
+    - uses: actions/checkout@v6
+    - uses: actions/setup-python@v6
+      with:
+        python-version: "3.12"
+        cache: pip
+        cache-dependency-path: api/requirements-dev.txt
+    - name: Install dependencies
+      run: pip install -r requirements-dev.txt
+    - name: Lint
+      run: ruff check .
+    - name: Format check
+      run: ruff format --check .
+```
+
+Unlike the pre-commit hook, CI doesn't fix anything. `ruff check` fails on lint errors, and `ruff format --check` fails if any file would be reformatted. A PR can't merge until the code passes the same rules your editor and hook already apply. The test job runs with `needs: lint`, so a formatting slip fails fast instead of waiting on the whole test suite.
 
 That's it. Once it's done, your automatic project linting works in the background. Which is perfect.
