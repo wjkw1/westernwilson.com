@@ -32,7 +32,7 @@
     <div class="col-span-2 mt-6 sm:mt-8">
       {{ with .Content }}
       {{- /* A bold word that opens a paragraph is its label, styled like the Now line's. */}}
-      <div class="max-w-prose leading-[1.7] [&_a]:link-sweep [&_a]:text-heading [&_p+p]:mt-3 [&_p>strong:first-child]:mr-1.5 [&_p>strong:first-child]:text-xs [&_p>strong:first-child]:font-semibold [&_p>strong:first-child]:uppercase [&_p>strong:first-child]:tracking-widest [&_p>strong:first-child]:text-accent">
+      <div class="max-w-prose text-muted leading-relaxed [&_a]:link-sweep [&_a]:text-heading [&_p+p]:mt-3 [&_p>strong:first-child]:mr-1.5 [&_p>strong:first-child]:text-xs [&_p>strong:first-child]:font-semibold [&_p>strong:first-child]:uppercase [&_p>strong:first-child]:tracking-widest [&_p>strong:first-child]:text-accent">
         {{ . }}
       </div>
       {{ end }}
