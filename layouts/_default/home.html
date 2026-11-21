@@ -31,7 +31,8 @@
     {{ end }}
     <div class="col-span-2 mt-6 sm:mt-8">
       {{ with .Content }}
-      <div class="max-w-prose text-[0.917rem]/[1.7] text-muted [&_a]:link-sweep [&_a]:text-heading [&_p+p]:mt-3">
+      {{- /* A bold word that opens a paragraph is its label, styled like the Now line's. */}}
+      <div class="max-w-prose text-[0.917rem]/[1.7] text-muted [&_a]:link-sweep [&_a]:text-heading [&_p+p]:mt-3 [&_p>strong:first-child]:mr-1.5 [&_p>strong:first-child]:text-xs [&_p>strong:first-child]:font-semibold [&_p>strong:first-child]:uppercase [&_p>strong:first-child]:tracking-widest [&_p>strong:first-child]:text-accent">
         {{ . }}
       </div>
       {{ end }}
@@ -85,7 +86,7 @@
       {{ if $featured }}
       <fieldset class="m-0 min-w-0 border-0 p-0">
         <legend class="sr-only">Show reflections</legend>
-        <div id="reflections-toggle" class="group/toggle relative grid grid-cols-2">
+        <div class="group/toggle relative grid grid-cols-2">
           <span aria-hidden="true" class="pointer-events-none absolute inset-0 rounded-lg border-2 border-line"></span>
           <span aria-hidden="true" class="pointer-events-none absolute inset-y-0 left-0 w-1/2 rounded-lg border border-accent bg-alt group-has-[#view-latest:checked]/toggle:translate-x-full motion-safe:transition-transform motion-safe:duration-300 motion-safe:ease-out-quint"></span>
           <input type="radio" name="reflections-view" id="view-featured" class="peer/featured sr-only" checked>
@@ -94,16 +95,6 @@
           <label for="view-latest" class="relative cursor-pointer rounded-lg px-3.5 py-1 text-center text-sm font-medium text-muted motion-safe:transition-colors peer-checked/latest:text-heading peer-focus-visible/latest:outline-2 peer-focus-visible/latest:outline-offset-2 peer-focus-visible/latest:outline-accent">Latest</label>
         </div>
       </fieldset>
-      <script>
-        // A click anywhere on the toggle flips it, even on the side already selected.
-        document.getElementById("reflections-toggle").addEventListener("click", function (e) {
-          if (!e.target.closest("label")) return;
-          e.preventDefault();
-          var next = document.getElementById(document.getElementById("view-latest").checked ? "view-featured" : "view-latest");
-          next.checked = true;
-          next.dispatchEvent(new Event("change", { bubbles: true }));
-        });
-      </script>
       {{ end }}
     </div>
     {{ with site.GetPage "reflections" }}{{ with .Params.homeIntro | default .Params.description }}

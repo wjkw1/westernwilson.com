@@ -79,14 +79,14 @@
   /* ~4% overshoot; much more reads as cartoonish. */
   --ease-spring: linear(0, 0.13 4%, 0.44 10%, 0.78 18%, 0.96 26%, 1.03 34%, 1.04 40%, 1.02 52%, 1 70%, 1);
 
-  /* Rise with a soft mask wipe rather than an opacity fade: axe judges text
-     contrast from colours, not masks, so a mid-animation check still passes. */
   --animate-now-pulse: now-pulse 1.6s ease-out;
   @keyframes now-pulse {
     from { scale: 1; opacity: 0.6; }
     to   { scale: 3.2; opacity: 0; }
   }
 
+  /* Rise with a soft mask wipe rather than an opacity fade: axe judges text
+     contrast from colours, not masks, so a mid-animation check still passes. */
   --animate-reveal-up: reveal-up 0.8s var(--ease-out-quint) backwards;
   @keyframes reveal-up {
     from { translate: 0 1rem; mask-position: 0 100%; }
@@ -311,24 +311,27 @@ html[data-theme="dark"]  { color-scheme: dark; }
   }
 }
 
-/* A quiet hairline underline at rest (still the non-colour cue WCAG 1.4.1
-   needs), with a 2px accent underline that sweeps in on hover. Backgrounds
-   rather than text-decoration so the sweep wraps across lines. */
 /* Scroll-in reveal. Only takes effect once the home page script sets
-   data-reveal, so without JS (or with reduced motion) content is just there. */
+   data-reveal, so without JS (or with reduced motion) content is just there.
+   Screen only: print never scrolls, so unseen items would print blank. */
 @utility reveal {
-  &[data-reveal="pending"] {
-    translate: 0 1rem;
-    mask-image: linear-gradient(#0000, #0000);
-  }
+  @media screen {
+    &[data-reveal="pending"] {
+      translate: 0 1rem;
+      mask-image: linear-gradient(#0000, #0000);
+    }
 
-  &[data-reveal="in"] {
-    mask-image: linear-gradient(#000 33%, #0000 66%);
-    mask-size: 100% 300%;
-    animation: var(--animate-reveal-up);
+    &[data-reveal="in"] {
+      mask-image: linear-gradient(#000 33%, #0000 66%);
+      mask-size: 100% 300%;
+      animation: var(--animate-reveal-up);
+    }
   }
 }
 
+/* A quiet hairline underline at rest (still the non-colour cue WCAG 1.4.1
+   needs), with a 2px accent underline that sweeps in on hover. Backgrounds
+   rather than text-decoration so the sweep wraps across lines. */
 @utility link-sweep {
   text-decoration: none;
   background-image:
