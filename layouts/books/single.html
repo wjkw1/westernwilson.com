@@ -4,13 +4,15 @@
   <header class="mb-10 pb-6 border-b border-line">
     <div class="flex gap-6 mb-5">
       {{ with .Params.bookCover }}{{ with $.Resources.Get . }}
-      {{ partial "img.html" (dict
-        "image" .
-        "alt" (printf "%s cover" $.Title)
-        "widths" (slice 108 216 324)
-        "class" "w-24 h-auto object-cover rounded shadow-sm shrink-0"
-        "loading" "eager"
-      ) }}
+      <div class="w-24 shrink-0 self-start rounded" style="{{ printf "view-transition-name: cover-%s" (anchorize $.File.ContentBaseName) | safeCSS }}">
+        {{ partial "img.html" (dict
+          "image" .
+          "alt" (printf "%s cover" $.Title)
+          "widths" (slice 108 216 324)
+          "class" "w-full h-auto object-cover rounded shadow-sm"
+          "loading" "eager"
+        ) }}
+      </div>
       {{ end }}{{ end }}
 
       <div class="flex flex-col justify-center gap-2">

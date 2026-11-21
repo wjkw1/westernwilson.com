@@ -13,14 +13,14 @@
     <ul class="flex gap-1 list-none m-0 p-0">
       {{ range sort . "weight" }}
       <li>
-        <a href="{{ .url }}" rel="{{ .rel }}" aria-label="{{ .name }}" class="inline-flex p-2 text-lg text-muted no-underline! hover:text-accent">
+        <a href="{{ .url }}" rel="{{ .rel }}" aria-label="{{ .name }}" class="icon-link inline-flex p-2 text-lg text-muted no-underline! hover:text-accent">
           {{ partial "icon.html" (dict "name" .icon) }}
         </a>
       </li>
       {{ end }}
       {{ with site.Home.OutputFormats.Get "rss" }}
       <li>
-        <a href="{{ .RelPermalink }}" type="{{ .MediaType.Type }}" aria-label="RSS feed" class="inline-flex p-2 text-lg text-muted no-underline! hover:text-accent">
+        <a href="{{ .RelPermalink }}" type="{{ .MediaType.Type }}" aria-label="RSS feed" class="icon-link inline-flex p-2 text-lg text-muted no-underline! hover:text-accent">
           {{ partial "icon.html" (dict "name" "rss") }}
         </a>
       </li>

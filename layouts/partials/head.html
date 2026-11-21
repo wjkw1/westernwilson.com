@@ -30,6 +30,11 @@
 <link rel="preload" href="{{ printf "fonts/%s.woff2" . | relURL }}" as="font" type="font/woff2" crossorigin>
 {{- end }}
 
+{{- /* Chromium prerenders a page once the pointer rests on its link, so pages open instantly. */}}
+<script type="speculationrules">
+{"prerender":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/*.xml"}}]},"eagerness":"moderate"}]}
+</script>
+
 {{- $css := resources.Get "css/main.css" | css.TailwindCSS (dict "minify" hugo.IsProduction) | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 

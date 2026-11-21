@@ -21,8 +21,9 @@
         aria-controls="mobile-menu"
         class="sm:hidden inline-flex items-center justify-center size-10 -m-2.5 text-muted hover:text-accent cursor-pointer bg-transparent border-0 p-0 leading-none"
       >
-        <span data-menu-icon="closed">{{ partial "icon.html" (dict "name" "bars" "class" "text-sm") }}</span>
-        <span data-menu-icon="open" hidden>{{ partial "icon.html" (dict "name" "xmark" "class" "text-sm") }}</span>
+        <svg class="icon burger text-sm" viewBox="0 0 24 24" aria-hidden="true" focusable="false" stroke="currentColor" stroke-width="2.25" stroke-linecap="round">
+          <line class="top" x1="4" y1="5" x2="20" y2="5"/><line class="mid" x1="4" y1="12" x2="20" y2="12"/><line class="bot" x1="4" y1="19" x2="20" y2="19"/>
+        </svg>
       </button>
 
       <!-- Desktop nav -->
@@ -34,8 +35,8 @@
             <a
               href="{{ .URL }}"
               {{ if $current }}aria-current="{{ $current }}"{{ end }}
-              class="inline-block py-2 text-sm text-muted no-underline hover:underline! hover:text-accent [&[aria-current]]:text-heading [&[aria-current]]:underline [&[aria-current]]:decoration-accent [&[aria-current]]:decoration-2 [&[aria-current]]:underline-offset-8"
-              >{{ .Name }}</a
+              class="nav-link inline-block py-2 text-sm text-muted no-underline! hover:text-accent [&[aria-current]]:text-heading"
+              >{{ .Name }}{{ if $current }}<span class="nav-indicator" aria-hidden="true"></span>{{ end }}</a
             >
           </li>
           {{ end }}
@@ -44,10 +45,19 @@
       {{ end }}
 
       <!-- Theme toggle (always visible) -->
-      <button id="theme-toggle" aria-label="Color scheme: System" title="Color scheme: System" class="inline-flex items-center justify-center size-10 -m-2.5 text-muted hover:text-accent cursor-pointer bg-transparent border-0 p-0 leading-none">
-        <span data-scheme="system">{{ partial "icon.html" (dict "name" "circle-half-stroke" "class" "text-sm") }}</span>
-        <span data-scheme="light" hidden>{{ partial "icon.html" (dict "name" "sun" "class" "text-sm") }}</span>
-        <span data-scheme="dark" hidden>{{ partial "icon.html" (dict "name" "moon" "class" "text-sm") }}</span>
+      <button id="theme-toggle" data-pref="system" aria-label="Color scheme: System" title="Color scheme: System" class="inline-flex items-center justify-center size-10 -m-2.5 text-muted hover:text-accent cursor-pointer bg-transparent border-0 p-0 leading-none">
+        <svg class="icon theme-icon text-sm" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <mask id="theme-icon-mask">
+            <rect width="24" height="24" fill="white"/>
+            <circle class="bite" cx="17" cy="7" r="7" fill="black"/>
+            <rect class="half" x="12" y="0" width="12" height="24" fill="black"/>
+          </mask>
+          <g class="rays" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M12 1.5v2M12 20.5v2M1.5 12h2M20.5 12h2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M4.6 19.4 6 18M18 6l1.4-1.4"/>
+          </g>
+          <circle class="core" cx="12" cy="12" r="9" fill="currentColor" mask="url(#theme-icon-mask)"/>
+          <circle class="ring" cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
       </button>
     </div>
   </div>
@@ -124,9 +134,7 @@
         var label =
           "Color scheme: " + scheme.label +
           " (switch to " + SCHEMES[scheme.next].label + ")";
-        btn.querySelectorAll("[data-scheme]").forEach(function (el) {
-          el.hidden = el.getAttribute("data-scheme") !== pref;
-        });
+        btn.dataset.pref = pref;
         btn.setAttribute("aria-label", label);
         btn.setAttribute("title", label);
         syncThemeColor(pref);
@@ -140,30 +148,38 @@
           if (next === "system") localStorage.removeItem("color-scheme");
           else localStorage.setItem("color-scheme", next);
         } catch (e) {}
-        applyPreference(next);
+        btn.dataset.animate = "";
+
+        // The new palette spreads out in a circle from the toggle.
+        if (!document.startViewTransition || matchMedia("(prefers-reduced-motion: reduce)").matches) {
+          applyPreference(next);
+          return;
+        }
+        var r = btn.getBoundingClientRect();
+        var x = r.left + r.width / 2;
+        var y = r.top + r.height / 2;
+        var root = document.documentElement;
+        root.style.setProperty("--vt-x", x + "px");
+        root.style.setProperty("--vt-y", y + "px");
+        root.style.setProperty("--vt-r", Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y)) + "px");
+        root.classList.add("theme-switching");
+        document.startViewTransition(function () { applyPreference(next); })
+          .finished.finally(function () { root.classList.remove("theme-switching"); });
       });
 
       var menuToggle = document.getElementById("menu-toggle");
       var mobileMenu = document.getElementById("mobile-menu");
 
       if (menuToggle) {
-        function setMenuIcon(isOpen) {
-          menuToggle.querySelectorAll("[data-menu-icon]").forEach(function (el) {
-            el.hidden = el.getAttribute("data-menu-icon") !== (isOpen ? "open" : "closed");
-          });
-        }
-
         function closeMenu() {
           mobileMenu.classList.add("hidden");
           menuToggle.setAttribute("aria-expanded", "false");
-          setMenuIcon(false);
         }
 
         menuToggle.addEventListener("click", function (e) {
           e.stopPropagation();
           var open = mobileMenu.classList.toggle("hidden");
           menuToggle.setAttribute("aria-expanded", String(!open));
-          setMenuIcon(!open);
         });
 
         document.addEventListener("click", function (e) {

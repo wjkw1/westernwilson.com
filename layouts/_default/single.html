@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ if eq .Section "reflections" }}<div class="reading-progress" aria-hidden="true"></div>{{ end }}
 <article class="relative">
   <header class="mb-10 pb-6 border-b border-line">
     <h1 class="font-display text-3xl font-semibold leading-tight mt-0 mb-3">{{ .Title }}</h1>
