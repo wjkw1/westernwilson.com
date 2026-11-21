@@ -14,7 +14,7 @@ bookCover: "cover.jpg"
 
 This book begins and ends with sadness. It has many ups and downs which helped me feel really invested in the students journey.
 
-The author moves through the story really quick. It's great to read because it feels like there is no dawdling on useless parts of text or superflous detail. It all moves the plot or develops a character. Such a good author.
+The author moves through the story really quick. It's great to read because it feels like there is no dawdling on useless parts of text or superfluous detail. It all moves the plot or develops a character. Such a good author.
 
 It reminds me of Derek Sivers and his ethos about reducing and refining the texts he writes into their most condensed form. It makes his writing great to read too, because it shifts quickly and captures big ideas in a small amount of text.
 
@@ -32,7 +32,7 @@ This idea is relevant to the Treaty of Waitangi and central to some of the argum
 
 Many characters in the story come from broken homes, grew up as slaves, or lost their families to sickness. The kids that showed intelligence were plucked by the translation society, and indoctrinated into an English upbringing to take advantage of their natural language heritage. We know how much our environment can shape our opinions. Imagine growing up as a child taken from your homeland and raised inside the empire of the English? Imagine how much that upbringing might shape your perspective of the world. Western ideas and Western thoughts.
 
-On that, AI as built today, thinks in this same Western thought. The data is more heavily weighted towards what is on the internet, and so minority languages that arent as common in the public domain are weighted out. Not an easy problem to solve, and probably not one many people will want to solve because of the percieved "pay off". It'll take a strong and well-driven community to drive it, or a banding together of indigenous folks in similar predicaments. The latter is more realistic imo.
+On that, AI as built today, thinks in this same Western thought. The data is more heavily weighted towards what is on the internet, and so minority languages that aren't as common in the public domain are weighted out. Not an easy problem to solve, and probably not one many people will want to solve because of the perceived "pay off". It'll take a strong and well-driven community to drive it, or a banding together of indigenous folks in similar predicaments. The latter is more realistic imo.
 
 At the end of this book, I can't help but feel sad. Their dependence on silver working was the downfall of the empire. There are lessons here warning us about over-dependence on AI.
 
@@ -45,7 +45,7 @@ It's sad we don't hear about whether the empire recovered from the tragedy of th
 Chapter 2
 
 > 'But in latin, malum means "bad" and mālum,' he wrote the words out for Robin, emphasizing the macron with force, 'means "apple"'.
-> Interesting comparison to the macron in Maori. The main example I remember has to do with shit I think.
+> Interesting comparison to the macron in Māori. The main example I remember has to do with shit I think.
 
 Learnt about the word "erudite", which means to have or show great knowledge.
 
@@ -81,9 +81,8 @@ Chapter 12
 > Our civilization has gone through this industrial revolution already. But it begs the question, what would happen if the knowledge work was replaced by agentic systems. Would people in the know have working knowledge to profit from it? Will people retreat from urban centres into the country sides, in an effort to claim back that which makes us human?
 
 Chapter 32
-Todo: add characters.
 
-> Insane was not enough to cover it, Robin thought. English was insufficient to describe all this. His mind wandered to old Chinese texts, the idioms they employed about dynastic collapse and change. (Add chars here); tiānfalāndìfù. The heavens fell, and the earth collapsed in on itself.
+> Insane was not enough to cover it, Robin thought. English was insufficient to describe all this. His mind wandered to old Chinese texts, the idioms they employed about dynastic collapse and change. Tiānfalāndìfù. The heavens fell, and the earth collapsed in on itself.
 
 Chapter 33
 

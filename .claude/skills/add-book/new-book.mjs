@@ -261,7 +261,7 @@ function render(coverName) {
     "---",
     `title: ${yq(book.title)}`,
     `date: ${book.date}`,
-    "draft: false",
+    "draft: true",
     `bookAuthor: ${yq(book.author)}`,
     `bookDescription: ${yq(book.description)}`,
     `goodreadsUrl: ${yq(book.goodreadsUrl)}`,

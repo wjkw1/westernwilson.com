@@ -1,5 +1,6 @@
 ---
 title: Talking Tech, to Non-Tech
+description: "The analogies I lean on to explain software to non-technical people, from bank tellers to restaurant menus, and why they work."
 date: 2020-08-17
 lastmod: 2026-03-18
 tags: ["communication", "career"]
@@ -44,7 +45,7 @@ If you go to [Burger King](https://www.burgerking.co.nz/) and order a [Big Mac](
 
 Different types of team members, including detectives, cowboys, artists, and mad scientists, each have distinct work styles and motivations. Recognizing these differences can improve team collaboration.
 
-[Click here](/blog/developer-dynamics) to read the full article on these archetypes here.
+Read more about these archetypes in [Developer dynamics]({{< relref "reflections/2023-10-28-developer-dynamics" >}}).
 
 ## The Coding Process
 

@@ -1,5 +1,6 @@
 ---
 title: "Unleashing the Writer Within: How ChatGPT Transformed My Writing"
+description: "How I used ChatGPT in 2023 to flesh out sections, simplify overloaded sentences and get unstuck when writing, plus a few privacy caveats."
 date: 2023-11-06
 lastmod: 2026-04-03
 tags: ["ai","writing"]

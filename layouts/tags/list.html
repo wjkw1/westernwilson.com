@@ -9,7 +9,7 @@
   {{ end }}
 
   <ul class="list-none m-0 p-0 mb-3">
-    {{ range .Pages.ByTitle }}
+    {{ range .Pages }}
     {{ partial "post-list-item.html" . }}
     {{ end }}
   </ul>

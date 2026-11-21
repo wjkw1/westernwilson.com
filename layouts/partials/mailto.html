@@ -1,0 +1,5 @@
+{{- /* Returns a mailto: URL for the site email. Pass a subject string, or "" for none.
+       Spaces are encoded as %20 because some mail clients show a literal "+". */ -}}
+{{- $href := printf "mailto:%s" site.Params.identity.email -}}
+{{- with . }}{{ $href = printf "%s?subject=%s" $href (replace (urlquery .) "+" "%20") }}{{ end -}}
+{{- return $href -}}

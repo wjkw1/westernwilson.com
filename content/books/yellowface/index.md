@@ -14,7 +14,7 @@ bookCover: "cover.jpg"
 
 This book was amazing read for me. I barely read anything fictional thats not got some element of fantasy or super powers. But I couldn't stop myself from turning pages. Thoroughly enjoyed it and I'll be reading her other works.
 
-This book was gripping, the pacing of each sentence was masterful. It feels like it was written in its most condensed form without losing any meaning from the text. It jumped from plot to plot, and I like that it didn't waffle on about unessesary bits.
+This book was gripping, the pacing of each sentence was masterful. It feels like it was written in its most condensed form without losing any meaning from the text. It jumped from plot to plot, and I like that it didn't waffle on about unnecessary bits.
 
 The book was broken into many main themes as the story progressed. Basically, it shows a lonely character Juniper Song (Hayward) go through the envy, then stardom, then the fall because of her silly decisions.
 
@@ -24,7 +24,7 @@ There are significant moments in the book that make your insides curl. Basically
 
 R.F.Kuang showed June as a bad writer by showing us the bad decisions she made while writing, especially the parts June decided to cut out.
 
-I enjoyed seeing the difference between having a star publishing team vs an independant agent who doesn't have the resources to support a writer. I wonder how much of this is true in the real world? Marketing is such a skill, and if you aren't able to get your book, product, or tech in front of people then I doubt they'll use it.
+I enjoyed seeing the difference between having a star publishing team vs an independent agent who doesn't have the resources to support a writer. I wonder how much of this is true in the real world? Marketing is such a skill, and if you aren't able to get your book, product, or tech in front of people then I doubt they'll use it.
 
 June's whole life changed when she got a great publishing team. They were able to publicise her book and get out to the best sellers list. They had connections, and methods, and a team of publicists to help her. Though June's success is probably due to the foundations of the story she stole.
 

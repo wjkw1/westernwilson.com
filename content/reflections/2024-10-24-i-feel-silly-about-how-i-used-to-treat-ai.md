@@ -1,5 +1,6 @@
 ---
 title: "I feel silly about how I used to use AI"
+description: "How I went from using AI to generate my writing to using it as a refinement tool, and the madman, architect, carpenter, judge model behind it."
 date: 2024-10-24
 tags: ["ai", "writing"]
 draft: false
@@ -31,7 +32,7 @@ They shared an amazing blog that talks about the different roles in the writing 
 - Carpenter - sculpts the sentences into a logical structure to make better sense
 - Judge - critical energy as the inspector and will check the facts of what is written
 
-Applying these roles to my own writing revealed a crucial insight: that my writer's paralysis was me prematurely judging the madman before he could cook. I'd critisise the words, sentences, paragraph, headings, scope, purpose, before my madman even had a chance to shine. No wonder I got scared of writing, and wrote at a snail pace.
+Applying these roles to my own writing revealed a crucial insight: that my writer's paralysis was me prematurely judging the madman before he could cook. I'd criticise the words, sentences, paragraph, headings, scope, purpose, before my madman even had a chance to shine. No wonder I got scared of writing, and wrote at a snail pace.
 
 The madman within needs some air time; sometimes you just need a good ol' brain dump. Giving myself that permission totally freed me from the fear of writing. Nowadays, as soon as I feel myself being critical, I catch myself and think: "Is it time to judge yet?"
 
@@ -44,5 +45,5 @@ To wrap up, some final thoughts about using AI as a writing companion:
    - Ideally, keep personal information out of it.
    - If you do put some personal information in, at least use temporary chats and disable model training
    - Also check with your company before putting sensitive information or private IP like code into it for work
-3. On the flip side, I want to share Derek Sivers [article here](https://sive.rs/ai) that talks about his commitment to not use AI to generate text. ‍
+3. On the flip side, I want to share Derek Sivers [article here](https://sive.rs/ai) that talks about his commitment to not use AI to generate text.
    > I have never ever used AI to generate text in place of my “voice”. No emails. No sentences in my articles or books or even comments. Nothing pretending to be me.

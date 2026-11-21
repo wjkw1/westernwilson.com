@@ -1,5 +1,6 @@
 ---
 title: "Terraform state s3 bucket naming convention"
+description: "How I name Terraform state S3 buckets, tfstate-{AccountId}-{GitHubRepo}, and the other options I considered and rejected."
 date: 2026-04-11
 slug: "terraform-state-s3-bucket-naming-convention"
 tags: ["definitions", "devops", "coffee-app"]

@@ -1,5 +1,6 @@
 ---
 title: "Migration to Webflow & Hugo"
+description: "My site's journey from plain HTML through Gatsby and Nuxt to Webflow, why each move happened, and an update on the later move to Hugo."
 date: 2025-07-06
 lastmod: 2026-03-17
 tags: ["devtools", "meta"]
@@ -46,7 +47,7 @@ With that fixed, I happily added a blog about using ChatGPT or Perplexity to sup
 
 ### Time skip to now
 
-I'm taking a break from work, travelling asia (see /blog/now-june-2025), I decided to attempt to write blogs to capture my learnings while creating music.
+I'm taking a break from work, travelling Asia, and I decided to attempt to write blogs to capture my learnings while creating music.
 Looking ahead to writing 10 or more blogs, I realised how much of a hassle my Nuxt stack would be for updating and posting blogs. Changes required markdown updates pushed to a git branch and merged into main, I could immediately see this adding friction that would stop me from doing the actual blog writing. Also because of how I was loading blog images, it made the whole /public/img/ directory structure ugly, and in the future I would have a huge dump of images that were difficult to update.
 Honestly, I might not even write so many blogs that this becomes a problem, but this future problem was enough to distract me from making music. I didn't want to create a big mess that I had to clean up later so I looked for another solution.
 I looked into WordPress quickly, which a couple older colleagues of mine used for their personal blogs and another colleague who built the company websites using WordPress. It would've worked, and been cheap, but I didn't want to touch it. It felt old, and I knew there were better tools out there.

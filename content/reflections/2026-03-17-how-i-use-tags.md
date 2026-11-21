@@ -1,7 +1,8 @@
 ---
 title: "How I use Tags"
+description: "My personal glossary of the tags on this site: what each one means and when I use it."
 date: 2026-03-17
-lastmod: 2026-09-26
+lastmod: 2026-11-21
 slug: "how-i-use-tags"
 tags: ["meta", "definitions"]
 draft: false
@@ -18,6 +19,9 @@ _Use when:_ the post is primarily about AI tools, AI tech, or AI behaviour
 **`career`** -- Work, professional growth, team dynamics, and lessons from the industry.
 _Use when:_ the post reflects on the people side of software -- roles, culture, collaboration.
 
+**`coffee-app`** -- Posts from my [coffee card demo project](https://github.com/wjkw1/devops-profile-coffee-card-app-demo), a personal DevOps project built end to end.
+_Use when:_ the post comes out of building or running that project.
+
 **`communication`** -- Explaining ideas about communicating, for example to non-technical audiences, across teams, or in documentation.
 _Use when:_ the post is about how we convey information to other people.
 
@@ -32,6 +36,18 @@ _Use when:_ the post is about systems, pipelines, or keeping things running.
 
 **`devtools`** -- Tools that shape how I work - editors, CLIs, SSH, local setup.
 _Use when:_ the post is hands-on with a specific tool or workflow.
+
+**`guide`** -- Step-by-step walkthroughs you can follow to set something up yourself.
+_Use when:_ the post is mostly instructions, not reflection.
+
+**`hackathon`** -- Notes from hackathons I take part in.
+_Use when:_ the post is about building something at a hackathon and what I learnt doing it.
+
+**`music`** -- Learning to make music, from first beats to the tools I use.
+_Use when:_ the post is about making music.
+
+**`travel`** -- Places I've been, and settling into somewhere new.
+_Use when:_ the post is about travelling, or practical tips for getting around a city.
 
 **`writing`** -- Reflections on the writing process, publishing, and finding my voice.
 _Use when:_ the post is about writing itself, not just a post that happens to be well-written.

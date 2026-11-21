@@ -44,34 +44,54 @@
 }
 
 @font-face {
-  font-family: 'Lexend';
+  font-family: 'Geist';
   font-style: normal;
   font-weight: 400 700;
   font-display: swap;
-  src: url('/fonts/lexend-latin-wght-normal.woff2') format('woff2');
+  src: url('/fonts/geist-latin-wght-normal.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 @font-face {
-  font-family: 'Lexend';
+  font-family: 'Geist';
   font-style: normal;
   font-weight: 400 700;
   font-display: swap;
-  src: url('/fonts/lexend-latin-ext-wght-normal.woff2') format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  src: url('/fonts/geist-latin-ext-wght-normal.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 /* ── Design tokens ─────────────────────────────────────────────────────────── */
 
 @theme {
   --font-sans:    'Instrument Sans', system-ui, sans-serif;
-  --font-display: 'Lexend', system-ui, sans-serif;
+  --font-display: 'Geist', system-ui, sans-serif;
 
   /* Display sizes scale with the viewport (~1.2 ratio steps) so titles don't
      dominate a phone screen. Body sizes stay fixed. */
   --text-xl:  clamp(1.125rem, 1.05rem + 0.3vw, 1.25rem);
   --text-2xl: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
   --text-3xl: clamp(1.5rem, 1.25rem + 1vw, 1.875rem);
+  --text-4xl: clamp(1.625rem, 1.3rem + 1.6vw, 2.5rem);
+
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-pen: cubic-bezier(0.65, 0, 0.35, 1);
+  /* ~4% overshoot; much more reads as cartoonish. */
+  --ease-spring: linear(0, 0.13 4%, 0.44 10%, 0.78 18%, 0.96 26%, 1.03 34%, 1.04 40%, 1.02 52%, 1 70%, 1);
+
+  /* Rise with a soft mask wipe rather than an opacity fade: axe judges text
+     contrast from colours, not masks, so a mid-animation check still passes. */
+  --animate-now-pulse: now-pulse 1.6s ease-out;
+  @keyframes now-pulse {
+    from { scale: 1; opacity: 0.6; }
+    to   { scale: 3.2; opacity: 0; }
+  }
+
+  --animate-reveal-up: reveal-up 0.8s var(--ease-out-quint) backwards;
+  @keyframes reveal-up {
+    from { translate: 0 1rem; mask-position: 0 100%; }
+    to   { translate: 0 0; mask-position: 0 0; }
+  }
 }
 
 /* Registering the palette here (not as hand-written classes) is what makes
@@ -180,6 +200,103 @@ html[data-theme="dark"]  { color-scheme: dark; }
     vertical-align: -0.125em;
     overflow: visible;
   }
+
+  /* ── Home hero: two pen strokes (a ring round the photo, a swoosh under the
+     name), lines rising out of a clip, and an envelope that opens. The end
+     state of every animation is the static design, so reduced motion only
+     loses the movement. Text is never faded: clip-path keeps whatever is
+     visible at full contrast, which matters because axe runs mid-animation. */
+
+  .hero-ring,
+  .hero-mark svg {
+    position: absolute;
+    overflow: visible;
+    pointer-events: none;
+    color: var(--c-accent);
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 0;
+  }
+
+  .hero-ring {
+    inset: -8px;
+    width: calc(100% + 16px);
+    height: calc(100% + 16px);
+    /* User units, so ~2px at both avatar sizes. Not non-scaling-stroke:
+       Chrome then miscomputes pathLength dashes and the stroke never closes. */
+    stroke-width: 2.2px;
+
+    @media (width >= 40rem) {
+      stroke-width: 1.5px;
+    }
+  }
+
+  .hero-mark {
+    position: relative;
+    white-space: nowrap;
+  }
+
+  .hero-mark svg {
+    left: -0.04em;
+    bottom: -0.06em;
+    width: calc(100% + 0.08em);
+    height: 0.32em;
+    /* User units of the stretched viewBox: about 0.075em thick at any size. */
+    stroke-width: 2.8px;
+  }
+
+  .say-kia-ora .env-flap {
+    transform-box: view-box;
+    transform-origin: 50% 12.5%;
+  }
+
+  .say-kia-ora:hover .link-sweep,
+  .say-kia-ora:focus-visible .link-sweep {
+    color: var(--c-accent);
+    background-size: 100% 2px, 100% 1px;
+  }
+
+  .say-kia-ora:hover .env-flap,
+  .say-kia-ora:focus-visible .env-flap {
+    transform: scaleY(-0.45);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .hero-ring {
+      animation:
+        hero-draw 0.95s var(--ease-pen) 0.15s backwards,
+        hero-settle 1.2s var(--ease-spring) 0.15s backwards;
+    }
+
+    /* Waits for the h1 to be painted and the ring to finish, so the two
+       strokes read as one pen moving from the photo to the name. */
+    .hero-mark svg {
+      animation: hero-draw 0.55s var(--ease-out-quint) 1s backwards;
+    }
+
+    .hero-rise {
+      animation: hero-rise 0.7s var(--ease-out-quint) backwards;
+      animation-delay: calc(0.12s + var(--i, 0) * 80ms);
+    }
+
+    .say-kia-ora .env-flap {
+      transition: transform 0.45s var(--ease-spring);
+    }
+  }
+
+  @keyframes hero-draw {
+    from { stroke-dashoffset: 1; }
+  }
+
+  @keyframes hero-settle {
+    from { rotate: -40deg; scale: 0.94; }
+  }
+
+  @keyframes hero-rise {
+    from { translate: 0 0.6rem; clip-path: inset(100% 0 0 0); }
+  }
 }
 
 /* ── Utilities ─────────────────────────────────────────────────────────────── */
@@ -191,6 +308,46 @@ html[data-theme="dark"]  { color-scheme: dark; }
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 0.2em;
+  }
+}
+
+/* A quiet hairline underline at rest (still the non-colour cue WCAG 1.4.1
+   needs), with a 2px accent underline that sweeps in on hover. Backgrounds
+   rather than text-decoration so the sweep wraps across lines. */
+/* Scroll-in reveal. Only takes effect once the home page script sets
+   data-reveal, so without JS (or with reduced motion) content is just there. */
+@utility reveal {
+  &[data-reveal="pending"] {
+    translate: 0 1rem;
+    mask-image: linear-gradient(#0000, #0000);
+  }
+
+  &[data-reveal="in"] {
+    mask-image: linear-gradient(#000 33%, #0000 66%);
+    mask-size: 100% 300%;
+    animation: var(--animate-reveal-up);
+  }
+}
+
+@utility link-sweep {
+  text-decoration: none;
+  background-image:
+    linear-gradient(var(--c-accent), var(--c-accent)),
+    linear-gradient(color-mix(in oklab, currentColor 45%, transparent), color-mix(in oklab, currentColor 45%, transparent));
+  background-repeat: no-repeat;
+  background-position: 0 100%, 0 100%;
+  background-size: 0 2px, 100% 1px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+
+  &:hover, &:focus-visible {
+    color: var(--c-accent);
+    text-decoration: none;
+    background-size: 100% 2px, 100% 1px;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    transition: background-size 0.45s var(--ease-out-quint), color 0.2s;
   }
 }
 

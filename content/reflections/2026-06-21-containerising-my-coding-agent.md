@@ -1,6 +1,8 @@
 ---
 title: "Containerising my coding agent"
+description: "How I sandboxed Claude Code in a dev container with an outbound firewall, the sudo loophole I closed, and the gaps that are still open."
 date: 2026-06-21
+featured: true
 slug: "containerising-my-coding-agent"
 tags: ["ai", "devtools", "devops"]
 ---
@@ -55,7 +57,7 @@ Everything else —npm, `api.anthropic.com`, the VS Code marketplace— gets res
 
 I spent a decent chunk of time configuring who's allowed to touch `iptables`. The `common-utils` feature grants the `vscode` user blanket passwordless `sudo` by default, and my first cut of `post-create.sh` narrowed that down to the `iptables`/`iptables-save`/`ipset` binaries themselves, with no argument restriction. Which meant Claude or anything else running as `vscode`, including under `--dangerously-skip-permissions`, could just run `sudo iptables -F && sudo iptables -P OUTPUT ACCEPT` and the firewall would be gone! Anthropic's own reference devcontainer avoids this by granting `sudo` on one fixed script path instead of the raw binaries, baked into their image at build time so the script itself can't be edited either. I didn't want a custom Dockerfile yet, but dev containers can do the same thing with just `postCreateCommand`: copy `init-firewall.sh` to a root-owned `/usr/local/sbin/init-firewall.sh` outside the bind-mounted workspace while the feature's broad sudo grant is still active, then narrow `sudo` down to NOPASSWD on that one frozen executable file only. The tradeoff is that editing the live `init-firewall.sh` to allow a new domain now needs a full **Rebuild Container**, not just a restart, since the frozen copy is what actually runs.
 
-Claude has it's own way to limit it's own execution too using `.claude/settings.json`. We've configured this on top to deny any `Bash(sudo *)` and `Bash(su *)` commands, so in normal mode Claude won't even attempt the command. But `--dangerously-skip-permissions` does exactly what its name says: it bypasses every permission rule, deny rules included. So that file is a speed bump for the default mode, not something to lean on once the safety's off. The frozen-script sudoers restriction is the one that locks it down regardless, because it's enforced by the OS, not by Claude Code.
+Claude has its own way to limit its own execution too using `.claude/settings.json`. We've configured this on top to deny any `Bash(sudo *)` and `Bash(su *)` commands, so in normal mode Claude won't even attempt the command. But `--dangerously-skip-permissions` does exactly what its name says: it bypasses every permission rule, deny rules included. So that file is a speed bump for the default mode, not something to lean on once the safety's off. The frozen-script sudoers restriction is the one that locks it down regardless, because it's enforced by the OS, not by Claude Code.
 
 ## Gap in the firewall
 
@@ -63,7 +65,7 @@ One thing I noticed was that `api.github.com/meta`'s ip ranges aren't scoped to 
 
 I see three ways to close that off:
 
-- Proxy the traffic and filter on hostname instead of IP. Cleanest in theory, but Encrypted Client Hello can still hide the hostname from anything sitting.
+- Proxy the traffic and filter on hostname instead of IP. Cleanest in theory, but Encrypted Client Hello can still hide the hostname from anything sitting in between.
 - Drop `*.github.io` from the allowlist entirely. Unfortunately this also takes `raw.githubusercontent.com` out too since they share the same ip ranges, but if that's not something the container needs, it's a fine trade.
 - Accept the risk and move on.
 

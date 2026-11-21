@@ -1,5 +1,6 @@
 ---
 title: "C4 Models for software system diagrams"
+description: "An introduction to the C4 model for software architecture diagrams, why the map is not the territory, and examples from a personal project."
 date: 2026-03-20
 tags: ["devops"]
 draft: false
@@ -18,10 +19,12 @@ The 4 levels are:
 2. Containers - the applications and data stores that make up your system.
 3. Components - the building blocks of each of our containers.
 4. Code - the classes, interfaces, and functions that implement each component.
-   The official definition explains it best:
-   > A software system is made up of one or more containers (applications and data stores), each of which contains one or more components, which in turn are implemented by one or more code elements (classes, interfaces, objects, functions, etc). And people (actors, roles, personas, named individuals, etc) use the software systems that we build.
-   > Source: <https://arc.net/l/quote/kvovhsbn>
-   > Visit the official website to read more detail about this framework.
+
+The official definition explains it best:
+
+> A software system is made up of one or more containers (applications and data stores), each of which contains one or more components, which in turn are implemented by one or more code elements (classes, interfaces, objects, functions, etc). And people (actors, roles, personas, named individuals, etc) use the software systems that we build.
+
+Visit the official website, [c4model.com](https://c4model.com/), to read more about this framework.
 
 ## The map is not the territory
 
@@ -35,7 +38,7 @@ This is a pragmatic acknowledgement that diagrams are tools, not artefacts to be
 
 ## Examples from a personal project
 
-I've been applying this framework in a recent pet project. If you'd like to see the diagrams in action, head over to the demo project here: devops-profile-coffee-card-app-demo.
+I've been applying this framework in a recent pet project. If you'd like to see the diagrams in action, head over to the [coffee card demo project](https://github.com/wjkw1/devops-profile-coffee-card-app-demo) on GitHub.
 
 ### Context
 
@@ -44,7 +47,3 @@ I've been applying this framework in a recent pet project. If you'd like to see 
 ### Containers
 
 ![C4 Container Diagram](CoffeeCards-C4-Container.jpg)
-
-### Components TBD
-
-_Coming soon..._

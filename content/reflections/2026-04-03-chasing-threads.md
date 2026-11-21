@@ -1,5 +1,6 @@
 ---
 title: "When I say 'chasing threads'"
+description: "What I mean by chasing threads: following curiosity when it strikes, why focus is only half the story, and how to tell a thread from a shiny object."
 date: 2026-04-04
 lastmod: 2026-04-10
 slug: "chasing-threads"
@@ -28,9 +29,9 @@ The conventional wisdom says to ignore that. To get back on task and stay on tra
 
 But what if the thread is the track?
 
-Here's the reframe I often come back to: life is distractions. It's the distractions the give life meaning. Not in the doom-scrolling-at-2am sense. In the sense that the interesting stuff, the stuff that actually shapes who you are, rarely arrives through the front door. It sneaks up on you. It's the thing you weren't supposed to be doing that ends up mattering most.
+Here's the reframe I often come back to: life is distractions. It's the distractions that give life meaning. Not in the doom-scrolling-at-2am sense. In the sense that the interesting stuff, the stuff that actually shapes who you are, rarely arrives through the front door. It sneaks up on you. It's the thing you weren't supposed to be doing that ends up mattering most.
 
-Steve Jobs is probably the most famous example of this. In his 2005 Stanford commencement speech, he talked about dropping in on a calligraphy class at Reed College out of pure curioisty, with no practical application in mind. A decade later, that class became the foundation for the beautiful typography of the first Macintosh.
+Steve Jobs is probably the most famous example of this. In his 2005 Stanford commencement speech, he talked about dropping in on a calligraphy class at Reed College out of pure curiosity, with no practical application in mind. A decade later, that class became the foundation for the beautiful typography of the first Macintosh.
 
 He didn't chase calligraphy because it was strategic. He chased it because it pulled at him. Same instinct as a CEO who walks past a stacked agenda to talk to someone doing something interesting. Same instinct as anyone who follows a word into a twenty-minute rabbit hole and comes out knowing something they didn't expect to care about.
 

@@ -4,6 +4,9 @@ title: Western Wilson
 
 enableRobotsTXT: true
 
+taxonomies:
+  tag: tags
+
 pagination:
   pagerSize: 10
 
@@ -13,11 +16,33 @@ services:
 
 params:
   author: Western Wilson
-  description: "Kia ora, I'm Western Wilson 👋"
+  description: "Western Wilson is a Māori cloud and platform engineer from Aotearoa, based in Amsterdam. Writing on DevOps, platforms, AI tooling and books."
   keywords: "blog, reflections, software, engineering, technology, devops"
   avatar: images/western.png
   avatarAlt: Western Wilson
   logo: images/logo.png
+
+  identity:
+    role: Cloud and Platform Engineer
+    employer:
+      name: Sensys Gatso Software
+      url: "https://www.sensysgatso.com/"
+    location: Amsterdam
+    country: Netherlands
+    flag: "🇳🇱"
+    origin: Aotearoa New Zealand
+    availability: "Happy to chat!"
+    signOff: "Ngā mihi nui, thanks for visiting"
+    email: kiaora@westernwilson.com
+    knowsAbout:
+      - Platform engineering
+      - DevOps
+      - AWS
+      - Google Cloud
+      - Terraform
+      - Kubernetes
+      - CI/CD
+      - Observability
 
   colorScheme: auto
   hideColorSchemeToggle: false
@@ -48,17 +73,14 @@ params:
 
 menu:
   main:
-    - name: Now
+    - name: About
       weight: 1
-      url: /now/
-    - name: Reflections
+      url: /about/
+    - name: Now
       weight: 2
-      url: /reflections/
-    - name: Books
-      weight: 3
-      url: /books/
+      url: /now/
     - name: Techstack
-      weight: 4
+      weight: 3
       url: /techstack/
 
 security:

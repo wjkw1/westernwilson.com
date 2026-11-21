@@ -1,0 +1,3 @@
+{{- with site.Params.identity -}}
+<p>{{ .availability }} Email me at <a href="{{ partial "mailto.html" "Kia ora from westernwilson.com" }}">{{ .email }}</a>.</p>
+{{- end -}}

@@ -1,5 +1,6 @@
 ---
 title: "Supercharge Your SSH with VS Code"
+description: "Using VS Code as your main SSH tool, so you get your full editor when working on remote servers, with a pointer to the official tutorial."
 date: 2023-10-29
 tags: ["devtools", "guide"]
 draft: false
