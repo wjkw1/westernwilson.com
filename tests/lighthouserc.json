@@ -4,6 +4,7 @@
       "staticDistDir": "./public",
       "url": [
         "http://localhost/",
+        "http://localhost/about/",
         "http://localhost/reflections/",
         "http://localhost/reflections/oidc/",
         "http://localhost/books/",

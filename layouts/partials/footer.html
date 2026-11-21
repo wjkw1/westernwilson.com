@@ -1,5 +1,11 @@
 <footer class="mt-auto border-t border-line">
   <div class="max-w-2xl mx-auto px-6 py-8 flex flex-col items-center gap-4">
+    {{ with site.Params.identity }}
+    <p class="text-sm text-muted text-center m-0 inline-links">
+      {{ .availability }}
+      <a href="{{ partial "mailto.html" "Kia ora from westernwilson.com" }}">{{ .email }}</a>
+    </p>
+    {{ end }}
     {{ with .Site.Params.social }}
     <ul class="flex gap-1 list-none m-0 p-0">
       {{ range sort . "weight" }}

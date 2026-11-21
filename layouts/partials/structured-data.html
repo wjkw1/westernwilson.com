@@ -1,12 +1,19 @@
 {{- /* schema.org JSON-LD: Person and WebSite on the home page, BlogPosting on dated
        pages (books add the Book they are about). Params (dict): page, description. */ -}}
 {{- $page := .page -}}
-{{- $person := dict "@type" "Person" "name" site.Params.author "url" site.Home.Permalink -}}
+{{- $person := dict "@type" "Person" "@id" (printf "%s#person" site.Home.Permalink) "name" site.Params.author "url" site.Home.Permalink -}}
 {{- $data := dict -}}
 {{- if $page.IsHome -}}
   {{- $sameAs := slice -}}
   {{- range site.Params.social }}{{ if hasPrefix .url "http" }}{{ $sameAs = $sameAs | append .url }}{{ end }}{{ end -}}
   {{- with resources.Get site.Params.avatar }}{{ $person = merge $person (dict "image" (.Process "resize 400x webp").Permalink) }}{{ end -}}
+  {{- with $id := site.Params.identity -}}
+    {{- with $id.role }}{{ $person = merge $person (dict "jobTitle" .) }}{{ end -}}
+    {{- with $id.employer }}{{ $person = merge $person (dict "worksFor" (dict "@type" "Organization" "name" .name "url" .url)) }}{{ end -}}
+    {{- with $id.location }}{{ $person = merge $person (dict "homeLocation" (dict "@type" "Place" "name" (printf "%s, %s" . $id.country))) }}{{ end -}}
+    {{- with $id.knowsAbout }}{{ $person = merge $person (dict "knowsAbout" .) }}{{ end -}}
+    {{- with $id.email }}{{ $person = merge $person (dict "email" (printf "mailto:%s" .)) }}{{ end -}}
+  {{- end -}}
   {{- $data = dict
     "@context" "https://schema.org"
     "@graph" (slice

@@ -53,7 +53,7 @@
   </aside>
   {{ end }}
 
-  {{ if or .PrevInSection .NextInSection }}
+  {{ if and .Section (or .PrevInSection .NextInSection) }}
   <nav aria-label="Previous and next posts" class="flex justify-between gap-3 pt-6 pb-6 border-t border-line">
     <div class="flex-1">
       {{ with .PrevInSection }}

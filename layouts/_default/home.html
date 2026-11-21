@@ -17,13 +17,26 @@
       <h1 class="font-display text-3xl font-semibold leading-tight mt-0 mb-3">
         {{ .Title }}
       </h1>
+      {{ with .Site.Params.identity }}
+      <p class="text-heading text-lg font-medium mt-0 mb-3">
+        {{ .role }}{{ with .employer }} at <a href="{{ .url }}" rel="noopener" class="text-heading underline decoration-accent decoration-1 underline-offset-4 hover:text-accent">{{ .name }}</a>{{ end }}{{ with .location }} in {{ . }}{{ end }}{{ with .flag }} {{ . }}{{ end }}
+      </p>
+      {{ end }}
       {{ with .Content }}
       <div class="text-muted text-lg mt-0 mb-3 inline-links [&_a]:font-medium">
         {{ . }}
       </div>
       {{ end }}
+      <p class="flex flex-wrap gap-3 mt-5 mb-3">
+        <a href="{{ partial "mailto.html" "Kia ora from westernwilson.com" }}" class="inline-flex items-center gap-2 rounded px-4 py-2 font-medium bg-accent text-surface no-underline! hover:bg-heading">
+          {{ partial "icon.html" (dict "name" "envelope") }} Email me
+        </a>
+        <a href="{{ "/about/" | relURL }}" class="inline-flex items-center rounded px-4 py-2 font-medium border border-line text-heading no-underline! hover:border-accent hover:text-accent">
+          About me →
+        </a>
+      </p>
       {{ with .Site.Params.social }}
-      <ul class="flex gap-1 list-none -ml-2 p-0 mt-3 mb-5">
+      <ul class="flex gap-1 list-none -ml-2 p-0 mt-0 mb-3">
         {{ range sort . "weight" }}
         <li>
           <a

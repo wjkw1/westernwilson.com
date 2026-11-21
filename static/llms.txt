@@ -1,12 +1,18 @@
 # Western Wilson
 
-> Personal site of Western Wilson — software engineer, reader, and explorer. Reflections on technology, engineering, books, and life. Western is Māori, from Aotearoa New Zealand. A generalist and platform engineer by trade, but considers himself mostly a tinkerer chasing threads. Content is personal and opinionated, not a corporate publication.
+> Personal site of Western Wilson, a Māori cloud and platform engineer from Aotearoa New Zealand, based in Amsterdam and working at Sensys Gatso Group. Over five years in DevOps and infrastructure: Terraform, Kubernetes, CI/CD, AWS and Google Cloud, observability and security controls. Writes reflections on platform engineering, AI coding agents, books and life. A generalist and tinkerer chasing threads. Content is personal and opinionated, not a corporate publication.
 
 ## Pages
 
+- [About](/about/): Who Western is, what he works on, and how to get in touch
 - [Now](/now/): What Western is currently focused on
 - [Reflections](/reflections/): Written pieces on software, engineering, and broader observations
 - [Books](/books/): Reading log and notes
+- [Techstack](/techstack/): Tools and technologies Western uses
+
+## Contact
+
+- Email: kiaora@westernwilson.com. Not looking for a new role, but always happy to chat.
 
 ## Feeds
 
