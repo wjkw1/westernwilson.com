@@ -1,5 +1,5 @@
 ---
-title: "Unfuck Your Boundaries"
+title: "Unf*ck Your Boundaries"
 date: 2026-03-28
 draft: false
 bookAuthor: "Faith G. Harper"
