@@ -31,7 +31,7 @@
     {{ end }}
     <div class="col-span-2 mt-6 sm:mt-8">
       {{ with .Content }}
-      <div class="max-w-prose text-muted [&_a]:link-sweep [&_a]:text-heading">
+      <div class="max-w-prose text-[0.917rem]/[1.7] text-muted [&_a]:link-sweep [&_a]:text-heading [&_p+p]:mt-3">
         {{ . }}
       </div>
       {{ end }}
@@ -62,9 +62,12 @@
         {{ end }}
       </ul>
       {{ with site.GetPage "/now" }}{{ $now := . }}{{ with .Params.status }}
-      <p class="hero-rise text-sm text-muted mt-3 mb-0" style="--i:2">
-        Now (<time datetime="{{ $now.Lastmod.Format "2006-01-02" }}">{{ $now.Lastmod.Format "Jan 2006" }}</time>):
-        <a href="{{ $now.RelPermalink }}" class="link-sweep text-heading">{{ . }} →</a>
+      <p class="hero-rise group/now text-sm text-muted mt-4 mb-0" style="--i:2">
+        {{- /* The dot pulses twice once the hero has drawn in (before), and keeps pulsing while the link is hovered or focused (after), so leaving the link never replays the load pulse. */}}
+        <span aria-hidden="true" class="relative mr-1.5 inline-block size-2 rounded-full bg-accent align-[0.05em] ring-3 ring-accent/20 before:absolute before:inset-0 before:rounded-full before:bg-accent before:opacity-0 after:absolute after:inset-0 after:rounded-full after:bg-accent after:opacity-0 motion-safe:before:animate-now-pulse motion-safe:before:[animation-delay:1.6s] motion-safe:before:[animation-iteration-count:2] motion-safe:group-has-[a:hover]/now:after:animate-now-pulse motion-safe:group-has-[a:focus-visible]/now:after:animate-now-pulse motion-safe:group-has-[a:hover]/now:after:[animation-iteration-count:infinite] motion-safe:group-has-[a:focus-visible]/now:after:[animation-iteration-count:infinite]"></span>
+        <span class="text-xs font-semibold uppercase tracking-widest text-accent">Now</span>
+        (<time datetime="{{ $now.Lastmod.Format "2006-01-02" }}">{{ $now.Lastmod.Format "Jan 2006" }}</time>):
+        <a href="{{ $now.RelPermalink }}" class="link-sweep text-heading">{{ . }}&nbsp;→</a>
       </p>
       {{ end }}{{ end }}
     </div>

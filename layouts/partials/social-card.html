@@ -1,8 +1,8 @@
 {{- /* Builds a 1200x630 preview card for the page (title, site name, date or author,
        and the cover on book pages) and returns the image resource. */ -}}
 {{- $base := resources.Get "images/social-card-base.png" -}}
-{{- $bold := resources.Get "fonts/Lexend-SemiBold.ttf" -}}
-{{- $regular := resources.Get "fonts/Lexend-Regular.ttf" -}}
+{{- $bold := resources.Get "fonts/Geist-SemiBold.ttf" -}}
+{{- $regular := resources.Get "fonts/Geist-Regular.ttf" -}}
 {{- $ink := "#1E1008" -}}
 {{- $muted := "#705A4C" -}}
 {{- $margin := 96 -}}
@@ -26,12 +26,12 @@
 {{- if $cover }}{{ $textRight = sub 1200 (add (mul $margin 2) $cover.Width) }}{{ end -}}
 {{- $avail := sub $textRight $margin -}}
 
-{{- /* Largest size that fits the title in three lines; Lexend averages ~0.56em per character; very long titles fall back to the smallest size and run longer. */ -}}
+{{- /* Largest size that fits the title in three lines; Geist SemiBold averages ~0.51em per character (0.53 leaves headroom); very long titles fall back to the smallest size and run longer. */ -}}
 {{- $size := 44 -}}
 {{- $found := false -}}
 {{- range slice 72 64 56 50 -}}
   {{- if not $found -}}
-    {{- $perLine := div (float $avail) (mul . 0.56) -}}
+    {{- $perLine := div (float $avail) (mul . 0.53) -}}
     {{- if le (math.Ceil (div (float (len $title)) $perLine)) 3 -}}
       {{- $size = . -}}
       {{- $found = true -}}
