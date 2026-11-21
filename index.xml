@@ -567,7 +567,7 @@
 <li>Put canary tokens anywhere that could tell you you&rsquo;ve been compromised.</li>
 </ul>
 <p>Further reading he mentioned: EchoLeak (Microsoft), AWS Strands, MCP Poison (Cursor), the Deadbugz campaign (August 2026), and <em>Crash test dummy</em>, the blog where he first worked through this talk.</p>
-]]></content:encoded></item><item><title>Now</title><link>https://westernwilson.com/now/</link><pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/now/</guid><description> Amsterdam Finally in Amsterdam after an extended stay in Belgrade, Serbia!! I’ve accepted a Cloud Engineer role at Sensys Gatso Group and I’m building a new normal around it.&#10;</description><content:encoded><![CDATA[<h2 id="amsterdam" class="group relative scroll-mt-20">
+]]></content:encoded></item><item><title>Now</title><link>https://westernwilson.com/now/</link><pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/now/</guid><description> Amsterdam Finally in Amsterdam after an extended stay in Belgrade, Serbia!! I’ve accepted a Cloud Engineer role at Sensys Gatso Software and I’m building a new normal around it.&#10;</description><content:encoded><![CDATA[<h2 id="amsterdam" class="group relative scroll-mt-20">
   Amsterdam
   <a
     href="https://westernwilson.com/now/#amsterdam"
@@ -575,7 +575,7 @@
     aria-label="Link to this heading"
   ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h2>
-<p>Finally in Amsterdam after an extended stay in Belgrade, Serbia!! I&rsquo;ve accepted a Cloud Engineer role at <a href="https://www.sensysgatso.com/">Sensys Gatso Group</a> and I&rsquo;m building a new normal around it.</p>
+<p>Finally in Amsterdam after an extended stay in Belgrade, Serbia!! I&rsquo;ve accepted a Cloud Engineer role at <a href="https://www.sensysgatso.com/">Sensys Gatso Software</a> and I&rsquo;m building a new normal around it.</p>
 <p>Moving through life with more intention. At the moment that means focusing on Health (sleep hygiene and training), learning fast in the new role, and reading well: the Jane Austen classics and the Bible.</p>
 <h2 id="routine" class="group relative scroll-mt-20">
   Routine
@@ -1170,7 +1170,7 @@ There&rsquo;s a whole class of bugs that only exist because the assumptions on o
 <li><strong>Amsterdam</strong>: Visited to explore Amsterdam and also for a bunq hackathon (<a href="https://westernwilson.com/reflections/bunq-hackathon-7">reflection here</a>). I loved the vibe, though getting around without a bike was slow. So a bike is the first thing I&rsquo;m getting once I live there. Free ferries were fantastic!</li>
 <li><strong>Italy</strong>: Five days in Rome. It felt like you could walk in any direction and stumble onto a grand church or building. The food here was the best I&rsquo;ve had anywhere, once we found one particular shop&rsquo;s tiramisu we ate three in a single day. Also saw Michelangelo&rsquo;s Creation of Adam on the Sistine Chapel ceiling, the scale of it is hard to describe. I guess it was well over 4 years of his life!</li>
 <li><strong>Croatia</strong>: Some of the best scenery I&rsquo;ve seen outside of New Zealand. We hired a car and drove from Zagreb to Split, stopping at the Plitvice Lakes National Park in between for some incredible waterfalls. Driving on the opposite side of the road took adjusting (NZ left-side and Croatia right-side), but having a car unlocked so many random stops for our journey.</li>
-<li><strong>Serbia</strong>: A taxi driver suggested Burek to me and I ate it most days. I learnt about Belgrade&rsquo;s hectic history, even up until recently. I&rsquo;m in awe of what people there have survived, over four passport changes in the last 25 years and across many different occupations. We were told it&rsquo;s because of Belgrade is positioned on the Danube and Sava rivers, prime real estate with a fortress that holds the high ground.</li>
+<li><strong>Serbia</strong>: A taxi driver suggested Burek to me and I ate it most days. I learnt about Belgrade&rsquo;s hectic history, even up until recently. I&rsquo;m in awe of what people there have survived, over four passport changes in the last 25 years and across many different occupations. We were told it&rsquo;s because Belgrade is positioned on the Danube and Sava rivers, prime real estate with a fortress that holds the high ground.</li>
 </ul>
 ]]></content:encoded></item><item><title>DevOps vs Platform vs Infrastructure Engineer</title><link>https://westernwilson.com/reflections/devops-vs-platform-vs-infrastructure-engineer/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/devops-vs-platform-vs-infrastructure-engineer/</guid><description>I’ve been a DevOps &amp; Infra Engineer for over 5 years. To me, it’s about helping developers move from code to production in the fastest, safest, most secure, and most reliable way possible. The job market seems a bit less certain about this definition however…&#10;Scrolling through job listings this past month, I noticed roles titled DevOps Engineer or Platform Engineer or Infrastructure Engineer that were listed with almost identical responsibilities.&#10;</description><content:encoded><![CDATA[<p>I&rsquo;ve been a DevOps &amp; Infra Engineer for over 5 years. To me, it&rsquo;s about helping developers move from code to production in the fastest, safest, most secure, and most reliable way possible. The job market seems a bit less certain about this definition however&hellip;</p>
 <p>Scrolling through job listings this past month, I noticed roles titled <em>DevOps Engineer</em> or <em>Platform Engineer</em> or <em>Infrastructure Engineer</em> that were listed with almost identical responsibilities.</p>
@@ -1440,7 +1440,7 @@ Our civilization has gone through this industrial revolution already. But it beg
 </blockquote>
 <p>Chapter 32</p>
 <blockquote>
-<p>Insane was not enough to cover it, Robin thought. English was insufficient to describe all this. His mind wandered to old Chinese texts, the idioms they employed about dynastic collapse and change. Tiānfalāndìfù. The heavens fell, and the earth collapsed in on itself.</p>
+<p>Insane was not enough to cover it, Robin thought. English was insufficient to describe all this. His mind wandered to old Chinese texts, the idioms they employed about dynastic collapse and change. Tiānfāndìfù (天翻地覆). The heavens fell, and the earth collapsed in on itself.</p>
 </blockquote>
 <p>Chapter 33</p>
 <blockquote>
@@ -1752,7 +1752,7 @@ You can also run it manually across all files at any point:</p>
 <p>Questions for consideration:</p>
 <ol>
 <li>what are some of the boundaries you have for each of these categories?</li>
-<li>which kinds of boundary violations do you experience the most? Which categories do those violation s belong to?</li>
+<li>which kinds of boundary violations do you experience the most? Which categories do those violations belong to?</li>
 <li>which kinds of boundaries do you have the most difficulty respecting for others? Which categories do those violations belong to?</li>
 </ol>
 </blockquote>

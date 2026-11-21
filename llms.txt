@@ -1,6 +1,6 @@
 # Western Wilson
 
-> Personal site of Western Wilson, a Māori cloud and platform engineer from Aotearoa New Zealand, based in Amsterdam and working at Sensys Gatso Group. Over five years in DevOps and infrastructure: Terraform, Kubernetes, CI/CD, AWS and Google Cloud, observability and security controls. Writes reflections on platform engineering, AI coding agents, books and life. A generalist and tinkerer chasing threads. Content is personal and opinionated, not a corporate publication.
+> Personal site of Western Wilson, a Māori cloud and platform engineer from Aotearoa New Zealand, based in Amsterdam and working at Sensys Gatso Software. In DevOps and infrastructure since 2021: Terraform, Kubernetes, CI/CD, AWS and Google Cloud, observability and security controls. Writes reflections on platform engineering, AI coding agents, books and life. A generalist and tinkerer chasing threads. Content is personal and opinionated, not a corporate publication.
 
 ## Pages
 
