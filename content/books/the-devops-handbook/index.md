@@ -1,6 +1,7 @@
 ---
 title: "The DevOps Handbook"
 date: 2026-09-06
+lastmod: 2026-11-21
 draft: false
 bookAuthor: "Gene Kim, Jez Humble, Patrick Debois, John Willis"
 bookDescription: "The practitioner's companion to The Phoenix Project. It lays out how high-performing technology organisations actually ship software as the Three Ways — flow, feedback, and continual learning — backed by case studies from Google, Amazon, Etsy and Netflix."
