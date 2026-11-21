@@ -44,12 +44,6 @@
     </div>
 
   </header>
-  {{ with .Site.Params.bookDisclaimer }}
-  <div class="flex items-center gap-2 text-muted text-sm italic bg-alt rounded py-2 px-2 mb-6">
-    {{ partial "icon.html" (dict "name" "pencil" "class" "text-xs shrink-0") }}
-    <span>{{ . }}</span>
-  </div>
-  {{ end }}
   {{ partial "toc.html" . }}
   <div class="prose">
     {{ .Content }}
