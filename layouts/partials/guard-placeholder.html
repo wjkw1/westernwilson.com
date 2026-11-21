@@ -1,0 +1,4 @@
+{{- /* Fails the build when a published page still holds the scaffold's placeholder notes. */ -}}
+{{- if and (not .Draft) (strings.Contains .RawContent "Replace this with") -}}
+  {{- errorf "%s still has placeholder notes: write them or set draft: true" .File.Path -}}
+{{- end -}}

@@ -84,6 +84,11 @@ plain, opinionated, what the book changed for the reader. `content/books/clean-c
 is the fullest example of the notes-plus-quotes shape; `content/books/yellowface/index.md`
 is the shorter prose-only shape. Quotes go under `### Chapter N` headings as `>` blocks.
 
+When the notes are written, set `draft: false`. The scaffold writes `draft: true` so a
+book with no notes can't go live; preview drafts with `hugo server -D`. If a non-draft
+book still contains the `Replace this with` placeholder, the build fails on purpose
+(see [`guard-placeholder.html`](../../../layouts/partials/guard-placeholder.html)).
+
 **Rewrite `bookDescription` in your own words.** When it came from Goodreads it is
 publisher marketing copy. It renders on the books list page, so keep it to one or two
 sentences, like the existing entries.
@@ -160,8 +165,9 @@ Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
   PNG/WebP input aborts before anything is written, so a failed run leaves no empty
   directory. (An empty `content/books/test-book/` in the repo was the residue of an
   earlier tool that didn't do this; it has been removed.)
-- **`draft: false` is written explicitly.** The default archetype for other sections
-  writes `draft = true`, which would silently hide the book from a production build.
+- **`draft: true` is written explicitly**, and the build fails if a published book
+  still has the placeholder notes. Flip it to `false` only once the notes exist, or
+  step 3's build won't produce the page.
 - **Books use no tags by default.** The layout supports them and `/tags/` pages generate,
   but no existing book sets any. Only pass `--tags` if you mean it.
 
@@ -176,5 +182,6 @@ Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
 | `error: content/books/<slug>/index.md already exists` | The book is already there. Edit it, or pass `--force`. |
 | `error: cover is not an image (... first bytes: 6e6f7420616e2069)` | The `--cover` source returned HTML or text. Those bytes are ASCII — decode them to see what came back. |
 | `error: --date-read must be YYYY-MM-DD, got "aug 2026"` | Dates are strict; `time.Format` in the layout needs a real date. |
+| `ERROR ... still has placeholder notes` | `draft: false` was set before the notes were written. Write them, or set `draft: true` again. |
 | Book builds but doesn't appear on `/books/` | Check `draft:` is `false` and the bundle is `<slug>/index.md`, not `<slug>.md` — a plain file is not a page bundle and the cover won't resolve. |
 | Cover 404s on the page | The image must sit *inside* the bundle directory next to `index.md`, and `bookCover` is a bare filename (`"cover.jpg"`), not a path. |

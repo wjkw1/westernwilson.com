@@ -1,6 +1,8 @@
 ---
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+title: '{{ replaceRE `^\d{4}-\d{1,2}-\d{1,2}-` "" .File.ContentBaseName | replaceRE "-" " " | title }}'
+description: ""
 date: '{{ .Date }}'
-slug: '{{ .File.ContentBaseName }}'
+slug: '{{ replaceRE `^\d{4}-\d{1,2}-\d{1,2}-` "" .File.ContentBaseName }}'
+draft: true
 tags: []
 ---
