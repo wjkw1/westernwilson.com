@@ -33,7 +33,7 @@ npm update
 This repo is set up so you can fork it and make it your own without touching `layouts/`.
 
 **Files you'll likely want to edit:**
-- `hugo.yaml` — your name, social links, menu items, and params (avatar, colors handled in CSS, `tagsExplainerPath`, `bookDisclaimer`, etc).
+- `hugo.yaml` — your name, social links, menu items, and params (avatar, colors handled in CSS, `tagsExplainerPath`, etc).
 - `content/_index.md` — your homepage bio.
 - `content/reflections/_index.md`, `content/books/_index.md` — your section blurbs (or delete the corresponding `content/<section>/` directory entirely if you don't want that section — the homepage and nav only show what has content/menu entries, so nothing breaks).
 - `content/` — replace with your own posts/pages. Use `hugo new reflections/my-post.md` or `hugo new books/my-book/index.md` to scaffold new entries with the right front matter automatically (see `archetypes/`).

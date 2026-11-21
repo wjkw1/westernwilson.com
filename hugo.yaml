@@ -22,7 +22,6 @@ params:
   colorScheme: auto
   hideColorSchemeToggle: false
 
-  bookDisclaimer: "These are rough reading notes, not a polished review."
   tagsExplainerPath: /reflections/how-i-use-tags/
 
   social:
