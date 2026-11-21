@@ -218,6 +218,15 @@ html[data-theme="dark"]  { color-scheme: dark; }
     animation: 0.2s ease-in both vt-fade;
   }
 
+  html.vt-quick::view-transition-old(root) {
+    animation-duration: 0.12s;
+  }
+
+  html.vt-quick::view-transition-new(root) {
+    animation-duration: 0.25s;
+    animation-delay: 0s;
+  }
+
   /* The theme switch is one circle growing from the toggle, so nothing else
      may become its own transition group. !important beats the covers' inline names. */
   html.theme-switching * {
