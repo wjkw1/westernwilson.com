@@ -157,12 +157,97 @@ html[data-theme="dark"]  { color-scheme: dark; }
   p, li, blockquote, figcaption {
     text-wrap: pretty;
   }
+
+  ::selection {
+    background-color: var(--c-accent);
+    color: var(--c-bg);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+
+    :focus-visible {
+      animation: focus-in 0.25s var(--ease-out-quint);
+    }
+
+    /* Headings and footnotes only, so the skip link doesn't flash all of <main>. */
+    :is(h2, h3, h4, [id^="fn"]):target {
+      animation: target-flash 1.6s var(--ease-out-quint);
+    }
+  }
 }
 
+@keyframes focus-in {
+  from { outline-offset: 8px; outline-color: transparent; }
+}
+
+@keyframes target-flash {
+  from { background-color: color-mix(in oklab, var(--c-accent) 14%, transparent); }
+}
+
+/* ── Page transitions ──────────────────────────────────────────────────────── */
+
+/* The header holds still across pages, the current-page bar slides between nav
+   links, and book covers fly from the list into the book page. The old page
+   lifts out quickly so the new one never waits on it. */
 @media (prefers-reduced-motion: no-preference) {
   @view-transition {
     navigation: auto;
   }
+
+  body > header {
+    view-transition-name: site-header;
+  }
+
+  ::view-transition-group(*) {
+    animation-duration: 0.45s;
+    animation-timing-function: var(--ease-out-quint);
+  }
+
+  ::view-transition-old(root) {
+    animation: 0.2s ease-in both vt-out;
+  }
+
+  ::view-transition-new(root) {
+    animation: 0.35s var(--ease-out-quint) 0.05s both vt-in;
+  }
+
+  ::view-transition-old(*):only-child {
+    animation: 0.2s ease-in both vt-fade;
+  }
+
+  /* The theme switch is one circle growing from the toggle, so nothing else
+     may become its own transition group. !important beats the covers' inline names. */
+  html.theme-switching * {
+    view-transition-name: none !important;
+  }
+
+  html.theme-switching::view-transition-old(root) {
+    animation: none;
+  }
+
+  html.theme-switching::view-transition-new(root) {
+    animation: theme-reveal 0.55s var(--ease-out-quint);
+  }
+}
+
+@keyframes vt-out {
+  to { opacity: 0; translate: 0 -0.5rem; }
+}
+
+@keyframes vt-in {
+  from { opacity: 0; translate: 0 0.75rem; }
+}
+
+@keyframes vt-fade {
+  to { opacity: 0; }
+}
+
+@keyframes theme-reveal {
+  from { clip-path: circle(0 at var(--vt-x) var(--vt-y)); }
+  to   { clip-path: circle(var(--vt-r) at var(--vt-x) var(--vt-y)); }
 }
 
 /* ── Components ────────────────────────────────────────────────────────────── */
@@ -184,12 +269,207 @@ html[data-theme="dark"]  { color-scheme: dark; }
   }
 
   .toc a {
+    display: block;
+    padding-left: 0.625rem;
+    margin-left: -0.625rem;
     color: var(--c-muted);
     text-decoration: none;
+    box-shadow: inset 2px 0 0 transparent;
+    transition: color 0.2s, box-shadow 0.3s var(--ease-out-quint);
   }
 
   .toc a:hover {
     color: var(--c-accent);
+  }
+
+  .toc a[aria-current] {
+    color: var(--c-heading);
+    box-shadow: inset 2px 0 0 var(--c-accent);
+  }
+
+  /* Desktop nav: a bar grows under the hovered link. The current page's bar is
+     a real element, so page transitions can slide it from link to link. */
+  .nav-link {
+    position: relative;
+  }
+
+  .nav-link::after,
+  .nav-indicator {
+    position: absolute;
+    inset-inline: 0;
+    bottom: 0.15rem;
+    height: 2px;
+    border-radius: 1px;
+  }
+
+  .nav-link::after {
+    content: "";
+    background: currentColor;
+    scale: 0 1;
+    transform-origin: left;
+  }
+
+  .nav-link:hover::after,
+  .nav-link:focus-visible::after {
+    scale: 1 1;
+  }
+
+  .nav-indicator {
+    background: var(--c-accent);
+    view-transition-name: nav-indicator;
+  }
+
+  /* The background lives here rather than as bg-alt in the markup: utilities
+     outrank components, so bg-alt would block the hover tint. Keep the tint
+     under ~12% or accent text on it drops below 4.5:1 in dark mode. */
+  .chip {
+    background-color: var(--c-bg-alt);
+    transition: background-color 0.2s, color 0.2s;
+  }
+
+  .chip:hover,
+  .chip:focus-visible {
+    background-color: color-mix(in oklab, var(--c-bg-alt), var(--c-accent) 8%);
+  }
+
+  /* Theme toggle: one icon that morphs. Rays and a small core make the sun; a
+     masked bite makes the moon; a masked half and a ring make "system". */
+  .theme-icon * {
+    transform-box: fill-box;
+    transform-origin: center;
+  }
+
+  .theme-icon .rays {
+    transform-box: view-box;
+  }
+
+  [data-pref="light"] .theme-icon .core { transform: scale(0.55); }
+  [data-pref="light"] .theme-icon .bite { transform: translate(10px, -10px); }
+  [data-pref="light"] .theme-icon .half { transform: translateX(14px); }
+  [data-pref="light"] .theme-icon .ring { opacity: 0; }
+
+  [data-pref="dark"] .theme-icon .rays { transform: rotate(-45deg) scale(0.5); opacity: 0; }
+  [data-pref="dark"] .theme-icon .half { transform: translateX(14px); }
+  [data-pref="dark"] .theme-icon .ring { opacity: 0; }
+
+  [data-pref="system"] .theme-icon .rays { transform: rotate(45deg) scale(0.5); opacity: 0; }
+  [data-pref="system"] .theme-icon .bite { transform: translate(10px, -10px); }
+  [data-pref="system"] .theme-icon .core { transform: scale(0.78); }
+
+  /* Burger: the three lines fold into a cross, keyed off aria-expanded. */
+  .burger line {
+    transform-box: fill-box;
+    transform-origin: center;
+  }
+
+  [aria-expanded="true"] .burger .top { transform: translateY(7px) rotate(45deg); }
+  [aria-expanded="true"] .burger .mid { opacity: 0; }
+  [aria-expanded="true"] .burger .bot { transform: translateY(-7px) rotate(-45deg); }
+
+  /* Book covers swing open on the spine like a hardback, with a sheen. */
+  .cover {
+    position: relative;
+    display: block;
+    border-radius: 0.25rem;
+    transform-origin: left center;
+  }
+
+  .cover::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    opacity: 0;
+    background: linear-gradient(105deg, transparent 35%, rgb(255 255 255 / 0.28) 50%, transparent 65%) no-repeat 100% 0 / 250% 100%;
+  }
+
+  .reading-progress {
+    display: none;
+  }
+
+  /* Driven by the page's own scroll, so it stays on under reduced motion. */
+  @supports (animation-timeline: scroll()) {
+    .reading-progress {
+      display: block;
+      position: fixed;
+      inset: 0 0 auto 0;
+      z-index: 20;
+      height: 3px;
+      background: var(--c-accent);
+      transform-origin: left;
+      animation: reading-progress linear both;
+      animation-timeline: scroll(root block);
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .nav-link::after {
+      transition: scale 0.3s var(--ease-out-quint);
+    }
+
+    .chip {
+      transition: background-color 0.2s, color 0.2s, translate 0.25s var(--ease-spring);
+    }
+
+    .chip:hover {
+      translate: 0 -1px;
+    }
+
+    /* The lift is also the hover cue in dark mode, where muted and accent are
+       almost the same lightness. */
+    .icon-link {
+      transition: color 0.2s, translate 0.3s var(--ease-spring);
+    }
+
+    .icon-link:hover,
+    .icon-link:focus-visible {
+      translate: 0 -2px;
+    }
+
+    /* Only after the first click, so the icon doesn't morph into a saved theme on load. */
+    #theme-toggle[data-animate] .theme-icon * {
+      transition: transform 0.5s var(--ease-spring), opacity 0.3s;
+    }
+
+    .burger line {
+      transition: transform 0.35s var(--ease-spring), opacity 0.2s;
+    }
+
+    #mobile-menu:not(.hidden) {
+      animation: menu-in 0.25s var(--ease-out-quint);
+    }
+
+    #mobile-menu:not(.hidden) li {
+      animation: hero-rise 0.4s var(--ease-out-quint) backwards;
+    }
+
+    #mobile-menu:not(.hidden) li:nth-child(2) { animation-delay: 40ms; }
+    #mobile-menu:not(.hidden) li:nth-child(3) { animation-delay: 80ms; }
+    #mobile-menu:not(.hidden) li:nth-child(4) { animation-delay: 120ms; }
+
+    .cover {
+      transition: transform 0.5s var(--ease-spring), box-shadow 0.4s var(--ease-out-quint);
+    }
+
+    .cover::after {
+      transition: background-position 0.7s var(--ease-out-quint), opacity 0.3s;
+    }
+
+    /* Touch devices never get a cover stuck open after a tap. */
+    @media (hover: hover) {
+      .group:hover .cover,
+      .group:focus-within .cover {
+        transform: perspective(700px) rotateY(-14deg) translateY(-2px);
+        box-shadow: 6px 8px 18px -6px light-dark(rgb(30 16 8 / 0.45), rgb(0 0 0 / 0.6));
+      }
+
+      .group:hover .cover::after,
+      .group:focus-within .cover::after {
+        opacity: 1;
+        background-position: 0 0;
+      }
+    }
   }
 
   /* Inline SVG icons size to the surrounding font-size, like the icon font did. */
@@ -297,6 +577,31 @@ html[data-theme="dark"]  { color-scheme: dark; }
   @keyframes hero-rise {
     from { translate: 0 0.6rem; clip-path: inset(100% 0 0 0); }
   }
+
+  @keyframes menu-in {
+    from { clip-path: inset(0 0 100% 0); }
+  }
+
+  @keyframes reading-progress {
+    from { scale: 0 1; }
+    to   { scale: 1 1; }
+  }
+
+  /* List rows settle up into place as they scroll in. Translate only, so a row
+     is readable at any point. Skips rows the home page's reveal script owns. */
+  @supports (animation-timeline: view()) {
+    @media (prefers-reduced-motion: no-preference) {
+      .settle:not([data-reveal]) {
+        animation: settle linear both;
+        animation-timeline: view();
+        animation-range: entry 0% cover 35%;
+      }
+    }
+  }
+
+  @keyframes settle {
+    from { translate: 0 1.5rem; }
+  }
 }
 
 /* ── Utilities ─────────────────────────────────────────────────────────────── */
@@ -308,6 +613,17 @@ html[data-theme="dark"]  { color-scheme: dark; }
     text-decoration-line: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 0.2em;
+  }
+
+  & a:hover {
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.15em;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    & a {
+      transition: text-decoration-thickness 0.2s, text-underline-offset 0.2s;
+    }
   }
 }
 

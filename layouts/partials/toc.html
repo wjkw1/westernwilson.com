@@ -15,6 +15,29 @@
     function sync() { if (wide.matches) toc.open = true; }
     sync();
     wide.addEventListener("change", sync);
+
+    // Mark the section being read. The observer only triggers a recount, so
+    // scrolling back up is handled the same way and there's no scroll listener.
+    // Waits for parsing: this script sits above the headings it tracks.
+    function trackSections() {
+      var links = Array.prototype.slice.call(toc.querySelectorAll('a[href^="#"]'));
+      var headings = links.map(function (a) { return document.getElementById(decodeURIComponent(a.hash.slice(1))); });
+      var current;
+      function update() {
+        var line = innerHeight * 0.3, i = 0;
+        headings.forEach(function (h, j) { if (h && h.getBoundingClientRect().top < line) i = j; });
+        if (current === links[i]) return;
+        if (current) current.removeAttribute("aria-current");
+        current = links[i];
+        if (current) current.setAttribute("aria-current", "location");
+      }
+      var io = new IntersectionObserver(update, { rootMargin: "0px 0px -70% 0px" });
+      headings.forEach(function (h) { if (h) io.observe(h); });
+    }
+    if ("IntersectionObserver" in window) {
+      if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", trackSections);
+      else trackSections();
+    }
   })();
 </script>
 {{- end -}}

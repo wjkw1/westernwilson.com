@@ -41,14 +41,14 @@
         {{ range sort .Site.Params.social "weight" }}
         {{ if hasPrefix .url "mailto:" }}{{ $email = . }}{{ continue }}{{ end }}
         <li>
-          <a href="{{ .url }}" rel="{{ .rel }}" aria-label="{{ .name }}" class="inline-flex p-2 text-lg text-muted no-underline! hover:text-accent motion-safe:transition-transform motion-safe:hover:-translate-y-0.5">
+          <a href="{{ .url }}" rel="{{ .rel }}" aria-label="{{ .name }}" class="icon-link inline-flex p-2 text-lg text-muted no-underline! hover:text-accent">
             {{ partial "icon.html" (dict "name" .icon) }}
           </a>
         </li>
         {{ end }}
         {{ with .OutputFormats.Get "rss" }}
         <li>
-          <a href="{{ .RelPermalink }}" type="{{ .MediaType.Type }}" aria-label="RSS feed" class="inline-flex p-2 text-lg text-muted no-underline! hover:text-accent motion-safe:transition-transform motion-safe:hover:-translate-y-0.5">
+          <a href="{{ .RelPermalink }}" type="{{ .MediaType.Type }}" aria-label="RSS feed" class="icon-link inline-flex p-2 text-lg text-muted no-underline! hover:text-accent">
             {{ partial "icon.html" (dict "name" "rss") }}
           </a>
         </li>

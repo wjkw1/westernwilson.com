@@ -3,13 +3,16 @@
 {{- $book := .page -}}
 {{- $compact := .compact | default false -}}
 {{- $loading := cond (lt (.index | default 99) 3) "eager" "lazy" -}}
-<li class="{{ cond $compact "py-4" "py-5" }} border-b border-line last:border-b-0">
+<li class="group settle {{ cond $compact "py-4" "py-5" }} border-b border-line last:border-b-0">
   <div class="flex items-start gap-4">
     <a
       href="{{ $book.RelPermalink }}"
-      class="shrink-0 {{ cond $compact "w-10" "w-16" }}"
+      class="cover shrink-0 {{ cond $compact "w-10" "w-16" }}"
       tabindex="-1"
       aria-hidden="true"
+      {{- /* Names the cover so it flies into the book page. Not on the home page,
+             whose reveal script hides rows until they scroll into view. */}}
+      {{- if not $compact }} style="{{ printf "view-transition-name: cover-%s" (anchorize $book.File.ContentBaseName) | safeCSS }}"{{ end }}
     >
       {{- with $book.Resources.Get ($book.Params.bookCover | default "") }}
       {{- partial "img.html" (dict
