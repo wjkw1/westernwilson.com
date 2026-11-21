@@ -14,7 +14,7 @@
 <li><strong>Deployment</strong>: the industry lacks a good deployment model for Axon, especially for newcomers, so Axoniq are learning to build a Kubernetes operator and might build a community around it.</li>
 <li><strong>Axon Server</strong>: backup &amp; restore and disaster recovery work is coming.</li>
 </ul>
-<p>After chatting with Mathias and I heard about DDD Europe in Amsterdam in June 2027. Reach out if you&rsquo;re going too!</p>
+<p>After chatting with Mathias, I heard about DDD Europe in Amsterdam in June 2027. Reach out if you&rsquo;re going too!</p>
 <p>The rest of this post is my notes from each talk, tidied up a bit.</p>
 <h2 id="welcome-to-axoniq-conference-2026" class="group relative scroll-mt-20">
   Welcome to Axoniq Conference 2026
@@ -490,7 +490,7 @@
   ><svg class="icon " aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"/></svg></a>
 </h2>
 <p>I spent a decent chunk of time configuring who&rsquo;s allowed to touch <code>iptables</code>. The <code>common-utils</code> feature grants the <code>vscode</code> user blanket passwordless <code>sudo</code> by default, and my first cut of <code>post-create.sh</code> narrowed that down to the <code>iptables</code>/<code>iptables-save</code>/<code>ipset</code> binaries themselves, with no argument restriction. Which meant Claude or anything else running as <code>vscode</code>, including under <code>--dangerously-skip-permissions</code>, could just run <code>sudo iptables -F &amp;&amp; sudo iptables -P OUTPUT ACCEPT</code> and the firewall would be gone! Anthropic&rsquo;s own reference devcontainer avoids this by granting <code>sudo</code> on one fixed script path instead of the raw binaries, baked into their image at build time so the script itself can&rsquo;t be edited either. I didn&rsquo;t want a custom Dockerfile yet, but dev containers can do the same thing with just <code>postCreateCommand</code>: copy <code>init-firewall.sh</code> to a root-owned <code>/usr/local/sbin/init-firewall.sh</code> outside the bind-mounted workspace while the feature&rsquo;s broad sudo grant is still active, then narrow <code>sudo</code> down to NOPASSWD on that one frozen executable file only. The tradeoff is that editing the live <code>init-firewall.sh</code> to allow a new domain now needs a full <strong>Rebuild Container</strong>, not just a restart, since the frozen copy is what actually runs.</p>
-<p>Claude has it&rsquo;s own way to limit it&rsquo;s own execution too using <code>.claude/settings.json</code>. We&rsquo;ve configured this on top to deny any <code>Bash(sudo *)</code> and <code>Bash(su *)</code> commands, so in normal mode Claude won&rsquo;t even attempt the command. But <code>--dangerously-skip-permissions</code> does exactly what its name says: it bypasses every permission rule, deny rules included. So that file is a speed bump for the default mode, not something to lean on once the safety&rsquo;s off. The frozen-script sudoers restriction is the one that locks it down regardless, because it&rsquo;s enforced by the OS, not by Claude Code.</p>
+<p>Claude has its own way to limit its own execution too using <code>.claude/settings.json</code>. We&rsquo;ve configured this on top to deny any <code>Bash(sudo *)</code> and <code>Bash(su *)</code> commands, so in normal mode Claude won&rsquo;t even attempt the command. But <code>--dangerously-skip-permissions</code> does exactly what its name says: it bypasses every permission rule, deny rules included. So that file is a speed bump for the default mode, not something to lean on once the safety&rsquo;s off. The frozen-script sudoers restriction is the one that locks it down regardless, because it&rsquo;s enforced by the OS, not by Claude Code.</p>
 <h2 id="gap-in-the-firewall" class="group relative scroll-mt-20">
   Gap in the firewall
   <a
@@ -502,7 +502,7 @@
 <p>One thing I noticed was that <code>api.github.com/meta</code>&rsquo;s ip ranges aren&rsquo;t scoped to the API. They cover GitHub&rsquo;s whole edge network, which includes GitHub Pages in some cases. For example, this website, <a href="https://westernwilson.com">westernwilson.com</a>, runs on GitHub Pages. So with the firewall up and supposedly restricting the agent to an approved set of domains, I could still reach my own site. And by the same logic, any other <code>*.github.io</code> page, or anything hosted there by someone with worse intentions. A page on <code>*.github.io</code> could potentially hold a payload hosted somewhere else entirely, and the firewall would wave it through without ever knowing the difference.</p>
 <p>I see three ways to close that off:</p>
 <ul>
-<li>Proxy the traffic and filter on hostname instead of IP. Cleanest in theory, but Encrypted Client Hello can still hide the hostname from anything sitting.</li>
+<li>Proxy the traffic and filter on hostname instead of IP. Cleanest in theory, but Encrypted Client Hello can still hide the hostname from anything sitting in between.</li>
 <li>Drop <code>*.github.io</code> from the allowlist entirely. Unfortunately this also takes <code>raw.githubusercontent.com</code> out too since they share the same ip ranges, but if that&rsquo;s not something the container needs, it&rsquo;s a fine trade.</li>
 <li>Accept the risk and move on.</li>
 </ul>
@@ -625,7 +625,7 @@ The code worked, sort of. Extending it would be challenging, and integrating it 
 <li>Carpenter - sculpts the sentences into a logical structure to make better sense</li>
 <li>Judge - critical energy as the inspector and will check the facts of what is written</li>
 </ul>
-<p>Applying these roles to my own writing revealed a crucial insight: that my writer&rsquo;s paralysis was me prematurely judging the madman before he could cook. I&rsquo;d critisise the words, sentences, paragraph, headings, scope, purpose, before my madman even had a chance to shine. No wonder I got scared of writing, and wrote at a snail pace.</p>
+<p>Applying these roles to my own writing revealed a crucial insight: that my writer&rsquo;s paralysis was me prematurely judging the madman before he could cook. I&rsquo;d criticise the words, sentences, paragraph, headings, scope, purpose, before my madman even had a chance to shine. No wonder I got scared of writing, and wrote at a snail pace.</p>
 <p>The madman within needs some air time; sometimes you just need a good ol&rsquo; brain dump. Giving myself that permission totally freed me from the fear of writing. Nowadays, as soon as I feel myself being critical, I catch myself and think: &ldquo;Is it time to judge yet?&rdquo;</p>
 <h2 id="final-points" class="group relative scroll-mt-20">
   Final points
@@ -645,7 +645,7 @@ The code worked, sort of. Extending it would be challenging, and integrating it 
 <li>Also check with your company before putting sensitive information or private IP like code into it for work</li>
 </ul>
 </li>
-<li>On the flip side, I want to share Derek Sivers <a href="https://sive.rs/ai">article here</a> that talks about his commitment to not use AI to generate text. ‍
+<li>On the flip side, I want to share Derek Sivers <a href="https://sive.rs/ai">article here</a> that talks about his commitment to not use AI to generate text.
 <blockquote>
 <p>I have never ever used AI to generate text in place of my “voice”. No emails. No sentences in my articles or books or even comments. Nothing pretending to be me.</p>
 </blockquote>

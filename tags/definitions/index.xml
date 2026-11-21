@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/tags/definitions/</link><description>Recent content in Definitions on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 26 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/definitions/index.xml" rel="self" type="application/rss+xml"/><item><title>Terraform state s3 bucket naming convention</title><link>https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/</link><pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/</guid><description>While working on my personal devops project (see github), I realised I hadn’t thought through the naming convention of my terraform state in a long time.&#10;Naming convention decision Final name: tfstate-{AccountId}-{GitHubRepo}&#10;</description><content:encoded><![CDATA[<p>While working on my personal devops project (<a href="https://github.com/wjkw1/devops-profile-coffee-card-app-demo">see github</a>), I realised I hadn&rsquo;t thought through the naming convention of my terraform state in a long time.</p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Western Wilson</title><link>https://westernwilson.com/tags/definitions/</link><description>Recent content in Definitions on Western Wilson</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 21 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://westernwilson.com/tags/definitions/index.xml" rel="self" type="application/rss+xml"/><item><title>Terraform state s3 bucket naming convention</title><link>https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/</link><pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate><guid>https://westernwilson.com/reflections/terraform-state-s3-bucket-naming-convention/</guid><description>While working on my personal devops project (see github), I realised I hadn’t thought through the naming convention of my terraform state in a long time.&#10;Naming convention decision Final name: tfstate-{AccountId}-{GitHubRepo}&#10;</description><content:encoded><![CDATA[<p>While working on my personal devops project (<a href="https://github.com/wjkw1/devops-profile-coffee-card-app-demo">see github</a>), I realised I hadn&rsquo;t thought through the naming convention of my terraform state in a long time.</p>
 <h2 id="naming-convention-decision" class="group relative scroll-mt-20">
   Naming convention decision
   <a
@@ -82,8 +82,8 @@
 <p>Do you know the feeling? You&rsquo;re reading something and a word catches you, you look it up, and suddenly you&rsquo;re twenty minutes deep into the history of something you never knew you cared about.</p>
 <p>The conventional wisdom says to ignore that. To get back on task and stay on track.</p>
 <p>But what if the thread is the track?</p>
-<p>Here&rsquo;s the reframe I often come back to: life is distractions. It&rsquo;s the distractions the give life meaning. Not in the doom-scrolling-at-2am sense. In the sense that the interesting stuff, the stuff that actually shapes who you are, rarely arrives through the front door. It sneaks up on you. It&rsquo;s the thing you weren&rsquo;t supposed to be doing that ends up mattering most.</p>
-<p>Steve Jobs is probably the most famous example of this. In his 2005 Stanford commencement speech, he talked about dropping in on a calligraphy class at Reed College out of pure curioisty, with no practical application in mind. A decade later, that class became the foundation for the beautiful typography of the first Macintosh.</p>
+<p>Here&rsquo;s the reframe I often come back to: life is distractions. It&rsquo;s the distractions that give life meaning. Not in the doom-scrolling-at-2am sense. In the sense that the interesting stuff, the stuff that actually shapes who you are, rarely arrives through the front door. It sneaks up on you. It&rsquo;s the thing you weren&rsquo;t supposed to be doing that ends up mattering most.</p>
+<p>Steve Jobs is probably the most famous example of this. In his 2005 Stanford commencement speech, he talked about dropping in on a calligraphy class at Reed College out of pure curiosity, with no practical application in mind. A decade later, that class became the foundation for the beautiful typography of the first Macintosh.</p>
 <p>He didn&rsquo;t chase calligraphy because it was strategic. He chased it because it pulled at him. Same instinct as a CEO who walks past a stacked agenda to talk to someone doing something interesting. Same instinct as anyone who follows a word into a twenty-minute rabbit hole and comes out knowing something they didn&rsquo;t expect to care about.</p>
 <p>But I have to be honest with myself, because this idea has a dark twin. Something a colleague of mine introduced me to because I was chasing the latest technologies all the time.</p>
 <p>There&rsquo;s a concept called <a href="https://en.wikipedia.org/wiki/Shiny_object_syndrome">Shiny Object Syndrome</a>. The idea that some people —especially curious, creative, entrepreneurial types— get so drawn to the next interesting thing that they never actually go deep on anything. They bounce from project to project, tool to tool, always chasing novelty, never building something real.</p>
@@ -98,6 +98,8 @@
 <em>Use when:</em> the post is primarily about AI tools, AI tech, or AI behaviour</p>
 <p><strong><code>career</code></strong> &ndash; Work, professional growth, team dynamics, and lessons from the industry.
 <em>Use when:</em> the post reflects on the people side of software &ndash; roles, culture, collaboration.</p>
+<p><strong><code>coffee-app</code></strong> &ndash; Posts from my <a href="https://github.com/wjkw1/devops-profile-coffee-card-app-demo">coffee card demo project</a>, a personal DevOps project built end to end.
+<em>Use when:</em> the post comes out of building or running that project.</p>
 <p><strong><code>communication</code></strong> &ndash; Explaining ideas about communicating, for example to non-technical audiences, across teams, or in documentation.
 <em>Use when:</em> the post is about how we convey information to other people.</p>
 <p><strong><code>conference</code></strong> &ndash; Notes and reflections from conferences I attend. Any conference I go to gets written up here.
@@ -108,6 +110,14 @@
 <em>Use when:</em> the post is about systems, pipelines, or keeping things running.</p>
 <p><strong><code>devtools</code></strong> &ndash; Tools that shape how I work - editors, CLIs, SSH, local setup.
 <em>Use when:</em> the post is hands-on with a specific tool or workflow.</p>
+<p><strong><code>guide</code></strong> &ndash; Step-by-step walkthroughs you can follow to set something up yourself.
+<em>Use when:</em> the post is mostly instructions, not reflection.</p>
+<p><strong><code>hackathon</code></strong> &ndash; Notes from hackathons I take part in.
+<em>Use when:</em> the post is about building something at a hackathon and what I learnt doing it.</p>
+<p><strong><code>music</code></strong> &ndash; Learning to make music, from first beats to the tools I use.
+<em>Use when:</em> the post is about making music.</p>
+<p><strong><code>travel</code></strong> &ndash; Places I&rsquo;ve been, and settling into somewhere new.
+<em>Use when:</em> the post is about travelling, or practical tips for getting around a city.</p>
 <p><strong><code>writing</code></strong> &ndash; Reflections on the writing process, publishing, and finding my voice.
 <em>Use when:</em> the post is about writing itself, not just a post that happens to be well-written.</p>
 ]]></content:encoded></item></channel></rss>

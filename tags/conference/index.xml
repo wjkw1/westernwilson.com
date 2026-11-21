@@ -14,7 +14,7 @@
 <li><strong>Deployment</strong>: the industry lacks a good deployment model for Axon, especially for newcomers, so Axoniq are learning to build a Kubernetes operator and might build a community around it.</li>
 <li><strong>Axon Server</strong>: backup &amp; restore and disaster recovery work is coming.</li>
 </ul>
-<p>After chatting with Mathias and I heard about DDD Europe in Amsterdam in June 2027. Reach out if you&rsquo;re going too!</p>
+<p>After chatting with Mathias, I heard about DDD Europe in Amsterdam in June 2027. Reach out if you&rsquo;re going too!</p>
 <p>The rest of this post is my notes from each talk, tidied up a bit.</p>
 <h2 id="welcome-to-axoniq-conference-2026" class="group relative scroll-mt-20">
   Welcome to Axoniq Conference 2026
