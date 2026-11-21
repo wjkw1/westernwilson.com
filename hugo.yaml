@@ -16,14 +16,14 @@ services:
 
 params:
   author: Western Wilson
-  description: "Western Wilson is a Māori cloud and platform engineer from Aotearoa, based in Amsterdam. Writing on DevOps, platforms, AI tooling and books."
+  description: "Western Wilson is a Māori cloud engineer from Aotearoa, based in Amsterdam. Writing on DevOps, platform engineering, AI tooling and books."
   keywords: "blog, reflections, software, engineering, technology, devops"
   avatar: images/western.png
   avatarAlt: Western Wilson
   logo: images/logo.png
 
   identity:
-    role: Cloud and Platform Engineer
+    role: Cloud Engineer
     employer:
       name: Sensys Gatso Software
       url: "https://www.sensysgatso.com/"
@@ -74,15 +74,15 @@ params:
 
 menu:
   main:
-    - name: About
+    - name: Reflections
       weight: 1
+      url: /reflections/
+    - name: About
+      weight: 2
       url: /about/
     - name: Now
-      weight: 2
-      url: /now/
-    - name: Techstack
       weight: 3
-      url: /techstack/
+      url: /now/
 
 security:
   exec:

@@ -34,6 +34,17 @@
 <script type="speculationrules">
 {"prerender":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/*.xml"}}]},"eagerness":"moderate"}]}
 </script>
+<script>
+  // A page that wasn't prerendered has already kept the visitor waiting on the
+  // network, so its entrance is shortened rather than adding to the wait.
+  addEventListener("pagereveal", function (e) {
+    var nav = performance.getEntriesByType("navigation")[0];
+    if (!e.viewTransition || (nav && nav.activationStart > 0)) return;
+    var root = document.documentElement;
+    root.classList.add("vt-quick");
+    e.viewTransition.finished.finally(function () { root.classList.remove("vt-quick"); });
+  });
+</script>
 
 {{- $css := resources.Get "css/main.css" | css.TailwindCSS (dict "minify" hugo.IsProduction) | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">

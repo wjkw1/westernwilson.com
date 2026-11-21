@@ -1,9 +1,9 @@
 ---
 title: "About"
-description: "Western Wilson is a Māori cloud and platform engineer from Aotearoa, based in Amsterdam, working in DevOps and infrastructure since 2021."
+description: "Western Wilson is a Māori cloud engineer from Aotearoa, based in Amsterdam, working in DevOps and infrastructure since 2021."
 ---
 
-Kia ora, I'm Western. I'm Māori, from Aotearoa New Zealand, and I live in Amsterdam, where I'm a cloud and platform engineer at [Sensys Gatso Software](https://www.sensysgatso.com/).
+Kia ora, I'm Western. I'm Māori, from Aotearoa New Zealand, and I live in Amsterdam, where I'm a cloud engineer at [Sensys Gatso Software](https://www.sensysgatso.com/).
 
 The [reflections](/reflections/) are a curated collection of things I've built, learnt or found interesting, and the best place to get a feel for how I think.
 
@@ -19,9 +19,9 @@ Lately I've been working out how to give AI coding agents more freedom without h
 
 - **Sensys Gatso Software**, Amsterdam, since 2026.
 - **Xero**, where I worked with a mentor who was both a fantastic engineer and writer, and saw the [strangler pattern](/books/the-devops-handbook/) evolve a system safely.
-- **A graduate engineer at a telco**, where I first learnt that being [curious at work](/reflections/chasing-threads/) is a strength.
+- **Vodafone New Zealand** (now One NZ), where I started as a graduate engineer and first learnt that being [curious at work](/reflections/chasing-threads/) is a strength.
 
-In between, I travelled through [Europe and the Balkans](/reflections/travelling-europe-and-the-balkans/) and spent a long stretch in Belgrade before settling in Amsterdam. My full work history is on [LinkedIn](https://www.linkedin.com/in/western-wilson), and the tools I use are on my [techstack](/techstack/) page.
+In between, I travelled through [Europe and the Balkans](/reflections/travelling-europe-and-the-balkans/) and spent a long stretch in Belgrade before settling in Amsterdam. For the full scope of each role, check out my [LinkedIn](https://www.linkedin.com/in/western-wilson). The tools I use are on my [techstack](/techstack/) page.
 
 ## Outside work
 
