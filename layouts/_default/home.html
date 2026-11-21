@@ -95,7 +95,7 @@
   {{ end }}
 
   <!-- Recent books -->
-  {{ $books := where .Site.RegularPages "Section" "books" }} {{ if $books }}
+  {{ $books := sort (where .Site.RegularPages "Section" "books") "Params.dateRead" "desc" }} {{ if $books }}
   <section>
     <h2
       class="font-display text-lg font-semibold uppercase tracking-widest mb-4"

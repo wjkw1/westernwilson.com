@@ -4,6 +4,9 @@ title: Western Wilson
 
 enableRobotsTXT: true
 
+taxonomies:
+  tag: tags
+
 pagination:
   pagerSize: 10
 
